@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tapara-oriya" format="2">
   <advance width="649"/>
-  <note>
-tapaorya
-</note>
   <guideline x="595" y="30" angle="90"/>
   <guideline x="977" y="-117" angle="0"/>
   <anchor x="306" y="658" name="top"/>

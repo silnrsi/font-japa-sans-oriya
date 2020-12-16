@@ -11,7 +11,7 @@
   <key>descender</key>
   <integer>-293</integer>
   <key>familyName</key>
-  <string>Noto Sans Oriya</string>
+  <string>Japa Sans Oriya</string>
   <key>guidelines</key>
   <array>
     <dict>
@@ -156,7 +156,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/12/16 15:16:16</string>
+  <string>2020/12/16 16:20:17</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -178,11 +178,11 @@
   <key>openTypeNameManufacturerURL</key>
   <string>http://www.google.com/get/noto/</string>
   <key>openTypeNamePreferredFamilyName</key>
-  <string>Noto Sans Oriya</string>
+  <string>Japa Sans Oriya</string>
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black</string>
   <key>openTypeNameUniqueID</key>
-  <string>Google LLC: Noto Sans Oriya Black: 2020</string>
+  <string>Google LLC: Japa Sans Oriya Black: 2020</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.000</string>
   <key>openTypeOS2CodePageRanges</key>
@@ -238,7 +238,7 @@
     <integer>1077</integer>
   </array>
   <key>postscriptFontName</key>
-  <string>NotoSansOriya-Black</string>
+  <string>JapaSansOriya-Black</string>
   <key>postscriptStemSnapH</key>
   <array>
     <integer>140</integer>
@@ -256,7 +256,7 @@
   <key>postscriptUnderlineThickness</key>
   <integer>50</integer>
   <key>styleMapFamilyName</key>
-  <string>Noto Sans Oriya Black</string>
+  <string>Japa Sans Oriya Thin</string>
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>

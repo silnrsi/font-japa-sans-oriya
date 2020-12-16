@@ -73,6 +73,8 @@
     </dict>
     <key>LWPluginVersion</key>
     <string>1366</string>
+    <key>com.schriftgestaltung.Glyphs.groupsNotInFeature</key>
+    <array/>
   </dict>
   <key>com.schriftgestaltung.Glyphs.glyphUserData.ba-oriya.below</key>
   <dict>
@@ -110,6 +112,24 @@
   <string>1286</string>
   <key>com.schriftgestaltung.customName</key>
   <string>Thin</string>
+  <key>com.schriftgestaltung.customParameter.GSFont.Axis Mappings</key>
+  <dict>
+    <key>XXXX</key>
+    <dict>
+      <key>0</key>
+      <integer>0</integer>
+    </dict>
+    <key>wdth</key>
+    <dict>
+      <key>100</key>
+      <integer>100</integer>
+    </dict>
+    <key>wght</key>
+    <dict>
+      <key>140</key>
+      <integer>140</integer>
+    </dict>
+  </dict>
   <key>com.schriftgestaltung.customParameter.GSFont.Keep UI-Font Bounding Box</key>
   <integer>1</integer>
   <key>com.schriftgestaltung.customParameter.GSFont.disablesAutomaticAlignment</key>
@@ -117,7 +137,7 @@
   <key>com.schriftgestaltung.customParameter.GSFont.disablesLastChange</key>
   <true/>
   <key>com.schriftgestaltung.customParameter.GSFont.useNiceNames</key>
-  <integer>1</integer>
+  <integer>0</integer>
   <key>com.schriftgestaltung.customParameter.GSFontMaster._strikeoutPosition</key>
   <string>641</string>
   <key>com.schriftgestaltung.customParameter.GSFontMaster._strikeoutSize</key>
