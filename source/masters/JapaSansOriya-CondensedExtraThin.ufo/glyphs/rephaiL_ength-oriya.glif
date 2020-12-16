@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="rephaiLength-oriya" format="2">
+  <advance width="600"/>
+  <note>
+ailengthmarkrephorya
+</note>
+  <anchor x="474" y="658" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="477" y="834" type="line"/>
+      <point x="493" y="818" type="line"/>
+      <point x="595" y="931" type="line"/>
+      <point x="578" y="946" type="line"/>
+    </contour>
+    <contour>
+      <point x="462" y="704" type="curve"/>
+      <point x="462" y="704" type="line"/>
+      <point x="484" y="694" type="line"/>
+      <point x="499" y="722"/>
+      <point x="508" y="752"/>
+      <point x="508" y="780" type="curve"/>
+      <point x="508" y="838"/>
+      <point x="472" y="876"/>
+      <point x="417" y="876" type="curve"/>
+      <point x="347" y="876"/>
+      <point x="270" y="816"/>
+      <point x="205" y="816" type="curve"/>
+      <point x="172" y="816"/>
+      <point x="145" y="831"/>
+      <point x="122" y="873" type="curve"/>
+      <point x="102" y="862" type="line"/>
+      <point x="129" y="808"/>
+      <point x="166" y="791"/>
+      <point x="204" y="791" type="curve"/>
+      <point x="274" y="791"/>
+      <point x="350" y="851"/>
+      <point x="413" y="851" type="curve"/>
+      <point x="460" y="851"/>
+      <point x="482" y="816"/>
+      <point x="482" y="776" type="curve"/>
+      <point x="482" y="753"/>
+      <point x="474" y="728"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aiLength-oriya.stem" format="2">
+  <note>
+ailengthmarkorya
+</note>
+  <anchor x="364" y="658" name="_topright"/>
+  <outline>
+    <contour>
+      <point x="351" y="658" type="curve"/>
+      <point x="351" y="658" type="line"/>
+      <point x="376" y="646" type="line"/>
+      <point x="416" y="683"/>
+      <point x="438" y="734"/>
+      <point x="438" y="780" type="curve"/>
+      <point x="438" y="838"/>
+      <point x="402" y="876"/>
+      <point x="347" y="876" type="curve"/>
+      <point x="277" y="876"/>
+      <point x="200" y="816"/>
+      <point x="135" y="816" type="curve"/>
+      <point x="102" y="816"/>
+      <point x="75" y="831"/>
+      <point x="52" y="873" type="curve"/>
+      <point x="32" y="862" type="line"/>
+      <point x="59" y="808"/>
+      <point x="96" y="791"/>
+      <point x="134" y="791" type="curve"/>
+      <point x="204" y="791"/>
+      <point x="280" y="851"/>
+      <point x="343" y="851" type="curve"/>
+      <point x="390" y="851"/>
+      <point x="412" y="816"/>
+      <point x="412" y="776" type="curve"/>
+      <point x="412" y="735"/>
+      <point x="390" y="687"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>500</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,8 @@
+#!/bin/sh
+
+psffixffglifs -p checkfix=fix source/masters/JapaSansOriya-Thin.ufo &
+psffixffglifs -p checkfix=fix source/masters/JapaSansOriya-Black.ufo &
+psffixffglifs -p checkfix=fix source/masters/JapaSansOriya-CondensedExtraThin.ufo &
+psffixffglifs -p checkfix=fix source/masters/JapaSansOriya-CondensedExtraBlack.ufo &
+wait
+./preflight
