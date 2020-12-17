@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="PuncSpace" format="2">
+  <advance width="220"/>
+  <unicode hex="2008"/>
+  <outline/>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Separator</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string/>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Space</string>
+    </dict>
+  </lib>
+</glyph>

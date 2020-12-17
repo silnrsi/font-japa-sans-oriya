@@ -6,6 +6,190 @@
   <string>_notdef.glif</string>
   <key>.null</key>
   <string>_null.glif</string>
+  <key>A</key>
+  <string>A_.glif</string>
+  <key>AE</key>
+  <string>A_E_.glif</string>
+  <key>Aacute</key>
+  <string>A_acute.glif</string>
+  <key>Acircumflex</key>
+  <string>A_circumflex.glif</string>
+  <key>Adieresis</key>
+  <string>A_dieresis.glif</string>
+  <key>Agrave</key>
+  <string>A_grave.glif</string>
+  <key>Aring</key>
+  <string>A_ring.glif</string>
+  <key>Atilde</key>
+  <string>A_tilde.glif</string>
+  <key>B</key>
+  <string>B_.glif</string>
+  <key>C</key>
+  <string>C_.glif</string>
+  <key>Ccedilla</key>
+  <string>C_cedilla.glif</string>
+  <key>D</key>
+  <string>D_.glif</string>
+  <key>E</key>
+  <string>E_.glif</string>
+  <key>Eacute</key>
+  <string>E_acute.glif</string>
+  <key>Ecircumflex</key>
+  <string>E_circumflex.glif</string>
+  <key>Edieresis</key>
+  <string>E_dieresis.glif</string>
+  <key>Egrave</key>
+  <string>E_grave.glif</string>
+  <key>EmQuad</key>
+  <string>E_mQ_uad.glif</string>
+  <key>EmSpace</key>
+  <string>E_mS_pace.glif</string>
+  <key>EnQuad</key>
+  <string>E_nQ_uad.glif</string>
+  <key>EnSpace</key>
+  <string>E_nS_pace.glif</string>
+  <key>Eth</key>
+  <string>E_th.glif</string>
+  <key>Euro</key>
+  <string>E_uro.glif</string>
+  <key>F</key>
+  <string>F_.glif</string>
+  <key>FigureSpace</key>
+  <string>F_igureS_pace.glif</string>
+  <key>FourPerEmSpace</key>
+  <string>F_ourP_erE_mS_pace.glif</string>
+  <key>G</key>
+  <string>G_.glif</string>
+  <key>H</key>
+  <string>H_.glif</string>
+  <key>HairSpace</key>
+  <string>H_airS_pace.glif</string>
+  <key>I</key>
+  <string>I_.glif</string>
+  <key>Iacute</key>
+  <string>I_acute.glif</string>
+  <key>Icircumflex</key>
+  <string>I_circumflex.glif</string>
+  <key>Idieresis</key>
+  <string>I_dieresis.glif</string>
+  <key>Igrave</key>
+  <string>I_grave.glif</string>
+  <key>J</key>
+  <string>J_.glif</string>
+  <key>K</key>
+  <string>K_.glif</string>
+  <key>L</key>
+  <string>L_.glif</string>
+  <key>M</key>
+  <string>M_.glif</string>
+  <key>N</key>
+  <string>N_.glif</string>
+  <key>Ntilde</key>
+  <string>N_tilde.glif</string>
+  <key>O</key>
+  <string>O_.glif</string>
+  <key>OE</key>
+  <string>O_E_.glif</string>
+  <key>Oacute</key>
+  <string>O_acute.glif</string>
+  <key>ObjectReplChar</key>
+  <string>O_bjectR_eplC_har.glif</string>
+  <key>Ocircumflex</key>
+  <string>O_circumflex.glif</string>
+  <key>Odieresis</key>
+  <string>O_dieresis.glif</string>
+  <key>Ograve</key>
+  <string>O_grave.glif</string>
+  <key>Ohm</key>
+  <string>O_hm.glif</string>
+  <key>Omega</key>
+  <string>O_mega.glif</string>
+  <key>Oslash</key>
+  <string>O_slash.glif</string>
+  <key>Otilde</key>
+  <string>O_tilde.glif</string>
+  <key>P</key>
+  <string>P_.glif</string>
+  <key>PuncSpace</key>
+  <string>P_uncS_pace.glif</string>
+  <key>Q</key>
+  <string>Q_.glif</string>
+  <key>R</key>
+  <string>R_.glif</string>
+  <key>ReplChar</key>
+  <string>R_eplC_har.glif</string>
+  <key>S</key>
+  <string>S_.glif</string>
+  <key>Scaron</key>
+  <string>S_caron.glif</string>
+  <key>SixPerEmSpace</key>
+  <string>S_ixP_erE_mS_pace.glif</string>
+  <key>T</key>
+  <string>T_.glif</string>
+  <key>ThinSpace</key>
+  <string>T_hinS_pace.glif</string>
+  <key>Thorn</key>
+  <string>T_horn.glif</string>
+  <key>ThreePerEmSpace</key>
+  <string>T_hreeP_erE_mS_pace.glif</string>
+  <key>U</key>
+  <string>U_.glif</string>
+  <key>Uacute</key>
+  <string>U_acute.glif</string>
+  <key>Ucircumflex</key>
+  <string>U_circumflex.glif</string>
+  <key>Udieresis</key>
+  <string>U_dieresis.glif</string>
+  <key>Ugrave</key>
+  <string>U_grave.glif</string>
+  <key>V</key>
+  <string>V_.glif</string>
+  <key>VS1</key>
+  <string>V_S_1.glif</string>
+  <key>VS10</key>
+  <string>V_S_10.glif</string>
+  <key>VS11</key>
+  <string>V_S_11.glif</string>
+  <key>VS12</key>
+  <string>V_S_12.glif</string>
+  <key>VS13</key>
+  <string>V_S_13.glif</string>
+  <key>VS14</key>
+  <string>V_S_14.glif</string>
+  <key>VS15</key>
+  <string>V_S_15.glif</string>
+  <key>VS16</key>
+  <string>V_S_16.glif</string>
+  <key>VS2</key>
+  <string>V_S_2.glif</string>
+  <key>VS3</key>
+  <string>V_S_3.glif</string>
+  <key>VS4</key>
+  <string>V_S_4.glif</string>
+  <key>VS5</key>
+  <string>V_S_5.glif</string>
+  <key>VS6</key>
+  <string>V_S_6.glif</string>
+  <key>VS7</key>
+  <string>V_S_7.glif</string>
+  <key>VS8</key>
+  <string>V_S_8.glif</string>
+  <key>VS9</key>
+  <string>V_S_9.glif</string>
+  <key>W</key>
+  <string>W_.glif</string>
+  <key>X</key>
+  <string>X_.glif</string>
+  <key>Y</key>
+  <string>Y_.glif</string>
+  <key>Yacute</key>
+  <string>Y_acute.glif</string>
+  <key>Ydieresis</key>
+  <string>Y_dieresis.glif</string>
+  <key>Z</key>
+  <string>Z_.glif</string>
+  <key>Zcaron</key>
+  <string>Z_caron.glif</string>
   <key>_cap.overlap</key>
   <string>_cap.overlap.glif</string>
   <key>_part.da.below</key>
@@ -14,12 +198,26 @@
   <string>_part.pha.glif</string>
   <key>_part.ra.below</key>
   <string>_part.ra.below.glif</string>
+  <key>a</key>
+  <string>a.glif</string>
   <key>a-oriya</key>
   <string>a-oriya.glif</string>
   <key>aa-oriya</key>
   <string>aa-oriya.glif</string>
   <key>aaMatra-oriya</key>
   <string>aaM_atra-oriya.glif</string>
+  <key>aacute</key>
+  <string>aacute.glif</string>
+  <key>acircumflex</key>
+  <string>acircumflex.glif</string>
+  <key>acute</key>
+  <string>acute.glif</string>
+  <key>adieresis</key>
+  <string>adieresis.glif</string>
+  <key>ae</key>
+  <string>ae.glif</string>
+  <key>agrave</key>
+  <string>agrave.glif</string>
   <key>ai-oriya</key>
   <string>ai-oriya.glif</string>
   <key>aiLength-oriya</key>
@@ -42,14 +240,24 @@
   <string>aireph-oriya.glif</string>
   <key>airephcandraBindu-oriya</key>
   <string>airephcandraB_indu-oriya.glif</string>
+  <key>ampersand</key>
+  <string>ampersand.glif</string>
   <key>anusvara-oriya</key>
   <string>anusvara-oriya.glif</string>
+  <key>apostrophemod</key>
+  <string>apostrophemod.glif</string>
+  <key>aring</key>
+  <string>aring.glif</string>
   <key>asciicircum</key>
   <string>asciicircum.glif</string>
   <key>asciitilde</key>
   <string>asciitilde.glif</string>
   <key>asterisk</key>
   <string>asterisk.glif</string>
+  <key>at</key>
+  <string>at.glif</string>
+  <key>atilde</key>
+  <string>atilde.glif</string>
   <key>au-oriya</key>
   <string>au-oriya.glif</string>
   <key>auLength-oriya</key>
@@ -66,6 +274,8 @@
   <string>aurephcandraB_indu-oriya.glif</string>
   <key>avagraha-oriya</key>
   <string>avagraha-oriya.glif</string>
+  <key>b</key>
+  <string>b.glif</string>
   <key>ba-oriya</key>
   <string>ba-oriya.glif</string>
   <key>ba-oriya.base</key>
@@ -108,6 +318,14 @@
   <string>bracketleft.glif</string>
   <key>bracketright</key>
   <string>bracketright.glif</string>
+  <key>breve</key>
+  <string>breve.glif</string>
+  <key>brokenbar</key>
+  <string>brokenbar.glif</string>
+  <key>bullet</key>
+  <string>bullet.glif</string>
+  <key>c</key>
+  <string>c.glif</string>
   <key>ca-oriya</key>
   <string>ca-oriya.glif</string>
   <key>ca-oriya.base</key>
@@ -124,6 +342,16 @@
   <string>candraB_indu-oriya.glif</string>
   <key>cara-oriya</key>
   <string>cara-oriya.glif</string>
+  <key>caron</key>
+  <string>caron.glif</string>
+  <key>ccedilla</key>
+  <string>ccedilla.glif</string>
+  <key>cedilla</key>
+  <string>cedilla.glif</string>
+  <key>cent</key>
+  <string>cent.glif</string>
+  <key>cgj</key>
+  <string>cgj.glif</string>
   <key>cha-oriya</key>
   <string>cha-oriya.glif</string>
   <key>cha-oriya.base</key>
@@ -134,10 +362,20 @@
   <string>cha-oriya.single.glif</string>
   <key>chara-oriya</key>
   <string>chara-oriya.glif</string>
+  <key>circumflex</key>
+  <string>circumflex.glif</string>
   <key>colon</key>
   <string>colon.glif</string>
+  <key>colontriangularmod</key>
+  <string>colontriangularmod.glif</string>
   <key>comma</key>
   <string>comma.glif</string>
+  <key>copyright</key>
+  <string>copyright.glif</string>
+  <key>currency</key>
+  <string>currency.glif</string>
+  <key>d</key>
+  <string>d.glif</string>
   <key>da-oriya</key>
   <string>da-oriya.glif</string>
   <key>da-oriya.base</key>
@@ -156,6 +394,10 @@
   <string>dadhava-oriya.glif</string>
   <key>daga-oriya</key>
   <string>daga-oriya.glif</string>
+  <key>dagger</key>
+  <string>dagger.glif</string>
+  <key>daggerdbl</key>
+  <string>daggerdbl.glif</string>
   <key>dagha-oriya</key>
   <string>dagha-oriya.glif</string>
   <key>danda</key>
@@ -192,6 +434,8 @@
   <string>ddha-oriya.single.glif</string>
   <key>ddhara-oriya</key>
   <string>ddhara-oriya.glif</string>
+  <key>degree</key>
+  <string>degree.glif</string>
   <key>dha-oriya</key>
   <string>dha-oriya.glif</string>
   <key>dha-oriya.base</key>
@@ -208,36 +452,82 @@
   <string>dhaya-oriya.glif</string>
   <key>dhayya-oriya</key>
   <string>dhayya-oriya.glif</string>
+  <key>dieresis</key>
+  <string>dieresis.glif</string>
   <key>divide</key>
   <string>divide.glif</string>
+  <key>divisionslash</key>
+  <string>divisionslash.glif</string>
+  <key>dollar</key>
+  <string>dollar.glif</string>
+  <key>dotaccent</key>
+  <string>dotaccent.glif</string>
+  <key>dotlessi</key>
+  <string>dotlessi.glif</string>
   <key>dottedCircle</key>
   <string>dottedC_ircle.glif</string>
+  <key>e</key>
+  <string>e.glif</string>
   <key>e-oriya</key>
   <string>e-oriya.glif</string>
   <key>eMatra-oriya</key>
   <string>eM_atra-oriya.glif</string>
+  <key>eacute</key>
+  <string>eacute.glif</string>
+  <key>ecircumflex</key>
+  <string>ecircumflex.glif</string>
+  <key>edieresis</key>
+  <string>edieresis.glif</string>
+  <key>egrave</key>
+  <string>egrave.glif</string>
   <key>eight</key>
   <string>eight.glif</string>
   <key>eight-oriya</key>
   <string>eight-oriya.glif</string>
+  <key>eightsuperior</key>
+  <string>eightsuperior.glif</string>
   <key>ellipsis</key>
   <string>ellipsis.glif</string>
   <key>emdash</key>
   <string>emdash.glif</string>
+  <key>emdash.latn</key>
+  <string>emdash.latn.glif</string>
   <key>endash</key>
   <string>endash.glif</string>
   <key>equal</key>
   <string>equal.glif</string>
+  <key>eth</key>
+  <string>eth.glif</string>
   <key>exclam</key>
   <string>exclam.glif</string>
+  <key>exclamdown</key>
+  <string>exclamdown.glif</string>
+  <key>f</key>
+  <string>f.glif</string>
+  <key>fi</key>
+  <string>fi.glif</string>
+  <key>figuredash</key>
+  <string>figuredash.glif</string>
   <key>five</key>
   <string>five.glif</string>
   <key>five-oriya</key>
   <string>five-oriya.glif</string>
+  <key>fivesuperior</key>
+  <string>fivesuperior.glif</string>
+  <key>fl</key>
+  <string>fl.glif</string>
+  <key>florin</key>
+  <string>florin.glif</string>
   <key>four</key>
   <string>four.glif</string>
   <key>four-oriya</key>
   <string>four-oriya.glif</string>
+  <key>foursuperior</key>
+  <string>foursuperior.glif</string>
+  <key>fraction</key>
+  <string>fraction.glif</string>
+  <key>g</key>
+  <string>g.glif</string>
   <key>ga-oriya</key>
   <string>ga-oriya.glif</string>
   <key>ga-oriya.base</key>
@@ -256,6 +546,8 @@
   <string>gana-oriya.glif</string>
   <key>gara-oriya</key>
   <string>gara-oriya.glif</string>
+  <key>germandbls</key>
+  <string>germandbls.glif</string>
   <key>gha-oriya</key>
   <string>gha-oriya.glif</string>
   <key>gha-oriya.base</key>
@@ -268,8 +560,26 @@
   <string>ghana-oriya.glif</string>
   <key>ghara-oriya</key>
   <string>ghara-oriya.glif</string>
+  <key>glottalstop</key>
+  <string>glottalstop.glif</string>
+  <key>glottalstopmod</key>
+  <string>glottalstopmod.glif</string>
+  <key>glottalstopsmall</key>
+  <string>glottalstopsmall.glif</string>
+  <key>grave</key>
+  <string>grave.glif</string>
   <key>greater</key>
   <string>greater.glif</string>
+  <key>guillemotleft</key>
+  <string>guillemotleft.glif</string>
+  <key>guillemotright</key>
+  <string>guillemotright.glif</string>
+  <key>guilsinglleft</key>
+  <string>guilsinglleft.glif</string>
+  <key>guilsinglright</key>
+  <string>guilsinglright.glif</string>
+  <key>h</key>
+  <string>h.glif</string>
   <key>ha-oriya</key>
   <string>ha-oriya.glif</string>
   <key>ha-oriya.base</key>
@@ -286,6 +596,14 @@
   <string>hala-oriya.glif</string>
   <key>halant-oriya</key>
   <string>halant-oriya.glif</string>
+  <key>halfbracketleftbottom</key>
+  <string>halfbracketleftbottom.glif</string>
+  <key>halfbracketlefttop</key>
+  <string>halfbracketlefttop.glif</string>
+  <key>halfbracketrightbottom</key>
+  <string>halfbracketrightbottom.glif</string>
+  <key>halfbracketrighttop</key>
+  <string>halfbracketrighttop.glif</string>
   <key>halla-oriya</key>
   <string>halla-oriya.glif</string>
   <key>hama-oriya</key>
@@ -302,8 +620,20 @@
   <string>hauu-oriya.glif</string>
   <key>hava-oriya</key>
   <string>hava-oriya.glif</string>
+  <key>horizontalbar</key>
+  <string>horizontalbar.glif</string>
+  <key>hungarumlaut</key>
+  <string>hungarumlaut.glif</string>
   <key>hyphen</key>
   <string>hyphen.glif</string>
+  <key>hyphenationpoint</key>
+  <string>hyphenationpoint.glif</string>
+  <key>hyphensuperior</key>
+  <string>hyphensuperior.glif</string>
+  <key>hyphentwo</key>
+  <string>hyphentwo.glif</string>
+  <key>i</key>
+  <string>i.glif</string>
   <key>i-oriya</key>
   <string>i-oriya.glif</string>
   <key>iMatra-oriya</key>
@@ -324,12 +654,22 @@
   <string>iM_atrarephcandraB_indu-oriya.glif</string>
   <key>iMatrarephcandraBindu-oriya.wide</key>
   <string>iM_atrarephcandraB_indu-oriya.wide.glif</string>
+  <key>iacute</key>
+  <string>iacute.glif</string>
+  <key>icircumflex</key>
+  <string>icircumflex.glif</string>
+  <key>idieresis</key>
+  <string>idieresis.glif</string>
+  <key>igrave</key>
+  <string>igrave.glif</string>
   <key>ii-oriya</key>
   <string>ii-oriya.glif</string>
   <key>iiMatra-oriya</key>
   <string>iiM_atra-oriya.glif</string>
   <key>isshar-oriya</key>
   <string>isshar-oriya.glif</string>
+  <key>j</key>
+  <string>j.glif</string>
   <key>ja-oriya</key>
   <string>ja-oriya.glif</string>
   <key>ja-oriya.base</key>
@@ -360,6 +700,8 @@
   <string>jha-oriya.single.glif</string>
   <key>jhara-oriya</key>
   <string>jhara-oriya.glif</string>
+  <key>k</key>
+  <string>k.glif</string>
   <key>ka-oriya</key>
   <string>ka-oriya.glif</string>
   <key>ka-oriya.base</key>
@@ -410,6 +752,8 @@
   <string>kha-oriya.single.glif</string>
   <key>khara-oriya</key>
   <string>khara-oriya.glif</string>
+  <key>l</key>
+  <string>l.glif</string>
   <key>lVocalic-oriya</key>
   <string>lV_ocalic-oriya.glif</string>
   <key>lVocalicMatra-oriya</key>
@@ -440,6 +784,8 @@
   <string>lara-oriya.glif</string>
   <key>less</key>
   <string>less.glif</string>
+  <key>lineseparator</key>
+  <string>lineseparator.glif</string>
   <key>llVocalic-oriya</key>
   <string>llV_ocalic-oriya.glif</string>
   <key>llVocalicMatra-oriya</key>
@@ -462,6 +808,10 @@
   <string>llapha-oriya.glif</string>
   <key>llara-oriya</key>
   <string>llara-oriya.glif</string>
+  <key>logicalnot</key>
+  <string>logicalnot.glif</string>
+  <key>m</key>
+  <string>m.glif</string>
   <key>ma-oriya</key>
   <string>ma-oriya.glif</string>
   <key>ma-oriya.base</key>
@@ -476,6 +826,10 @@
   <string>mabha-oriya.glif</string>
   <key>mabhara-oriya</key>
   <string>mabhara-oriya.glif</string>
+  <key>macron</key>
+  <string>macron.glif</string>
+  <key>macronmod</key>
+  <string>macronmod.glif</string>
   <key>mama-oriya</key>
   <string>mama-oriya.glif</string>
   <key>mapa-oriya</key>
@@ -488,8 +842,12 @@
   <string>mara-oriya.glif</string>
   <key>minus</key>
   <string>minus.glif</string>
+  <key>mu</key>
+  <string>mu.glif</string>
   <key>multiply</key>
   <string>multiply.glif</string>
+  <key>n</key>
+  <string>n.glif</string>
   <key>na-oriya</key>
   <string>na-oriya.glif</string>
   <key>na-oriya.base</key>
@@ -524,6 +882,8 @@
   <string>natava-oriya.glif</string>
   <key>natha-oriya</key>
   <string>natha-oriya.glif</string>
+  <key>nbhyphen</key>
+  <string>nbhyphen.glif</string>
   <key>nbspace</key>
   <string>nbspace.glif</string>
   <key>nga-oriya</key>
@@ -552,6 +912,8 @@
   <string>nine.glif</string>
   <key>nine-oriya</key>
   <string>nine-oriya.glif</string>
+  <key>ninesuperior</key>
+  <string>ninesuperior.glif</string>
   <key>nna-oriya</key>
   <string>nna-oriya.glif</string>
   <key>nna-oriya.base</key>
@@ -578,8 +940,12 @@
   <string>nnattahalant-oriya.glif</string>
   <key>nnattha-oriya</key>
   <string>nnattha-oriya.glif</string>
+  <key>nnbsp</key>
+  <string>nnbsp.glif</string>
   <key>nonmarkingreturn</key>
   <string>nonmarkingreturn.glif</string>
+  <key>ntilde</key>
+  <string>ntilde.glif</string>
   <key>nukta-oriya</key>
   <string>nukta-oriya.glif</string>
   <key>numbersign</key>
@@ -598,10 +964,24 @@
   <string>nyajha-oriya.glif</string>
   <key>nyara-oriya</key>
   <string>nyara-oriya.glif</string>
+  <key>o</key>
+  <string>o.glif</string>
   <key>o-oriya</key>
   <string>o-oriya.glif</string>
   <key>oMatra-oriya</key>
   <string>oM_atra-oriya.glif</string>
+  <key>oacute</key>
+  <string>oacute.glif</string>
+  <key>ocircumflex</key>
+  <string>ocircumflex.glif</string>
+  <key>odieresis</key>
+  <string>odieresis.glif</string>
+  <key>oe</key>
+  <string>oe.glif</string>
+  <key>ogonek</key>
+  <string>ogonek.glif</string>
+  <key>ograve</key>
+  <string>ograve.glif</string>
   <key>om-oriya</key>
   <string>om-oriya.glif</string>
   <key>one</key>
@@ -610,12 +990,30 @@
   <string>one-oriya.glif</string>
   <key>oneeighth-oriya</key>
   <string>oneeighth-oriya.glif</string>
+  <key>onehalf</key>
+  <string>onehalf.glif</string>
   <key>onehalf-oriya</key>
   <string>onehalf-oriya.glif</string>
+  <key>onequarter</key>
+  <string>onequarter.glif</string>
   <key>onequarter-oriya</key>
   <string>onequarter-oriya.glif</string>
   <key>onesixteenth-oriya</key>
   <string>onesixteenth-oriya.glif</string>
+  <key>onesuperior</key>
+  <string>onesuperior.glif</string>
+  <key>ordfeminine</key>
+  <string>ordfeminine.glif</string>
+  <key>ordmasculine</key>
+  <string>ordmasculine.glif</string>
+  <key>oslash</key>
+  <string>oslash.glif</string>
+  <key>otilde</key>
+  <string>otilde.glif</string>
+  <key>overline-oriya</key>
+  <string>overline-oriya.glif</string>
+  <key>p</key>
+  <string>p.glif</string>
   <key>pa-oriya</key>
   <string>pa-oriya.glif</string>
   <key>pa-oriya.base</key>
@@ -632,10 +1030,18 @@
   <string>papa-oriya.glif</string>
   <key>para-oriya</key>
   <string>para-oriya.glif</string>
+  <key>paragraph</key>
+  <string>paragraph.glif</string>
+  <key>paragraphseparator</key>
+  <string>paragraphseparator.glif</string>
   <key>parenleft</key>
   <string>parenleft.glif</string>
+  <key>parenleftsuperior</key>
+  <string>parenleftsuperior.glif</string>
   <key>parenright</key>
   <string>parenright.glif</string>
+  <key>parenrightsuperior</key>
+  <string>parenrightsuperior.glif</string>
   <key>partta-oriya.below</key>
   <string>partta-oriya.below.glif</string>
   <key>pasa-oriya</key>
@@ -648,6 +1054,12 @@
   <string>percent.glif</string>
   <key>period</key>
   <string>period.glif</string>
+  <key>period.latn</key>
+  <string>period.latn.glif</string>
+  <key>periodcentered</key>
+  <string>periodcentered.glif</string>
+  <key>perthousand</key>
+  <string>perthousand.glif</string>
   <key>pha-oriya</key>
   <string>pha-oriya.glif</string>
   <key>pha-oriya.base</key>
@@ -658,22 +1070,44 @@
   <string>pha-oriya.single.glif</string>
   <key>phara-oriya</key>
   <string>phara-oriya.glif</string>
+  <key>pi</key>
+  <string>pi.glif</string>
   <key>plus</key>
   <string>plus.glif</string>
+  <key>plus.latn</key>
+  <string>plus.latn.glif</string>
+  <key>plusminus</key>
+  <string>plusminus.glif</string>
+  <key>q</key>
+  <string>q.glif</string>
   <key>question</key>
   <string>question.glif</string>
+  <key>question.latn</key>
+  <string>question.latn.glif</string>
+  <key>questiondown</key>
+  <string>questiondown.glif</string>
   <key>quotedbl</key>
   <string>quotedbl.glif</string>
+  <key>quotedblbase</key>
+  <string>quotedblbase.glif</string>
   <key>quotedblleft</key>
   <string>quotedblleft.glif</string>
   <key>quotedblright</key>
   <string>quotedblright.glif</string>
+  <key>quotedblright.latn</key>
+  <string>quotedblright.latn.glif</string>
   <key>quoteleft</key>
   <string>quoteleft.glif</string>
   <key>quoteright</key>
   <string>quoteright.glif</string>
+  <key>quoteright.latn</key>
+  <string>quoteright.latn.glif</string>
+  <key>quotesinglbase</key>
+  <string>quotesinglbase.glif</string>
   <key>quotesingle</key>
   <string>quotesingle.glif</string>
+  <key>r</key>
+  <string>r.glif</string>
   <key>rVocalic-oriya</key>
   <string>rV_ocalic-oriya.glif</string>
   <key>rVocalicMatra-oriya</key>
@@ -694,6 +1128,8 @@
   <string>rauM_atra-oriya.below.glif</string>
   <key>rauuMatra-oriya.below</key>
   <string>rauuM_atra-oriya.below.glif</string>
+  <key>registered</key>
+  <string>registered.glif</string>
   <key>reph-oriya</key>
   <string>reph-oriya.glif</string>
   <key>rephaiLength-oriya</key>
@@ -720,6 +1156,8 @@
   <string>rha-oriya.base.glif</string>
   <key>rhara-oriya</key>
   <string>rhara-oriya.glif</string>
+  <key>ring</key>
+  <string>ring.glif</string>
   <key>rrVocalic-oriya</key>
   <string>rrV_ocalic-oriya.glif</string>
   <key>rrVocalicMatra-oriya</key>
@@ -730,8 +1168,12 @@
   <string>rra-oriya.base.glif</string>
   <key>rrara-oriya</key>
   <string>rrara-oriya.glif</string>
+  <key>rs</key>
+  <string>rs.glif</string>
   <key>rupeeIndian</key>
   <string>rupeeI_ndian.glif</string>
+  <key>s</key>
+  <string>s.glif</string>
   <key>sa-oriya</key>
   <string>sa-oriya.glif</string>
   <key>sa-oriya.base</key>
@@ -744,6 +1186,8 @@
   <string>saka-oriya.glif</string>
   <key>sakha-oriya</key>
   <string>sakha-oriya.glif</string>
+  <key>saltillo</key>
+  <string>saltillo.glif</string>
   <key>sama-oriya</key>
   <string>sama-oriya.glif</string>
   <key>sana-oriya</key>
@@ -764,12 +1208,18 @@
   <string>satha-oriya.glif</string>
   <key>sava-oriya</key>
   <string>sava-oriya.glif</string>
+  <key>scaron</key>
+  <string>scaron.glif</string>
+  <key>section</key>
+  <string>section.glif</string>
   <key>semicolon</key>
   <string>semicolon.glif</string>
   <key>seven</key>
   <string>seven.glif</string>
   <key>seven-oriya</key>
   <string>seven-oriya.glif</string>
+  <key>sevensuperior</key>
+  <string>sevensuperior.glif</string>
   <key>sha-oriya</key>
   <string>sha-oriya.glif</string>
   <key>sha-oriya.base</key>
@@ -792,6 +1242,8 @@
   <string>six.glif</string>
   <key>six-oriya</key>
   <string>six-oriya.glif</string>
+  <key>sixsuperior</key>
+  <string>sixsuperior.glif</string>
   <key>slash</key>
   <string>slash.glif</string>
   <key>softhyphen</key>
@@ -826,6 +1278,10 @@
   <string>ssattara-oriya.glif</string>
   <key>ssattha-oriya</key>
   <string>ssattha-oriya.glif</string>
+  <key>sterling</key>
+  <string>sterling.glif</string>
+  <key>t</key>
+  <string>t.glif</string>
   <key>ta-oriya</key>
   <string>ta-oriya.glif</string>
   <key>ta-oriya.base</key>
@@ -878,14 +1334,24 @@
   <string>tha-oriya.single.glif</string>
   <key>thara-oriya</key>
   <string>thara-oriya.glif</string>
+  <key>thorn</key>
+  <string>thorn.glif</string>
   <key>three</key>
   <string>three.glif</string>
   <key>three-oriya</key>
   <string>three-oriya.glif</string>
+  <key>threequarters</key>
+  <string>threequarters.glif</string>
   <key>threequarters-oriya</key>
   <string>threequarters-oriya.glif</string>
   <key>threesixteenths-oriya</key>
   <string>threesixteenths-oriya.glif</string>
+  <key>threesuperior</key>
+  <string>threesuperior.glif</string>
+  <key>tilde</key>
+  <string>tilde.glif</string>
+  <key>trademark</key>
+  <string>trademark.glif</string>
   <key>tta-oriya</key>
   <string>tta-oriya.glif</string>
   <key>tta-oriya.base</key>
@@ -912,16 +1378,30 @@
   <string>two.glif</string>
   <key>two-oriya</key>
   <string>two-oriya.glif</string>
+  <key>twosuperior</key>
+  <string>twosuperior.glif</string>
+  <key>u</key>
+  <string>u.glif</string>
   <key>u-oriya</key>
   <string>u-oriya.glif</string>
   <key>uMatra-oriya</key>
   <string>uM_atra-oriya.glif</string>
+  <key>uacute</key>
+  <string>uacute.glif</string>
+  <key>ucircumflex</key>
+  <string>ucircumflex.glif</string>
+  <key>udieresis</key>
+  <string>udieresis.glif</string>
+  <key>ugrave</key>
+  <string>ugrave.glif</string>
   <key>underscore</key>
   <string>underscore.glif</string>
   <key>uu-oriya</key>
   <string>uu-oriya.glif</string>
   <key>uuMatra-oriya</key>
   <string>uuM_atra-oriya.glif</string>
+  <key>v</key>
+  <string>v.glif</string>
   <key>va-oriya</key>
   <string>va-oriya.glif</string>
   <key>va-oriya.base</key>
@@ -934,12 +1414,20 @@
   <string>vara-oriya.glif</string>
   <key>visarga-oriya</key>
   <string>visarga-oriya.glif</string>
+  <key>w</key>
+  <string>w.glif</string>
   <key>wa-oriya</key>
   <string>wa-oriya.glif</string>
   <key>wa-oriya.base</key>
   <string>wa-oriya.base.glif</string>
   <key>wara-oriya</key>
   <string>wara-oriya.glif</string>
+  <key>wj</key>
+  <string>wj.glif</string>
+  <key>x</key>
+  <string>x.glif</string>
+  <key>y</key>
+  <string>y.glif</string>
   <key>ya-oriya</key>
   <string>ya-oriya.glif</string>
   <key>ya-oriya.base</key>
@@ -948,23 +1436,37 @@
   <string>ya-oriya.below.glif</string>
   <key>ya-oriya.single</key>
   <string>ya-oriya.single.glif</string>
+  <key>yacute</key>
+  <string>yacute.glif</string>
   <key>yara-oriya</key>
   <string>yara-oriya.glif</string>
+  <key>ydieresis</key>
+  <string>ydieresis.glif</string>
+  <key>yen</key>
+  <string>yen.glif</string>
   <key>yya-oriya</key>
   <string>yya-oriya.glif</string>
   <key>yya-oriya.post</key>
   <string>yya-oriya.post.glif</string>
   <key>yyara-oriya</key>
   <string>yyara-oriya.glif</string>
+  <key>z</key>
+  <string>z.glif</string>
+  <key>zcaron</key>
+  <string>zcaron.glif</string>
   <key>zero</key>
   <string>zero.glif</string>
   <key>zero-oriya</key>
   <string>zero-oriya.glif</string>
+  <key>zerosuperior</key>
+  <string>zerosuperior.glif</string>
   <key>zerowidthjoiner</key>
   <string>zerowidthjoiner.glif</string>
   <key>zerowidthnonjoiner</key>
   <string>zerowidthnonjoiner.glif</string>
   <key>zerowidthspace</key>
   <string>zerowidthspace.glif</string>
+  <key>zwnbsp</key>
+  <string>zwnbsp.glif</string>
 </dict>
 </plist>

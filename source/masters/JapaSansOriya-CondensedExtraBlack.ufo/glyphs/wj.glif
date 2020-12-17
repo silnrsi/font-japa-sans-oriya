@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="wj" format="2">
+  <unicode hex="2060"/>
+  <outline/>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.category</key>
+      <string>Separator</string>
+      <key>com.schriftgestaltung.Glyphs.script</key>
+      <string/>
+      <key>com.schriftgestaltung.Glyphs.subCategory</key>
+      <string>Format</string>
+    </dict>
+  </lib>
+</glyph>
