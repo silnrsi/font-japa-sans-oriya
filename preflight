@@ -12,14 +12,14 @@ wait
 # psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/JapaSansOriya-Thin.ufo
 
 # Create WOFF metadata file
-# psfmakewoffmetadata -n JapaSansOriya -i org.sil.fonts -o source/JapaSansOriya-WOFF-metadata.xml source/masters/JapaSansOriya-Thin.ufo # --populateufowoff --force
+psfmakewoffmetadata -n JapaSansOriya -i org.sil.fonts -o source/JapaSansOriya-WOFF-metadata.xml source/masters/JapaSansOriya-Thin.ufo # --populateufowoff --force
 
 # Copy metadata updates to all fonts
 psfsyncmasters --complex source/JapaSansOriyaDesign.designspace
 
 # Update FEA in UFO
-# psfmakefea -o source/masters/JapaSansOriya-Thin.ufo/features.fea -i source/master.feax source/masters/JapaSansOriya-Thin.ufo &
-# psfmakefea -o source/masters/JapaSansOriya-Black.ufo/features.fea -i source/master.feax source/masters/JapaSansOriya-Black.ufo &
-# psfmakefea -o source/masters/JapaSansOriya-CondensedExtraThin/features.fea -i source/master.feax source/masters/JapaSansOriya-CondensedExtraThin.ufo &
-# psfmakefea -o source/masters/JapaSansOriya-CondensedExtraBlack.ufo/features.fea -i source/master.feax source/masters/JapaSansOriya-CondensedExtraBlack.ufo &
-# wait
+psfmakefea -o source/masters/JapaSansOriya-Thin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Thin.ufo &
+psfmakefea -o source/masters/JapaSansOriya-Black.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Black.ufo &
+psfmakefea -o source/masters/JapaSansOriya-CondensedExtraThin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraThin.ufo &
+psfmakefea -o source/masters/JapaSansOriya-CondensedExtraBlack.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraBlack.ufo &
+wait
