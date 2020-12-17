@@ -7,6 +7,7 @@ yyaorya
 </note>
   <anchor x="284" y="0" name="bottom"/>
   <anchor x="488" y="0" name="bottom_ra"/>
+  <anchor x="266" y="658" name="ol"/>
   <anchor x="266" y="658" name="top"/>
   <anchor x="485" y="658" name="topright"/>
   <outline>

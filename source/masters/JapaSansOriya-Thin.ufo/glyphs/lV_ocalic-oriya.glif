@@ -6,6 +6,7 @@
 lvocalicorya
 </note>
   <guideline x="432" y="423" angle="90"/>
+  <anchor x="289" y="658" name="ol"/>
   <anchor x="268" y="658" name="topright"/>
   <outline>
     <contour>

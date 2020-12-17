@@ -175,7 +175,7 @@ with Reserved Font Names "Japa" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/12/17 14:45:34</string>
+  <string>2020/12/17 15:53:20</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -390,7 +390,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>styleMapStyleName</key>
   <string>regular</string>
   <key>styleName</key>
-  <string>Condensed Extra Thin</string>
+  <string>CondensedExtra Thin</string>
   <key>trademark</key>
   <string>Noto is a trademark of Google Inc.</string>
   <key>unitsPerEm</key>

@@ -14,7 +14,7 @@ getufoinfo('source/masters/' + FAMILY + '-Thin' + '.ufo')
 # BUILDLABEL = 'beta1'
 
 # Set up the FTML tests
-# ftmlTest('tools/ftml-smith.xsl')
+ftmlTest('tools/ftml-smith.xsl')
 
 generated = 'generated/'
 

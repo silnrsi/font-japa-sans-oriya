@@ -8,6 +8,7 @@ haorya
   <guideline x="530" y="725" angle="0"/>
   <anchor x="274" y="0" name="bottom"/>
   <anchor x="526" y="0" name="bottom_ra"/>
+  <anchor x="313" y="658" name="ol"/>
   <anchor x="313" y="658" name="top"/>
   <anchor x="500" y="658" name="topright"/>
   <outline>

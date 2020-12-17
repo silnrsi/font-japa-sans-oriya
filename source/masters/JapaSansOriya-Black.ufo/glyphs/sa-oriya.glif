@@ -7,6 +7,7 @@ saorya
 </note>
   <anchor x="542" y="0" name="bottom"/>
   <anchor x="712" y="0" name="bottom_ra"/>
+  <anchor x="308" y="658" name="ol"/>
   <anchor x="308" y="658" name="top"/>
   <anchor x="627" y="658" name="topright"/>
   <outline>

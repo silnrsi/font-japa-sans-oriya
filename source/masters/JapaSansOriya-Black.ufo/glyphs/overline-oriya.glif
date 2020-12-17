@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline-oriya" format="2">
   <unicode hex="0B55"/>
-  <anchor x="-1" y="553" name="_top"/>
+  <anchor x="-1" y="553" name="_ol"/>
   <anchor x="-1" y="724" name="top"/>
   <outline>
     <component base="macronmod" xOffset="-218"/>

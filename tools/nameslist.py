@@ -78,6 +78,10 @@ Nukta = [
     0x0B3C,  # ORIYA SIGN NUKTA
     ]
 
+Overline = [
+    0x0B55,  # ORIYA SIGN OVERLINE
+    ]
+
 Virama = [
     0x0B4D,  # ORIYA SIGN VIRAMA
     ]
@@ -99,5 +103,6 @@ vowels = list(map(chr, Vowels))
 matras = list(map(chr, Matras))
 consonants = list(map(chr, Consonants))
 n = nukta = list(map(chr, Nukta))[0]
+o = overline = list(map(chr, Overline))[0]
 h = virama = list(map(chr, Virama))[0]
 digits = list(map(chr, Digits))

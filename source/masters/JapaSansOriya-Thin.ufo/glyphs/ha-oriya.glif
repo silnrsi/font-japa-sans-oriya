@@ -7,6 +7,7 @@ haorya
 </note>
   <anchor x="418" y="20" name="bottom"/>
   <anchor x="535" y="0" name="bottom_ra"/>
+  <anchor x="323" y="658" name="ol"/>
   <anchor x="323" y="658" name="top"/>
   <anchor x="566" y="658" name="topright"/>
   <outline>

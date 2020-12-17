@@ -8,6 +8,7 @@ lookup AboveMarks {
   lookupflag 0;
     pos base @top mark @_top;
     pos base @topright mark @_topright;
+    pos base @ol mark @_ol;
 } AboveMarks;
 
 lookup BelowMarks {
