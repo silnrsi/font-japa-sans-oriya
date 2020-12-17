@@ -26,6 +26,7 @@ designspace('source/' + FAMILY + dspace + '.designspace',
     target = process('${DS:FILENAME_BASE}.ttf',
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
     ),
+    instanceparams = '-W',
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',
