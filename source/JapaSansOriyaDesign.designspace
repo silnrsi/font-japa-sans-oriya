@@ -53,6 +53,7 @@
         </source>
     </sources>
     <instances>
+        <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="thin" postscriptfontname="JapaSansOriya-Thin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
@@ -62,6 +63,7 @@
             <info />
             <kerning />
         </instance>
+        -->
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
@@ -80,6 +82,7 @@
             <info />
             <kerning />
         </instance>
+        <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="black" postscriptfontname="JapaSansOriya-Black">
             <location>
                 <dimension name="weight" xvalue="170.0" />
@@ -89,5 +92,6 @@
             <info />
             <kerning />
         </instance>
+        -->
     </instances>
 </designspace>

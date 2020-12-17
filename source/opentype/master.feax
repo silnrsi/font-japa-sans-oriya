@@ -1,0 +1,7 @@
+# GSUB
+
+include(gsub_from_noto.fea)
+
+table GDEF {
+    GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
+} GDEF;

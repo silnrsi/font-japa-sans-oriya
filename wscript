@@ -22,11 +22,11 @@ generated = 'generated/'
 for dspace in ('Design',):
     designspace('source/' + FAMILY + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf',
-                    # cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/${DS:FILENAME_BASE}.ufo'])
+                    # cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
                 ),
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
-                    master = 'source/master.feax',
+                    master = 'source/opentype/master.feax',
                     make_params = '',
                     params = '',
                     ),
