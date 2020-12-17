@@ -55,7 +55,6 @@
     <instances>
         <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="thin" postscriptfontname="JapaSansOriya-Thin">
-        -->
         <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Regular.ufo" name="Japa Sans Oriya Ends Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="regular" postscriptfontname="JapaSansOriyaEnds-Regular">
             <location>
                 <dimension name="weight" xvalue="26.0" />
@@ -65,6 +64,7 @@
             <info />
             <kerning />
         </instance>
+        -->
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
@@ -85,7 +85,6 @@
         </instance>
         <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="black" postscriptfontname="JapaSansOriya-Black">
-        -->
         <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Bold.ufo" name="Japa Sans Oriya Ends Bold" stylename="Bold" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="bold" postscriptfontname="JapaSansOriyaEnds-Bold">
             <location>
                 <dimension name="weight" xvalue="170.0" />
@@ -95,5 +94,6 @@
             <info />
             <kerning />
         </instance>
+        -->
     </instances>
 </designspace>
