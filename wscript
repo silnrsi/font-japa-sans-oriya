@@ -19,19 +19,21 @@ getufoinfo('source/masters/' + FAMILY + '-Thin' + '.ufo')
 generated = 'generated/'
 
 # set up the build parameters from the designspace file(s)
-for dspace in ('',):
-    designspace('source/' + FAMILY + dspace + '.designspace',
-                target = process('${DS:FILENAME_BASE}.ttf',
-                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
-                ),
-                opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
-                    mapfile = generated + '${DS:FILENAME_BASE}.map',
-                    master = 'source/opentype/master.feax',
-                    make_params = '',
-                    params = '',
-                    ),
-                ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
-                # woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
-                script = ['ory2'],
-                pdf = fret(params='-oi')
-    )
+dspace = 'Design'
+dspace = ''
+
+designspace('source/' + FAMILY + dspace + '.designspace',
+    target = process('${DS:FILENAME_BASE}.ttf',
+        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
+    ),
+    opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
+        mapfile = generated + '${DS:FILENAME_BASE}.map',
+        master = 'source/opentype/master.feax',
+        make_params = '',
+        params = '',
+        ),
+    ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
+    # woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME}-WOFF-metadata.xml'),
+    script = ['ory2'],
+    pdf = fret(params='-oi')
+)

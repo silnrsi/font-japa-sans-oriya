@@ -2,6 +2,56 @@
 
 include(gsub_from_noto.fea)
 
+# GPOS
+
+lookup AboveMarks {
+  lookupflag 0;
+    pos base @top mark @_top;
+    pos base @topright mark @_topright;
+} AboveMarks;
+
+lookup BelowMarks {
+  lookupflag 0;
+    pos base @bottom mark @_bottom;
+    pos base @bottom_ra mark @_bottom_ra;
+    pos base @bottom_ta mark @_bottom_ta;
+    pos base @nukta mark @_nukta;
+} BelowMarks;
+
+# lookup KernPairs {
+#     kernpairs;
+# } KernPairs;
+
+# feature kern {
+#     script DFLT;
+#         language dflt;
+#             lookup KernPairs;
+
+#     script ory2;
+#         language dflt;
+#             lookup KernPairs;
+# } kern;
+
+feature abvm {
+    script DFLT;
+        language dflt;
+            lookup AboveMarks;
+
+    script ory2;
+        language dflt;
+            lookup AboveMarks;
+} abvm;
+
+feature blwm {
+    script DFLT;
+        language dflt;
+            lookup BelowMarks;
+
+    script ory2;
+        language dflt;
+            lookup BelowMarks;
+} blwm;
+
 table GDEF {
     GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 } GDEF;
