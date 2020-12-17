@@ -55,6 +55,8 @@
     <instances>
         <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="thin" postscriptfontname="JapaSansOriya-Thin">
+        -->
+        <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Regular.ufo" name="Japa Sans Oriya Ends Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="regular" postscriptfontname="JapaSansOriyaEnds-Regular">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -63,7 +65,6 @@
             <info />
             <kerning />
         </instance>
-        -->
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
@@ -84,46 +85,11 @@
         </instance>
         <!--
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="black" postscriptfontname="JapaSansOriya-Black">
+        -->
+        <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Bold.ufo" name="Japa Sans Oriya Ends Bold" stylename="Bold" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="bold" postscriptfontname="JapaSansOriyaEnds-Bold">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        -->
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Condensed.ufo" name="Japa Sans Oriya Cond" stylename="Condensed" stylemapfamilyname="Japa Sans Oriya Cond" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Condensed">
-            <location>
-                <dimension name="weight" xvalue="78.0" />
-                <dimension name="width" xvalue="82.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-CondensedBold.ufo" name="Japa Sans Oriya Cond Bold" stylename="Condensed Bold" stylemapfamilyname="Japa Sans Oriya Cond Bold" stylemapstylename="bold" postscriptfontname="JapaSansOriya-CondensedBold">
-            <location>
-                <dimension name="weight" xvalue="140.0" />
-                <dimension name="width" xvalue="82.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensed.ufo" name="Japa Sans Oriya ExtraCondensed" stylename="ExtraCondensed" stylemapfamilyname="Japa Sans Oriya ExtCond" stylemapstylename="regular" postscriptfontname="JapaSansOriya-ExtraCondensed">
-            <location>
-                <dimension name="weight" xvalue="78.0" />
-                <dimension name="width" xvalue="68.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensedBold.ufo" name="Japa Sans Oriya ExtraCondensed Bold" stylename="ExtraCondensed Bold" stylemapfamilyname="Japa Sans Oriya ExtCond Bold" stylemapstylename="bold" postscriptfontname="JapaSansOriya-ExtraCondensedBold">
-            <location>
-                <dimension name="weight" xvalue="140.0" />
-                <dimension name="width" xvalue="68.0" />
                 <dimension name="custom" xvalue="0.0" />
             </location>
             <info />

@@ -19,10 +19,10 @@ getufoinfo('source/masters/' + FAMILY + '-Thin' + '.ufo')
 generated = 'generated/'
 
 # set up the build parameters from the designspace file(s)
-for dspace in ('Design',):
+for dspace in ('',):
     designspace('source/' + FAMILY + dspace + '.designspace',
                 target = process('${DS:FILENAME_BASE}.ttf',
-                    # cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
+                    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
                 ),
                 opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
                     mapfile = generated + '${DS:FILENAME_BASE}.map',
