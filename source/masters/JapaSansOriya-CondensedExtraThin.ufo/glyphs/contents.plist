@@ -4,10 +4,8 @@
 <dict>
   <key>.notdef</key>
   <string>_notdef.glif</string>
-  <key>CR</key>
-  <string>C_R_.glif</string>
-  <key>NULL</key>
-  <string>N_U_L_L_.glif</string>
+  <key>.null</key>
+  <string>_null.glif</string>
   <key>_cap.overlap</key>
   <string>_cap.overlap.glif</string>
   <key>_part.da.below</key>
@@ -580,6 +578,8 @@
   <string>nnattahalant-oriya.glif</string>
   <key>nnattha-oriya</key>
   <string>nnattha-oriya.glif</string>
+  <key>nonmarkingreturn</key>
+  <string>nonmarkingreturn.glif</string>
   <key>nukta-oriya</key>
   <string>nukta-oriya.glif</string>
   <key>numbersign</key>
