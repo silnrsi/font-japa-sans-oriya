@@ -19,7 +19,7 @@ for anchor in overline.anchors:
 
 for glyph in font:
     # vowels
-    if glyph.unicode in Vowels:
+    if glyph.unicode in Vowels + Matras:
         bounds = glyph.bounds
         if bounds is None:
             print('vowel does not have bounding box')
