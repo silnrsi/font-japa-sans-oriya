@@ -8,7 +8,7 @@
   <integer>714</integer>
   <key>copyright</key>
   <string>Latin and original Oriya copyright (c) 2015-2019 Google LLC
-Additions and enhancements copyright (c) 2020 SIL International (http://www.sil.org/)
+Additions and enhancements copyright (c) 2020-2021 SIL International (http://www.sil.org/)
 with Reserved Font Names "Japa" and "SIL".
 </string>
   <key>descender</key>
@@ -159,7 +159,7 @@ with Reserved Font Names "Japa" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2020/12/18 09:47:28</string>
+  <string>2021/01/05 11:04:43</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -174,7 +174,7 @@ with Reserved Font Names "Japa" and "SIL".
   <string>http://scripts.sil.org/</string>
   <key>openTypeNameLicense</key>
   <string>Latin and original Oriya copyright (c) 2015-2019 Google LLC
-Additions and enhancements copyright (c) 2020 SIL International (http://www.sil.org/)
+Additions and enhancements copyright (c) 2020-2021 SIL International (http://www.sil.org/)
 with Reserved Font Names "Japa" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -280,7 +280,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Black</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Japa Sans Oriya Black: 2020</string>
+  <string>SIL International: Japa Sans Oriya Black: 2021</string>
   <key>openTypeNameVersion</key>
   <string>Version 2.000</string>
   <key>openTypeOS2CodePageRanges</key>
