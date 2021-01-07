@@ -9,6 +9,17 @@
 \proof[size="10,11,12,16",heading=Body text]{ଓଡ଼ିଆ ଲିପ}
 \proof[size="18,24,30,36",heading=Heading text]{ଓଡ଼ିଆ ଲିପ}
 
+\section{Issues}
+
+\subsection{Overline}
+
+\proof{share ଅ୕ଡୁ}
+\proof{cow କ୕ଡି}
+\proof{leaf ଆ୕କୁ}
+\proof{spear ବା୕ଲା}
+\proof{thirsty ଏ୕ସ୍‌କି}
+\proof{sheep ମେ୕ଣ୍ତ}
+
 \section{Patterns}
 
 \subsection{Letters}
