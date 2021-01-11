@@ -8,8 +8,8 @@ psfnormalize -p checkfix=fix source/masters/JapaSansOriya-CondensedExtraBlack.uf
 wait
 
 # Apply glyph data to Thin UFO
-# psfsetpsnames -i source/glyph_data.csv source/masters/JapaSansOriya-Thin.ufo
-# psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/JapaSansOriya-Thin.ufo
+psfsetpsnames -i source/glyph_data.csv source/masters/JapaSansOriya-Thin.ufo
+psfsetglyphorder --header sort_final -i source/glyph_data.csv source/masters/JapaSansOriya-Thin.ufo
 
 # Create WOFF metadata file
 psfmakewoffmetadata -n JapaSansOriya -i org.sil.fonts -o source/JapaSansOriya-WOFF-metadata.xml source/masters/JapaSansOriya-Thin.ufo # --populateufowoff --force
