@@ -9,24 +9,24 @@
     <fontsrc>url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
     <title>Issues</title>
   </head>
-  <testgroup label="Overline">
-    <test label="share">
-      <string>\u0B05\u0B55\u0B21\u0B41</string>
+  <testgroup label="with overline - without">
+    <test label="share - support">
+      <string>\u0B05\u0B55\u0B21\u0B41 - \u0B05\u0B21\u0B41</string>
     </test>
-    <test label="cow">
-      <string>\u0B15\u0B55\u0B21\u0B3F</string>
+    <test label="cow - stone">
+      <string>\u0B15\u0B55\u0B21\u0B3F - \u0B15\u0B21\u0B3F</string>
     </test>
-    <test label="leaf">
-      <string>\u0B06\u0B55\u0B15\u0B41</string>
+    <test label="leaf - grandfather">
+      <string>\u0B06\u0B55\u0B15\u0B41 - \u0B06\u0B15\u0B41</string>
     </test>
-    <test label="spear">
-      <string>\u0B2C\u0B3E\u0B55\u0B32\u0B3E</string>
+    <test label="spear - seed">
+      <string>\u0B2C\u0B3E\u0B55\u0B32\u0B3E - \u0B2C\u0B3E\u0B32\u0B3E</string>
     </test>
-    <test label="thirsty">
-      <string>\u0B0F\u0B55\u0B38\u0B4D\u200C\u0B15\u0B3F</string>
+    <test label="thirsty - up/top">
+      <string>\u0B0F\u0B55\u0B38\u0B4D\u200C\u0B15\u0B3F - \u0B0F\u0B38\u0B4D\u200C\u0B15\u0B3F</string>
     </test>
-    <test label="sheep">
-      <string>\u0B2E\u0B47\u0B55\u0B23\u0B4D\u0B24</string>
+    <test label="sheep - knee">
+      <string>\u0B2E\u0B47\u0B55\u0B23\u0B4D\u0B24 - \u0B2E\u0B47\u0B23\u0B4D\u0B24</string>
     </test>
   </testgroup>
 </ftml>
