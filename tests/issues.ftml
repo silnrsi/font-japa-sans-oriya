@@ -22,8 +22,14 @@
     <test label="spear - seed">
       <string>\u0B2C\u0B3E\u0B55\u0B32\u0B3E - \u0B2C\u0B3E\u0B32\u0B3E</string>
     </test>
-    <test label="thirsty - up/top">
+    <test label="thirsty - up/top: 200C (ZWNJ)">
       <string>\u0B0F\u0B55\u0B38\u0B4D\u200C\u0B15\u0B3F - \u0B0F\u0B38\u0B4D\u200C\u0B15\u0B3F</string>
+    </test>
+    <test label="thirsty - up/top: 200D (ZWJ)">
+      <string>\u0B0F\u0B55\u0B38\u0B4D\u200D\u0B15\u0B3F - \u0B0F\u0B38\u0B4D\u200D\u0B15\u0B3F</string>
+    </test>
+    <test label="thirsty - up/top">
+      <string>\u0B0F\u0B55\u0B38\u0B4D\u0B15\u0B3F - \u0B0F\u0B38\u0B4D\u0B15\u0B3F</string>
     </test>
     <test label="sheep - knee">
       <string>\u0B2E\u0B47\u0B55\u0B23\u0B4D\u0B24 - \u0B2E\u0B47\u0B23\u0B4D\u0B24</string>
