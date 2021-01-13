@@ -350,6 +350,18 @@ script ory2;
 	sub ssatta-oriya halant-oriya by ssattahalant-oriya;
 } haln;
 
+lookup Ma2OverlineSub {
+	sub ma-oriya by overline-oriya;
+} Ma2OverlineSub;
+
+lookup Overline2MaSub {
+	sub overline-oriya' by ma-oriya;
+} Overline2MaSub;
+
+feature rlig {
+	sub eMatra-oriya ma-oriya' lookup Ma2OverlineSub overline-oriya' lookup Overline2MaSub;
+} rlig;
+
 feature calt {
 script ory2;
 

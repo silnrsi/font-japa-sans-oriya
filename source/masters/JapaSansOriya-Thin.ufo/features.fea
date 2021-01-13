@@ -451,7 +451,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass _part.ra.below <anchor 385 -116> @stem_MarkBase;
 
 # AP: ol
-@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya nya-oriya va-oriya bha-oriya ca-oriya cha-oriya da-oriya ja-oriya ka-oriya lla-oriya dda-oriya ddha-oriya dha-oriya e-oriya ga-oriya gha-oriya ha-oriya i-oriya ii-oriya rVocalic-oriya iiMatra-oriya jha-oriya kha-oriya lVocalic-oriya la-oriya ma-oriya na-oriya nga-oriya nna-oriya o-oriya pa-oriya pha-oriya ssa-oriya ra-oriya sa-oriya sha-oriya ta-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya wa-oriya ya-oriya yya-oriya];
+@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya nya-oriya va-oriya bha-oriya ca-oriya cha-oriya da-oriya ja-oriya ka-oriya lla-oriya dda-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya i-oriya ii-oriya rVocalic-oriya iiMatra-oriya jha-oriya kha-oriya lVocalic-oriya la-oriya ma-oriya na-oriya nga-oriya nna-oriya o-oriya pa-oriya pha-oriya ssa-oriya ra-oriya sa-oriya sha-oriya ta-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya wa-oriya ya-oriya yya-oriya];
 # baseClass a-oriya <anchor 298 658> @ol;
 # baseClass aa-oriya <anchor 381 658> @ol;
 # baseClass aaMatra-oriya <anchor 83 658> @ol;
@@ -463,6 +463,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass ddha-oriya <anchor 356 658> @ol;
 # baseClass dha-oriya <anchor 335 658> @ol;
 # baseClass e-oriya <anchor 293 658> @ol;
+# baseClass eMatra-oriya <anchor 250 658> @ol;
 # baseClass ga-oriya <anchor 330 658> @ol;
 # baseClass gha-oriya <anchor 324 658> @ol;
 # baseClass ha-oriya <anchor 323 658> @ol;
@@ -971,6 +972,18 @@ feature haln {
     sub ssatta-oriya halant-oriya by ssattahalant-oriya;
 } haln;
 
+lookup Ma2OverlineSub {
+    sub ma-oriya by overline-oriya;
+} Ma2OverlineSub;
+
+lookup Overline2MaSub {
+    sub overline-oriya' by ma-oriya;
+} Overline2MaSub;
+
+feature rlig {
+    sub eMatra-oriya ma-oriya' lookup Ma2OverlineSub overline-oriya' lookup Overline2MaSub;
+} rlig;
+
 feature calt {
     script ory2;
     lookup calt1 {
@@ -1302,6 +1315,7 @@ lookup AboveMarks {
     pos base ddha-oriya <anchor 356 658> mark @_ol;
     pos base dha-oriya <anchor 335 658> mark @_ol;
     pos base e-oriya <anchor 293 658> mark @_ol;
+    pos base eMatra-oriya <anchor 250 658> mark @_ol;
     pos base ga-oriya <anchor 330 658> mark @_ol;
     pos base gha-oriya <anchor 324 658> mark @_ol;
     pos base ha-oriya <anchor 323 658> mark @_ol;
