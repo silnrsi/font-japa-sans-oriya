@@ -451,7 +451,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass _part.ra.below <anchor 385 -116> @stem_MarkBase;
 
 # AP: ol
-@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya nya-oriya va-oriya bha-oriya ca-oriya cha-oriya da-oriya ja-oriya ka-oriya lla-oriya dda-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya i-oriya ii-oriya rVocalic-oriya iiMatra-oriya jha-oriya kha-oriya lVocalic-oriya la-oriya ma-oriya na-oriya nga-oriya nna-oriya o-oriya pa-oriya pha-oriya ssa-oriya ra-oriya sa-oriya sha-oriya ta-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya wa-oriya ya-oriya yya-oriya];
+@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya nya-oriya va-oriya bha-oriya ca-oriya cha-oriya da-oriya ja-oriya ka-oriya lla-oriya dda-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya i-oriya ii-oriya rVocalic-oriya rrVocalic-oriya iiMatra-oriya jha-oriya kha-oriya lVocalic-oriya llVocalic-oriya la-oriya ma-oriya na-oriya nga-oriya nna-oriya o-oriya pa-oriya pha-oriya ssa-oriya ra-oriya rha-oriya rra-oriya ya-oriya sa-oriya sha-oriya ta-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya wa-oriya yya-oriya];
 # baseClass a-oriya <anchor 298 658> @ol;
 # baseClass aa-oriya <anchor 381 658> @ol;
 # baseClass aaMatra-oriya <anchor 83 658> @ol;
@@ -467,10 +467,10 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass ga-oriya <anchor 330 658> @ol;
 # baseClass gha-oriya <anchor 324 658> @ol;
 # baseClass ha-oriya <anchor 323 658> @ol;
-# baseClass [i-oriya ii-oriya rVocalic-oriya] <anchor 382 658> @ol;
+# baseClass [i-oriya ii-oriya rVocalic-oriya rrVocalic-oriya] <anchor 382 658> @ol;
 # baseClass iiMatra-oriya <anchor 98 658> @ol;
 # baseClass [jha-oriya kha-oriya] <anchor 370 658> @ol;
-# baseClass lVocalic-oriya <anchor 289 658> @ol;
+# baseClass [lVocalic-oriya llVocalic-oriya] <anchor 289 658> @ol;
 # baseClass la-oriya <anchor 384 658> @ol;
 # baseClass ma-oriya <anchor 325 658> @ol;
 # baseClass na-oriya <anchor 328 658> @ol;
@@ -479,6 +479,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass o-oriya <anchor 321 658> @ol;
 # baseClass [pa-oriya pha-oriya ssa-oriya] <anchor 319 658> @ol;
 # baseClass ra-oriya <anchor 351 658> @ol;
+# baseClass [rha-oriya rra-oriya ya-oriya] <anchor 352 658> @ol;
 # baseClass sa-oriya <anchor 287 658> @ol;
 # baseClass sha-oriya <anchor 344 658> @ol;
 # baseClass ta-oriya <anchor 347 658> @ol;
@@ -488,7 +489,6 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass u-oriya <anchor 369 658> @ol;
 # baseClass uu-oriya <anchor 394 658> @ol;
 # baseClass wa-oriya <anchor 358 658> @ol;
-# baseClass ya-oriya <anchor 352 658> @ol;
 # baseClass yya-oriya <anchor 375 658> @ol;
 
 # AP: _topright
@@ -1402,10 +1402,10 @@ lookup AboveMarks {
     pos base ga-oriya <anchor 330 658> mark @_ol;
     pos base gha-oriya <anchor 324 658> mark @_ol;
     pos base ha-oriya <anchor 323 658> mark @_ol;
-    pos base [i-oriya ii-oriya rVocalic-oriya] <anchor 382 658> mark @_ol;
+    pos base [i-oriya ii-oriya rVocalic-oriya rrVocalic-oriya] <anchor 382 658> mark @_ol;
     pos base iiMatra-oriya <anchor 98 658> mark @_ol;
     pos base [jha-oriya kha-oriya] <anchor 370 658> mark @_ol;
-    pos base lVocalic-oriya <anchor 289 658> mark @_ol;
+    pos base [lVocalic-oriya llVocalic-oriya] <anchor 289 658> mark @_ol;
     pos base la-oriya <anchor 384 658> mark @_ol;
     pos base ma-oriya <anchor 325 658> mark @_ol;
     pos base na-oriya <anchor 328 658> mark @_ol;
@@ -1414,6 +1414,7 @@ lookup AboveMarks {
     pos base o-oriya <anchor 321 658> mark @_ol;
     pos base [pa-oriya pha-oriya ssa-oriya] <anchor 319 658> mark @_ol;
     pos base ra-oriya <anchor 351 658> mark @_ol;
+    pos base [rha-oriya rra-oriya ya-oriya] <anchor 352 658> mark @_ol;
     pos base sa-oriya <anchor 287 658> mark @_ol;
     pos base sha-oriya <anchor 344 658> mark @_ol;
     pos base ta-oriya <anchor 347 658> mark @_ol;
@@ -1423,7 +1424,6 @@ lookup AboveMarks {
     pos base u-oriya <anchor 369 658> mark @_ol;
     pos base uu-oriya <anchor 394 658> mark @_ol;
     pos base wa-oriya <anchor 358 658> mark @_ol;
-    pos base ya-oriya <anchor 352 658> mark @_ol;
     pos base yya-oriya <anchor 375 658> mark @_ol;
 } AboveMarks;
 

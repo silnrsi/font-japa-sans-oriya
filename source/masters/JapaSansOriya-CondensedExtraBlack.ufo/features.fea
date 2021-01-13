@@ -475,7 +475,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass _part.ra.below <anchor 333 -70> @stem_MarkBase;
 
 # AP: ol
-@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya va-oriya bha-oriya ca-oriya pa-oriya pha-oriya ssa-oriya cha-oriya da-oriya dda-oriya ta-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya sha-oriya i-oriya ii-oriya iiMatra-oriya ja-oriya jha-oriya ka-oriya wa-oriya kha-oriya lVocalic-oriya la-oriya lla-oriya ma-oriya na-oriya nga-oriya nna-oriya ra-oriya nya-oriya o-oriya rVocalic-oriya sa-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya ya-oriya yya-oriya];
+@ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya va-oriya bha-oriya ca-oriya pa-oriya pha-oriya ssa-oriya cha-oriya da-oriya dda-oriya ta-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya sha-oriya i-oriya ii-oriya iiMatra-oriya ja-oriya jha-oriya ka-oriya wa-oriya kha-oriya lVocalic-oriya llVocalic-oriya la-oriya lla-oriya ma-oriya na-oriya nga-oriya nna-oriya ra-oriya nya-oriya o-oriya rVocalic-oriya rrVocalic-oriya rha-oriya rra-oriya sa-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya ya-oriya yya-oriya];
 # baseClass a-oriya <anchor 314 658> @ol;
 # baseClass aa-oriya <anchor 421 658> @ol;
 # baseClass aaMatra-oriya <anchor 108 658> @ol;
@@ -499,7 +499,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass jha-oriya <anchor 305 658> @ol;
 # baseClass [ka-oriya wa-oriya] <anchor 338 658> @ol;
 # baseClass kha-oriya <anchor 312 658> @ol;
-# baseClass lVocalic-oriya <anchor 258 658> @ol;
+# baseClass [lVocalic-oriya llVocalic-oriya] <anchor 258 658> @ol;
 # baseClass la-oriya <anchor 404 658> @ol;
 # baseClass lla-oriya <anchor 359 658> @ol;
 # baseClass ma-oriya <anchor 288 658> @ol;
@@ -507,7 +507,8 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass [nna-oriya ra-oriya] <anchor 324 658> @ol;
 # baseClass nya-oriya <anchor 331 658> @ol;
 # baseClass o-oriya <anchor 301 658> @ol;
-# baseClass rVocalic-oriya <anchor 356 658> @ol;
+# baseClass [rVocalic-oriya rrVocalic-oriya] <anchor 356 658> @ol;
+# baseClass [rha-oriya rra-oriya] <anchor 326 658> @ol;
 # baseClass sa-oriya <anchor 273 658> @ol;
 # baseClass tha-oriya <anchor 226 658> @ol;
 # baseClass tta-oriya <anchor 270 658> @ol;
@@ -1447,7 +1448,7 @@ lookup AboveMarks {
     pos base jha-oriya <anchor 305 658> mark @_ol;
     pos base [ka-oriya wa-oriya] <anchor 338 658> mark @_ol;
     pos base kha-oriya <anchor 312 658> mark @_ol;
-    pos base lVocalic-oriya <anchor 258 658> mark @_ol;
+    pos base [lVocalic-oriya llVocalic-oriya] <anchor 258 658> mark @_ol;
     pos base la-oriya <anchor 404 658> mark @_ol;
     pos base lla-oriya <anchor 359 658> mark @_ol;
     pos base ma-oriya <anchor 288 658> mark @_ol;
@@ -1455,7 +1456,8 @@ lookup AboveMarks {
     pos base [nna-oriya ra-oriya] <anchor 324 658> mark @_ol;
     pos base nya-oriya <anchor 331 658> mark @_ol;
     pos base o-oriya <anchor 301 658> mark @_ol;
-    pos base rVocalic-oriya <anchor 356 658> mark @_ol;
+    pos base [rVocalic-oriya rrVocalic-oriya] <anchor 356 658> mark @_ol;
+    pos base [rha-oriya rra-oriya] <anchor 326 658> mark @_ol;
     pos base sa-oriya <anchor 273 658> mark @_ol;
     pos base tha-oriya <anchor 226 658> mark @_ol;
     pos base tta-oriya <anchor 270 658> mark @_ol;

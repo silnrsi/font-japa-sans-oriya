@@ -18,22 +18,23 @@ for anchor in overline.anchors:
         anchor.name = '_ol'
 
 for glyph in font:
-    # vowels and matras
+    # vowels and matras (and a few consonants)
+    bounds = glyph.bounds
+    if bounds is None:
+        print('glyph does not have bounding box')
+        continue
+    (xmin, ymin, xmax, ymax) = bounds
+    xcenter = (xmin + xmax) / 2
     if glyph.unicode in Vowels + Matras:
-        bounds = glyph.bounds
-        if bounds is None:
-            print('vowel does not have bounding box')
-            continue
-        (xmin, ymin, xmax, ymax) = bounds
-        xcenter = (xmin + xmax) / 2
         for anchor in glyph.anchors:
             if anchor.name == 'topright':
                 y = anchor.y
                 glyph.appendAnchor('ol', (xcenter, y))
 
-        # eMatra
-        if glyph.name == 'eMatra-oriya':
-            glyph.appendAnchor('ol', (xcenter, 658))
+    # glyphs that do not have a topright (or top) anchor to model on
+    bare = ('eMatra-oriya', 'rrVocalic-oriya', 'llVocalic-oriya', 'rra-oriya', 'rha-oriya')
+    if glyph.name in bare:
+        glyph.appendAnchor('ol', (xcenter, 658))
 
     # consonants
     if glyph.unicode in Consonants:

@@ -6,6 +6,7 @@
 rraorya
 </note>
   <anchor x="723" y="-92" name="bottom_ra"/>
+  <anchor x="394" y="658" name="ol"/>
   <outline>
     <component base="dda-oriya"/>
     <component base="nukta-oriya" xOffset="86" yOffset="4"/>
