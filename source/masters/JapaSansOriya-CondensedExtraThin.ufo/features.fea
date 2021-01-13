@@ -629,6 +629,7 @@ markClass taalt-oriya.below <anchor 138 10> @_bottom_ta;
 @aiLengthUmbrellaLetters = [ka-oriya nga-oriya ca-oriya cha-oriya ja-oriya dda-oriya ddha-oriya ta-oriya da-oriya na-oriya ba-oriya bha-oriya ra-oriya la-oriya lla-oriya va-oriya ha-oriya rra-oriya rha-oriya kara-oriya ngara-oriya cara-oriya chara-oriya jara-oriya ddara-oriya ddhara-oriya tara-oriya dara-oriya nara-oriya bara-oriya bhara-oriya lara-oriya llara-oriya vara-oriya hara-oriya rrara-oriya rhara-oriya ka-oriya.base nga-oriya.base ca-oriya.base cha-oriya.base ja-oriya.base dda-oriya.base ddha-oriya.base ta-oriya.base da-oriya.base na-oriya.base ba-oriya.base bha-oriya.base ra-oriya.base la-oriya.base lla-oriya.base va-oriya.base ha-oriya.base rra-oriya.base rha-oriya.base kaka-oriya kaca-oriya kata-oriya katara-oriya kataraalt-oriya katta-oriya kava-oriya kalla-oriya kasa-oriya ngaka-oriya ngakata-oriya ngakassa-oriya caca-oriya cacha-oriya jaja-oriya jajava-oriya jajha-oriya java-oriya ddaga-oriya ddadda-oriya taka-oriya takara-oriya tata-oriya tatava-oriya tatara-oriya tatha-oriya tana-oriya tava-oriya daga-oriya dagha-oriya dada-oriya dadha-oriya dadhava-oriya dava-oriya dabha-oriya nata-oriya natara-oriya natava-oriya natha-oriya nada-oriya nadara-oriya nadava-oriya nadha-oriya nadhava-oriya nadhara-oriya nana-oriya baja-oriya bada-oriya badha-oriya baba-oriya llaka-oriya llalla-oriya llapa-oriya llapha-oriya laka-oriya laga-oriya lapa-oriya lapha-oriya lama-oriya lala-oriya lalla-oriya haka-oriya haja-oriya hana-oriya hama-oriya hala-oriya halla-oriya hava-oriya hau-oriya hauu-oriya harVocalic-oriya tarauMatra-oriya darauMatra-oriya];
 @aiLengthStemLetters = [kha-oriya ga-oriya gha-oriya tta-oriya nna-oriya tha-oriya dha-oriya pa-oriya ma-oriya ya-oriya sha-oriya ssa-oriya sa-oriya yya-oriya khara-oriya gara-oriya ghara-oriya ttara-oriya nnara-oriya thara-oriya dhara-oriya para-oriya mara-oriya yara-oriya shara-oriya ssara-oriya sara-oriya yyara-oriya kha-oriya.base ga-oriya.base gha-oriya.base tta-oriya.base nna-oriya.base tha-oriya.base dha-oriya.base pa-oriya.base ma-oriya.base ya-oriya.base sha-oriya.base ssa-oriya.base sa-oriya.base kassa-oriya.base kassa-oriya kassanna-oriya kassama-oriya kassara-oriya gada-oriya gadha-oriya gana-oriya galla-oriya ghana-oriya ttatta-oriya nnatta-oriya nnattha-oriya nnadda-oriya nnaddara-oriya nnaddha-oriya nnanna-oriya tapa-oriya tama-oriya tasa-oriya tasana-oriya dhava-oriya dhaya-oriya dhayya-oriya paka-oriya pata-oriya patta-oriya papa-oriya palla-oriya pasa-oriya mapa-oriya mapara-oriya maba-oriya mabha-oriya mabhara-oriya mama-oriya shaca-oriya shacha-oriya shava-oriya shalla-oriya ssaka-oriya ssakara-oriya ssatta-oriya ssattha-oriya ssanna-oriya ssapa-oriya ssapha-oriya saka-oriya sakha-oriya sata-oriya satara-oriya satha-oriya sana-oriya sapa-oriya sapha-oriya sava-oriya sama-oriya nnattahalant-oriya nnaddahalant-oriya ssattahalant-oriya saparVocalicMatra-oriya];
 @iMatraWideLetters = [nya-oriya bha-oriya la-oriya lla-oriya yya-oriya kata-oriya katara-oriya ngakha-oriya ngaga-oriya ngagha-oriya nyaja-oriya nyajha-oriya dada-oriya dadha-oriya dadhava-oriya dabha-oriya bada-oriya baba-oriya mapa-oriya mapara-oriya mapha-oriya maba-oriya mabha-oriya mabhara-oriya mama-oriya llaka-oriya llalla-oriya llapa-oriya llapha-oriya laka-oriya laga-oriya lapa-oriya lapha-oriya lama-oriya lala-oriya lalla-oriya];
+@Cons = [ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya yya-oriya wa-oriya];
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
@@ -957,16 +958,98 @@ feature haln {
     sub ssatta-oriya halant-oriya by ssattahalant-oriya;
 } haln;
 
-lookup Ma2OverlineSub {
-    sub ma-oriya by overline-oriya;
-} Ma2OverlineSub;
+# The rlig feature (and the two lookups it calls) are to support positioning
+# the new overline character over the eMatra (which includes other matras that
+# are composed of the eMatra). The OpenType shaper reorders the eMatra glyph
+# to the left of the consonant (the eMatra and the overline are stored to the
+# right in the data) but does not reorder the overline. The code below swaps
+# the position of the overline character and consonant so that the overline
+# is to the immediate right of the eMatra (left of consonant), and thus can be
+# positioned on the eMatra using a GPOS rule later.
+lookup Cons2OverlineSub {
+    sub ka-oriya by overline-oriya ka-oriya;
+    sub kha-oriya by overline-oriya kha-oriya;
+    sub ga-oriya by overline-oriya ga-oriya;
+    sub gha-oriya by overline-oriya gha-oriya;
+    sub nga-oriya by overline-oriya nga-oriya;
+    sub ca-oriya by overline-oriya ca-oriya;
+    sub cha-oriya by overline-oriya cha-oriya;
+    sub ja-oriya by overline-oriya ja-oriya;
+    sub jha-oriya by overline-oriya jha-oriya;
+    sub nya-oriya by overline-oriya nya-oriya;
+    sub tta-oriya by overline-oriya tta-oriya;
+    sub ttha-oriya by overline-oriya ttha-oriya;
+    sub dda-oriya by overline-oriya dda-oriya;
+    sub ddha-oriya by overline-oriya ddha-oriya;
+    sub nna-oriya by overline-oriya nna-oriya;
+    sub ta-oriya by overline-oriya ta-oriya;
+    sub tha-oriya by overline-oriya tha-oriya;
+    sub da-oriya by overline-oriya da-oriya;
+    sub dha-oriya by overline-oriya dha-oriya;
+    sub na-oriya by overline-oriya na-oriya;
+    sub pa-oriya by overline-oriya pa-oriya;
+    sub pha-oriya by overline-oriya pha-oriya;
+    sub ba-oriya by overline-oriya ba-oriya;
+    sub bha-oriya by overline-oriya bha-oriya;
+    sub ma-oriya by overline-oriya ma-oriya;
+    sub ya-oriya by overline-oriya ya-oriya;
+    sub ra-oriya by overline-oriya ra-oriya;
+    sub la-oriya by overline-oriya la-oriya;
+    sub lla-oriya by overline-oriya lla-oriya;
+    sub va-oriya by overline-oriya va-oriya;
+    sub sha-oriya by overline-oriya sha-oriya;
+    sub ssa-oriya by overline-oriya ssa-oriya;
+    sub sa-oriya by overline-oriya sa-oriya;
+    sub ha-oriya by overline-oriya ha-oriya;
+    sub rra-oriya by overline-oriya rra-oriya;
+    sub rha-oriya by overline-oriya rha-oriya;
+    sub yya-oriya by overline-oriya yya-oriya;
+    sub wa-oriya by overline-oriya wa-oriya;
+} Cons2OverlineSub;
 
-lookup Overline2MaSub {
-    sub overline-oriya' by ma-oriya;
-} Overline2MaSub;
+lookup Overline2ConsSub {
+    sub ka-oriya overline-oriya by ka-oriya;
+    sub kha-oriya overline-oriya by kha-oriya;
+    sub ga-oriya overline-oriya by ga-oriya;
+    sub gha-oriya overline-oriya by gha-oriya;
+    sub nga-oriya overline-oriya by nga-oriya;
+    sub ca-oriya overline-oriya by ca-oriya;
+    sub cha-oriya overline-oriya by cha-oriya;
+    sub ja-oriya overline-oriya by ja-oriya;
+    sub jha-oriya overline-oriya by jha-oriya;
+    sub nya-oriya overline-oriya by nya-oriya;
+    sub tta-oriya overline-oriya by tta-oriya;
+    sub ttha-oriya overline-oriya by ttha-oriya;
+    sub dda-oriya overline-oriya by dda-oriya;
+    sub ddha-oriya overline-oriya by ddha-oriya;
+    sub nna-oriya overline-oriya by nna-oriya;
+    sub ta-oriya overline-oriya by ta-oriya;
+    sub tha-oriya overline-oriya by tha-oriya;
+    sub da-oriya overline-oriya by da-oriya;
+    sub dha-oriya overline-oriya by dha-oriya;
+    sub na-oriya overline-oriya by na-oriya;
+    sub pa-oriya overline-oriya by pa-oriya;
+    sub pha-oriya overline-oriya by pha-oriya;
+    sub ba-oriya overline-oriya by ba-oriya;
+    sub bha-oriya overline-oriya by bha-oriya;
+    sub ma-oriya overline-oriya by ma-oriya;
+    sub ya-oriya overline-oriya by ya-oriya;
+    sub ra-oriya overline-oriya by ra-oriya;
+    sub la-oriya overline-oriya by la-oriya;
+    sub lla-oriya overline-oriya by lla-oriya;
+    sub va-oriya overline-oriya by va-oriya;
+    sub sha-oriya overline-oriya by sha-oriya;
+    sub ssa-oriya overline-oriya by ssa-oriya;
+    sub sa-oriya overline-oriya by sa-oriya;
+    sub ha-oriya overline-oriya by ha-oriya;
+    sub rra-oriya overline-oriya by rra-oriya;
+    sub rha-oriya overline-oriya by rha-oriya;
+    sub yya-oriya overline-oriya by yya-oriya;
+    sub wa-oriya overline-oriya by wa-oriya;
+} Overline2ConsSub;
 
 feature rlig {
-    sub eMatra-oriya ma-oriya' lookup Ma2OverlineSub overline-oriya' lookup Overline2MaSub;
+    sub eMatra-oriya @Cons' lookup Cons2OverlineSub overline-oriya' lookup Overline2ConsSub;
 } rlig;
 
 feature calt {

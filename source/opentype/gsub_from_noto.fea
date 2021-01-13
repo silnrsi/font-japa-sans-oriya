@@ -352,6 +352,14 @@ script ory2;
 	sub ssatta-oriya halant-oriya by ssattahalant-oriya;
 } haln;
 
+# The rlig feature (and the two lookups it calls) are to support positioning
+# the new overline character over the eMatra (which includes other matras that
+# are composed of the eMatra). The OpenType shaper reorders the eMatra glyph
+# to the left of the consonant (the eMatra and the overline are stored to the
+# right in the data) but does not reorder the overline. The code below swaps
+# the position of the overline character and consonant so that the overline
+# is to the immediate right of the eMatra (left of consonant), and thus can be
+# positioned on the eMatra using a GPOS rule later.
 lookup Cons2OverlineSub {
 	sub @Cons by overline-oriya @Cons;
 } Cons2OverlineSub;
