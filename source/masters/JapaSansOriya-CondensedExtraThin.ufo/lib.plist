@@ -984,6 +984,12 @@
     <string>uni0B56.stem</string>
     <key>aiLength-oriya.umbrella</key>
     <string>uni0B56.umbrella</string>
+    <key>aiLengthcandraBindu-oriya</key>
+    <string>uni0B560B01</string>
+    <key>aiLengthcandraBindu-oriya.stem</key>
+    <string>uni0B560B01.stem</string>
+    <key>aiLengthcandraBindu-oriya.umbrella</key>
+    <string>uni0B560B01.umbrella</string>
     <key>aiMatra-oriya</key>
     <string>uni0B48</string>
     <key>anusvara-oriya</key>
@@ -1318,6 +1324,20 @@
     <string>uni0B30.below</string>
     <key>ra-oriya.single</key>
     <string>uni0B30.single</string>
+    <key>reph-oriya</key>
+    <string>uni0B300B4D</string>
+    <key>rephaiLength-oriya</key>
+    <string>uni0B300B4D0B56</string>
+    <key>rephaiLength-oriya.stem</key>
+    <string>uni0B300B4D0B56.stem</string>
+    <key>rephaiLength-oriya.umbrella</key>
+    <string>uni0B300B4D0B56.umbrella</string>
+    <key>rephaiLengthcandraBindu-oriya</key>
+    <string>uni0B300B4D0B560B01</string>
+    <key>rephaiLengthcandraBindu-oriya.stem</key>
+    <string>uni0B300B4D0B560B01.stem</string>
+    <key>rephaiLengthcandraBindu-oriya.umbrella</key>
+    <string>uni0B300B4D0B560B01.umbrella</string>
     <key>rha-oriya</key>
     <string>uni0B5D</string>
     <key>rha-oriya.base</key>
