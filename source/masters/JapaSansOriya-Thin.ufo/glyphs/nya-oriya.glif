@@ -8,7 +8,7 @@ nyaorya
   <guideline x="639" y="742" angle="90"/>
   <anchor x="391" y="0" name="bottom"/>
   <anchor x="611" y="0" name="bottom_ra"/>
-  <anchor x="336" y="658" name="ol"/>
+  <anchor x="336" y="708" name="ol"/>
   <anchor x="336" y="658" name="top"/>
   <anchor x="572" y="658" name="topright"/>
   <outline>

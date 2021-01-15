@@ -7,7 +7,7 @@ taorya
 </note>
   <anchor x="338" y="0" name="bottom"/>
   <anchor x="592" y="0" name="bottom_ra"/>
-  <anchor x="347" y="658" name="ol"/>
+  <anchor x="347" y="708" name="ol"/>
   <anchor x="347" y="658" name="top"/>
   <anchor x="600" y="658" name="topright"/>
   <outline>

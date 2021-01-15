@@ -8,7 +8,7 @@ laorya
   <guideline x="449" y="291" angle="0"/>
   <anchor x="506" y="0" name="bottom"/>
   <anchor x="676" y="0" name="bottom_ra"/>
-  <anchor x="484" y="658" name="ol"/>
+  <anchor x="484" y="708" name="ol"/>
   <anchor x="484" y="658" name="top"/>
   <anchor x="780" y="658" name="topright"/>
   <outline>

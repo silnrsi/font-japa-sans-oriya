@@ -7,7 +7,7 @@ ngaorya
 </note>
   <anchor x="246" y="0" name="bottom"/>
   <anchor x="467" y="0" name="bottom_ra"/>
-  <anchor x="256" y="658" name="ol"/>
+  <anchor x="256" y="708" name="ol"/>
   <anchor x="256" y="658" name="top"/>
   <anchor x="417" y="658" name="topright"/>
   <outline>

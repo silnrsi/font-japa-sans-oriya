@@ -11,7 +11,7 @@ ddaorya
   <anchor x="342" y="0" name="bottom"/>
   <anchor x="722" y="0" name="bottom_ra"/>
   <anchor x="386" y="-120" name="nukta"/>
-  <anchor x="393" y="658" name="ol"/>
+  <anchor x="393" y="708" name="ol"/>
   <anchor x="393" y="658" name="top"/>
   <anchor x="617" y="658" name="topright"/>
   <outline>

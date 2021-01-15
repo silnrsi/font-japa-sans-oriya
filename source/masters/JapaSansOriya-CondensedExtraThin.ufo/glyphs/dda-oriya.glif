@@ -8,7 +8,7 @@ ddaorya
   <anchor x="246" y="0" name="bottom"/>
   <anchor x="450" y="0" name="bottom_ra"/>
   <anchor x="246" y="-90" name="nukta"/>
-  <anchor x="262" y="658" name="ol"/>
+  <anchor x="262" y="708" name="ol"/>
   <anchor x="262" y="658" name="top"/>
   <anchor x="448" y="658" name="topright"/>
   <outline>

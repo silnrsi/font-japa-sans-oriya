@@ -16,6 +16,7 @@ overline = font['overline-oriya']
 for anchor in overline.anchors:
     if anchor.name == '_top':
         anchor.name = '_ol'
+offset = 50
 
 for glyph in font:
     # vowels and matras (and a few consonants)
@@ -43,6 +44,12 @@ for glyph in font:
                 x = anchor.x
                 y = anchor.y
                 glyph.appendAnchor('ol', (x, y))
+
+    # move ol anchor up so that it is not at the same point as the anchor top
+    for anchor in glyph.anchors:
+        if anchor.name.endswith('ol'):
+            anchor.y += offset
+
 
 # Save UFO
 font.changed()

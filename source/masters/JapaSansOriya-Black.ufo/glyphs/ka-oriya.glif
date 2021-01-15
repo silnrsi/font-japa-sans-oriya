@@ -8,7 +8,7 @@ kaorya
   <anchor x="459" y="0" name="bottom"/>
   <anchor x="629" y="0" name="bottom_ra"/>
   <anchor x="629" y="10" name="bottom_ta"/>
-  <anchor x="398" y="658" name="ol"/>
+  <anchor x="398" y="708" name="ol"/>
   <anchor x="398" y="658" name="top"/>
   <anchor x="643" y="658" name="topright"/>
   <outline>
