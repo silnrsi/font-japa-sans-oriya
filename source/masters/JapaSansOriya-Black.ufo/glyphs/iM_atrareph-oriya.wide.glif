@@ -2,6 +2,7 @@
 <glyph name="iMatrareph-oriya.wide" format="2">
   <advance width="800"/>
   <anchor x="406" y="658" name="_top"/>
+  <anchor x="406" y="858" name="ol"/>
   <outline>
     <contour>
       <point x="60" y="796" type="curve"/>

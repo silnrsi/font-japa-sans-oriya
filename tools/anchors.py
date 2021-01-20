@@ -12,11 +12,12 @@ print(f'Add anchors for {ufo}')
 # Modify UFO
 
 # overline character
+offset = 50
 overline = font['overline-oriya']
 for anchor in overline.anchors:
     if anchor.name == '_top':
         anchor.name = '_ol'
-offset = 50
+        anchor.y += offset
 
 for glyph in font:
     # vowels and matras (and a few consonants)
@@ -30,12 +31,20 @@ for glyph in font:
         for anchor in glyph.anchors:
             if anchor.name == 'topright':
                 y = anchor.y
-                glyph.appendAnchor('ol', (xcenter, y))
+                glyph.appendAnchor('ol', (xcenter, y+offset))
 
     # glyphs that do not have a topright (or top) anchor to model on
     bare = ('eMatra-oriya', 'rrVocalic-oriya', 'llVocalic-oriya', 'rra-oriya', 'rha-oriya')
     if glyph.name in bare:
-        glyph.appendAnchor('ol', (xcenter, 658))
+        glyph.appendAnchor('ol', (xcenter, 658+offset))
+
+    # might need an overline on top of iMatras
+    if glyph.name.startswith('iMatra'):
+        for anchor in glyph.anchors:
+            if anchor.name == '_top':
+                x = anchor.x
+                y = anchor.y
+                glyph.appendAnchor('ol', (x, y+200))
 
     # consonants
     if glyph.unicode in Consonants:
@@ -43,13 +52,12 @@ for glyph in font:
             if anchor.name == 'top':
                 x = anchor.x
                 y = anchor.y
-                glyph.appendAnchor('ol', (x, y))
+                glyph.appendAnchor('ol', (x, y+offset))
 
     # move ol anchor up so that it is not at the same point as the anchor top
-    for anchor in glyph.anchors:
-        if anchor.name.endswith('ol'):
-            anchor.y += offset
-
+    # for anchor in glyph.anchors:
+    #     if anchor.name.endswith('ol'):
+    #         anchor.y += offset
 
 # Save UFO
 font.changed()

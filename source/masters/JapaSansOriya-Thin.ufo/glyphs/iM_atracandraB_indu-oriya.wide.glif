@@ -2,6 +2,7 @@
 <glyph name="iMatracandraBindu-oriya.wide" format="2">
   <advance width="800"/>
   <anchor x="281" y="658" name="_top"/>
+  <anchor x="281" y="858" name="ol"/>
   <outline>
     <component base="iMatra-oriya.wide" xOffset="-19"/>
     <component base="candraBindu-oriya" xOffset="243"/>

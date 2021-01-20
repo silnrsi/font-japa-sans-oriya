@@ -475,6 +475,7 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 
 # AP: ol
 @ol = [a-oriya aa-oriya aaMatra-oriya ba-oriya va-oriya bha-oriya ca-oriya pa-oriya pha-oriya ssa-oriya cha-oriya da-oriya dda-oriya ta-oriya ddha-oriya dha-oriya e-oriya eMatra-oriya ga-oriya gha-oriya ha-oriya sha-oriya i-oriya ii-oriya iiMatra-oriya ja-oriya jha-oriya ka-oriya wa-oriya kha-oriya lVocalic-oriya llVocalic-oriya la-oriya lla-oriya ma-oriya na-oriya nga-oriya nna-oriya ra-oriya nya-oriya o-oriya rVocalic-oriya rrVocalic-oriya rha-oriya rra-oriya sa-oriya tha-oriya tta-oriya ttha-oriya u-oriya uu-oriya ya-oriya yya-oriya];
+@ol_MarkBase = [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide iMatracandraBindu-oriya iMatracandraBindu-oriya.wide iMatrarephcandraBindu-oriya iMatrarephcandraBindu-oriya.wide];
 # baseClass a-oriya <anchor 314 708> @ol;
 # baseClass aa-oriya <anchor 421 708> @ol;
 # baseClass aaMatra-oriya <anchor 108 708> @ol;
@@ -515,6 +516,11 @@ markClass [rarVocalicMatra-oriya.below rarrVocalicMatra-oriya.below rauMatra-ori
 # baseClass u-oriya <anchor 388 708> @ol;
 # baseClass uu-oriya <anchor 392 708> @ol;
 # baseClass [ya-oriya yya-oriya] <anchor 347 708> @ol;
+# baseClass [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 858> @ol_MarkBase;
+# baseClass iMatracandraBindu-oriya <anchor 310 858> @ol_MarkBase;
+# baseClass iMatracandraBindu-oriya.wide <anchor 284 858> @ol_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya <anchor 331 858> @ol_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya.wide <anchor 219 858> @ol_MarkBase;
 
 # AP: _topright
 markClass aiLength-oriya <anchor 477 658> @_topright;
@@ -1466,6 +1472,50 @@ lookup AboveMarks {
     pos base [ya-oriya yya-oriya] <anchor 347 708> mark @_ol;
 } AboveMarks;
 
+lookup StackAboveMarks {
+    lookupflag 0;
+    pos mark a-oriya <anchor 314 708> mark @_ol;
+    pos mark aa-oriya <anchor 421 708> mark @_ol;
+    pos mark aaMatra-oriya <anchor 108 708> mark @_ol;
+    pos mark [ba-oriya va-oriya] <anchor 308 708> mark @_ol;
+    pos mark bha-oriya <anchor 389 708> mark @_ol;
+    pos mark [ca-oriya pa-oriya pha-oriya ssa-oriya] <anchor 291 708> mark @_ol;
+    pos mark cha-oriya <anchor 302 708> mark @_ol;
+    pos mark da-oriya <anchor 334 708> mark @_ol;
+    pos mark [dda-oriya ta-oriya] <anchor 323 708> mark @_ol;
+    pos mark ddha-oriya <anchor 322 708> mark @_ol;
+    pos mark dha-oriya <anchor 307 708> mark @_ol;
+    pos mark e-oriya <anchor 268 708> mark @_ol;
+    pos mark eMatra-oriya <anchor 236 708> mark @_ol;
+    pos mark ga-oriya <anchor 289 708> mark @_ol;
+    pos mark gha-oriya <anchor 284 708> mark @_ol;
+    pos mark [ha-oriya sha-oriya] <anchor 313 708> mark @_ol;
+    pos mark i-oriya <anchor 380 708> mark @_ol;
+    pos mark ii-oriya <anchor 372 708> mark @_ol;
+    pos mark iiMatra-oriya <anchor 117 708> mark @_ol;
+    pos mark ja-oriya <anchor 337 708> mark @_ol;
+    pos mark jha-oriya <anchor 305 708> mark @_ol;
+    pos mark [ka-oriya wa-oriya] <anchor 338 708> mark @_ol;
+    pos mark kha-oriya <anchor 312 708> mark @_ol;
+    pos mark [lVocalic-oriya llVocalic-oriya] <anchor 258 708> mark @_ol;
+    pos mark la-oriya <anchor 404 708> mark @_ol;
+    pos mark lla-oriya <anchor 359 708> mark @_ol;
+    pos mark ma-oriya <anchor 288 708> mark @_ol;
+    pos mark [na-oriya nga-oriya] <anchor 318 708> mark @_ol;
+    pos mark [nna-oriya ra-oriya] <anchor 324 708> mark @_ol;
+    pos mark nya-oriya <anchor 331 708> mark @_ol;
+    pos mark o-oriya <anchor 301 708> mark @_ol;
+    pos mark [rVocalic-oriya rrVocalic-oriya] <anchor 356 708> mark @_ol;
+    pos mark [rha-oriya rra-oriya] <anchor 326 708> mark @_ol;
+    pos mark sa-oriya <anchor 273 708> mark @_ol;
+    pos mark tha-oriya <anchor 226 708> mark @_ol;
+    pos mark tta-oriya <anchor 270 708> mark @_ol;
+    pos mark ttha-oriya <anchor 304 708> mark @_ol;
+    pos mark u-oriya <anchor 388 708> mark @_ol;
+    pos mark uu-oriya <anchor 392 708> mark @_ol;
+    pos mark [ya-oriya yya-oriya] <anchor 347 708> mark @_ol;
+} StackAboveMarks;
+
 lookup BelowMarks {
     lookupflag 0;
     pos base [A Aacute Acircumflex Adieresis Agrave Aring Atilde] <anchor 288 0> mark @_bottom;
@@ -1670,6 +1720,15 @@ feature blwm {
     language dflt;
     lookup BelowMarks;
 } blwm;
+
+feature mkmk {
+    script DFLT;
+    language dflt;
+    lookup StackAboveMarks;
+    script ory2;
+    language dflt;
+    lookup StackAboveMarks;
+} mkmk;
 
 table GDEF {
     GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
