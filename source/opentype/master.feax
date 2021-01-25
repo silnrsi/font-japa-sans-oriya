@@ -41,10 +41,12 @@ feature abvm {
     script DFLT;
         language dflt;
             lookup AboveMarks;
+            lookup StackAboveMarks;
 
     script ory2;
         language dflt;
             lookup AboveMarks;
+            lookup StackAboveMarks;
 } abvm;
 
 feature blwm {
@@ -57,15 +59,15 @@ feature blwm {
             lookup BelowMarks;
 } blwm;
 
-feature mkmk {
-    script DFLT;
-        language dflt;
-            lookup StackAboveMarks;
+# feature mkmk {
+#     script DFLT;
+#         language dflt;
+#             lookup StackAboveMarks;
 
-    script ory2;
-        language dflt;
-            lookup StackAboveMarks;
-} mkmk;
+#     script ory2;
+#         language dflt;
+#             lookup StackAboveMarks;
+# } mkmk;
 
 table GDEF {
     GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
