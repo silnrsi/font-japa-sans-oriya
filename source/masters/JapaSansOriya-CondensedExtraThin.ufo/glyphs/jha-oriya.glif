@@ -8,7 +8,6 @@ jhaorya
   <guideline x="467" y="742" angle="90"/>
   <anchor x="234" y="0" name="bottom"/>
   <anchor x="385" y="0" name="bottom_ra"/>
-  <anchor x="281" y="708" name="ol"/>
   <anchor x="281" y="658" name="top"/>
   <anchor x="437" y="658" name="topright"/>
   <outline>

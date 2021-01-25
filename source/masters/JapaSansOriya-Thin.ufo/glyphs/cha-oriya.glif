@@ -10,7 +10,6 @@ chaorya
   <guideline x="336" y="396" angle="90"/>
   <anchor x="489" y="0" name="bottom"/>
   <anchor x="563" y="0" name="bottom_ra"/>
-  <anchor x="334" y="708" name="ol"/>
   <anchor x="334" y="658" name="top"/>
   <anchor x="574" y="658" name="topright"/>
   <outline>

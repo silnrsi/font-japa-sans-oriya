@@ -9,7 +9,6 @@ daorya
   <guideline x="347" y="506" angle="90"/>
   <anchor x="459" y="0" name="bottom"/>
   <anchor x="565" y="0" name="bottom_ra"/>
-  <anchor x="350" y="708" name="ol"/>
   <anchor x="350" y="658" name="top"/>
   <anchor x="614" y="658" name="topright"/>
   <outline>

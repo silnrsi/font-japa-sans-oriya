@@ -8,7 +8,6 @@ dhaorya
   <guideline x="265" y="139" angle="0"/>
   <anchor x="434" y="0" name="bottom"/>
   <anchor x="581" y="0" name="bottom_ra"/>
-  <anchor x="307" y="708" name="ol"/>
   <anchor x="307" y="658" name="top"/>
   <anchor x="508" y="658" name="topright"/>
   <outline>

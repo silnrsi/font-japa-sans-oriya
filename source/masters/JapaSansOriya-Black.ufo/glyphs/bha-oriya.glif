@@ -10,7 +10,6 @@ bhaorya
   <guideline x="617" y="357" angle="0"/>
   <anchor x="363" y="0" name="bottom"/>
   <anchor x="766" y="0" name="bottom_ra"/>
-  <anchor x="454" y="708" name="ol"/>
   <anchor x="454" y="658" name="top"/>
   <anchor x="780" y="658" name="topright"/>
   <outline>

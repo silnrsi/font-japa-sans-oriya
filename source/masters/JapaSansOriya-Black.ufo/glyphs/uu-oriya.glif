@@ -6,7 +6,6 @@
 uuorya
 </note>
   <guideline x="596" y="-49" angle="0"/>
-  <anchor x="479" y="708" name="ol"/>
   <anchor x="479" y="658" name="top"/>
   <anchor x="676" y="658" name="topright"/>
   <outline>

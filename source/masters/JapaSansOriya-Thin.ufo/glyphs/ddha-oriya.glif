@@ -10,7 +10,6 @@ ddhaorya
   <anchor x="295" y="0" name="bottom"/>
   <anchor x="595" y="0" name="bottom_ra"/>
   <anchor x="342" y="-90" name="nukta"/>
-  <anchor x="356" y="708" name="ol"/>
   <anchor x="356" y="658" name="top"/>
   <anchor x="600" y="658" name="topright"/>
   <outline>

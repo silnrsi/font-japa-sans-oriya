@@ -12,12 +12,12 @@ print(f'Add anchors for {ufo}')
 # Modify UFO
 
 # overline character
-offset = 50
-overline = font['overline-oriya']
-for anchor in overline.anchors:
-    if anchor.name == '_ol':
-        anchor.name = '_top'
-        anchor.y -= offset
+# offset = 50
+# overline = font['overline-oriya']
+# for anchor in overline.anchors:
+#     if anchor.name == '_ol':
+#         anchor.name = '_top'
+#         anchor.y -= offset
 
 for glyph in font:
     # vowels and matras (and a few consonants)
@@ -58,6 +58,12 @@ for glyph in font:
     # for anchor in glyph.anchors:
     #     if anchor.name.endswith('ol'):
     #         anchor.y += offset
+
+    # remove ol anchor since we can use the anchor top
+    for anchor in glyph.anchors:
+        if anchor.name == 'ol':
+            glyph.removeAnchor(anchor)
+
 
 # Save UFO
 font.changed()

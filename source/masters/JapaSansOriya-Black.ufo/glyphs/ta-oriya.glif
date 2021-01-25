@@ -9,7 +9,6 @@ taorya
   <guideline x="600" y="136" angle="90"/>
   <anchor x="338" y="0" name="bottom"/>
   <anchor x="709" y="0" name="bottom_ra"/>
-  <anchor x="393" y="708" name="ol"/>
   <anchor x="393" y="658" name="top"/>
   <anchor x="617" y="658" name="topright"/>
   <outline>

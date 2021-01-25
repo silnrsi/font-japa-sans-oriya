@@ -9,7 +9,6 @@ naorya
   <anchor x="302" y="0" name="bottom"/>
   <anchor x="449" y="0" name="bottom_ra"/>
   <anchor x="449" y="10" name="bottom_ta"/>
-  <anchor x="318" y="708" name="ol"/>
   <anchor x="318" y="658" name="top"/>
   <anchor x="496" y="658" name="topright"/>
   <outline>
