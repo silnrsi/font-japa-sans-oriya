@@ -106,3 +106,7 @@ n = nukta = list(map(chr, Nukta))[0]
 o = overline = list(map(chr, Overline))[0]
 h = virama = list(map(chr, Virama))[0]
 digits = list(map(chr, Digits))
+
+ta = chr(0x0B24)
+ra = chr(0x0B30)
+sa = chr(0x0B38)

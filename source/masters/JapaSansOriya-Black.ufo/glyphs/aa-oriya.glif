@@ -6,6 +6,7 @@
 aaorya
 </note>
   <anchor x="516" y="708" name="ol"/>
+  <anchor x="516" y="658" name="top"/>
   <anchor x="929" y="658" name="topright"/>
   <outline>
     <component base="a-oriya"/>

@@ -35,4 +35,12 @@
       <string>\u0B2E\u0B47\u0B55\u0B23\u0B4D\u0B24 - \u0B2E\u0B47\u0B23\u0B4D\u0B24</string>
     </test>
   </testgroup>
+  <testgroup label="sub ra">
+    <test label="ta">
+      <string>\u0B24\u0B4D\u0B30\u0B3E\u0B55</string>
+    </test>
+    <test label="pa">
+      <string>\u0B2A\u0B4D\u0B30\u0B3E\u0B55</string>
+    </test>
+  </testgroup>
 </ftml>

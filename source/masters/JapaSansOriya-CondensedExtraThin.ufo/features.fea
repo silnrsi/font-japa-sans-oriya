@@ -135,8 +135,8 @@
 # baseClass [z zcaron] <anchor 129 0> @bottom;
 
 # AP: top
-@top = [A AE Aacute Acircumflex Agrave Adieresis Aring Atilde B C Ccedilla D E Eacute Ecircumflex Egrave Edieresis Eth F G H U I Iacute Icircumflex Igrave Idieresis J K L M N Ntilde O Q OE Oacute Ocircumflex Ograve Odieresis Omega Oslash Otilde P R S Scaron T Thorn Uacute Ucircumflex Ugrave Udieresis V W X Y Yacute Ydieresis Z Zcaron a aacute acircumflex agrave adieresis ae m aring atilde b ba-oriya bara-oriya nna-oriya.base nnaddahalant-oriya nnaddara-oriya nnaddha-oriya nnanna-oriya nnattahalant-oriya nnattha-oriya va-oriya vara-oriya ba-oriya.base baja-oriya ha-oriya.base haja-oriya haka-oriya hala-oriya halla-oriya hama-oriya hana-oriya hau-oriya hauu-oriya hava-oriya va-oriya.base baba-oriya bada-oriya caca-oriya cacha-oriya ja-oriya jara-oriya ka-oriya kara-oriya lla-oriya llara-oriya nna-oriya nnara-oriya bha-oriya bhara-oriya bha-oriya.base kata-oriya katara-oriya c ccedilla ca-oriya cara-oriya na-oriya nara-oriya ta-oriya tara-oriya tava-oriya ca-oriya.base dda-oriya.base ddha-oriya.base ma-oriya.base maba-oriya mabhara-oriya pa-oriya.base palla-oriya papa-oriya pasa-oriya pha-oriya.base rhara-oriya rrara-oriya sha-oriya.base shacha-oriya shalla-oriya shava-oriya ssa-oriya.base ssakara-oriya ssanna-oriya ssapa-oriya ssattahalant-oriya ssattara-oriya tapara-oriya cha-oriya chara-oriya wa-oriya wara-oriya cha-oriya.base na-oriya.base nana-oriya nata-oriya natara-oriya natauMatra-oriya natava-oriya natha-oriya d da-oriya dara-oriya dava-oriya da-oriya.base darauMatra-oriya dabha-oriya dada-oriya dadha-oriya dadhava-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya ddha-oriya ddhara-oriya dha-oriya dhara-oriya dha-oriya.base dhava-oriya dhaya-oriya dhayya-oriya dotlessi e eacute ecircumflex egrave edieresis eth f florin g ga-oriya gara-oriya pa-oriya para-oriya pata-oriya pha-oriya phara-oriya ssa-oriya ssaka-oriya ssara-oriya ssatta-oriya ssattha-oriya ga-oriya.base gadha-oriya galla-oriya gana-oriya tha-oriya.base germandbls gha-oriya ghara-oriya ha-oriya hara-oriya ngagha-oriya nnadda-oriya gha-oriya.base ghana-oriya glottalstop glottalstopsmall h k l i j iacute icircumflex igrave idieresis ja-oriya.base jaja-oriya jajava-oriya java-oriya ka-oriya.base kasa-oriya kataraalt-oriya kava-oriya lla-oriya.base llapa-oriya llapha-oriya ra-oriya.base takara-oriya janya-oriya nya-oriya.base nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya ta-oriya.base tatha-oriya jha-oriya jhara-oriya kha-oriya khara-oriya jha-oriya.base kassa-oriya kassara-oriya kha-oriya.base ngaka-oriya ngakata-oriya ya-oriya yara-oriya yya-oriya yyara-oriya kassa-oriya.base kassama-oriya ya-oriya.base la-oriya lara-oriya la-oriya.base laga-oriya lama-oriya lapa-oriya lapha-oriya nga-oriya ngara-oriya ma-oriya mabha-oriya mara-oriya mama-oriya mapa-oriya mapara-oriya mapha-oriya n u nada-oriya nadara-oriya nadava-oriya nadha-oriya nadhara-oriya nadhava-oriya nga-oriya.base ngaga-oriya ngakha-oriya ntilde o oacute ocircumflex ograve odieresis oe ordfeminine ordmasculine oslash otilde p pi q r ra-oriya s sa-oriya saka-oriya sara-oriya sata-oriya sava-oriya tasa-oriya sa-oriya.base sakha-oriya sama-oriya sana-oriya sapa-oriya saparVocalicMatra-oriya sapha-oriya satara-oriya satha-oriya tasana-oriya scaron sha-oriya shara-oriya t tata-oriya tatara-oriya tatava-oriya tha-oriya thara-oriya thorn tta-oriya ttara-oriya tta-oriya.base ttha-oriya tthara-oriya ttha-oriya.base uacute ucircumflex ugrave udieresis v w wa-oriya.base x y yacute ydieresis z zcaron];
-@top_MarkBase = [ssapha-oriya];
+@top = [A AE Aacute Acircumflex Agrave Adieresis Aring Atilde B C Ccedilla D E Eacute Ecircumflex Egrave Edieresis Eth F G H U I Iacute Icircumflex Igrave Idieresis J K L M N Ntilde O Q OE Oacute Ocircumflex Ograve Odieresis Omega Oslash Otilde P R S Scaron T Thorn Uacute Ucircumflex Ugrave Udieresis V W X Y Yacute Ydieresis Z Zcaron a a-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya aa-oriya aaMatra-oriya aacute acircumflex agrave adieresis ae m aring atilde b ba-oriya bara-oriya nna-oriya.base nnaddahalant-oriya nnaddara-oriya nnaddha-oriya nnanna-oriya nnattahalant-oriya nnattha-oriya va-oriya vara-oriya ba-oriya.base baja-oriya ha-oriya.base haja-oriya haka-oriya hala-oriya halla-oriya hama-oriya hana-oriya hau-oriya hauu-oriya hava-oriya va-oriya.base baba-oriya bada-oriya caca-oriya cacha-oriya ja-oriya jara-oriya ka-oriya kara-oriya lla-oriya llara-oriya nna-oriya nnara-oriya bha-oriya bhara-oriya bha-oriya.base kata-oriya katara-oriya c ccedilla ca-oriya cara-oriya na-oriya nara-oriya ta-oriya tara-oriya tava-oriya ca-oriya.base dda-oriya.base ddha-oriya.base ma-oriya.base maba-oriya mabhara-oriya pa-oriya.base palla-oriya papa-oriya pasa-oriya pha-oriya.base rhara-oriya rrara-oriya sha-oriya.base shacha-oriya shalla-oriya shava-oriya ssa-oriya.base ssakara-oriya ssanna-oriya ssapa-oriya ssattahalant-oriya ssattara-oriya tapara-oriya cha-oriya chara-oriya wa-oriya wara-oriya cha-oriya.base na-oriya.base nana-oriya nata-oriya natara-oriya natauMatra-oriya natava-oriya natha-oriya d da-oriya dara-oriya dava-oriya da-oriya.base darauMatra-oriya dabha-oriya dada-oriya dadha-oriya dadhava-oriya ddha-oriya ddhara-oriya dha-oriya dhara-oriya dha-oriya.base dhava-oriya dhaya-oriya dhayya-oriya dotlessi e e-oriya eMatra-oriya eacute ecircumflex egrave edieresis eth f florin g ga-oriya gara-oriya pa-oriya para-oriya pata-oriya pha-oriya phara-oriya ssa-oriya ssaka-oriya ssara-oriya ssatta-oriya ssattha-oriya ga-oriya.base gadha-oriya galla-oriya gana-oriya tha-oriya.base germandbls gha-oriya ghara-oriya ha-oriya hara-oriya ngagha-oriya nnadda-oriya gha-oriya.base ghana-oriya glottalstop glottalstopsmall h k l i j i-oriya ii-oriya iacute icircumflex igrave idieresis iiMatra-oriya ja-oriya.base jaja-oriya jajava-oriya java-oriya ka-oriya.base kasa-oriya kataraalt-oriya kava-oriya lla-oriya.base llapa-oriya llapha-oriya ra-oriya.base takara-oriya janya-oriya nya-oriya.base nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya ta-oriya.base tatha-oriya jha-oriya jhara-oriya kha-oriya khara-oriya jha-oriya.base kassa-oriya kassara-oriya kha-oriya.base ngaka-oriya ngakata-oriya ya-oriya yara-oriya yya-oriya yyara-oriya kassa-oriya.base kassama-oriya ya-oriya.base lVocalic-oriya llVocalic-oriya la-oriya lara-oriya la-oriya.base laga-oriya lama-oriya lapa-oriya lapha-oriya nga-oriya ngara-oriya ma-oriya mabha-oriya mara-oriya mama-oriya mapa-oriya mapara-oriya mapha-oriya n u nada-oriya nadara-oriya nadava-oriya nadha-oriya nadhara-oriya nadhava-oriya nga-oriya.base ngaga-oriya ngakha-oriya ntilde o o-oriya oacute ocircumflex ograve odieresis oe ordfeminine ordmasculine oslash otilde p pi q r rVocalic-oriya rrVocalic-oriya ra-oriya rha-oriya rra-oriya s sa-oriya saka-oriya sara-oriya sata-oriya sava-oriya tasa-oriya sa-oriya.base sakha-oriya sama-oriya sana-oriya sapa-oriya saparVocalicMatra-oriya sapha-oriya satara-oriya satha-oriya tasana-oriya scaron sha-oriya shara-oriya t tata-oriya tatara-oriya tatava-oriya uu-oriya tha-oriya thara-oriya thorn tta-oriya ttara-oriya tta-oriya.base ttha-oriya tthara-oriya u-oriya ttha-oriya.base uacute ucircumflex ugrave udieresis v w wa-oriya.base x y yacute ydieresis z zcaron];
+@top_MarkBase = [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide iMatracandraBindu-oriya iMatracandraBindu-oriya.wide iMatrarephcandraBindu-oriya iMatrarephcandraBindu-oriya.wide ssapha-oriya];
 # baseClass A <anchor 189 714> @top;
 # baseClass AE <anchor 285 714> @top;
 # baseClass [Aacute Acircumflex Agrave] <anchor 189 931> @top;
@@ -186,6 +186,9 @@
 # baseClass Z <anchor 162 714> @top;
 # baseClass Zcaron <anchor 162 950> @top;
 # baseClass a <anchor 183 527> @top;
+# baseClass [a-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> @top;
+# baseClass aa-oriya <anchor 326 658> @top;
+# baseClass aaMatra-oriya <anchor 65 658> @top;
 # baseClass [aacute acircumflex agrave] <anchor 183 763> @top;
 # baseClass adieresis <anchor 183 696> @top;
 # baseClass [ae m] <anchor 304 527> @top;
@@ -207,13 +210,14 @@
 # baseClass [da-oriya.base darauMatra-oriya] <anchor 250 658> @top;
 # baseClass dabha-oriya <anchor 305 658> @top;
 # baseClass [dada-oriya dadha-oriya dadhava-oriya] <anchor 278 658> @top;
-# baseClass [dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> @top;
 # baseClass [ddha-oriya ddhara-oriya] <anchor 275 658> @top;
 # baseClass [dha-oriya dhara-oriya] <anchor 249 658> @top;
 # baseClass [dha-oriya.base dhava-oriya dhaya-oriya] <anchor 226 658> @top;
 # baseClass dhayya-oriya <anchor 235 658> @top;
 # baseClass dotlessi <anchor 83 527> @top;
 # baseClass e <anchor 190 527> @top;
+# baseClass e-oriya <anchor 212 658> @top;
+# baseClass eMatra-oriya <anchor 190 658> @top;
 # baseClass [eacute ecircumflex egrave] <anchor 190 763> @top;
 # baseClass edieresis <anchor 190 696> @top;
 # baseClass eth <anchor 200 758> @top;
@@ -229,13 +233,16 @@
 # baseClass glottalstopsmall <anchor 138 527> @top;
 # baseClass [h k l] <anchor 84 760> @top;
 # baseClass [i j] <anchor 89 724> @top;
+# baseClass [i-oriya ii-oriya] <anchor 294 658> @top;
 # baseClass [iacute icircumflex igrave] <anchor 83 763> @top;
 # baseClass idieresis <anchor 83 696> @top;
+# baseClass iiMatra-oriya <anchor 66 658> @top;
 # baseClass [ja-oriya.base jaja-oriya jajava-oriya java-oriya ka-oriya.base kasa-oriya kataraalt-oriya kava-oriya lla-oriya.base llapa-oriya llapha-oriya ra-oriya.base takara-oriya] <anchor 251 658> @top;
 # baseClass [janya-oriya nya-oriya.base nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya ta-oriya.base tatha-oriya] <anchor 241 658> @top;
 # baseClass [jha-oriya jhara-oriya kha-oriya khara-oriya] <anchor 281 658> @top;
 # baseClass [jha-oriya.base kassa-oriya kassara-oriya kha-oriya.base ngaka-oriya ngakata-oriya ya-oriya yara-oriya yya-oriya yyara-oriya] <anchor 266 658> @top;
 # baseClass [kassa-oriya.base kassama-oriya ya-oriya.base] <anchor 247 658> @top;
+# baseClass [lVocalic-oriya llVocalic-oriya] <anchor 222 658> @top;
 # baseClass [la-oriya lara-oriya] <anchor 295 658> @top;
 # baseClass [la-oriya.base laga-oriya lama-oriya lapa-oriya lapha-oriya nga-oriya ngara-oriya] <anchor 256 658> @top;
 # baseClass [ma-oriya mabha-oriya mara-oriya] <anchor 248 658> @top;
@@ -248,6 +255,7 @@
 # baseClass ngakha-oriya <anchor 317 658> @top;
 # baseClass ntilde <anchor 204 716> @top;
 # baseClass o <anchor 202 527> @top;
+# baseClass o-oriya <anchor 241 666> @top;
 # baseClass [oacute ocircumflex ograve] <anchor 202 763> @top;
 # baseClass odieresis <anchor 202 696> @top;
 # baseClass oe <anchor 341 527> @top;
@@ -259,19 +267,21 @@
 # baseClass pi <anchor 205 527> @top;
 # baseClass q <anchor 211 527> @top;
 # baseClass r <anchor 131 527> @top;
+# baseClass [rVocalic-oriya rrVocalic-oriya] <anchor 288 658> @top;
 # baseClass ra-oriya <anchor 263 658> @top;
+# baseClass [rha-oriya rra-oriya] <anchor 260 658> @top;
 # baseClass s <anchor 156 527> @top;
 # baseClass [sa-oriya saka-oriya sara-oriya sata-oriya sava-oriya tasa-oriya] <anchor 230 658> @top;
 # baseClass [sa-oriya.base sakha-oriya sama-oriya sana-oriya sapa-oriya saparVocalicMatra-oriya sapha-oriya satara-oriya satha-oriya tasana-oriya] <anchor 236 658> @top;
 # baseClass scaron <anchor 156 763> @top;
 # baseClass [sha-oriya shara-oriya] <anchor 268 658> @top;
 # baseClass t <anchor 85 656> @top;
-# baseClass [tata-oriya tatara-oriya tatava-oriya] <anchor 291 658> @top;
+# baseClass [tata-oriya tatara-oriya tatava-oriya uu-oriya] <anchor 291 658> @top;
 # baseClass [tha-oriya thara-oriya] <anchor 216 658> @top;
 # baseClass thorn <anchor 212 760> @top;
 # baseClass [tta-oriya ttara-oriya] <anchor 229 658> @top;
 # baseClass tta-oriya.base <anchor 218 658> @top;
-# baseClass [ttha-oriya tthara-oriya] <anchor 276 658> @top;
+# baseClass [ttha-oriya tthara-oriya u-oriya] <anchor 276 658> @top;
 # baseClass ttha-oriya.base <anchor 257 658> @top;
 # baseClass [uacute ucircumflex ugrave] <anchor 204 763> @top;
 # baseClass udieresis <anchor 204 696> @top;
@@ -284,6 +294,11 @@
 # baseClass ydieresis <anchor 158 696> @top;
 # baseClass z <anchor 129 527> @top;
 # baseClass zcaron <anchor 129 763> @top;
+# baseClass [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 808> @top_MarkBase;
+# baseClass iMatracandraBindu-oriya <anchor 229 808> @top_MarkBase;
+# baseClass iMatracandraBindu-oriya.wide <anchor 312 808> @top_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya <anchor 281 808> @top_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya.wide <anchor 262 808> @top_MarkBase;
 # baseClass ssapha-oriya <anchor 239 658> @top_MarkBase;
 
 # AP: topright
@@ -612,6 +627,7 @@ markClass iMatracandraBindu-oriya <anchor 229 658> @_top;
 markClass iMatracandraBindu-oriya.wide <anchor 312 658> @_top;
 markClass iMatrarephcandraBindu-oriya <anchor 281 658> @_top;
 markClass iMatrarephcandraBindu-oriya.wide <anchor 262 658> @_top;
+markClass overline-oriya <anchor -10 527> @_top;
 
 # AP: bottom_ta
 @bottom_ta = [ka-oriya ka-oriya.base ma-oriya pa-oriya ma-oriya.base pa-oriya.base na-oriya na-oriya.base];
@@ -624,9 +640,6 @@ markClass iMatrarephcandraBindu-oriya.wide <anchor 262 658> @_top;
 
 # AP: _nukta
 markClass nukta-oriya <anchor 300 -105> @_nukta;
-
-# AP: _ol
-markClass overline-oriya <anchor -10 577> @_ol;
 
 # AP: _bottom_ta
 markClass taalt-oriya.below <anchor 138 10> @_bottom_ta;
@@ -1165,6 +1178,9 @@ lookup AboveMarks {
     pos base Z <anchor 162 714> mark @_top;
     pos base Zcaron <anchor 162 950> mark @_top;
     pos base a <anchor 183 527> mark @_top;
+    pos base [a-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> mark @_top;
+    pos base aa-oriya <anchor 326 658> mark @_top;
+    pos base aaMatra-oriya <anchor 65 658> mark @_top;
     pos base [aacute acircumflex agrave] <anchor 183 763> mark @_top;
     pos base adieresis <anchor 183 696> mark @_top;
     pos base [ae m] <anchor 304 527> mark @_top;
@@ -1186,13 +1202,14 @@ lookup AboveMarks {
     pos base [da-oriya.base darauMatra-oriya] <anchor 250 658> mark @_top;
     pos base dabha-oriya <anchor 305 658> mark @_top;
     pos base [dada-oriya dadha-oriya dadhava-oriya] <anchor 278 658> mark @_top;
-    pos base [dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> mark @_top;
     pos base [ddha-oriya ddhara-oriya] <anchor 275 658> mark @_top;
     pos base [dha-oriya dhara-oriya] <anchor 249 658> mark @_top;
     pos base [dha-oriya.base dhava-oriya dhaya-oriya] <anchor 226 658> mark @_top;
     pos base dhayya-oriya <anchor 235 658> mark @_top;
     pos base dotlessi <anchor 83 527> mark @_top;
     pos base e <anchor 190 527> mark @_top;
+    pos base e-oriya <anchor 212 658> mark @_top;
+    pos base eMatra-oriya <anchor 190 658> mark @_top;
     pos base [eacute ecircumflex egrave] <anchor 190 763> mark @_top;
     pos base edieresis <anchor 190 696> mark @_top;
     pos base eth <anchor 200 758> mark @_top;
@@ -1208,13 +1225,16 @@ lookup AboveMarks {
     pos base glottalstopsmall <anchor 138 527> mark @_top;
     pos base [h k l] <anchor 84 760> mark @_top;
     pos base [i j] <anchor 89 724> mark @_top;
+    pos base [i-oriya ii-oriya] <anchor 294 658> mark @_top;
     pos base [iacute icircumflex igrave] <anchor 83 763> mark @_top;
     pos base idieresis <anchor 83 696> mark @_top;
+    pos base iiMatra-oriya <anchor 66 658> mark @_top;
     pos base [ja-oriya.base jaja-oriya jajava-oriya java-oriya ka-oriya.base kasa-oriya kataraalt-oriya kava-oriya lla-oriya.base llapa-oriya llapha-oriya ra-oriya.base takara-oriya] <anchor 251 658> mark @_top;
     pos base [janya-oriya nya-oriya.base nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya ta-oriya.base tatha-oriya] <anchor 241 658> mark @_top;
     pos base [jha-oriya jhara-oriya kha-oriya khara-oriya] <anchor 281 658> mark @_top;
     pos base [jha-oriya.base kassa-oriya kassara-oriya kha-oriya.base ngaka-oriya ngakata-oriya ya-oriya yara-oriya yya-oriya yyara-oriya] <anchor 266 658> mark @_top;
     pos base [kassa-oriya.base kassama-oriya ya-oriya.base] <anchor 247 658> mark @_top;
+    pos base [lVocalic-oriya llVocalic-oriya] <anchor 222 658> mark @_top;
     pos base [la-oriya lara-oriya] <anchor 295 658> mark @_top;
     pos base [la-oriya.base laga-oriya lama-oriya lapa-oriya lapha-oriya nga-oriya ngara-oriya] <anchor 256 658> mark @_top;
     pos base [ma-oriya mabha-oriya mara-oriya] <anchor 248 658> mark @_top;
@@ -1227,6 +1247,7 @@ lookup AboveMarks {
     pos base ngakha-oriya <anchor 317 658> mark @_top;
     pos base ntilde <anchor 204 716> mark @_top;
     pos base o <anchor 202 527> mark @_top;
+    pos base o-oriya <anchor 241 666> mark @_top;
     pos base [oacute ocircumflex ograve] <anchor 202 763> mark @_top;
     pos base odieresis <anchor 202 696> mark @_top;
     pos base oe <anchor 341 527> mark @_top;
@@ -1238,19 +1259,21 @@ lookup AboveMarks {
     pos base pi <anchor 205 527> mark @_top;
     pos base q <anchor 211 527> mark @_top;
     pos base r <anchor 131 527> mark @_top;
+    pos base [rVocalic-oriya rrVocalic-oriya] <anchor 288 658> mark @_top;
     pos base ra-oriya <anchor 263 658> mark @_top;
+    pos base [rha-oriya rra-oriya] <anchor 260 658> mark @_top;
     pos base s <anchor 156 527> mark @_top;
     pos base [sa-oriya saka-oriya sara-oriya sata-oriya sava-oriya tasa-oriya] <anchor 230 658> mark @_top;
     pos base [sa-oriya.base sakha-oriya sama-oriya sana-oriya sapa-oriya saparVocalicMatra-oriya sapha-oriya satara-oriya satha-oriya tasana-oriya] <anchor 236 658> mark @_top;
     pos base scaron <anchor 156 763> mark @_top;
     pos base [sha-oriya shara-oriya] <anchor 268 658> mark @_top;
     pos base t <anchor 85 656> mark @_top;
-    pos base [tata-oriya tatara-oriya tatava-oriya] <anchor 291 658> mark @_top;
+    pos base [tata-oriya tatara-oriya tatava-oriya uu-oriya] <anchor 291 658> mark @_top;
     pos base [tha-oriya thara-oriya] <anchor 216 658> mark @_top;
     pos base thorn <anchor 212 760> mark @_top;
     pos base [tta-oriya ttara-oriya] <anchor 229 658> mark @_top;
     pos base tta-oriya.base <anchor 218 658> mark @_top;
-    pos base [ttha-oriya tthara-oriya] <anchor 276 658> mark @_top;
+    pos base [ttha-oriya tthara-oriya u-oriya] <anchor 276 658> mark @_top;
     pos base ttha-oriya.base <anchor 257 658> mark @_top;
     pos base [uacute ucircumflex ugrave] <anchor 204 763> mark @_top;
     pos base udieresis <anchor 204 696> mark @_top;
@@ -1368,76 +1391,17 @@ lookup AboveMarks {
     pos base x <anchor 294 527> mark @_topright;
     pos base y <anchor 296 527> mark @_topright;
     pos base z <anchor 238 527> mark @_topright;
-    pos base [a-oriya dda-oriya nya-oriya] <anchor 262 708> mark @_ol;
-    pos base aa-oriya <anchor 326 708> mark @_ol;
-    pos base aaMatra-oriya <anchor 65 708> mark @_ol;
-    pos base [ba-oriya va-oriya] <anchor 252 708> mark @_ol;
-    pos base bha-oriya <anchor 285 708> mark @_ol;
-    pos base [ca-oriya na-oriya ta-oriya] <anchor 259 708> mark @_ol;
-    pos base [cha-oriya wa-oriya] <anchor 258 708> mark @_ol;
-    pos base da-oriya <anchor 273 708> mark @_ol;
-    pos base ddha-oriya <anchor 275 708> mark @_ol;
-    pos base dha-oriya <anchor 249 708> mark @_ol;
-    pos base e-oriya <anchor 212 708> mark @_ol;
-    pos base eMatra-oriya <anchor 190 708> mark @_ol;
-    pos base [ga-oriya pa-oriya pha-oriya ssa-oriya] <anchor 253 708> mark @_ol;
-    pos base [gha-oriya ha-oriya] <anchor 254 708> mark @_ol;
-    pos base [i-oriya ii-oriya] <anchor 294 708> mark @_ol;
-    pos base iiMatra-oriya <anchor 66 708> mark @_ol;
-    pos base [ja-oriya ka-oriya lla-oriya nna-oriya] <anchor 274 708> mark @_ol;
-    pos base [jha-oriya kha-oriya] <anchor 281 708> mark @_ol;
-    pos base [lVocalic-oriya llVocalic-oriya] <anchor 222 708> mark @_ol;
-    pos base la-oriya <anchor 295 708> mark @_ol;
-    pos base ma-oriya <anchor 248 708> mark @_ol;
-    pos base nga-oriya <anchor 256 708> mark @_ol;
-    pos base o-oriya <anchor 241 716> mark @_ol;
-    pos base [rVocalic-oriya rrVocalic-oriya] <anchor 288 708> mark @_ol;
-    pos base ra-oriya <anchor 263 708> mark @_ol;
-    pos base [rha-oriya rra-oriya] <anchor 260 708> mark @_ol;
-    pos base sa-oriya <anchor 230 708> mark @_ol;
-    pos base sha-oriya <anchor 268 708> mark @_ol;
-    pos base tha-oriya <anchor 216 708> mark @_ol;
-    pos base tta-oriya <anchor 229 708> mark @_ol;
-    pos base [ttha-oriya u-oriya] <anchor 276 708> mark @_ol;
-    pos base uu-oriya <anchor 291 708> mark @_ol;
-    pos base [ya-oriya yya-oriya] <anchor 266 708> mark @_ol;
+    # pos base @ol mark @_ol;
 } AboveMarks;
 
 lookup StackAboveMarks {
     lookupflag 0;
-    pos mark [a-oriya dda-oriya nya-oriya] <anchor 262 708> mark @_ol;
-    pos mark aa-oriya <anchor 326 708> mark @_ol;
-    pos mark aaMatra-oriya <anchor 65 708> mark @_ol;
-    pos mark [ba-oriya va-oriya] <anchor 252 708> mark @_ol;
-    pos mark bha-oriya <anchor 285 708> mark @_ol;
-    pos mark [ca-oriya na-oriya ta-oriya] <anchor 259 708> mark @_ol;
-    pos mark [cha-oriya wa-oriya] <anchor 258 708> mark @_ol;
-    pos mark da-oriya <anchor 273 708> mark @_ol;
-    pos mark ddha-oriya <anchor 275 708> mark @_ol;
-    pos mark dha-oriya <anchor 249 708> mark @_ol;
-    pos mark e-oriya <anchor 212 708> mark @_ol;
-    pos mark eMatra-oriya <anchor 190 708> mark @_ol;
-    pos mark [ga-oriya pa-oriya pha-oriya ssa-oriya] <anchor 253 708> mark @_ol;
-    pos mark [gha-oriya ha-oriya] <anchor 254 708> mark @_ol;
-    pos mark [i-oriya ii-oriya] <anchor 294 708> mark @_ol;
-    pos mark iiMatra-oriya <anchor 66 708> mark @_ol;
-    pos mark [ja-oriya ka-oriya lla-oriya nna-oriya] <anchor 274 708> mark @_ol;
-    pos mark [jha-oriya kha-oriya] <anchor 281 708> mark @_ol;
-    pos mark [lVocalic-oriya llVocalic-oriya] <anchor 222 708> mark @_ol;
-    pos mark la-oriya <anchor 295 708> mark @_ol;
-    pos mark ma-oriya <anchor 248 708> mark @_ol;
-    pos mark nga-oriya <anchor 256 708> mark @_ol;
-    pos mark o-oriya <anchor 241 716> mark @_ol;
-    pos mark [rVocalic-oriya rrVocalic-oriya] <anchor 288 708> mark @_ol;
-    pos mark ra-oriya <anchor 263 708> mark @_ol;
-    pos mark [rha-oriya rra-oriya] <anchor 260 708> mark @_ol;
-    pos mark sa-oriya <anchor 230 708> mark @_ol;
-    pos mark sha-oriya <anchor 268 708> mark @_ol;
-    pos mark tha-oriya <anchor 216 708> mark @_ol;
-    pos mark tta-oriya <anchor 229 708> mark @_ol;
-    pos mark [ttha-oriya u-oriya] <anchor 276 708> mark @_ol;
-    pos mark uu-oriya <anchor 291 708> mark @_ol;
-    pos mark [ya-oriya yya-oriya] <anchor 266 708> mark @_ol;
+    pos mark [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 808> mark @_top;
+    pos mark iMatracandraBindu-oriya <anchor 229 808> mark @_top;
+    pos mark iMatracandraBindu-oriya.wide <anchor 312 808> mark @_top;
+    pos mark iMatrarephcandraBindu-oriya <anchor 281 808> mark @_top;
+    pos mark iMatrarephcandraBindu-oriya.wide <anchor 262 808> mark @_top;
+    pos mark ssapha-oriya <anchor 239 658> mark @_top;
 } StackAboveMarks;
 
 lookup BelowMarks {

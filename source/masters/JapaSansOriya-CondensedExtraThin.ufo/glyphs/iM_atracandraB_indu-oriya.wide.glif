@@ -3,6 +3,7 @@
   <advance width="800"/>
   <anchor x="312" y="658" name="_top"/>
   <anchor x="312" y="858" name="ol"/>
+  <anchor x="312" y="808" name="top"/>
   <outline>
     <component base="iMatra-oriya.wide" xOffset="12"/>
     <component base="candraBindu-oriya" xOffset="289"/>

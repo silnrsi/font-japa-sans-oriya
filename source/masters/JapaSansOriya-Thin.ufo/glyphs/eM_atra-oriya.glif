@@ -6,6 +6,7 @@
 evowelsignorya
 </note>
   <anchor x="250" y="708" name="ol"/>
+  <anchor x="250" y="658" name="top"/>
   <outline>
     <contour>
       <point x="52" y="330" type="curve"/>

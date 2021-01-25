@@ -3,6 +3,7 @@
   <advance width="800"/>
   <anchor x="262" y="658" name="_top"/>
   <anchor x="262" y="858" name="ol"/>
+  <anchor x="262" y="808" name="top"/>
   <outline>
     <component base="candraBindu-oriya" xOffset="360"/>
     <component base="iMatrareph-oriya.wide" xOffset="-42"/>

@@ -6,6 +6,7 @@
 llvocalicorya
 </note>
   <anchor x="312" y="708" name="ol"/>
+  <anchor x="312" y="658" name="top"/>
   <outline>
     <contour>
       <point x="459" y="-174" type="curve"/>

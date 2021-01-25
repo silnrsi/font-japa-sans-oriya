@@ -8,12 +8,12 @@ lookup AboveMarks {
   lookupflag 0;
     pos base @top mark @_top;
     pos base @topright mark @_topright;
-    pos base @ol mark @_ol;
+    # pos base @ol mark @_ol;
 } AboveMarks;
 
 lookup StackAboveMarks {
   lookupflag 0;
-    pos mark @ol_MarkBase mark @_ol;
+    pos mark @top_MarkBase mark @_top;
 } StackAboveMarks;
 
 lookup BelowMarks {
