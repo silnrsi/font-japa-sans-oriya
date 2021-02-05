@@ -43,10 +43,4 @@ uvowelsignorya
       <point x="232" y="-222"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>800</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -3,14 +3,4 @@
   <advance width="1000"/>
   <unicode hex="2003"/>
   <outline/>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Separator</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Space</string>
-    </dict>
-  </lib>
 </glyph>

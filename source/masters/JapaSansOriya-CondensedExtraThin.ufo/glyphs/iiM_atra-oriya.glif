@@ -19,10 +19,4 @@ iivowelsignorya
       <point x="115" y="0" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>aaMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

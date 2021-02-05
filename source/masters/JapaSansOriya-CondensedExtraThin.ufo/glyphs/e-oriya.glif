@@ -44,10 +44,4 @@ eorya
       <point x="234" y="423"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>aaMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

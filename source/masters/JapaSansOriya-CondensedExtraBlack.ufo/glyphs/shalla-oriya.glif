@@ -134,12 +134,4 @@ shallaorya
       <point x="560" y="20"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>lla-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

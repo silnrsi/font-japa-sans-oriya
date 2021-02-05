@@ -39,10 +39,4 @@ candrabinduorya
       <point x="385" y="816"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>800</integer>
-    </dict>
-  </lib>
 </glyph>

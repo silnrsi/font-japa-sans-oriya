@@ -72,10 +72,4 @@ ttaorya
       <point x="301" y="17"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>aaMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

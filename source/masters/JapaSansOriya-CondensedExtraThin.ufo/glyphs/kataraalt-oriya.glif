@@ -130,12 +130,4 @@
       <point x="279" y="-162"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ka-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ka-oriya</string>
-    </dict>
-  </lib>
 </glyph>

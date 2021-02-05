@@ -10,12 +10,4 @@ auvowelsignorya
     <component base="auLength-oriya" xOffset="1066"/>
     <component base="dottedCircle" xOffset="430"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>eMatra-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>auLength-oriya</string>
-    </dict>
-  </lib>
 </glyph>

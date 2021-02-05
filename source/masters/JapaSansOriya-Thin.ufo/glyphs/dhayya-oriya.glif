@@ -70,12 +70,4 @@ dhayapostorya
       <point x="105" y="198"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>dha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>aaMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

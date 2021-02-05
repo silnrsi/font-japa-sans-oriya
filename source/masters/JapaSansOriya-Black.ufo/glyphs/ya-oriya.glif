@@ -84,10 +84,4 @@ yaorya
       <point x="657" y="161" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>aaMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

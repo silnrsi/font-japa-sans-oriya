@@ -118,10 +118,4 @@ huuorya
       <point x="459" y="372"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

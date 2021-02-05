@@ -24,10 +24,4 @@ ivowelsignorya
       <point x="86" y="866"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
-    </dict>
-  </lib>
 </glyph>

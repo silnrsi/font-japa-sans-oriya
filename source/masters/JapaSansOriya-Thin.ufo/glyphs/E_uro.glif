@@ -56,14 +56,4 @@
       <point x="462" y="726"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Currency</string>
-    </dict>
-  </lib>
 </glyph>

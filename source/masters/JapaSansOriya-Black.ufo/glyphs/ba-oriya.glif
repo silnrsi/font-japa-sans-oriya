@@ -76,10 +76,4 @@ baorya
       <point x="579" y="230" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

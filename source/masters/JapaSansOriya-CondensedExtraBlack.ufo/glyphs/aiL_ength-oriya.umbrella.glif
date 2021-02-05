@@ -37,10 +37,4 @@ ailengthmarkorya
       <point x="388" y="667"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
-    </dict>
-  </lib>
 </glyph>

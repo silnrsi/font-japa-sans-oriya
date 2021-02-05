@@ -47,14 +47,4 @@
       <point x="133" y="39"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Punctuation</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Other</string>
-    </dict>
-  </lib>
 </glyph>

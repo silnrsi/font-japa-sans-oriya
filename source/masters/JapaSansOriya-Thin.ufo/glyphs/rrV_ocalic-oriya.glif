@@ -106,12 +106,4 @@ rrvocalicorya
       <point x="522" y="-56" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>rVocalic-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>uu-oriya</string>
-    </dict>
-  </lib>
 </glyph>

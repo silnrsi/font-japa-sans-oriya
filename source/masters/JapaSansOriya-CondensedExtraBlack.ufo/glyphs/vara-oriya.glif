@@ -94,12 +94,4 @@
       <point x="463" y="-70" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>va-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>va-oriya</string>
-    </dict>
-  </lib>
 </glyph>

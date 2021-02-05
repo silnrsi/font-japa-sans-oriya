@@ -19,14 +19,4 @@
       <point x="174" y="414" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Number</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Small</string>
-    </dict>
-  </lib>
 </glyph>

@@ -78,12 +78,4 @@
       <point x="517" y="241"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>lla-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>lla-oriya</string>
-    </dict>
-  </lib>
 </glyph>

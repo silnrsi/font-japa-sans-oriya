@@ -68,18 +68,4 @@ ttasubscriptorya
       <point x="227" y="-225"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ttha-oriya.below</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>na-oriya.below</string>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>407</integer>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Nonspacing</string>
-    </dict>
-  </lib>
 </glyph>

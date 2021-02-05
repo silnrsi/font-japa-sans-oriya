@@ -65,12 +65,4 @@
       <point x="437" y="658" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>tha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>tha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

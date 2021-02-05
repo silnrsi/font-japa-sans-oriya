@@ -95,12 +95,4 @@ badaorya
       <point x="457" y="156" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ca-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ca-oriya</string>
-    </dict>
-  </lib>
 </glyph>

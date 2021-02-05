@@ -10,12 +10,4 @@ nnattaorya
     <component base="tta-oriya.below" xOffset="372"/>
     <component base="nna-oriya.base"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nna-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>tta-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

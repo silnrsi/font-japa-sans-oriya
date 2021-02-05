@@ -127,12 +127,4 @@
       <point x="386" y="229"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>cha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>cha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -115,12 +115,4 @@ huorya
       <point x="537" y="357"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

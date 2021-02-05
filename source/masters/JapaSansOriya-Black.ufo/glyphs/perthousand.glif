@@ -94,14 +94,4 @@
       <point x="1116" y="321"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Symbol</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Math</string>
-    </dict>
-  </lib>
 </glyph>

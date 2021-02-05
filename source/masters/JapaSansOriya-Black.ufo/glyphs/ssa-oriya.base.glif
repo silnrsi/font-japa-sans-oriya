@@ -68,12 +68,4 @@
       <point x="554" y="221" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ssa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ssa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

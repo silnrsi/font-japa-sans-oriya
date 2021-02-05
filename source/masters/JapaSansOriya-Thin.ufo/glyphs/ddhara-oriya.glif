@@ -85,12 +85,4 @@
       <point x="123" y="-116" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ddha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ddha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

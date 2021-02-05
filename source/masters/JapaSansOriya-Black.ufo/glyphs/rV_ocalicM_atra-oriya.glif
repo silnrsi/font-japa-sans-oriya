@@ -36,10 +36,4 @@ rvocalicvowelsignorya
       <point x="559" y="-65"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>800</integer>
-    </dict>
-  </lib>
 </glyph>

@@ -113,12 +113,4 @@ gallaorya
       <point x="561" y="518" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ga-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>lla-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

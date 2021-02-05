@@ -129,12 +129,4 @@ maphaorya
       <point x="682" y="576"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ma-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

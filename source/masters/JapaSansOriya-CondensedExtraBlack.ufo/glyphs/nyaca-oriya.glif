@@ -124,12 +124,4 @@ nyacaorya
       <point x="130" y="-5"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nya-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>nya-oriya</string>
-    </dict>
-  </lib>
 </glyph>

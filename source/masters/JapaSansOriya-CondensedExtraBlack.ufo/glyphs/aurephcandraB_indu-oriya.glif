@@ -5,19 +5,4 @@
     <component base="aureph-oriya"/>
     <component base="candraBindu-oriya" xOffset="768"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-      <array>
-        <dict>
-          <key>alignment</key>
-          <integer>-1</integer>
-          <key>index</key>
-          <integer>1</integer>
-          <key>name</key>
-          <string>candraBindu-oriya</string>
-        </dict>
-      </array>
-    </dict>
-  </lib>
 </glyph>

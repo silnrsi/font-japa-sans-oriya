@@ -85,12 +85,4 @@
       <point x="439" y="196" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ya-oriya.base</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ya-oriya.base</string>
-    </dict>
-  </lib>
 </glyph>

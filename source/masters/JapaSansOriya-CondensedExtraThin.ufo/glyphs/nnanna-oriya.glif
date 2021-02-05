@@ -142,12 +142,4 @@ nnannaorya
       <point x="199" y="641"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nna-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>wa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

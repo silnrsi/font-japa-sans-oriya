@@ -89,12 +89,4 @@ sataraorya
       <point x="426" y="584" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>sa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

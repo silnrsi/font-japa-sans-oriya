@@ -112,12 +112,4 @@ nnatthaorya
       <point x="339" y="528"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nna-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ttha-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

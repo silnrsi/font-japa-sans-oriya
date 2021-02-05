@@ -139,12 +139,4 @@ nyajaorya
       <point x="788" y="219" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nya-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>iiMatra-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -116,12 +116,4 @@ nataraorya
       <point x="63" y="307"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>na-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>na-oriya</string>
-    </dict>
-  </lib>
 </glyph>

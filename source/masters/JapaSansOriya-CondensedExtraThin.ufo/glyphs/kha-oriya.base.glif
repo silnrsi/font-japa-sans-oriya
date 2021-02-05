@@ -88,12 +88,4 @@
       <point x="263" y="423"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>kha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>kha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -144,12 +144,4 @@ cachaorya
       <point x="137" y="-168"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ca-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ca-oriya</string>
-    </dict>
-  </lib>
 </glyph>

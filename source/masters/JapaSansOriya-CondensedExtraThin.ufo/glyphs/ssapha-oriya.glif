@@ -146,12 +146,4 @@ ssaphaorya
       <point x="449" y="-164" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pha-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

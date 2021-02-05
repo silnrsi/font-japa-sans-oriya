@@ -13,10 +13,4 @@ viramaorya
       <point x="122" y="-178" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>142</integer>
-    </dict>
-  </lib>
 </glyph>

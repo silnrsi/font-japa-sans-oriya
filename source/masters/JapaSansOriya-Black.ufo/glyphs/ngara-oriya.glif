@@ -101,12 +101,4 @@
       <point x="669" y="472"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nga-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>nga-oriya</string>
-    </dict>
-  </lib>
 </glyph>

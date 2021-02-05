@@ -10,12 +10,4 @@ tapaorya
     <component base="pa-oriya"/>
     <component base="taalt-oriya.below" xOffset="344"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>taalt-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

@@ -112,12 +112,4 @@ ngaghaorya
       <point x="621" y="510"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>gha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

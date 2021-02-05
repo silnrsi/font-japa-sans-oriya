@@ -49,14 +49,4 @@ tasubscriptorya
       <point x="366" y="65"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Mark</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Spacing</string>
-    </dict>
-  </lib>
 </glyph>

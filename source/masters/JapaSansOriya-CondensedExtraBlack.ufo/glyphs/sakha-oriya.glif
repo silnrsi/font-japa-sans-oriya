@@ -127,12 +127,4 @@ sakhaorya
       <point x="527" y="27"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>kha-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

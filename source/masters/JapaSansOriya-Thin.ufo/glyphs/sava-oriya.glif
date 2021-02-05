@@ -71,12 +71,4 @@
       <point x="562" y="-122" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

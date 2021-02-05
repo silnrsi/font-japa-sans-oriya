@@ -101,10 +101,4 @@ yyaorya
       <point x="638" y="490" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ya-oriya</string>
-    </dict>
-  </lib>
 </glyph>

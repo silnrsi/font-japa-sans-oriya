@@ -60,14 +60,4 @@ uni0B76
       <point x="264" y="64"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Number</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>oriya</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Fraction</string>
-    </dict>
-  </lib>
 </glyph>

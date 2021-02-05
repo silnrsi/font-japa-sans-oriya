@@ -8,10 +8,4 @@ aulengthmarkcandrabinduorya
     <component base="auLength-oriya"/>
     <component base="candraBindu-oriya" xOffset="-10" yOffset="50"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>auLength-oriya</string>
-    </dict>
-  </lib>
 </glyph>

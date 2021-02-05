@@ -45,12 +45,4 @@
       <point x="85" y="-115" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ttha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ttha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

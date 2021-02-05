@@ -80,12 +80,4 @@
       <point x="520" y="465" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ya-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ya-oriya</string>
-    </dict>
-  </lib>
 </glyph>

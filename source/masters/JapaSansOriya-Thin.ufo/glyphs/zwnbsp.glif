@@ -2,14 +2,4 @@
 <glyph name="zwnbsp" format="2">
   <unicode hex="FEFF"/>
   <outline/>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Separator</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string/>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Format</string>
-    </dict>
-  </lib>
 </glyph>

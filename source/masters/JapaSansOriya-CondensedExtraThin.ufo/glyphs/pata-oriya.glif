@@ -108,12 +108,4 @@ pataorya
       <point x="516" y="81"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ta-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

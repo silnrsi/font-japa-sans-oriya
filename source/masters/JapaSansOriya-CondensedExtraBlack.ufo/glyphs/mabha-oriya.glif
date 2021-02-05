@@ -101,12 +101,4 @@ mabhaorya
       <point x="428" y="190"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ma-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>yya-oriya</string>
-    </dict>
-  </lib>
 </glyph>

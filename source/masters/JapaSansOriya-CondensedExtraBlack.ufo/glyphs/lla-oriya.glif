@@ -82,10 +82,4 @@ llaorya
       <point x="16" y="578"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

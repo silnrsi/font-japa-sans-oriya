@@ -95,12 +95,4 @@ sataorya
       <point x="545" y="79"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ta-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

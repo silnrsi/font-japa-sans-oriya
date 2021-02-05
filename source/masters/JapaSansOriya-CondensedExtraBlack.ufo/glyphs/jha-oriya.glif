@@ -101,10 +101,4 @@ jhaorya
       <point x="446" y="477"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>pha-oriya</string>
-    </dict>
-  </lib>
 </glyph>

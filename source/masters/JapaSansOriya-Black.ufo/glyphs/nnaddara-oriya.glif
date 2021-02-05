@@ -134,12 +134,4 @@ nnaddaraorya
       <point x="188" y="-152" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nna-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ta-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

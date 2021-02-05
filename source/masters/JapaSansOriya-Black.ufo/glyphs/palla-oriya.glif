@@ -106,12 +106,4 @@ pallaorya
       <point x="554" y="221" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>lla-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

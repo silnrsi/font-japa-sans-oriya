@@ -93,12 +93,4 @@ nadhaorya
       <point x="364" y="138" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ya-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>da-oriya</string>
-    </dict>
-  </lib>
 </glyph>

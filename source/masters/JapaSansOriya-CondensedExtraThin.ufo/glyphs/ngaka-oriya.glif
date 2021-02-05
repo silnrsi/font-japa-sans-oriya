@@ -145,12 +145,4 @@ ngakaorya
       <point x="490" y="461"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nga-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>nga-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -127,12 +127,4 @@
       <point x="439" y="-129" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>tata-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>la-oriya</string>
-    </dict>
-  </lib>
 </glyph>

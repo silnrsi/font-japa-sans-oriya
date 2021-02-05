@@ -75,12 +75,4 @@ llvocalicorya
       <point x="238" y="-5"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>lVocalic-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>lVocalic-oriya</string>
-    </dict>
-  </lib>
 </glyph>

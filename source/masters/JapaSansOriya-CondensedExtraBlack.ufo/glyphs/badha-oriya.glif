@@ -11,12 +11,4 @@ badhaorya
     <component base="ba-oriya.base"/>
     <component base="dha-oriya.below" xOffset="204"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ba-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ba-oriya</string>
-    </dict>
-  </lib>
 </glyph>

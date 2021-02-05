@@ -59,12 +59,4 @@ tasaorya
       <point x="553" y="544" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>sa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -11,12 +11,4 @@ kakaorya
     <component base="ka-oriya.below" xOffset="177"/>
     <component base="ka-oriya.base"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ka-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ka-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -150,12 +150,4 @@
       <point x="156" y="-292"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>na-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ta-oriya</string>
-    </dict>
-  </lib>
 </glyph>

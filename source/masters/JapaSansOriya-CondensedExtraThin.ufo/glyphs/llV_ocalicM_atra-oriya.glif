@@ -68,10 +68,4 @@ llvocalicvowelsignorya
       <point x="186" y="-107"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
-      <integer>600</integer>
-    </dict>
-  </lib>
 </glyph>

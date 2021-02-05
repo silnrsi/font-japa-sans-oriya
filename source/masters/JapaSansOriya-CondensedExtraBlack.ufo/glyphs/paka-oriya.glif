@@ -7,12 +7,4 @@
     <component base="pa-oriya.base"/>
     <component base="ka-oriya.below" xOffset="304"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ka-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

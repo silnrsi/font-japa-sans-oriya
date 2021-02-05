@@ -88,10 +88,4 @@ rvocalicorya
       <point x="411" y="146" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>uu-oriya</string>
-    </dict>
-  </lib>
 </glyph>

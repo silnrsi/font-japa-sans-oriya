@@ -50,10 +50,4 @@ tarasubscriptorya
       <point x="282" y="-244"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.Export</key>
-      <false/>
-    </dict>
-  </lib>
 </glyph>

@@ -117,12 +117,4 @@ mamaorya
       <point x="629" y="-164" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ma-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ma-oriya</string>
-    </dict>
-  </lib>
 </glyph>

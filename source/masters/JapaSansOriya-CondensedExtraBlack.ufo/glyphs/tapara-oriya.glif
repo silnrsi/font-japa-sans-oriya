@@ -81,12 +81,4 @@
       <point x="209" y="-114" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>pa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>taalt-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

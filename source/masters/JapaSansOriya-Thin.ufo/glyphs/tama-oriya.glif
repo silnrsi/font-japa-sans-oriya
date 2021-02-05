@@ -9,12 +9,4 @@ tamaorya
     <component base="taalt-oriya.below" xOffset="482"/>
     <component base="ma-oriya"/>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ma-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>taalt-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

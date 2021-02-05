@@ -56,18 +56,4 @@ uni0B77
       <point x="20" y="35"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.category</key>
-      <string>Number</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>oneeighth-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>oneeighth-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.script</key>
-      <string>oriya</string>
-      <key>com.schriftgestaltung.Glyphs.subCategory</key>
-      <string>Fraction</string>
-    </dict>
-  </lib>
 </glyph>

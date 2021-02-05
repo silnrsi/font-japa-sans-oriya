@@ -90,10 +90,4 @@ bhaorya
       <point x="356" y="135"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>la-oriya</string>
-    </dict>
-  </lib>
 </glyph>

@@ -125,10 +125,4 @@
       <point x="575" y="15" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-    </dict>
-  </lib>
 </glyph>

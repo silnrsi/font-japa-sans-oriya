@@ -101,12 +101,4 @@ ttattaorya
       <point x="497" y="16"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>tta-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>tta-oriya</string>
-    </dict>
-  </lib>
 </glyph>

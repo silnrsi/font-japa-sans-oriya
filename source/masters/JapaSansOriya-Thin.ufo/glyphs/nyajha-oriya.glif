@@ -136,12 +136,4 @@ nyajhaorya
       <point x="485" y="88" type="line"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>nya-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>=avagraha-oriya-20</string>
-    </dict>
-  </lib>
 </glyph>

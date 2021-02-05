@@ -93,12 +93,4 @@ sathaorya
       <point x="214" y="-168"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>sa-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>tha-oriya.below</string>
-    </dict>
-  </lib>
 </glyph>

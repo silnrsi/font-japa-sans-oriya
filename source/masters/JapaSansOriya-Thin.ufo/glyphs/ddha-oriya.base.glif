@@ -78,12 +78,4 @@
       <point x="87" y="306"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
-      <string>ddha-oriya</string>
-      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
-      <string>ddha-oriya</string>
-    </dict>
-  </lib>
 </glyph>
