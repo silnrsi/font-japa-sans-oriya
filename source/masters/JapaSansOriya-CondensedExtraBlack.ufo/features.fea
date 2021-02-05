@@ -1408,7 +1408,6 @@ lookup AboveMarks {
     pos base wa-oriya.base <anchor 443 658> mark @_topright;
     pos base x <anchor 455 553> mark @_topright;
     pos base z <anchor 373 553> mark @_topright;
-    # pos base @ol mark @_ol;
 } AboveMarks;
 
 lookup StackAboveMarks {
@@ -1612,9 +1611,11 @@ feature abvm {
     script DFLT;
     language dflt;
     lookup AboveMarks;
+    lookup StackAboveMarks;
     script ory2;
     language dflt;
     lookup AboveMarks;
+    lookup StackAboveMarks;
 } abvm;
 
 feature blwm {
@@ -1626,15 +1627,14 @@ feature blwm {
     lookup BelowMarks;
 } blwm;
 
-feature mkmk {
-    script DFLT;
-    language dflt;
-    lookup StackAboveMarks;
-    script ory2;
-    language dflt;
-    lookup StackAboveMarks;
-} mkmk;
-
+# feature mkmk {
+#     script DFLT;
+#         language dflt;
+#             lookup StackAboveMarks;
+#     script ory2;
+#         language dflt;
+#             lookup StackAboveMarks;
+# } mkmk;
 table GDEF {
     GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 } GDEF;

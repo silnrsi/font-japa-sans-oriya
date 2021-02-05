@@ -1349,7 +1349,6 @@ lookup AboveMarks {
     pos base x <anchor 294 527> mark @_topright;
     pos base y <anchor 296 527> mark @_topright;
     pos base z <anchor 238 527> mark @_topright;
-    # pos base @ol mark @_ol;
 } AboveMarks;
 
 lookup StackAboveMarks {
@@ -1536,9 +1535,11 @@ feature abvm {
     script DFLT;
     language dflt;
     lookup AboveMarks;
+    lookup StackAboveMarks;
     script ory2;
     language dflt;
     lookup AboveMarks;
+    lookup StackAboveMarks;
 } abvm;
 
 feature blwm {
@@ -1550,15 +1551,14 @@ feature blwm {
     lookup BelowMarks;
 } blwm;
 
-feature mkmk {
-    script DFLT;
-    language dflt;
-    lookup StackAboveMarks;
-    script ory2;
-    language dflt;
-    lookup StackAboveMarks;
-} mkmk;
-
+# feature mkmk {
+#     script DFLT;
+#         language dflt;
+#             lookup StackAboveMarks;
+#     script ory2;
+#         language dflt;
+#             lookup StackAboveMarks;
+# } mkmk;
 table GDEF {
     GlyphClassDef @GDEF_bases, , @GDEF_marks, ;
 } GDEF;
