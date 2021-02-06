@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc>url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc>url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <title>Design</title>
+  </head>
+  <testgroup label="vowels">
+    <test label="a">
+      <string>\u0b05\u0b55</string>
+    </test>
+    <test label="aa">
+      <string>\u0b06\u0b55</string>
+    </test>
+    <test label="e">
+      <string>\u0b05\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="consonants and some matras">
+    <test label="ka ka+aamatra">
+      <string>\u0b15\u0b55 \u0b15\u0b3e\u0b55</string>
+    </test>
+    <test label="ga+aamatra">
+      <string>\u0b16\u0b3e\u0b55</string>
+    </test>
+    <test label="ca+ematra">
+      <string>\u0b1a\u0b47\u0b55</string>
+    </test>
+    <test label="ja ja+aamatra ja+ematra">
+      <string>\u0b1c\u0b55 \u0b1c\u0b3e\u0b55 \u0b1c\u0b47\u0b55</string>
+    </test>
+    <test label="tta+aamatra">
+      <string>\u0b1f\u0b3e\u0b55</string>
+    </test>
+    <test label="dda+aamatra dda+ematra">
+      <string>\u0b21\u0b3e\u0b55 \u0b21\u0b47\u0b55</string>
+    </test>
+    <test label="ta ta+aamatra ta+virama+ra+aamatra">
+      <string>\u0b24\u0b55 \u0b24\u0b3e\u0b55 \u0b24\u0b4d\u0b30\u0b3e\u0b55</string>
+    </test>
+    <test label="da da+aamatra da+ematra">
+      <string>\u0b26\u0b55 \u0b26\u0b3e\u0b55 \u0b26\u0b47\u0b55</string>
+    </test>
+    <test label="na na+aamatra">
+      <string>\u0b28\u0b55 \u0b28\u0b3e\u0b55</string>
+    </test>
+    <test label="pa+aamatra pa+ematra pa+virama+ra+aamatra">
+      <string>\u0b2a\u0b3e\u0b55 \u0b2a\u0b47\u0b55 \u0b2a\u0b4d\u0b30\u0b3e\u0b55</string>
+    </test>
+    <test label="ba ba+aamatra ba+ematra">
+      <string>\u0b2c\u0b55 \u0b2c\u0b3e\u0b55 \u0b2c\u0b47\u0b55</string>
+    </test>
+    <test label="ma ma+aamatra ma+ematra">
+      <string>\u0b2e\u0b55 \u0b2e\u0b3e\u0b55 \u0b2e\u0b47\u0b55</string>
+    </test>
+    <test label="ra ra+aamatra ra+ematra">
+      <string>\u0b30\u0b55 \u0b30\u0b3e\u0b55 \u0b30\u0b47\u0b55</string>
+    </test>
+    <test label="la la+aamatra la+ematra">
+      <string>\u0b32\u0b55 \u0b32\u0b3e\u0b55 \u0b32\u0b47\u0b55</string>
+    </test>
+    <test label="va+aamatra va+ematra">
+      <string>\u0b35\u0b3e\u0b55 \u0b35\u0b47\u0b55</string>
+    </test>
+    <test label="sa sa+aamatra sa+imatra sa+ematra">
+      <string>\u0b38\u0b55 \u0b38\u0b3e\u0b55 \u0b38\u0b3f\u0b55 \u0b38\u0b47\u0b55</string>
+    </test>
+    <test label="ha ha+aamatra ha+imatra ha+ematra">
+      <string>\u0b39\u0b55 \u0b39\u0b3e\u0b55 \u0b39\u0b3f\u0b55 \u0b39\u0b47\u0b55</string>
+    </test>
+    <test label="rra rra+aamatra rra+ematra">
+      <string>\u0b5c\u0b55 \u0b5c\u0b3e\u0b55 \u0b5c\u0b47\u0b55</string>
+    </test>
+    <test label="yya+ematra">
+      <string>\u0b5f\u0b47\u0b55</string>
+    </test>
+  </testgroup>
+</ftml>

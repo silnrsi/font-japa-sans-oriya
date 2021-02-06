@@ -1,0 +1,24 @@
+\# vowels
+a ଅ୕
+aa ଆ୕
+e ଅ୕
+\# consonants and some matras
+ka ka+aamatra କ୕ କା୕
+ga+aamatra ଖା୕
+ca+ematra ଚେ୕
+ja ja+aamatra ja+ematra ଜ୕ ଜା୕ ଜେ୕
+tta+aamatra ଟା୕
+dda+aamatra dda+ematra ଡା୕ ଡେ୕
+ta ta+aamatra ta+virama+ra+aamatra ତ୕ ତା୕ ତ୍ରା୕
+da da+aamatra da+ematra ଦ୕ ଦା୕ ଦେ୕
+na na+aamatra ନ୕ ନା୕
+pa+aamatra pa+ematra pa+virama+ra+aamatra ପା୕ ପେ୕ ପ୍ରା୕
+ba ba+aamatra ba+ematra ବ୕ ବା୕ ବେ୕
+ma ma+aamatra ma+ematra ମ୕ ମା୕ ମେ୕
+ra ra+aamatra ra+ematra ର୕ ରା୕ ରେ୕
+la la+aamatra la+ematra ଲ୕ ଲା୕ ଲେ୕
+va+aamatra va+ematra ଵା୕ ଵେ୕
+sa sa+aamatra sa+imatra sa+ematra ସ୕ ସା୕ ସି୕ ସେ୕
+ha ha+aamatra ha+imatra ha+ematra ହ୕ ହା୕ ହି୕ ହେ୕
+rra rra+aamatra rra+ematra ଡ଼୕ ଡ଼ା୕ ଡ଼େ୕
+yya+ematra ୟେ୕
