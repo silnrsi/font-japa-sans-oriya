@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline-oriya" format="2">
   <unicode hex="0B55"/>
-  <anchor x="-2" y="528" name="_top"/>
+  <anchor x="-2" y="658" name="_top"/>
   <outline>
-    <component base="macronmod" xOffset="-169"/>
+    <contour>
+      <point x="126" y="768" type="line"/>
+      <point x="-129" y="768" type="line"/>
+      <point x="-129" y="744" type="line"/>
+      <point x="126" y="744" type="line"/>
+    </contour>
   </outline>
 </glyph>
