@@ -315,11 +315,11 @@
 # baseClass uu-oriya <anchor 392 658> @top;
 # baseClass w <anchor 368 553> @top;
 # baseClass x <anchor 239 553> @top;
-# baseClass [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 808> @top_MarkBase;
-# baseClass iMatracandraBindu-oriya <anchor 310 808> @top_MarkBase;
-# baseClass iMatracandraBindu-oriya.wide <anchor 284 808> @top_MarkBase;
-# baseClass iMatrarephcandraBindu-oriya <anchor 331 808> @top_MarkBase;
-# baseClass iMatrarephcandraBindu-oriya.wide <anchor 219 808> @top_MarkBase;
+# baseClass [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 868> @top_MarkBase;
+# baseClass iMatracandraBindu-oriya <anchor 310 868> @top_MarkBase;
+# baseClass iMatracandraBindu-oriya.wide <anchor 284 868> @top_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya <anchor 331 868> @top_MarkBase;
+# baseClass iMatrarephcandraBindu-oriya.wide <anchor 219 868> @top_MarkBase;
 # baseClass ssapha-oriya <anchor 306 658> @top_MarkBase;
 
 # AP: topright
@@ -624,7 +624,7 @@ markClass iMatracandraBindu-oriya <anchor 310 658> @_top;
 markClass iMatracandraBindu-oriya.wide <anchor 284 658> @_top;
 markClass iMatrarephcandraBindu-oriya <anchor 331 658> @_top;
 markClass iMatrarephcandraBindu-oriya.wide <anchor 219 658> @_top;
-markClass overline-oriya <anchor -1 553> @_top;
+markClass overline-oriya <anchor -1 658> @_top;
 
 # AP: bottom_ta
 @bottom_ta = [ka-oriya ka-oriya.base ma-oriya pa-oriya ma-oriya.base pa-oriya.base na-oriya na-oriya.base];
@@ -1412,11 +1412,11 @@ lookup AboveMarks {
 
 lookup StackAboveMarks {
     lookupflag 0;
-    pos mark [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 808> mark @_top;
-    pos mark iMatracandraBindu-oriya <anchor 310 808> mark @_top;
-    pos mark iMatracandraBindu-oriya.wide <anchor 284 808> mark @_top;
-    pos mark iMatrarephcandraBindu-oriya <anchor 331 808> mark @_top;
-    pos mark iMatrarephcandraBindu-oriya.wide <anchor 219 808> mark @_top;
+    pos mark [iMatra-oriya iMatra-oriya.wide iMatrareph-oriya iMatrareph-oriya.wide] <anchor 300 868> mark @_top;
+    pos mark iMatracandraBindu-oriya <anchor 310 868> mark @_top;
+    pos mark iMatracandraBindu-oriya.wide <anchor 284 868> mark @_top;
+    pos mark iMatrarephcandraBindu-oriya <anchor 331 868> mark @_top;
+    pos mark iMatrarephcandraBindu-oriya.wide <anchor 219 868> mark @_top;
     pos mark ssapha-oriya <anchor 306 658> mark @_top;
 } StackAboveMarks;
 

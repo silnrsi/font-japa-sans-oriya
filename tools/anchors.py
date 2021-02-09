@@ -19,6 +19,14 @@ print(f'Add anchors for {ufo}')
 #         anchor.name = '_top'
 #         anchor.y -= offset
 
+# the height of the overline above the regular iMatra has been adjusted,
+# so copy that height to the other iMatra type glyphs
+imatra = font['iMatra-oriya']
+imatra_top_y = 0
+for anchor in imatra.anchors:
+    if anchor.name == 'top':
+        imatra_top_y = anchor.y
+
 for glyph in font:
     # vowels and matras (and a few consonants)
     bounds = glyph.bounds
@@ -43,6 +51,7 @@ for glyph in font:
         for anchor in glyph.anchors:
             if anchor.name == '_top':
                 x = anchor.x
+                # anchor.y = imatra_top_y
                 y = anchor.y
                 glyph.appendAnchor('top', (x, y+150))
 

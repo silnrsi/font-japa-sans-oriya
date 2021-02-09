@@ -5,7 +5,7 @@
 ivowelsigncandrabinduorya
 </note>
   <anchor x="396" y="658" name="_top"/>
-  <anchor x="396" y="808" name="top"/>
+  <anchor x="396" y="868" name="top"/>
   <outline>
     <component base="iMatra-oriya" xOffset="96"/>
     <component base="candraBindu-oriya" xOffset="356"/>

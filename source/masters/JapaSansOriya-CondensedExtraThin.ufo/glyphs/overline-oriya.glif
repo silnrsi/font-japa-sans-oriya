@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline-oriya" format="2">
   <unicode hex="0B55"/>
-  <anchor x="-10" y="656" name="_top"/>
+  <anchor x="-10" y="658" name="_top"/>
   <outline>
     <contour>
       <point x="91" y="770" type="line"/>

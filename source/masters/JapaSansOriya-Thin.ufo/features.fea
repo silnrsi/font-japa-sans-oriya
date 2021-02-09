@@ -594,7 +594,7 @@ markClass iMatracandraBindu-oriya <anchor 299 658> @_top;
 markClass iMatracandraBindu-oriya.wide <anchor 281 658> @_top;
 markClass [iMatrareph-oriya iMatrareph-oriya.wide] <anchor 400 658> @_top;
 markClass [iMatrarephcandraBindu-oriya iMatrarephcandraBindu-oriya.wide] <anchor 282 658> @_top;
-markClass overline-oriya <anchor -2 528> @_top;
+markClass overline-oriya <anchor -2 658> @_top;
 
 # AP: bottom_ta
 @bottom_ta = [ka-oriya ka-oriya.base ma-oriya pa-oriya ma-oriya.base pa-oriya.base na-oriya na-oriya.base];
