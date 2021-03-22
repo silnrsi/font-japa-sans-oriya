@@ -19,7 +19,7 @@ If this is not the case, go to (http://scripts.sil.org/OFL) for all the details 
 /* use Japa Sans Oriya - Regular in .woff format */
 @font-face {
   font-family: JapaSansOriyaW;
-  src: url(JapaSansOriya-Regular.woff);
+  src: url(JapaSansOriya-Regular.woff2);
 }
 
 /* set body to use Japa Sans Oriya in .woff format */

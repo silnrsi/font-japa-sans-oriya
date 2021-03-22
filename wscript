@@ -34,7 +34,8 @@ designspace('source/' + FAMILY + dspace + '.designspace',
         params = '',
         ),
     ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
-    woff = woff('web/${DS:FILENAME_BASE}.woff', params='-v ' + VERSION + ' -m ../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
+    woff = woff('woff/${DS:FILENAME_BASE}',
+        metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
     script = ['ory2'],
     pdf = fret(params='-oi')
 )
