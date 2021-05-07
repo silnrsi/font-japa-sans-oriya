@@ -6,8 +6,6 @@
 
 @iMatraWideLetters = [ nya-oriya bha-oriya la-oriya lla-oriya yya-oriya kata-oriya katara-oriya ngakha-oriya ngaga-oriya ngagha-oriya nyaja-oriya nyajha-oriya dada-oriya dadha-oriya dadhava-oriya dabha-oriya bada-oriya baba-oriya mapa-oriya mapara-oriya mapha-oriya maba-oriya mabha-oriya mabhara-oriya mama-oriya llaka-oriya llalla-oriya llapa-oriya llapha-oriya laka-oriya laga-oriya lapa-oriya lapha-oriya lama-oriya lala-oriya lalla-oriya ];
 
-@Cons = [ ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya yya-oriya wa-oriya ];
-
 # Prefix: Languagesystems
 # automatic
 languagesystem DFLT dflt;
@@ -352,25 +350,7 @@ script ory2;
 	sub ssatta-oriya halant-oriya by ssattahalant-oriya;
 } haln;
 
-# The rlig feature (and the two lookups it calls) are to support positioning
-# the new overline character over the eMatra (which includes other matras that
-# are composed of the eMatra). The OpenType shaper reorders the eMatra glyph
-# to the left of the consonant (the eMatra and the overline are stored to the
-# right in the data) but does not reorder the overline. The code below swaps
-# the position of the overline character and consonant so that the overline
-# is to the immediate right of the eMatra (left of consonant), and thus can be
-# positioned on the eMatra using a GPOS rule later.
-lookup Cons2OverlineSub {
-	sub @Cons by overline-oriya @Cons;
-} Cons2OverlineSub;
-
-lookup Overline2ConsSub {
-	sub @Cons overline-oriya by @Cons;
-} Overline2ConsSub;
-
-feature rlig {
-	sub eMatra-oriya @Cons' lookup Cons2OverlineSub overline-oriya' lookup Overline2ConsSub;
-} rlig;
+include(gsub_for_overline.feax)
 
 feature calt {
 script ory2;
