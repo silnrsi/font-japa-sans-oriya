@@ -195,7 +195,7 @@ with Reserved Font Names "Japa" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2021/05/28 13:17:42</string>
+  <string>2021/05/31 10:23:41</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -318,7 +318,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNameUniqueID</key>
   <string>SIL International: Japa Sans Oriya Condensed Extra Black: 2021</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.100</string>
+  <string>Version 2.101</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -420,7 +420,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>100</integer>
+  <integer>101</integer>
   <key>xHeight</key>
   <integer>658</integer>
 </dict>
