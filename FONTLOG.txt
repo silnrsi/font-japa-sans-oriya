@@ -20,6 +20,8 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+31 May 2021 (SIL WSTech team) Japa Sans Oriya version 2.100
+- Support the new overline character (U+0B55)
 14 Dec 2020
 - Initial sources added from Noto Sans and Noto Sans Oriya
 
