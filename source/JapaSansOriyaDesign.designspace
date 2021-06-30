@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <designspace format="3">
     <axes>
-        <axis default="78.0" maximum="170.0" minimum="26.0" name="weight" tag="wght">
-            <map input="26.0" output="26.0" />
-            <map input="78.0" output="78.0" />
-            <map input="140.0" output="140.0" />
-            <map input="170.0" output="170.0" />
+        <axis default="100.0" maximum="900.0" minimum="100.0" name="weight" tag="wght">
+            <map input="100" output="26.0" />
+            <map input="400" output="78.0" />
+            <map input="700" output="140.0" />
+            <map input="900" output="170.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
         <axis default="100.0" maximum="100.0" minimum="68.0" name="width" tag="wdth">
@@ -53,8 +53,7 @@
         </source>
     </sources>
     <instances>
-        <!--
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="thin" postscriptfontname="JapaSansOriya-Thin">
+        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" postscriptfontname="JapaSansOriya-Thin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -63,8 +62,7 @@
             <info />
             <kerning />
         </instance>
-        -->
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Regular">
+        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" postscriptfontname="JapaSansOriya-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -73,7 +71,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Bold.ufo" name="Japa Sans Oriya Bold" stylename="Bold" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="bold" postscriptfontname="JapaSansOriya-Bold">
+        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Bold.ufo" name="Japa Sans Oriya Bold" stylename="Bold" postscriptfontname="JapaSansOriya-Bold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -82,8 +80,7 @@
             <info />
             <kerning />
         </instance>
-        <!--
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="black" postscriptfontname="JapaSansOriya-Black">
+        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" postscriptfontname="JapaSansOriya-Black">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -92,8 +89,16 @@
             <info />
             <kerning />
         </instance>
-        -->
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Condensed.ufo" name="Japa Sans Oriya Cond" stylename="Condensed" stylemapfamilyname="Japa Sans Oriya Cond" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Condensed">
+        <instance familyname="Japa Sans Oriya Cond" filename="instances/JapaSansOriya-CondensedThin.ufo" name="Japa Sans Oriya Condensed Thin" stylename="Condensed Thin" postscriptfontname="JapaSansOriya-CondensedThin">
+            <location>
+                <dimension name="weight" xvalue="26.0" />
+                <dimension name="width" xvalue="82.0" />
+                <dimension name="custom" xvalue="0.0" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Japa Sans Oriya Cond" filename="instances/JapaSansOriya-CondensedBold.ufo" name="Japa Sans Oriya Condensed" stylename="Condensed" postscriptfontname="JapaSansOriya-Condensed">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -102,7 +107,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-CondensedBold.ufo" name="Japa Sans Oriya Cond Bold" stylename="Condensed Bold" stylemapfamilyname="Japa Sans Oriya Cond Bold" stylemapstylename="bold" postscriptfontname="JapaSansOriya-CondensedBold">
+        <instance familyname="Japa Sans Oriya Cond" filename="instances/JapaSansOriya-Condensed.ufo" name="Japa Sans Oriya Condensed Bold" stylename="Condensed Bold" postscriptfontname="JapaSansOriya-CondensedBold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -111,7 +116,25 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensed.ufo" name="Japa Sans Oriya ExtraCondensed" stylename="ExtraCondensed" stylemapfamilyname="Japa Sans Oriya ExtCond" stylemapstylename="regular" postscriptfontname="JapaSansOriya-ExtraCondensed">
+        <instance familyname="Japa Sans Oriya Cond" filename="instances/JapaSansOriya-CondensedBlack.ufo" name="Japa Sans Oriya Condensed Black" stylename="Condensed Black" postscriptfontname="JapaSansOriya-CondensedBlack">
+            <location>
+                <dimension name="weight" xvalue="170.0" />
+                <dimension name="width" xvalue="82.0" />
+                <dimension name="custom" xvalue="0.0" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Japa Sans Oriya ExtCond" filename="instances/JapaSansOriya-ExtraCondensedThin.ufo" name="Japa Sans Oriya ExtraCondensed Thin" stylename="ExtraCondensed Thin" postscriptfontname="JapaSansOriya-ExtraCondensedThin">
+            <location>
+                <dimension name="weight" xvalue="26.0" />
+                <dimension name="width" xvalue="68.0" />
+                <dimension name="custom" xvalue="0.0" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Japa Sans Oriya ExtCond" filename="instances/JapaSansOriya-ExtraCondensed.ufo" name="Japa Sans Oriya ExtraCondensed" stylename="ExtraCondensed" postscriptfontname="JapaSansOriya-ExtraCondensed">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="68.0" />
@@ -120,9 +143,19 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensedBold.ufo" name="Japa Sans Oriya ExtraCondensed Bold" stylename="ExtraCondensed Bold" stylemapfamilyname="Japa Sans Oriya ExtCond Bold" stylemapstylename="bold" postscriptfontname="JapaSansOriya-ExtraCondensedBold">
+        
+        <instance familyname="Japa Sans Oriya ExtCond" filename="instances/JapaSansOriya-ExtraCondensedBold.ufo" name="Japa Sans Oriya ExtraCondensed Bold" stylename="ExtraCondensed Bold" postscriptfontname="JapaSansOriya-ExtraCondensedBold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
+                <dimension name="width" xvalue="68.0" />
+                <dimension name="custom" xvalue="0.0" />
+            </location>
+            <info />
+            <kerning />
+        </instance>
+        <instance familyname="Japa Sans Oriya ExtCond" filename="instances/JapaSansOriya-ExtraCondensedBlack.ufo" name="Japa Sans Oriya ExtraCondensed Black" stylename="ExtraCondensed Black" postscriptfontname="JapaSansOriya-ExtraCondensedBlack">
+            <location>
+                <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="68.0" />
                 <dimension name="custom" xvalue="0.0" />
             </location>
