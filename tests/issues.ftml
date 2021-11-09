@@ -43,4 +43,9 @@
       <string>\u0B2A\u0B4D\u0B30\u0B3E\u0B55</string>
     </test>
   </testgroup>
+  <testgroup label="Microsoft">
+    <test label="GH 650">
+      <string>କ୍ବ କ୍ୱ କ୍ଯ କ୍ୟ</string>
+    </test>
+  </testgroup>
 </ftml>

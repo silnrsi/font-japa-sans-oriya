@@ -10,8 +10,8 @@
         </axis>
         <axis default="100.0" maximum="100.0" minimum="68.0" name="width" tag="wdth">
             <map input="100.0" output="100.0" />
-            <map input="82.0" output="82.0" />
-            <map input="68.0" output="68.0" />
+            <map input="75.0" output="82.0" />
+            <map input="62.5" output="68.0" />
             <labelname xml:lang="en">Width</labelname>
         </axis>
         <axis default="0.0" maximum="0.0" minimum="0.0" name="custom" tag="XXXX">
@@ -20,7 +20,7 @@
         </axis>
     </axes>
     <sources>
-        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-Thin.ufo" name="JapaSansOriya Thin" stylename="Thin">
+        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin">
             <lib copy="1" />
             <groups copy="1" />
             <info copy="1" />
@@ -30,21 +30,21 @@
                 <dimension name="custom" xvalue="0.0" />
             </location>
         </source>
-        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-Black.ufo" name="JapaSansOriya Black" stylename="Black">
+        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="100.0" />
                 <dimension name="custom" xvalue="0.0" />
             </location>
         </source>
-        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-CondensedExtraThin.ufo" name="JapaSansOriya CondensedExtra Thin" stylename="CondensedExtra Thin">
+        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-CondensedExtraThin.ufo" name="Japa Sans Oriya CondensedExtra Thin" stylename="CondensedExtra Thin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="68.0" />
                 <dimension name="custom" xvalue="0.0" />
             </location>
         </source>
-        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-CondensedExtraBlack.ufo" name="JapaSansOriya CondensedExtra Black" stylename="CondensedExtra Black">
+        <source familyname="Japa Sans Oriya" filename="masters/JapaSansOriya-CondensedExtraBlack.ufo" name="Japa Sans Oriya CondensedExtra Black" stylename="CondensedExtra Black">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="68.0" />
@@ -53,7 +53,7 @@
         </source>
     </sources>
     <instances>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" postscriptfontname="JapaSansOriya-Thin">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-Thin.ufo" name="Ja Sa Test A Thin" stylename="Thin" postscriptfontname="JaSaTestA-Thin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -62,7 +62,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" postscriptfontname="JapaSansOriya-Regular">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-Regular.ufo" name="Ja Sa Test A Regular" stylename="Regular" postscriptfontname="JaSaTestA-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -71,7 +71,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Bold.ufo" name="Japa Sans Oriya Bold" stylename="Bold" postscriptfontname="JapaSansOriya-Bold">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-Bold.ufo" name="Ja Sa Test A Bold" stylename="Bold" postscriptfontname="JaSaTestA-Bold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -80,7 +80,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" postscriptfontname="JapaSansOriya-Black">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-Black.ufo" name="Ja Sa Test A Black" stylename="Black" postscriptfontname="JaSaTestA-Black">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="100.0" />
@@ -89,7 +89,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-CondensedThin.ufo" name="Japa Sans Oriya Condensed Thin" stylename="Condensed Thin" postscriptfontname="JapaSansOriya-CondensedThin">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-CondensedThin.ufo" name="Ja Sa Test A Condensed Thin" stylename="Condensed Thin" postscriptfontname="JaSaTestA-CondensedThin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -98,7 +98,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Condensed.ufo" name="Japa Sans Oriya Condensed" stylename="Condensed" postscriptfontname="JapaSansOriya-Condensed">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-Condensed.ufo" name="Ja Sa Test A Condensed" stylename="Condensed" postscriptfontname="JaSaTestA-Condensed">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -107,7 +107,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-CondensedBold.ufo" name="Japa Sans Oriya Condensed Bold" stylename="Condensed Bold" postscriptfontname="JapaSansOriya-CondensedBold">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-CondensedBold.ufo" name="Ja Sa Test A Condensed Bold" stylename="Condensed Bold" postscriptfontname="JaSaTestA-CondensedBold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -116,7 +116,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-CondensedBlack.ufo" name="Japa Sans Oriya Condensed Black" stylename="Condensed Black" postscriptfontname="JapaSansOriya-CondensedBlack">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-CondensedBlack.ufo" name="Ja Sa Test A Condensed Black" stylename="Condensed Black" postscriptfontname="JaSaTestA-CondensedBlack">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="82.0" />
@@ -125,7 +125,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensedThin.ufo" name="Japa Sans Oriya ExtraCondensed Thin" stylename="ExtraCondensed Thin" postscriptfontname="JapaSansOriya-ExtraCondensedThin">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-ExtraCondensedThin.ufo" name="Ja Sa Test A ExtraCondensed Thin" stylename="ExtraCondensed Thin" postscriptfontname="JaSaTestA-ExtraCondensedThin">
             <location>
                 <dimension name="weight" xvalue="26.0" />
                 <dimension name="width" xvalue="68.0" />
@@ -134,7 +134,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensed.ufo" name="Japa Sans Oriya ExtraCondensed" stylename="ExtraCondensed" postscriptfontname="JapaSansOriya-ExtraCondensed">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-ExtraCondensed.ufo" name="Ja Sa Test A ExtraCondensed" stylename="ExtraCondensed" postscriptfontname="JaSaTestA-ExtraCondensed">
             <location>
                 <dimension name="weight" xvalue="78.0" />
                 <dimension name="width" xvalue="68.0" />
@@ -143,8 +143,7 @@
             <info />
             <kerning />
         </instance>
-        
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensedBold.ufo" name="Japa Sans Oriya ExtraCondensed Bold" stylename="ExtraCondensed Bold" postscriptfontname="JapaSansOriya-ExtraCondensedBold">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-ExtraCondensedBold.ufo" name="Ja Sa Test A ExtraCondensed Bold" stylename="ExtraCondensed Bold" postscriptfontname="JaSaTestA-ExtraCondensedBold">
             <location>
                 <dimension name="weight" xvalue="140.0" />
                 <dimension name="width" xvalue="68.0" />
@@ -153,7 +152,7 @@
             <info />
             <kerning />
         </instance>
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-ExtraCondensedBlack.ufo" name="Japa Sans Oriya ExtraCondensed Black" stylename="ExtraCondensed Black" postscriptfontname="JapaSansOriya-ExtraCondensedBlack">
+        <instance familyname="Ja Sa Test A" filename="instances/JaSaTestA-ExtraCondensedBlack.ufo" name="Ja Sa Test A ExtraCondensed Black" stylename="ExtraCondensed Black" postscriptfontname="JaSaTestA-ExtraCondensedBlack">
             <location>
                 <dimension name="weight" xvalue="170.0" />
                 <dimension name="width" xvalue="68.0" />

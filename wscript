@@ -2,7 +2,7 @@
 # this is a smith configuration file
 
 # override the default folders
-# DOCDIR = ["documentation", "web"]
+DOCDIR = ["documentation", "web"]
 
 # set the font name and description
 APPNAME = 'JapaSansOriya'
@@ -35,7 +35,7 @@ designspace('source/' + FAMILY + dspace + '.designspace',
         ),
     ap = 'generated/' + '${DS:FILENAME_BASE}.xml',
     version = VERSION,
-    woff = woff('woff/${DS:FILENAME_BASE}',
+    woff = woff('web/${DS:FILENAME_BASE}',
         metadata = '../source/${DS:FAMILYNAME_NOSPC}-WOFF-metadata.xml'),
     script = ['ory2'],
     pdf = fret(params='-oi')
