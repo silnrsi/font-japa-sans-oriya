@@ -40,8 +40,8 @@ W: https://github.com/notofonts/NotoSans
 D: Original Latin
 
 N: SIL font designers and engineers
-E: http://scripts.sil.org/support
-W: http://scripts.sil.org/
+E: https://software.sil.org/about/contact/
+W: https://software.sil.org/wstech/
 D: Additions and enhancements
 
 The Japa Sans Oriya fonts are maintained by SIL International.

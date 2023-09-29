@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
   <uniqueid id="org.sil.fonts.JapaSansOriya.2.101" />
-  <vendor name="SIL International" url="http://scripts.sil.org/" />
+  <vendor name="SIL International" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
       name="Amélie Bonet and Sol Matas"
@@ -15,7 +15,7 @@
     />
     <credit
       name="SIL font designers and engineers"
-      url="http://scripts.sil.org/"
+      url="https://software.sil.org/wstech/"
       role="Additions and enhancements"
     />
   </credits>
@@ -37,15 +37,15 @@
       - Initial sources added from Noto Sans and Noto Sans Oriya
     </text>
   </description>
-  <license url="http://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
     <text lang="en">
       Latin and original Oriya copyright (c) 2015-2019 Google LLC
-      Additions and enhancements copyright (c) 2020-2021 SIL International (http://www.sil.org/)
+      Additions and enhancements copyright (c) 2020-2021 SIL International (https://www.sil.org/)
       with Reserved Font Names "Japa" and "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
-      http://scripts.sil.org/OFL
+      https://scripts.sil.org/OFL
       
       
       -----------------------------------------------------------
@@ -139,7 +139,7 @@
   <copyright>
     <text lang="en">
       Latin and original Oriya copyright (c) 2015-2019 Google LLC
-      Additions and enhancements copyright (c) 2020-2021 SIL International (http://www.sil.org/)
+      Additions and enhancements copyright (c) 2020-2021 SIL International (https://www.sil.org/)
       with Reserved Font Names "Japa" and "SIL".
     </text>
   </copyright>
