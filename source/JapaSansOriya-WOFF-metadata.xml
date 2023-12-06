@@ -37,7 +37,7 @@
       - Initial sources added from Noto Sans and Noto Sans Oriya
     </text>
   </description>
-  <license url="https://scripts.sil.org/OFL" id="org.sil.ofl.1.1">
+  <license url="https://openfontlicense.org" id="org.sil.ofl.1.1">
     <text lang="en">
       Latin and original Oriya copyright (c) 2015-2019 Google LLC
       Additions and enhancements copyright (c) 2020-2021 SIL International (https://www.sil.org/)
@@ -45,7 +45,7 @@
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
       This license is copied below, and is also available with a FAQ at:
-      https://scripts.sil.org/OFL
+      https://openfontlicense.org
       
       
       -----------------------------------------------------------
