@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <title>Kui language support</title>
+  </head>
+  <testgroup label="overline">
+    <test label="vowels 0B05..0B06 0B0F">
+      <string>\u0b05\u0b55 \u0b06\u0b55 \u0b0F\u0b55</string>
+    </test>
+    <test label="consonants 0B15..0B1F">
+      <string>\u0b15\u0b55 \u0b16\u0b55 \u0b17\u0b55 \u0b18\u0b55 \u0b19\u0b55 \u0b1A\u0b55 \u0b1B\u0b55 \u0b1C\u0b55 \u0b1D\u0b55 \u0b1E\u0b55 \u0b1F\u0b55 </string>
+    </test>
+    <test label="consonants 0B20..0B2F">
+      <string>\u0b20\u0b55 \u0b21\u0b55 \u0b22\u0b55 \u0b23\u0b55 \u0b24\u0b55 \u0b25\u0b55 \u0b26\u0b55 \u0b27\u0b55 \u0b28\u0b55 \u0b2A\u0b55 \u0b2B\u0b55 \u0b2C\u0b55 \u0b2D\u0b55 \u0b2E\u0b55 \u0b2F\u0b55 </string>
+    </test>
+    <test label="consonants 0B30..0B39">
+      <string>\u0b30\u0b55 \u0b32\u0b55 \u0b33\u0b55 \u0b35\u0b55 \u0b36\u0b55 \u0b37\u0b55 \u0b38\u0b55 \u0b39\u0b55</string>
+    </test>
+    <test label="matras 0B3E 0B47">
+      <string>\u0b15\u0B3E\u0b55 \u0b15\u0B47\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b55 \u0b16\u0b4d\u0b30\u0b55 \u0b17\u0b4d\u0b30\u0b55 \u0b18\u0b4d\u0b30\u0b55 \u0b19\u0b4d\u0b30\u0b55 \u0b1A\u0b4d\u0b30\u0b55 \u0b1B\u0b4d\u0b30\u0b55 \u0b1C\u0b4d\u0b30\u0b55 \u0b1D\u0b4d\u0b30\u0b55 \u0b1E\u0b4d\u0b30\u0b55 \u0b1F\u0b4d\u0b30\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b55 \u0b21\u0b4d\u0b30\u0b55 \u0b22\u0b4d\u0b30\u0b55 \u0b23\u0b4d\u0b30\u0b55 \u0b24\u0b4d\u0b30\u0b55 \u0b25\u0b4d\u0b30\u0b55 \u0b26\u0b4d\u0b30\u0b55 \u0b27\u0b4d\u0b30\u0b55 \u0b28\u0b4d\u0b30\u0b55 \u0b2A\u0b4d\u0b30\u0b55 \u0b2B\u0b4d\u0b30\u0b55 \u0b2C\u0b4d\u0b30\u0b55 \u0b2D\u0b4d\u0b30\u0b55 \u0b2E\u0b4d\u0b30\u0b55 \u0b2F\u0b4d\u0b30\u0b55 </string>
+    </test>
+    <test label="0B32..0B39">
+      <string>\u0b32\u0b4d\u0b30\u0b55 \u0b33\u0b4d\u0b30\u0b55 \u0b35\u0b4d\u0b30\u0b55 \u0b36\u0b4d\u0b30\u0b55 \u0b37\u0b4d\u0b30\u0b55 \u0b38\u0b4d\u0b30\u0b55 \u0b39\u0b4d\u0b30\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+0B3E+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b3e\u0b55 \u0b16\u0b4d\u0b30\u0b3e\u0b55 \u0b17\u0b4d\u0b30\u0b3e\u0b55 \u0b18\u0b4d\u0b30\u0b3e\u0b55 \u0b19\u0b4d\u0b30\u0b3e\u0b55 \u0b1A\u0b4d\u0b30\u0b3e\u0b55 \u0b1B\u0b4d\u0b30\u0b3e\u0b55 \u0b1C\u0b4d\u0b30\u0b3e\u0b55 \u0b1D\u0b4d\u0b30\u0b3e\u0b55 \u0b1E\u0b4d\u0b30\u0b3e\u0b55 \u0b1F\u0b4d\u0b30\u0b3e\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b3e\u0b55 \u0b21\u0b4d\u0b30\u0b3e\u0b55 \u0b22\u0b4d\u0b30\u0b3e\u0b55 \u0b23\u0b4d\u0b30\u0b3e\u0b55 \u0b24\u0b4d\u0b30\u0b3e\u0b55 \u0b25\u0b4d\u0b30\u0b3e\u0b55 \u0b26\u0b4d\u0b30\u0b3e\u0b55 \u0b27\u0b4d\u0b30\u0b3e\u0b55 \u0b28\u0b4d\u0b30\u0b3e\u0b55 \u0b2A\u0b4d\u0b30\u0b3e\u0b55 \u0b2B\u0b4d\u0b30\u0b3e\u0b55 \u0b2C\u0b4d\u0b30\u0b3e\u0b55 \u0b2D\u0b4d\u0b30\u0b3e\u0b55 \u0b2E\u0b4d\u0b30\u0b3e\u0b55 \u0b2F\u0b4d\u0b30\u0b3e\u0b55 </string>
+    </test>
+    <test label="0B32..0B39">
+      <string>\u0b32\u0b4d\u0b30\u0b3e\u0b55 \u0b33\u0b4d\u0b30\u0b3e\u0b55 \u0b35\u0b4d\u0b30\u0b3e\u0b55 \u0b36\u0b4d\u0b30\u0b3e\u0b55 \u0b37\u0b4d\u0b30\u0b3e\u0b55 \u0b38\u0b4d\u0b30\u0b3e\u0b55 \u0b39\u0b4d\u0b30\u0b3e\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+0B47+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b47\u0b55 \u0b16\u0b4d\u0b30\u0b47\u0b55 \u0b17\u0b4d\u0b30\u0b47\u0b55 \u0b18\u0b4d\u0b30\u0b47\u0b55 \u0b19\u0b4d\u0b30\u0b47\u0b55 \u0b1A\u0b4d\u0b30\u0b47\u0b55 \u0b1B\u0b4d\u0b30\u0b47\u0b55 \u0b1C\u0b4d\u0b30\u0b47\u0b55 \u0b1D\u0b4d\u0b30\u0b47\u0b55 \u0b1E\u0b4d\u0b30\u0b47\u0b55 \u0b1F\u0b4d\u0b30\u0b47\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b47\u0b55 \u0b21\u0b4d\u0b30\u0b47\u0b55 \u0b22\u0b4d\u0b30\u0b47\u0b55 \u0b23\u0b4d\u0b30\u0b47\u0b55 \u0b24\u0b4d\u0b30\u0b47\u0b55 \u0b25\u0b4d\u0b30\u0b47\u0b55 \u0b26\u0b4d\u0b30\u0b47\u0b55 \u0b27\u0b4d\u0b30\u0b47\u0b55 \u0b28\u0b4d\u0b30\u0b47\u0b55 \u0b2A\u0b4d\u0b30\u0b47\u0b55 \u0b2B\u0b4d\u0b30\u0b47\u0b55 \u0b2C\u0b4d\u0b30\u0b47\u0b55 \u0b2D\u0b4d\u0b30\u0b47\u0b55 \u0b2E\u0b4d\u0b30\u0b47\u0b55 \u0b2F\u0b4d\u0b30\u0b47\u0b55 </string>
+    </test>
+    <test label="0B32..0B39">
+      <string>\u0b32\u0b4d\u0b30\u0b47\u0b55 \u0b33\u0b4d\u0b30\u0b47\u0b55 \u0b35\u0b4d\u0b30\u0b47\u0b55 \u0b36\u0b4d\u0b30\u0b47\u0b55 \u0b37\u0b4d\u0b30\u0b47\u0b55 \u0b38\u0b4d\u0b30\u0b47\u0b55 \u0b39\u0b4d\u0b30\u0b47\u0b55</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="dot above">
+    <test label="vowels 0B05..0B06 0B0F">
+      <string>\u0b05\u0307 \u0b06\u0307 \u0b0F\u0307</string>
+    </test>
+    <test label="consonants 0B15..0B1F">
+      <string>\u0b15\u0307 \u0b16\u0307 \u0b17\u0307 \u0b18\u0307 \u0b19\u0307 \u0b1A\u0307 \u0b1B\u0307 \u0b1C\u0307 \u0b1D\u0307 \u0b1E\u0307 \u0b1F\u0307 </string>
+    </test>
+    <test label="consonants 0B20..0B2F">
+      <string>\u0b20\u0307 \u0b21\u0307 \u0b22\u0307 \u0b23\u0307 \u0b24\u0307 \u0b25\u0307 \u0b26\u0307 \u0b27\u0307 \u0b28\u0307 \u0b2A\u0307 \u0b2B\u0307 \u0b2C\u0307 \u0b2D\u0307 \u0b2E\u0307 \u0b2F\u0307 </string>
+    </test>
+    <test label="consonants 0B30..0B39">
+      <string>\u0b30\u0307 \u0b32\u0307 \u0b33\u0307 \u0b35\u0307 \u0b36\u0307 \u0b37\u0307 \u0b38\u0307 \u0b39\u0307</string>
+    </test>
+    <test label="matras 0B3E 0B3F 0B47">
+      <string>\u0b15\u0B3E\u0307 \u0b15\u0B3F\u0307 \u0b15\u0B47\u0307</string>
+    </test>
+  </testgroup>
+  <testgroup label="double dot above">
+    <test label="vowels 0B05..0B06 0B0F">
+      <string>\u0b05\u0308 \u0b06\u0308 \u0b0F\u0308</string>
+    </test>
+  </testgroup>
+  <testgroup label="va 0B35">
+    <test label="default">
+      <string>\u0b35 \u0b35\u0b4d\u0b30</string>
+    </test>
+    <test label="cvxx">
+      <string>\u0b35 \u0b35\u0b4d\u0b30</string>
+    </test>
+  </testgroup>
+
+</ftml>
