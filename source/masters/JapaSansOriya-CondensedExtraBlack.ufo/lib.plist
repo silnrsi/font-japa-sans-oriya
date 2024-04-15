@@ -417,6 +417,8 @@
     <string>glottalstopmod</string>
     <string>macronmod</string>
     <string>colontriangularmod</string>
+    <string>dotabovecomb</string>
+    <string>dieresiscomb</string>
     <string>cgj</string>
     <string>Omega</string>
     <string>danda</string>
@@ -663,7 +665,9 @@
     <string>lla-oriya.below</string>
     <string>lla-oriya.single</string>
     <string>va-oriya.base</string>
+    <string>va-oriya.base.kui</string>
     <string>va-oriya.below</string>
+    <string>va-oriya.kui</string>
     <string>va-oriya.single</string>
     <string>sha-oriya.base</string>
     <string>sha-oriya.below</string>
@@ -679,6 +683,8 @@
     <string>ha-oriya.single</string>
     <string>iMatra-oriya.below</string>
     <string>iMatra-oriya.wide</string>
+    <string>overline-oriya.narrow</string>
+    <string>overline-oriya.wide</string>
     <string>aiLength-oriya.stem</string>
     <string>aiLength-oriya.umbrella</string>
     <string>rra-oriya.base</string>
@@ -908,6 +914,7 @@
     <string>ttatta-oriya</string>
     <string>tthara-oriya</string>
     <string>vara-oriya</string>
+    <string>vara-oriya.kui</string>
     <string>wara-oriya</string>
     <string>yara-oriya</string>
     <string>yyara-oriya</string>
@@ -1154,8 +1161,12 @@
     <string>dhayaoriya</string>
     <key>dhayya-oriya</key>
     <string>dhayyaoriya</string>
+    <key>dieresiscomb</key>
+    <string>uni0308</string>
     <key>divisionslash</key>
     <string>uni2215</string>
+    <key>dotabovecomb</key>
+    <string>uni0307</string>
     <key>dottedCircle</key>
     <string>uni25CC</string>
     <key>e-oriya</key>
@@ -1574,6 +1585,10 @@
     <string>uni00B9</string>
     <key>overline-oriya</key>
     <string>uni0B55</string>
+    <key>overline-oriya.narrow</key>
+    <string>uni0B55.narrow</string>
+    <key>overline-oriya.wide</key>
+    <string>uni0B55.wide</string>
     <key>pa-oriya</key>
     <string>uni0B2A</string>
     <key>pa-oriya.base</key>
@@ -1862,12 +1877,18 @@
     <string>uni0B35</string>
     <key>va-oriya.base</key>
     <string>uni0B35.base</string>
+    <key>va-oriya.base.kui</key>
+    <string>uni0B35.base.kui</string>
     <key>va-oriya.below</key>
     <string>uni0B35.below</string>
+    <key>va-oriya.kui</key>
+    <string>uni0B35.kui</string>
     <key>va-oriya.single</key>
     <string>uni0B35.single</string>
     <key>vara-oriya</key>
     <string>varaoriya</string>
+    <key>vara-oriya.kui</key>
+    <string>varaoriya.kui</string>
     <key>visarga-oriya</key>
     <string>uni0B03</string>
     <key>wa-oriya</key>
