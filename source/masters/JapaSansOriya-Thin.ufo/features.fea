@@ -215,7 +215,7 @@
 # baseClass [dhayya-oriya ha-oriya.base haja-oriya haka-oriya hala-oriya halla-oriya hama-oriya hana-oriya hau-oriya hauu-oriya hava-oriya wa-oriya.base] <anchor 299 658> @top;
 # baseClass dotlessi <anchor 104 528> @top;
 # baseClass e <anchor 270 528> @top;
-# baseClass e-oriya <anchor 293 658> @top;
+# baseClass e-oriya <anchor 463 658> @top;
 # baseClass eMatra-oriya <anchor 250 658> @top;
 # baseClass [eacute egrave] <anchor 270 766> @top;
 # baseClass ecircumflex <anchor 270 763> @top;
@@ -1174,7 +1174,7 @@ lookup AboveMarks {
     pos base [dhayya-oriya ha-oriya.base haja-oriya haka-oriya hala-oriya halla-oriya hama-oriya hana-oriya hau-oriya hauu-oriya hava-oriya wa-oriya.base] <anchor 299 658> mark @_top;
     pos base dotlessi <anchor 104 528> mark @_top;
     pos base e <anchor 270 528> mark @_top;
-    pos base e-oriya <anchor 293 658> mark @_top;
+    pos base e-oriya <anchor 463 658> mark @_top;
     pos base eMatra-oriya <anchor 250 658> mark @_top;
     pos base [eacute egrave] <anchor 270 766> mark @_top;
     pos base ecircumflex <anchor 270 763> mark @_top;

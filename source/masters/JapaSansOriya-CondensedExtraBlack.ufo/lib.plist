@@ -193,11 +193,9 @@
     <string>parenright</string>
     <string>asterisk</string>
     <string>plus</string>
-    <string>plus.latn</string>
     <string>comma</string>
     <string>hyphen</string>
     <string>period</string>
-    <string>period.latn</string>
     <string>slash</string>
     <string>zero</string>
     <string>one</string>
@@ -215,7 +213,6 @@
     <string>equal</string>
     <string>greater</string>
     <string>question</string>
-    <string>question.latn</string>
     <string>at</string>
     <string>A</string>
     <string>B</string>
@@ -279,128 +276,149 @@
     <string>bar</string>
     <string>braceright</string>
     <string>asciitilde</string>
-    <string>nbspace</string>
-    <string>exclamdown</string>
-    <string>cent</string>
-    <string>sterling</string>
-    <string>currency</string>
-    <string>yen</string>
-    <string>brokenbar</string>
-    <string>section</string>
-    <string>dieresis</string>
-    <string>copyright</string>
-    <string>ordfeminine</string>
-    <string>guillemotleft</string>
-    <string>logicalnot</string>
-    <string>softhyphen</string>
-    <string>registered</string>
-    <string>macron</string>
-    <string>degree</string>
-    <string>plusminus</string>
-    <string>twosuperior</string>
-    <string>threesuperior</string>
-    <string>acute</string>
-    <string>mu</string>
-    <string>paragraph</string>
-    <string>periodcentered</string>
-    <string>cedilla</string>
-    <string>onesuperior</string>
-    <string>ordmasculine</string>
-    <string>guillemotright</string>
-    <string>onequarter</string>
-    <string>onehalf</string>
-    <string>threequarters</string>
-    <string>questiondown</string>
-    <string>Agrave</string>
-    <string>Aacute</string>
-    <string>Acircumflex</string>
-    <string>Atilde</string>
     <string>Adieresis</string>
     <string>Aring</string>
-    <string>AE</string>
     <string>Ccedilla</string>
-    <string>Egrave</string>
     <string>Eacute</string>
+    <string>Ntilde</string>
+    <string>Odieresis</string>
+    <string>Udieresis</string>
+    <string>aacute</string>
+    <string>agrave</string>
+    <string>acircumflex</string>
+    <string>adieresis</string>
+    <string>atilde</string>
+    <string>aring</string>
+    <string>ccedilla</string>
+    <string>eacute</string>
+    <string>egrave</string>
+    <string>ecircumflex</string>
+    <string>edieresis</string>
+    <string>iacute</string>
+    <string>igrave</string>
+    <string>icircumflex</string>
+    <string>idieresis</string>
+    <string>ntilde</string>
+    <string>oacute</string>
+    <string>ograve</string>
+    <string>ocircumflex</string>
+    <string>odieresis</string>
+    <string>otilde</string>
+    <string>uacute</string>
+    <string>ugrave</string>
+    <string>ucircumflex</string>
+    <string>udieresis</string>
+    <string>dagger</string>
+    <string>degree</string>
+    <string>cent</string>
+    <string>sterling</string>
+    <string>section</string>
+    <string>bullet</string>
+    <string>paragraph</string>
+    <string>germandbls</string>
+    <string>registered</string>
+    <string>copyright</string>
+    <string>trademark</string>
+    <string>acute</string>
+    <string>dieresis</string>
+    <string>AE</string>
+    <string>Oslash</string>
+    <string>plusminus</string>
+    <string>yen</string>
+    <string>mu</string>
+    <string>pi</string>
+    <string>ordfeminine</string>
+    <string>ordmasculine</string>
+    <string>Ohm</string>
+    <string>ae</string>
+    <string>oslash</string>
+    <string>questiondown</string>
+    <string>exclamdown</string>
+    <string>logicalnot</string>
+    <string>florin</string>
+    <string>guillemotleft</string>
+    <string>guillemotright</string>
+    <string>ellipsis</string>
+    <string>nbspace</string>
+    <string>Agrave</string>
+    <string>Atilde</string>
+    <string>Otilde</string>
+    <string>OE</string>
+    <string>oe</string>
+    <string>endash</string>
+    <string>emdash</string>
+    <string>quotedblleft</string>
+    <string>quotedblright</string>
+    <string>quoteleft</string>
+    <string>quoteright</string>
+    <string>divide</string>
+    <string>ydieresis</string>
+    <string>Ydieresis</string>
+    <string>fraction</string>
+    <string>currency</string>
+    <string>guilsinglleft</string>
+    <string>guilsinglright</string>
+    <string>fi</string>
+    <string>fl</string>
+    <string>daggerdbl</string>
+    <string>periodcentered</string>
+    <string>quotesinglbase</string>
+    <string>quotedblbase</string>
+    <string>perthousand</string>
+    <string>Acircumflex</string>
     <string>Ecircumflex</string>
+    <string>Aacute</string>
     <string>Edieresis</string>
-    <string>Igrave</string>
+    <string>Egrave</string>
     <string>Iacute</string>
     <string>Icircumflex</string>
     <string>Idieresis</string>
-    <string>Eth</string>
-    <string>Ntilde</string>
-    <string>Ograve</string>
+    <string>Igrave</string>
     <string>Oacute</string>
     <string>Ocircumflex</string>
-    <string>Otilde</string>
-    <string>Odieresis</string>
-    <string>multiply</string>
-    <string>Oslash</string>
-    <string>Ugrave</string>
+    <string>dottedCircle</string>
+    <string>Ograve</string>
     <string>Uacute</string>
     <string>Ucircumflex</string>
-    <string>Udieresis</string>
+    <string>Ugrave</string>
+    <string>dotlessi</string>
+    <string>circumflex</string>
+    <string>tilde</string>
+    <string>macron</string>
+    <string>breve</string>
+    <string>dotaccent</string>
+    <string>ring</string>
+    <string>cedilla</string>
+    <string>hungarumlaut</string>
+    <string>ogonek</string>
+    <string>caron</string>
+    <string>brokenbar</string>
+    <string>softhyphen</string>
+    <string>twosuperior</string>
+    <string>threesuperior</string>
+    <string>onesuperior</string>
+    <string>onequarter</string>
+    <string>onehalf</string>
+    <string>threequarters</string>
+    <string>Eth</string>
+    <string>multiply</string>
     <string>Yacute</string>
     <string>Thorn</string>
-    <string>germandbls</string>
-    <string>agrave</string>
-    <string>aacute</string>
-    <string>acircumflex</string>
-    <string>atilde</string>
-    <string>adieresis</string>
-    <string>aring</string>
-    <string>ae</string>
-    <string>ccedilla</string>
-    <string>egrave</string>
-    <string>eacute</string>
-    <string>ecircumflex</string>
-    <string>edieresis</string>
-    <string>igrave</string>
-    <string>iacute</string>
-    <string>icircumflex</string>
-    <string>idieresis</string>
     <string>eth</string>
-    <string>ntilde</string>
-    <string>ograve</string>
-    <string>oacute</string>
-    <string>ocircumflex</string>
-    <string>otilde</string>
-    <string>odieresis</string>
-    <string>divide</string>
-    <string>oslash</string>
-    <string>ugrave</string>
-    <string>uacute</string>
-    <string>ucircumflex</string>
-    <string>udieresis</string>
     <string>yacute</string>
     <string>thorn</string>
-    <string>ydieresis</string>
-    <string>dotlessi</string>
-    <string>OE</string>
-    <string>oe</string>
     <string>Scaron</string>
     <string>scaron</string>
-    <string>Ydieresis</string>
     <string>Zcaron</string>
     <string>zcaron</string>
-    <string>florin</string>
     <string>glottalstopsmall</string>
     <string>glottalstop</string>
     <string>apostrophemod</string>
     <string>glottalstopmod</string>
-    <string>circumflex</string>
-    <string>caron</string>
     <string>macronmod</string>
     <string>colontriangularmod</string>
-    <string>breve</string>
-    <string>dotaccent</string>
-    <string>ring</string>
-    <string>ogonek</string>
-    <string>tilde</string>
-    <string>hungarumlaut</string>
     <string>cgj</string>
     <string>Omega</string>
-    <string>pi</string>
     <string>danda</string>
     <string>dbldanda</string>
     <string>candraBindu-oriya</string>
@@ -419,145 +437,43 @@
     <string>o-oriya</string>
     <string>au-oriya</string>
     <string>ka-oriya</string>
-    <string>ka-oriya.base</string>
-    <string>ka-oriya.below</string>
-    <string>ka-oriya.single</string>
     <string>kha-oriya</string>
-    <string>kha-oriya.base</string>
-    <string>kha-oriya.below</string>
-    <string>kha-oriya.single</string>
     <string>ga-oriya</string>
-    <string>ga-oriya.base</string>
-    <string>ga-oriya.below</string>
-    <string>ga-oriya.single</string>
     <string>gha-oriya</string>
-    <string>gha-oriya.base</string>
-    <string>gha-oriya.below</string>
-    <string>gha-oriya.single</string>
     <string>nga-oriya</string>
-    <string>nga-oriya.base</string>
-    <string>nga-oriya.below</string>
-    <string>nga-oriya.single</string>
     <string>ca-oriya</string>
-    <string>ca-oriya.base</string>
-    <string>ca-oriya.below</string>
-    <string>ca-oriya.single</string>
     <string>cha-oriya</string>
-    <string>cha-oriya.base</string>
-    <string>cha-oriya.below</string>
-    <string>cha-oriya.single</string>
     <string>ja-oriya</string>
-    <string>ja-oriya.base</string>
-    <string>ja-oriya.below</string>
-    <string>ja-oriya.single</string>
     <string>jha-oriya</string>
-    <string>jha-oriya.base</string>
-    <string>jha-oriya.below</string>
-    <string>jha-oriya.single</string>
     <string>nya-oriya</string>
-    <string>nya-oriya.base</string>
     <string>tta-oriya</string>
-    <string>tta-oriya.base</string>
-    <string>tta-oriya.below</string>
-    <string>tta-oriya.single</string>
     <string>ttha-oriya</string>
-    <string>ttha-oriya.base</string>
-    <string>ttha-oriya.below</string>
-    <string>ttha-oriya.single</string>
     <string>dda-oriya</string>
-    <string>dda-oriya.base</string>
-    <string>dda-oriya.below</string>
-    <string>dda-oriya.single</string>
     <string>ddha-oriya</string>
-    <string>ddha-oriya.base</string>
-    <string>ddha-oriya.below</string>
-    <string>ddha-oriya.single</string>
     <string>nna-oriya</string>
-    <string>nna-oriya.base</string>
-    <string>nna-oriya.below</string>
-    <string>nna-oriya.single</string>
     <string>ta-oriya</string>
-    <string>ta-oriya.base</string>
-    <string>ta-oriya.below</string>
-    <string>ta-oriya.single</string>
     <string>tha-oriya</string>
-    <string>tha-oriya.base</string>
-    <string>tha-oriya.below</string>
-    <string>tha-oriya.single</string>
     <string>da-oriya</string>
-    <string>da-oriya.base</string>
-    <string>da-oriya.below</string>
-    <string>da-oriya.single</string>
     <string>dha-oriya</string>
-    <string>dha-oriya.base</string>
-    <string>dha-oriya.below</string>
-    <string>dha-oriya.single</string>
     <string>na-oriya</string>
-    <string>na-oriya.base</string>
-    <string>na-oriya.below</string>
-    <string>na-oriya.single</string>
     <string>pa-oriya</string>
-    <string>pa-oriya.base</string>
-    <string>pa-oriya.below</string>
-    <string>pa-oriya.single</string>
     <string>pha-oriya</string>
-    <string>pha-oriya.base</string>
-    <string>pha-oriya.below</string>
-    <string>pha-oriya.single</string>
     <string>ba-oriya</string>
-    <string>ba-oriya.base</string>
-    <string>ba-oriya.below</string>
-    <string>ba-oriya.single</string>
     <string>bha-oriya</string>
-    <string>bha-oriya.base</string>
-    <string>bha-oriya.below</string>
-    <string>bha-oriya.single</string>
     <string>ma-oriya</string>
-    <string>ma-oriya.base</string>
-    <string>ma-oriya.below</string>
-    <string>ma-oriya.single</string>
     <string>ya-oriya</string>
-    <string>ya-oriya.base</string>
-    <string>ya-oriya.below</string>
-    <string>ya-oriya.single</string>
     <string>ra-oriya</string>
-    <string>ra-oriya.base</string>
-    <string>ra-oriya.below</string>
-    <string>ra-oriya.single</string>
     <string>la-oriya</string>
-    <string>la-oriya.base</string>
-    <string>la-oriya.below</string>
-    <string>la-oriya.single</string>
     <string>lla-oriya</string>
-    <string>lla-oriya.base</string>
-    <string>lla-oriya.below</string>
-    <string>lla-oriya.single</string>
     <string>va-oriya</string>
-    <string>va-oriya.base</string>
-    <string>va-oriya.below</string>
-    <string>va-oriya.single</string>
     <string>sha-oriya</string>
-    <string>sha-oriya.base</string>
-    <string>sha-oriya.below</string>
-    <string>sha-oriya.single</string>
     <string>ssa-oriya</string>
-    <string>ssa-oriya.base</string>
-    <string>ssa-oriya.below</string>
-    <string>ssa-oriya.single</string>
     <string>sa-oriya</string>
-    <string>sa-oriya.base</string>
-    <string>sa-oriya.below</string>
-    <string>sa-oriya.single</string>
     <string>ha-oriya</string>
-    <string>ha-oriya.base</string>
-    <string>ha-oriya.below</string>
-    <string>ha-oriya.single</string>
     <string>nukta-oriya</string>
     <string>avagraha-oriya</string>
     <string>aaMatra-oriya</string>
     <string>iMatra-oriya</string>
-    <string>iMatra-oriya.below</string>
-    <string>iMatra-oriya.wide</string>
     <string>iiMatra-oriya</string>
     <string>uMatra-oriya</string>
     <string>uuMatra-oriya</string>
@@ -570,15 +486,10 @@
     <string>halant-oriya</string>
     <string>overline-oriya</string>
     <string>aiLength-oriya</string>
-    <string>aiLength-oriya.stem</string>
-    <string>aiLength-oriya.umbrella</string>
     <string>auLength-oriya</string>
     <string>rra-oriya</string>
-    <string>rra-oriya.base</string>
     <string>rha-oriya</string>
-    <string>rha-oriya.base</string>
     <string>yya-oriya</string>
-    <string>yya-oriya.post</string>
     <string>rrVocalic-oriya</string>
     <string>llVocalic-oriya</string>
     <string>lVocalicMatra-oriya</string>
@@ -595,7 +506,6 @@
     <string>nine-oriya</string>
     <string>isshar-oriya</string>
     <string>wa-oriya</string>
-    <string>wa-oriya.base</string>
     <string>onequarter-oriya</string>
     <string>onehalf-oriya</string>
     <string>threequarters-oriya</string>
@@ -619,30 +529,11 @@
     <string>hyphentwo</string>
     <string>nbhyphen</string>
     <string>figuredash</string>
-    <string>endash</string>
-    <string>emdash</string>
-    <string>emdash.latn</string>
     <string>horizontalbar</string>
-    <string>quoteleft</string>
-    <string>quoteright</string>
-    <string>quoteright.latn</string>
-    <string>quotesinglbase</string>
-    <string>quotedblleft</string>
-    <string>quotedblright</string>
-    <string>quotedblright.latn</string>
-    <string>quotedblbase</string>
-    <string>dagger</string>
-    <string>daggerdbl</string>
-    <string>bullet</string>
-    <string>ellipsis</string>
     <string>hyphenationpoint</string>
     <string>lineseparator</string>
     <string>paragraphseparator</string>
     <string>nnbsp</string>
-    <string>perthousand</string>
-    <string>guilsinglleft</string>
-    <string>guilsinglright</string>
-    <string>fraction</string>
     <string>wj</string>
     <string>zerosuperior</string>
     <string>foursuperior</string>
@@ -657,18 +548,13 @@
     <string>rs</string>
     <string>Euro</string>
     <string>rupeeIndian</string>
-    <string>trademark</string>
-    <string>Ohm</string>
     <string>minus</string>
     <string>divisionslash</string>
-    <string>dottedCircle</string>
     <string>halfbracketlefttop</string>
     <string>halfbracketrighttop</string>
     <string>halfbracketleftbottom</string>
     <string>halfbracketrightbottom</string>
     <string>saltillo</string>
-    <string>fi</string>
-    <string>fl</string>
     <string>VS1</string>
     <string>VS2</string>
     <string>VS3</string>
@@ -688,6 +574,120 @@
     <string>zwnbsp</string>
     <string>ObjectReplChar</string>
     <string>ReplChar</string>
+    <string>plus.latn</string>
+    <string>period.latn</string>
+    <string>question.latn</string>
+    <string>ka-oriya.base</string>
+    <string>ka-oriya.below</string>
+    <string>ka-oriya.single</string>
+    <string>kha-oriya.base</string>
+    <string>kha-oriya.below</string>
+    <string>kha-oriya.single</string>
+    <string>ga-oriya.base</string>
+    <string>ga-oriya.below</string>
+    <string>ga-oriya.single</string>
+    <string>gha-oriya.base</string>
+    <string>gha-oriya.below</string>
+    <string>gha-oriya.single</string>
+    <string>nga-oriya.base</string>
+    <string>nga-oriya.below</string>
+    <string>nga-oriya.single</string>
+    <string>ca-oriya.base</string>
+    <string>ca-oriya.below</string>
+    <string>ca-oriya.single</string>
+    <string>cha-oriya.base</string>
+    <string>cha-oriya.below</string>
+    <string>cha-oriya.single</string>
+    <string>ja-oriya.base</string>
+    <string>ja-oriya.below</string>
+    <string>ja-oriya.single</string>
+    <string>jha-oriya.base</string>
+    <string>jha-oriya.below</string>
+    <string>jha-oriya.single</string>
+    <string>nya-oriya.base</string>
+    <string>tta-oriya.base</string>
+    <string>tta-oriya.below</string>
+    <string>tta-oriya.single</string>
+    <string>ttha-oriya.base</string>
+    <string>ttha-oriya.below</string>
+    <string>ttha-oriya.single</string>
+    <string>dda-oriya.base</string>
+    <string>dda-oriya.below</string>
+    <string>dda-oriya.single</string>
+    <string>ddha-oriya.base</string>
+    <string>ddha-oriya.below</string>
+    <string>ddha-oriya.single</string>
+    <string>nna-oriya.base</string>
+    <string>nna-oriya.below</string>
+    <string>nna-oriya.single</string>
+    <string>ta-oriya.base</string>
+    <string>ta-oriya.below</string>
+    <string>ta-oriya.single</string>
+    <string>tha-oriya.base</string>
+    <string>tha-oriya.below</string>
+    <string>tha-oriya.single</string>
+    <string>da-oriya.base</string>
+    <string>da-oriya.below</string>
+    <string>da-oriya.single</string>
+    <string>dha-oriya.base</string>
+    <string>dha-oriya.below</string>
+    <string>dha-oriya.single</string>
+    <string>na-oriya.base</string>
+    <string>na-oriya.below</string>
+    <string>na-oriya.single</string>
+    <string>pa-oriya.base</string>
+    <string>pa-oriya.below</string>
+    <string>pa-oriya.single</string>
+    <string>pha-oriya.base</string>
+    <string>pha-oriya.below</string>
+    <string>pha-oriya.single</string>
+    <string>ba-oriya.base</string>
+    <string>ba-oriya.below</string>
+    <string>ba-oriya.single</string>
+    <string>bha-oriya.base</string>
+    <string>bha-oriya.below</string>
+    <string>bha-oriya.single</string>
+    <string>ma-oriya.base</string>
+    <string>ma-oriya.below</string>
+    <string>ma-oriya.single</string>
+    <string>ya-oriya.base</string>
+    <string>ya-oriya.below</string>
+    <string>ya-oriya.single</string>
+    <string>ra-oriya.base</string>
+    <string>ra-oriya.below</string>
+    <string>ra-oriya.single</string>
+    <string>la-oriya.base</string>
+    <string>la-oriya.below</string>
+    <string>la-oriya.single</string>
+    <string>lla-oriya.base</string>
+    <string>lla-oriya.below</string>
+    <string>lla-oriya.single</string>
+    <string>va-oriya.base</string>
+    <string>va-oriya.below</string>
+    <string>va-oriya.single</string>
+    <string>sha-oriya.base</string>
+    <string>sha-oriya.below</string>
+    <string>sha-oriya.single</string>
+    <string>ssa-oriya.base</string>
+    <string>ssa-oriya.below</string>
+    <string>ssa-oriya.single</string>
+    <string>sa-oriya.base</string>
+    <string>sa-oriya.below</string>
+    <string>sa-oriya.single</string>
+    <string>ha-oriya.base</string>
+    <string>ha-oriya.below</string>
+    <string>ha-oriya.single</string>
+    <string>iMatra-oriya.below</string>
+    <string>iMatra-oriya.wide</string>
+    <string>aiLength-oriya.stem</string>
+    <string>aiLength-oriya.umbrella</string>
+    <string>rra-oriya.base</string>
+    <string>rha-oriya.base</string>
+    <string>yya-oriya.post</string>
+    <string>wa-oriya.base</string>
+    <string>emdash.latn</string>
+    <string>quoteright.latn</string>
+    <string>quotedblright.latn</string>
     <string>_cap.overlap</string>
     <string>_part.da.below</string>
     <string>_part.pha</string>
@@ -696,12 +696,12 @@
     <string>aiLengthcandraBindu-oriya.stem</string>
     <string>aiLengthcandraBindu-oriya.umbrella</string>
     <string>aicandraBindu-oriya</string>
-    <string>aireph-oriya</string>
     <string>airephcandraBindu-oriya</string>
+    <string>aireph-oriya</string>
     <string>auLengthcandraBindu-oriya</string>
     <string>aucandraBindu-oriya</string>
-    <string>aureph-oriya</string>
     <string>aurephcandraBindu-oriya</string>
+    <string>aureph-oriya</string>
     <string>baba-oriya</string>
     <string>bada-oriya</string>
     <string>badha-oriya</string>
@@ -750,10 +750,10 @@
     <string>hava-oriya</string>
     <string>iMatracandraBindu-oriya</string>
     <string>iMatracandraBindu-oriya.wide</string>
-    <string>iMatrareph-oriya</string>
-    <string>iMatrareph-oriya.wide</string>
     <string>iMatrarephcandraBindu-oriya</string>
     <string>iMatrarephcandraBindu-oriya.wide</string>
+    <string>iMatrareph-oriya</string>
+    <string>iMatrareph-oriya.wide</string>
     <string>jaja-oriya</string>
     <string>jajava-oriya</string>
     <string>jajha-oriya</string>
@@ -766,15 +766,15 @@
     <string>kalla-oriya</string>
     <string>kara-oriya</string>
     <string>kasa-oriya</string>
+    <string>kassama-oriya</string>
+    <string>kassanna-oriya</string>
     <string>kassa-oriya</string>
     <string>kassa-oriya.base</string>
     <string>kassa-oriya.below</string>
-    <string>kassama-oriya</string>
-    <string>kassanna-oriya</string>
     <string>kassara-oriya</string>
     <string>kata-oriya</string>
-    <string>katara-oriya</string>
     <string>kataraalt-oriya</string>
+    <string>katara-oriya</string>
     <string>katta-oriya</string>
     <string>kava-oriya</string>
     <string>khara-oriya</string>
@@ -819,14 +819,14 @@
     <string>ngakata-oriya</string>
     <string>ngakha-oriya</string>
     <string>ngara-oriya</string>
-    <string>nnadda-oriya</string>
     <string>nnaddahalant-oriya</string>
+    <string>nnadda-oriya</string>
     <string>nnaddara-oriya</string>
     <string>nnaddha-oriya</string>
     <string>nnanna-oriya</string>
     <string>nnara-oriya</string>
-    <string>nnatta-oriya</string>
     <string>nnattahalant-oriya</string>
+    <string>nnatta-oriya</string>
     <string>nnattha-oriya</string>
     <string>nyaca-oriya</string>
     <string>nyacha-oriya</string>
@@ -847,16 +847,16 @@
     <string>rarrVocalicMatra-oriya.below</string>
     <string>rauMatra-oriya.below</string>
     <string>rauuMatra-oriya.below</string>
-    <string>reph-oriya</string>
-    <string>rephaiLength-oriya</string>
-    <string>rephaiLength-oriya.stem</string>
-    <string>rephaiLength-oriya.umbrella</string>
     <string>rephaiLengthcandraBindu-oriya</string>
     <string>rephaiLengthcandraBindu-oriya.stem</string>
     <string>rephaiLengthcandraBindu-oriya.umbrella</string>
-    <string>rephauLength-oriya</string>
+    <string>rephaiLength-oriya</string>
+    <string>rephaiLength-oriya.stem</string>
+    <string>rephaiLength-oriya.umbrella</string>
     <string>rephauLengthcandraBindu-oriya</string>
+    <string>rephauLength-oriya</string>
     <string>rephcandraBindu-oriya</string>
+    <string>reph-oriya</string>
     <string>rhara-oriya</string>
     <string>rrara-oriya</string>
     <string>saka-oriya</string>
@@ -882,8 +882,8 @@
     <string>ssapa-oriya</string>
     <string>ssapha-oriya</string>
     <string>ssara-oriya</string>
-    <string>ssatta-oriya</string>
     <string>ssattahalant-oriya</string>
+    <string>ssatta-oriya</string>
     <string>ssattara-oriya</string>
     <string>ssattha-oriya</string>
     <string>taalt-oriya.below</string>
@@ -896,8 +896,8 @@
     <string>tara-oriya</string>
     <string>tara-oriya.below</string>
     <string>tarauMatra-oriya</string>
-    <string>tasa-oriya</string>
     <string>tasana-oriya</string>
+    <string>tasa-oriya</string>
     <string>tata-oriya</string>
     <string>tatara-oriya</string>
     <string>tatava-oriya</string>
@@ -931,7 +931,9 @@
     <key>ObjectReplChar</key>
     <string>uniFFFC</string>
     <key>Ohm</key>
-    <string>uni2126</string>
+    <string>Omega</string>
+    <key>Omega</key>
+    <string>uni03A9</string>
     <key>PuncSpace</key>
     <string>uni2008</string>
     <key>ReplChar</key>
@@ -989,13 +991,19 @@
     <key>aiLength-oriya.umbrella</key>
     <string>uni0B56.umbrella</string>
     <key>aiLengthcandraBindu-oriya</key>
-    <string>uni0B560B01</string>
+    <string>aiLengthcandraBinduoriya</string>
     <key>aiLengthcandraBindu-oriya.stem</key>
-    <string>uni0B560B01.stem</string>
+    <string>aiLengthcandraBinduoriya.stem</string>
     <key>aiLengthcandraBindu-oriya.umbrella</key>
-    <string>uni0B560B01.umbrella</string>
+    <string>aiLengthcandraBinduoriya.umbrella</string>
     <key>aiMatra-oriya</key>
     <string>uni0B48</string>
+    <key>aicandraBindu-oriya</key>
+    <string>aicandraBinduoriya</string>
+    <key>aireph-oriya</key>
+    <string>airephoriya</string>
+    <key>airephcandraBindu-oriya</key>
+    <string>airephcandraBinduoriya</string>
     <key>anusvara-oriya</key>
     <string>uni0B02</string>
     <key>apostrophemod</key>
@@ -1004,8 +1012,16 @@
     <string>uni0B14</string>
     <key>auLength-oriya</key>
     <string>uni0B57</string>
+    <key>auLengthcandraBindu-oriya</key>
+    <string>auLengthcandraBinduoriya</string>
     <key>auMatra-oriya</key>
     <string>uni0B4C</string>
+    <key>aucandraBindu-oriya</key>
+    <string>aucandraBinduoriya</string>
+    <key>aureph-oriya</key>
+    <string>aurephoriya</string>
+    <key>aurephcandraBindu-oriya</key>
+    <string>aurephcandraBinduoriya</string>
     <key>avagraha-oriya</key>
     <string>uni0B3D</string>
     <key>ba-oriya</key>
@@ -1016,6 +1032,16 @@
     <string>uni0B2C.below</string>
     <key>ba-oriya.single</key>
     <string>uni0B2C.single</string>
+    <key>baba-oriya</key>
+    <string>babaoriya</string>
+    <key>bada-oriya</key>
+    <string>badaoriya</string>
+    <key>badha-oriya</key>
+    <string>badhaoriya</string>
+    <key>baja-oriya</key>
+    <string>bajaoriya</string>
+    <key>bara-oriya</key>
+    <string>baraoriya</string>
     <key>bha-oriya</key>
     <string>uni0B2D</string>
     <key>bha-oriya.base</key>
@@ -1024,6 +1050,10 @@
     <string>uni0B2D.below</string>
     <key>bha-oriya.single</key>
     <string>uni0B2D.single</string>
+    <key>bhaalt-oriya.below</key>
+    <string>bhaaltoriya.below</string>
+    <key>bhara-oriya</key>
+    <string>bharaoriya</string>
     <key>ca-oriya</key>
     <string>uni0B1A</string>
     <key>ca-oriya.base</key>
@@ -1032,8 +1062,14 @@
     <string>uni0B1A.below</string>
     <key>ca-oriya.single</key>
     <string>uni0B1A.single</string>
+    <key>caca-oriya</key>
+    <string>cacaoriya</string>
+    <key>cacha-oriya</key>
+    <string>cachaoriya</string>
     <key>candraBindu-oriya</key>
     <string>uni0B01</string>
+    <key>cara-oriya</key>
+    <string>caraoriya</string>
     <key>cgj</key>
     <string>uni034F</string>
     <key>cha-oriya</key>
@@ -1044,6 +1080,8 @@
     <string>uni0B1B.below</string>
     <key>cha-oriya.single</key>
     <string>uni0B1B.single</string>
+    <key>chara-oriya</key>
+    <string>charaoriya</string>
     <key>colontriangularmod</key>
     <string>uni02D0</string>
     <key>da-oriya</key>
@@ -1054,8 +1092,26 @@
     <string>uni0B26.below</string>
     <key>da-oriya.single</key>
     <string>uni0B26.single</string>
+    <key>dabha-oriya</key>
+    <string>dabhaoriya</string>
+    <key>dada-oriya</key>
+    <string>dadaoriya</string>
+    <key>dadha-oriya</key>
+    <string>dadhaoriya</string>
+    <key>dadhava-oriya</key>
+    <string>dadhavaoriya</string>
+    <key>daga-oriya</key>
+    <string>dagaoriya</string>
+    <key>dagha-oriya</key>
+    <string>daghaoriya</string>
     <key>danda</key>
     <string>uni0964</string>
+    <key>dara-oriya</key>
+    <string>daraoriya</string>
+    <key>darauMatra-oriya</key>
+    <string>darauMatraoriya</string>
+    <key>dava-oriya</key>
+    <string>davaoriya</string>
     <key>dbldanda</key>
     <string>uni0965</string>
     <key>dda-oriya</key>
@@ -1066,6 +1122,12 @@
     <string>uni0B21.below</string>
     <key>dda-oriya.single</key>
     <string>uni0B21.single</string>
+    <key>ddadda-oriya</key>
+    <string>ddaddaoriya</string>
+    <key>ddaga-oriya</key>
+    <string>ddagaoriya</string>
+    <key>ddara-oriya</key>
+    <string>ddaraoriya</string>
     <key>ddha-oriya</key>
     <string>uni0B22</string>
     <key>ddha-oriya.base</key>
@@ -1074,6 +1136,8 @@
     <string>uni0B22.below</string>
     <key>ddha-oriya.single</key>
     <string>uni0B22.single</string>
+    <key>ddhara-oriya</key>
+    <string>ddharaoriya</string>
     <key>dha-oriya</key>
     <string>uni0B27</string>
     <key>dha-oriya.base</key>
@@ -1082,6 +1146,14 @@
     <string>uni0B27.below</string>
     <key>dha-oriya.single</key>
     <string>uni0B27.single</string>
+    <key>dhara-oriya</key>
+    <string>dharaoriya</string>
+    <key>dhava-oriya</key>
+    <string>dhavaoriya</string>
+    <key>dhaya-oriya</key>
+    <string>dhayaoriya</string>
+    <key>dhayya-oriya</key>
+    <string>dhayyaoriya</string>
     <key>divisionslash</key>
     <string>uni2215</string>
     <key>dottedCircle</key>
@@ -1114,6 +1186,16 @@
     <string>uni0B17.below</string>
     <key>ga-oriya.single</key>
     <string>uni0B17.single</string>
+    <key>gada-oriya</key>
+    <string>gadaoriya</string>
+    <key>gadha-oriya</key>
+    <string>gadhaoriya</string>
+    <key>galla-oriya</key>
+    <string>gallaoriya</string>
+    <key>gana-oriya</key>
+    <string>ganaoriya</string>
+    <key>gara-oriya</key>
+    <string>garaoriya</string>
     <key>gha-oriya</key>
     <string>uni0B18</string>
     <key>gha-oriya.base</key>
@@ -1122,6 +1204,10 @@
     <string>uni0B18.below</string>
     <key>gha-oriya.single</key>
     <string>uni0B18.single</string>
+    <key>ghana-oriya</key>
+    <string>ghanaoriya</string>
+    <key>ghara-oriya</key>
+    <string>gharaoriya</string>
     <key>glottalstop</key>
     <string>uni0294</string>
     <key>glottalstopmod</key>
@@ -1136,6 +1222,12 @@
     <string>uni0B39.below</string>
     <key>ha-oriya.single</key>
     <string>uni0B39.single</string>
+    <key>haja-oriya</key>
+    <string>hajaoriya</string>
+    <key>haka-oriya</key>
+    <string>hakaoriya</string>
+    <key>hala-oriya</key>
+    <string>halaoriya</string>
     <key>halant-oriya</key>
     <string>uni0B4D</string>
     <key>halfbracketleftbottom</key>
@@ -1146,6 +1238,22 @@
     <string>uni2E25</string>
     <key>halfbracketrighttop</key>
     <string>uni2E23</string>
+    <key>halla-oriya</key>
+    <string>hallaoriya</string>
+    <key>hama-oriya</key>
+    <string>hamaoriya</string>
+    <key>hana-oriya</key>
+    <string>hanaoriya</string>
+    <key>harVocalic-oriya</key>
+    <string>harVocalicoriya</string>
+    <key>hara-oriya</key>
+    <string>haraoriya</string>
+    <key>hau-oriya</key>
+    <string>hauoriya</string>
+    <key>hauu-oriya</key>
+    <string>hauuoriya</string>
+    <key>hava-oriya</key>
+    <string>havaoriya</string>
     <key>horizontalbar</key>
     <string>uni2015</string>
     <key>hyphenationpoint</key>
@@ -1162,6 +1270,18 @@
     <string>uni0B3F.below</string>
     <key>iMatra-oriya.wide</key>
     <string>uni0B3F.wide</string>
+    <key>iMatracandraBindu-oriya</key>
+    <string>iMatracandraBinduoriya</string>
+    <key>iMatracandraBindu-oriya.wide</key>
+    <string>iMatracandraBinduoriya.wide</string>
+    <key>iMatrareph-oriya</key>
+    <string>iMatrarephoriya</string>
+    <key>iMatrareph-oriya.wide</key>
+    <string>iMatrarephoriya.wide</string>
+    <key>iMatrarephcandraBindu-oriya</key>
+    <string>iMatrarephcandraBinduoriya</string>
+    <key>iMatrarephcandraBindu-oriya.wide</key>
+    <string>iMatrarephcandraBinduoriya.wide</string>
     <key>ii-oriya</key>
     <string>uni0B08</string>
     <key>iiMatra-oriya</key>
@@ -1176,6 +1296,18 @@
     <string>uni0B1C.below</string>
     <key>ja-oriya.single</key>
     <string>uni0B1C.single</string>
+    <key>jaja-oriya</key>
+    <string>jajaoriya</string>
+    <key>jajava-oriya</key>
+    <string>jajavaoriya</string>
+    <key>jajha-oriya</key>
+    <string>jajhaoriya</string>
+    <key>janya-oriya</key>
+    <string>janyaoriya</string>
+    <key>jara-oriya</key>
+    <string>jaraoriya</string>
+    <key>java-oriya</key>
+    <string>javaoriya</string>
     <key>jha-oriya</key>
     <string>uni0B1D</string>
     <key>jha-oriya.base</key>
@@ -1184,6 +1316,8 @@
     <string>uni0B1D.below</string>
     <key>jha-oriya.single</key>
     <string>uni0B1D.single</string>
+    <key>jhara-oriya</key>
+    <string>jharaoriya</string>
     <key>ka-oriya</key>
     <string>uni0B15</string>
     <key>ka-oriya.base</key>
@@ -1192,6 +1326,38 @@
     <string>uni0B15.below</string>
     <key>ka-oriya.single</key>
     <string>uni0B15.single</string>
+    <key>kaca-oriya</key>
+    <string>kacaoriya</string>
+    <key>kaka-oriya</key>
+    <string>kakaoriya</string>
+    <key>kalla-oriya</key>
+    <string>kallaoriya</string>
+    <key>kara-oriya</key>
+    <string>karaoriya</string>
+    <key>kasa-oriya</key>
+    <string>kasaoriya</string>
+    <key>kassa-oriya</key>
+    <string>kassaoriya</string>
+    <key>kassa-oriya.base</key>
+    <string>kassaoriya.base</string>
+    <key>kassa-oriya.below</key>
+    <string>kassaoriya.below</string>
+    <key>kassama-oriya</key>
+    <string>kassamaoriya</string>
+    <key>kassanna-oriya</key>
+    <string>kassannaoriya</string>
+    <key>kassara-oriya</key>
+    <string>kassaraoriya</string>
+    <key>kata-oriya</key>
+    <string>kataoriya</string>
+    <key>katara-oriya</key>
+    <string>kataraoriya</string>
+    <key>kataraalt-oriya</key>
+    <string>kataraaltoriya</string>
+    <key>katta-oriya</key>
+    <string>kattaoriya</string>
+    <key>kava-oriya</key>
+    <string>kavaoriya</string>
     <key>kha-oriya</key>
     <string>uni0B16</string>
     <key>kha-oriya.base</key>
@@ -1200,6 +1366,8 @@
     <string>uni0B16.below</string>
     <key>kha-oriya.single</key>
     <string>uni0B16.single</string>
+    <key>khara-oriya</key>
+    <string>kharaoriya</string>
     <key>lVocalic-oriya</key>
     <string>uni0B0C</string>
     <key>lVocalicMatra-oriya</key>
@@ -1212,6 +1380,22 @@
     <string>uni0B32.below</string>
     <key>la-oriya.single</key>
     <string>uni0B32.single</string>
+    <key>laga-oriya</key>
+    <string>lagaoriya</string>
+    <key>laka-oriya</key>
+    <string>lakaoriya</string>
+    <key>lala-oriya</key>
+    <string>lalaoriya</string>
+    <key>lalla-oriya</key>
+    <string>lallaoriya</string>
+    <key>lama-oriya</key>
+    <string>lamaoriya</string>
+    <key>lapa-oriya</key>
+    <string>lapaoriya</string>
+    <key>lapha-oriya</key>
+    <string>laphaoriya</string>
+    <key>lara-oriya</key>
+    <string>laraoriya</string>
     <key>lineseparator</key>
     <string>uni2028</string>
     <key>llVocalic-oriya</key>
@@ -1226,6 +1410,16 @@
     <string>uni0B33.below</string>
     <key>lla-oriya.single</key>
     <string>uni0B33.single</string>
+    <key>llaka-oriya</key>
+    <string>llakaoriya</string>
+    <key>llalla-oriya</key>
+    <string>llallaoriya</string>
+    <key>llapa-oriya</key>
+    <string>llapaoriya</string>
+    <key>llapha-oriya</key>
+    <string>llaphaoriya</string>
+    <key>llara-oriya</key>
+    <string>llaraoriya</string>
     <key>ma-oriya</key>
     <string>uni0B2E</string>
     <key>ma-oriya.base</key>
@@ -1234,8 +1428,24 @@
     <string>uni0B2E.below</string>
     <key>ma-oriya.single</key>
     <string>uni0B2E.single</string>
+    <key>maba-oriya</key>
+    <string>mabaoriya</string>
+    <key>mabha-oriya</key>
+    <string>mabhaoriya</string>
+    <key>mabhara-oriya</key>
+    <string>mabharaoriya</string>
     <key>macronmod</key>
     <string>uni02C9</string>
+    <key>mama-oriya</key>
+    <string>mamaoriya</string>
+    <key>mapa-oriya</key>
+    <string>mapaoriya</string>
+    <key>mapara-oriya</key>
+    <string>maparaoriya</string>
+    <key>mapha-oriya</key>
+    <string>maphaoriya</string>
+    <key>mara-oriya</key>
+    <string>maraoriya</string>
     <key>na-oriya</key>
     <string>uni0B28</string>
     <key>na-oriya.base</key>
@@ -1244,6 +1454,32 @@
     <string>uni0B28.below</string>
     <key>na-oriya.single</key>
     <string>uni0B28.single</string>
+    <key>nada-oriya</key>
+    <string>nadaoriya</string>
+    <key>nadara-oriya</key>
+    <string>nadaraoriya</string>
+    <key>nadava-oriya</key>
+    <string>nadavaoriya</string>
+    <key>nadha-oriya</key>
+    <string>nadhaoriya</string>
+    <key>nadhara-oriya</key>
+    <string>nadharaoriya</string>
+    <key>nadhava-oriya</key>
+    <string>nadhavaoriya</string>
+    <key>nana-oriya</key>
+    <string>nanaoriya</string>
+    <key>nara-oriya</key>
+    <string>naraoriya</string>
+    <key>nata-oriya</key>
+    <string>nataoriya</string>
+    <key>natara-oriya</key>
+    <string>nataraoriya</string>
+    <key>natauMatra-oriya</key>
+    <string>natauMatraoriya</string>
+    <key>natava-oriya</key>
+    <string>natavaoriya</string>
+    <key>natha-oriya</key>
+    <string>nathaoriya</string>
     <key>nbhyphen</key>
     <string>uni2011</string>
     <key>nbspace</key>
@@ -1256,6 +1492,20 @@
     <string>uni0B19.below</string>
     <key>nga-oriya.single</key>
     <string>uni0B19.single</string>
+    <key>ngaga-oriya</key>
+    <string>ngagaoriya</string>
+    <key>ngagha-oriya</key>
+    <string>ngaghaoriya</string>
+    <key>ngaka-oriya</key>
+    <string>ngakaoriya</string>
+    <key>ngakassa-oriya</key>
+    <string>ngakassaoriya</string>
+    <key>ngakata-oriya</key>
+    <string>ngakataoriya</string>
+    <key>ngakha-oriya</key>
+    <string>ngakhaoriya</string>
+    <key>ngara-oriya</key>
+    <string>ngaraoriya</string>
     <key>nine-oriya</key>
     <string>uni0B6F</string>
     <key>ninesuperior</key>
@@ -1268,6 +1518,24 @@
     <string>uni0B23.below</string>
     <key>nna-oriya.single</key>
     <string>uni0B23.single</string>
+    <key>nnadda-oriya</key>
+    <string>nnaddaoriya</string>
+    <key>nnaddahalant-oriya</key>
+    <string>nnaddahalantoriya</string>
+    <key>nnaddara-oriya</key>
+    <string>nnaddaraoriya</string>
+    <key>nnaddha-oriya</key>
+    <string>nnaddhaoriya</string>
+    <key>nnanna-oriya</key>
+    <string>nnannaoriya</string>
+    <key>nnara-oriya</key>
+    <string>nnaraoriya</string>
+    <key>nnatta-oriya</key>
+    <string>nnattaoriya</string>
+    <key>nnattahalant-oriya</key>
+    <string>nnattahalantoriya</string>
+    <key>nnattha-oriya</key>
+    <string>nnatthaoriya</string>
     <key>nnbsp</key>
     <string>uni202F</string>
     <key>nukta-oriya</key>
@@ -1276,10 +1544,22 @@
     <string>uni0B1E</string>
     <key>nya-oriya.base</key>
     <string>uni0B1E.base</string>
+    <key>nyaca-oriya</key>
+    <string>nyacaoriya</string>
+    <key>nyacha-oriya</key>
+    <string>nyachaoriya</string>
+    <key>nyaja-oriya</key>
+    <string>nyajaoriya</string>
+    <key>nyajha-oriya</key>
+    <string>nyajhaoriya</string>
+    <key>nyara-oriya</key>
+    <string>nyaraoriya</string>
     <key>o-oriya</key>
     <string>uni0B13</string>
     <key>oMatra-oriya</key>
     <string>uni0B4B</string>
+    <key>om-oriya</key>
+    <string>omoriya</string>
     <key>one-oriya</key>
     <string>uni0B67</string>
     <key>oneeighth-oriya</key>
@@ -1302,12 +1582,28 @@
     <string>uni0B2A.below</string>
     <key>pa-oriya.single</key>
     <string>uni0B2A.single</string>
+    <key>paka-oriya</key>
+    <string>pakaoriya</string>
+    <key>palla-oriya</key>
+    <string>pallaoriya</string>
+    <key>papa-oriya</key>
+    <string>papaoriya</string>
+    <key>para-oriya</key>
+    <string>paraoriya</string>
     <key>paragraphseparator</key>
     <string>uni2029</string>
     <key>parenleftsuperior</key>
     <string>uni207D</string>
     <key>parenrightsuperior</key>
     <string>uni207E</string>
+    <key>partta-oriya.below</key>
+    <string>parttaoriya.below</string>
+    <key>pasa-oriya</key>
+    <string>pasaoriya</string>
+    <key>pata-oriya</key>
+    <string>pataoriya</string>
+    <key>patta-oriya</key>
+    <string>pattaoriya</string>
     <key>pha-oriya</key>
     <string>uni0B2B</string>
     <key>pha-oriya.base</key>
@@ -1316,6 +1612,8 @@
     <string>uni0B2B.below</string>
     <key>pha-oriya.single</key>
     <string>uni0B2B.single</string>
+    <key>phara-oriya</key>
+    <string>pharaoriya</string>
     <key>rVocalic-oriya</key>
     <string>uni0B0B</string>
     <key>rVocalicMatra-oriya</key>
@@ -1328,24 +1626,40 @@
     <string>uni0B30.below</string>
     <key>ra-oriya.single</key>
     <string>uni0B30.single</string>
+    <key>rarVocalicMatra-oriya.below</key>
+    <string>rarVocalicMatraoriya.below</string>
+    <key>rarrVocalicMatra-oriya.below</key>
+    <string>rarrVocalicMatraoriya.below</string>
+    <key>rauMatra-oriya.below</key>
+    <string>rauMatraoriya.below</string>
+    <key>rauuMatra-oriya.below</key>
+    <string>rauuMatraoriya.below</string>
     <key>reph-oriya</key>
-    <string>uni0B300B4D</string>
+    <string>rephoriya</string>
     <key>rephaiLength-oriya</key>
-    <string>uni0B300B4D0B56</string>
+    <string>rephaiLengthoriya</string>
     <key>rephaiLength-oriya.stem</key>
-    <string>uni0B300B4D0B56.stem</string>
+    <string>rephaiLengthoriya.stem</string>
     <key>rephaiLength-oriya.umbrella</key>
-    <string>uni0B300B4D0B56.umbrella</string>
+    <string>rephaiLengthoriya.umbrella</string>
     <key>rephaiLengthcandraBindu-oriya</key>
-    <string>uni0B300B4D0B560B01</string>
+    <string>rephaiLengthcandraBinduoriya</string>
     <key>rephaiLengthcandraBindu-oriya.stem</key>
-    <string>uni0B300B4D0B560B01.stem</string>
+    <string>rephaiLengthcandraBinduoriya.stem</string>
     <key>rephaiLengthcandraBindu-oriya.umbrella</key>
-    <string>uni0B300B4D0B560B01.umbrella</string>
+    <string>rephaiLengthcandraBinduoriya.umbrella</string>
+    <key>rephauLength-oriya</key>
+    <string>rephauLengthoriya</string>
+    <key>rephauLengthcandraBindu-oriya</key>
+    <string>rephauLengthcandraBinduoriya</string>
+    <key>rephcandraBindu-oriya</key>
+    <string>rephcandraBinduoriya</string>
     <key>rha-oriya</key>
     <string>uni0B5D</string>
     <key>rha-oriya.base</key>
     <string>uni0B5D.base</string>
+    <key>rhara-oriya</key>
+    <string>rharaoriya</string>
     <key>rrVocalic-oriya</key>
     <string>uni0B60</string>
     <key>rrVocalicMatra-oriya</key>
@@ -1354,6 +1668,8 @@
     <string>uni0B5C</string>
     <key>rra-oriya.base</key>
     <string>uni0B5C.base</string>
+    <key>rrara-oriya</key>
+    <string>rraraoriya</string>
     <key>rs</key>
     <string>uni20A8</string>
     <key>rupeeIndian</key>
@@ -1366,8 +1682,32 @@
     <string>uni0B38.below</string>
     <key>sa-oriya.single</key>
     <string>uni0B38.single</string>
+    <key>saka-oriya</key>
+    <string>sakaoriya</string>
+    <key>sakha-oriya</key>
+    <string>sakhaoriya</string>
     <key>saltillo</key>
     <string>uniA78C</string>
+    <key>sama-oriya</key>
+    <string>samaoriya</string>
+    <key>sana-oriya</key>
+    <string>sanaoriya</string>
+    <key>sapa-oriya</key>
+    <string>sapaoriya</string>
+    <key>saparVocalicMatra-oriya</key>
+    <string>saparVocalicMatraoriya</string>
+    <key>sapha-oriya</key>
+    <string>saphaoriya</string>
+    <key>sara-oriya</key>
+    <string>saraoriya</string>
+    <key>sata-oriya</key>
+    <string>sataoriya</string>
+    <key>satara-oriya</key>
+    <string>sataraoriya</string>
+    <key>satha-oriya</key>
+    <string>sathaoriya</string>
+    <key>sava-oriya</key>
+    <string>savaoriya</string>
     <key>seven-oriya</key>
     <string>uni0B6D</string>
     <key>sevensuperior</key>
@@ -1380,6 +1720,16 @@
     <string>uni0B36.below</string>
     <key>sha-oriya.single</key>
     <string>uni0B36.single</string>
+    <key>shaca-oriya</key>
+    <string>shacaoriya</string>
+    <key>shacha-oriya</key>
+    <string>shachaoriya</string>
+    <key>shalla-oriya</key>
+    <string>shallaoriya</string>
+    <key>shara-oriya</key>
+    <string>sharaoriya</string>
+    <key>shava-oriya</key>
+    <string>shavaoriya</string>
     <key>six-oriya</key>
     <string>uni0B6C</string>
     <key>sixsuperior</key>
@@ -1394,6 +1744,26 @@
     <string>uni0B37.below</string>
     <key>ssa-oriya.single</key>
     <string>uni0B37.single</string>
+    <key>ssaka-oriya</key>
+    <string>ssakaoriya</string>
+    <key>ssakara-oriya</key>
+    <string>ssakaraoriya</string>
+    <key>ssanna-oriya</key>
+    <string>ssannaoriya</string>
+    <key>ssapa-oriya</key>
+    <string>ssapaoriya</string>
+    <key>ssapha-oriya</key>
+    <string>ssaphaoriya</string>
+    <key>ssara-oriya</key>
+    <string>ssaraoriya</string>
+    <key>ssatta-oriya</key>
+    <string>ssattaoriya</string>
+    <key>ssattahalant-oriya</key>
+    <string>ssattahalantoriya</string>
+    <key>ssattara-oriya</key>
+    <string>ssattaraoriya</string>
+    <key>ssattha-oriya</key>
+    <string>ssatthaoriya</string>
     <key>ta-oriya</key>
     <string>uni0B24</string>
     <key>ta-oriya.base</key>
@@ -1402,6 +1772,40 @@
     <string>uni0B24.below</string>
     <key>ta-oriya.single</key>
     <string>uni0B24.single</string>
+    <key>taalt-oriya.below</key>
+    <string>taaltoriya.below</string>
+    <key>taka-oriya</key>
+    <string>takaoriya</string>
+    <key>takara-oriya</key>
+    <string>takaraoriya</string>
+    <key>tama-oriya</key>
+    <string>tamaoriya</string>
+    <key>tana-oriya</key>
+    <string>tanaoriya</string>
+    <key>tapa-oriya</key>
+    <string>tapaoriya</string>
+    <key>tapara-oriya</key>
+    <string>taparaoriya</string>
+    <key>tara-oriya</key>
+    <string>taraoriya</string>
+    <key>tara-oriya.below</key>
+    <string>taraoriya.below</string>
+    <key>tarauMatra-oriya</key>
+    <string>tarauMatraoriya</string>
+    <key>tasa-oriya</key>
+    <string>tasaoriya</string>
+    <key>tasana-oriya</key>
+    <string>tasanaoriya</string>
+    <key>tata-oriya</key>
+    <string>tataoriya</string>
+    <key>tatara-oriya</key>
+    <string>tataraoriya</string>
+    <key>tatava-oriya</key>
+    <string>tatavaoriya</string>
+    <key>tatha-oriya</key>
+    <string>tathaoriya</string>
+    <key>tava-oriya</key>
+    <string>tavaoriya</string>
     <key>tha-oriya</key>
     <string>uni0B25</string>
     <key>tha-oriya.base</key>
@@ -1410,6 +1814,8 @@
     <string>uni0B25.below</string>
     <key>tha-oriya.single</key>
     <string>uni0B25.single</string>
+    <key>thara-oriya</key>
+    <string>tharaoriya</string>
     <key>three-oriya</key>
     <string>uni0B69</string>
     <key>threequarters-oriya</key>
@@ -1426,6 +1832,10 @@
     <string>uni0B1F.below</string>
     <key>tta-oriya.single</key>
     <string>uni0B1F.single</string>
+    <key>ttara-oriya</key>
+    <string>ttaraoriya</string>
+    <key>ttatta-oriya</key>
+    <string>ttattaoriya</string>
     <key>ttha-oriya</key>
     <string>uni0B20</string>
     <key>ttha-oriya.base</key>
@@ -1434,6 +1844,8 @@
     <string>uni0B20.below</string>
     <key>ttha-oriya.single</key>
     <string>uni0B20.single</string>
+    <key>tthara-oriya</key>
+    <string>ttharaoriya</string>
     <key>two-oriya</key>
     <string>uni0B68</string>
     <key>twosuperior</key>
@@ -1454,12 +1866,16 @@
     <string>uni0B35.below</string>
     <key>va-oriya.single</key>
     <string>uni0B35.single</string>
+    <key>vara-oriya</key>
+    <string>varaoriya</string>
     <key>visarga-oriya</key>
     <string>uni0B03</string>
     <key>wa-oriya</key>
     <string>uni0B71</string>
     <key>wa-oriya.base</key>
     <string>uni0B71.base</string>
+    <key>wara-oriya</key>
+    <string>waraoriya</string>
     <key>wj</key>
     <string>uni2060</string>
     <key>ya-oriya</key>
@@ -1470,10 +1886,14 @@
     <string>uni0B2F.below</string>
     <key>ya-oriya.single</key>
     <string>uni0B2F.single</string>
+    <key>yara-oriya</key>
+    <string>yaraoriya</string>
     <key>yya-oriya</key>
     <string>uni0B5F</string>
     <key>yya-oriya.post</key>
     <string>uni0B5F.post</string>
+    <key>yyara-oriya</key>
+    <string>yyaraoriya</string>
     <key>zero-oriya</key>
     <string>uni0B66</string>
     <key>zerosuperior</key>
