@@ -5,12 +5,27 @@
   <anchor x="370" y="658" name="top"/>
   <anchor x="582" y="658" name="topright"/>
   <outline>
-    <component base="va-oriya.base"/>
+    <component base="ba-oriya.base"/>
+    <contour>
+      <point x="370" y="436" type="curve"/>
+      <point x="370" y="436" type="line"/>
+      <point x="395" y="436"/>
+      <point x="411" y="453"/>
+      <point x="411" y="477" type="curve"/>
+      <point x="411" y="500"/>
+      <point x="395" y="517"/>
+      <point x="370" y="517" type="curve"/>
+      <point x="345" y="517"/>
+      <point x="329" y="500"/>
+      <point x="329" y="477" type="curve"/>
+      <point x="329" y="453"/>
+      <point x="345" y="436"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.832,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -6,7 +6,23 @@
   <anchor x="252" y="658" name="top"/>
   <anchor x="434" y="658" name="topright"/>
   <outline>
-    <component base="va-oriya"/>
+    <component base="ba-oriya"/>
+    <component base="ba-oriya"/>
+    <contour>
+      <point x="252" y="467" type="curve"/>
+      <point x="252" y="467" type="line"/>
+      <point x="269" y="467"/>
+      <point x="282" y="484"/>
+      <point x="282" y="506" type="curve"/>
+      <point x="282" y="528"/>
+      <point x="269" y="545"/>
+      <point x="252" y="545" type="curve"/>
+      <point x="235" y="545"/>
+      <point x="222" y="530"/>
+      <point x="222" y="507" type="curve"/>
+      <point x="222" y="484"/>
+      <point x="235" y="467"/>
+    </contour>
   </outline>
   <lib>
     <dict>

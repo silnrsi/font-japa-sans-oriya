@@ -4,7 +4,23 @@
   <anchor x="336" y="658" name="top"/>
   <anchor x="578" y="658" name="topright"/>
   <outline>
-    <component base="vara-oriya"/>
+    <component base="bara-oriya"/>
+    <component base="bara-oriya"/>
+    <contour>
+      <point x="336" y="467" type="curve"/>
+      <point x="336" y="467" type="line"/>
+      <point x="359" y="467"/>
+      <point x="376" y="484"/>
+      <point x="376" y="507" type="curve"/>
+      <point x="376" y="529"/>
+      <point x="359" y="545"/>
+      <point x="336" y="545" type="curve"/>
+      <point x="313" y="545"/>
+      <point x="296" y="529"/>
+      <point x="296" y="507" type="curve"/>
+      <point x="296" y="484"/>
+      <point x="313" y="467"/>
+    </contour>
   </outline>
   <lib>
     <dict>
