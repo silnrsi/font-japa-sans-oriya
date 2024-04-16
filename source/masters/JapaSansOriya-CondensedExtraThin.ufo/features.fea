@@ -191,7 +191,7 @@
 # baseClass Zcaron <anchor 162 950> @top;
 # baseClass a <anchor 183 527> @top;
 # baseClass [a-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> @top;
-# baseClass aa-oriya <anchor 326 658> @top;
+# baseClass aa-oriya <anchor 584 658> @top;
 # baseClass aaMatra-oriya <anchor 65 658> @top;
 # baseClass [aacute acircumflex agrave] <anchor 183 763> @top;
 # baseClass adieresis <anchor 183 696> @top;
@@ -1260,7 +1260,7 @@ lookup AboveMarks {
     pos base Zcaron <anchor 162 950> mark @_top;
     pos base a <anchor 183 527> mark @_top;
     pos base [a-oriya dda-oriya ddara-oriya nya-oriya nyara-oriya ttatta-oriya] <anchor 262 658> mark @_top;
-    pos base aa-oriya <anchor 326 658> mark @_top;
+    pos base aa-oriya <anchor 584 658> mark @_top;
     pos base aaMatra-oriya <anchor 65 658> mark @_top;
     pos base [aacute acircumflex agrave] <anchor 183 763> mark @_top;
     pos base adieresis <anchor 183 696> mark @_top;

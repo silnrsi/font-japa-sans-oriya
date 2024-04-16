@@ -190,7 +190,7 @@
 # baseClass Ydieresis <anchor 253 895> @top;
 # baseClass a <anchor 256 528> @top;
 # baseClass a-oriya <anchor 298 658> @top;
-# baseClass aa-oriya <anchor 381 658> @top;
+# baseClass aa-oriya <anchor 717 658> @top;
 # baseClass aaMatra-oriya <anchor 83 658> @top;
 # baseClass [aacute agrave] <anchor 256 766> @top;
 # baseClass acircumflex <anchor 256 763> @top;
@@ -1268,7 +1268,7 @@ lookup AboveMarks {
     pos base Ydieresis <anchor 253 895> mark @_top;
     pos base a <anchor 256 528> mark @_top;
     pos base a-oriya <anchor 298 658> mark @_top;
-    pos base aa-oriya <anchor 381 658> mark @_top;
+    pos base aa-oriya <anchor 717 658> mark @_top;
     pos base aaMatra-oriya <anchor 83 658> mark @_top;
     pos base [aacute agrave] <anchor 256 766> mark @_top;
     pos base acircumflex <anchor 256 763> mark @_top;
