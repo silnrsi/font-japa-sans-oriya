@@ -668,6 +668,7 @@ feature aalt {
     feature abvs;
     feature haln;
     feature calt;
+    feature cv10;
     feature ss01;
     feature ss02;
     feature ss03;
@@ -1069,8 +1070,101 @@ lookup Overline2ConsSub {
     sub wa-oriya overline-oriya by wa-oriya;
 } Overline2ConsSub;
 
-feature rlig {
+lookup OverlineSwap {
     sub eMatra-oriya @Cons' lookup Cons2OverlineSub overline-oriya' lookup Overline2ConsSub;
+} OverlineSwap;
+
+# The ORIYA SIGN DOT ABOVE (currently /dotabovecomb at U+0307)
+# needs the same swap as the overline glyph.
+lookup Cons2DotAboveSub {
+    sub ka-oriya by dotabovecomb ka-oriya;
+    sub kha-oriya by dotabovecomb kha-oriya;
+    sub ga-oriya by dotabovecomb ga-oriya;
+    sub gha-oriya by dotabovecomb gha-oriya;
+    sub nga-oriya by dotabovecomb nga-oriya;
+    sub ca-oriya by dotabovecomb ca-oriya;
+    sub cha-oriya by dotabovecomb cha-oriya;
+    sub ja-oriya by dotabovecomb ja-oriya;
+    sub jha-oriya by dotabovecomb jha-oriya;
+    sub nya-oriya by dotabovecomb nya-oriya;
+    sub tta-oriya by dotabovecomb tta-oriya;
+    sub ttha-oriya by dotabovecomb ttha-oriya;
+    sub dda-oriya by dotabovecomb dda-oriya;
+    sub ddha-oriya by dotabovecomb ddha-oriya;
+    sub nna-oriya by dotabovecomb nna-oriya;
+    sub ta-oriya by dotabovecomb ta-oriya;
+    sub tha-oriya by dotabovecomb tha-oriya;
+    sub da-oriya by dotabovecomb da-oriya;
+    sub dha-oriya by dotabovecomb dha-oriya;
+    sub na-oriya by dotabovecomb na-oriya;
+    sub pa-oriya by dotabovecomb pa-oriya;
+    sub pha-oriya by dotabovecomb pha-oriya;
+    sub ba-oriya by dotabovecomb ba-oriya;
+    sub bha-oriya by dotabovecomb bha-oriya;
+    sub ma-oriya by dotabovecomb ma-oriya;
+    sub ya-oriya by dotabovecomb ya-oriya;
+    sub ra-oriya by dotabovecomb ra-oriya;
+    sub la-oriya by dotabovecomb la-oriya;
+    sub lla-oriya by dotabovecomb lla-oriya;
+    sub va-oriya by dotabovecomb va-oriya;
+    sub sha-oriya by dotabovecomb sha-oriya;
+    sub ssa-oriya by dotabovecomb ssa-oriya;
+    sub sa-oriya by dotabovecomb sa-oriya;
+    sub ha-oriya by dotabovecomb ha-oriya;
+    sub rra-oriya by dotabovecomb rra-oriya;
+    sub rha-oriya by dotabovecomb rha-oriya;
+    sub yya-oriya by dotabovecomb yya-oriya;
+    sub wa-oriya by dotabovecomb wa-oriya;
+} Cons2DotAboveSub;
+
+lookup DotAbove2ConsSub {
+    sub ka-oriya dotabovecomb by ka-oriya;
+    sub kha-oriya dotabovecomb by kha-oriya;
+    sub ga-oriya dotabovecomb by ga-oriya;
+    sub gha-oriya dotabovecomb by gha-oriya;
+    sub nga-oriya dotabovecomb by nga-oriya;
+    sub ca-oriya dotabovecomb by ca-oriya;
+    sub cha-oriya dotabovecomb by cha-oriya;
+    sub ja-oriya dotabovecomb by ja-oriya;
+    sub jha-oriya dotabovecomb by jha-oriya;
+    sub nya-oriya dotabovecomb by nya-oriya;
+    sub tta-oriya dotabovecomb by tta-oriya;
+    sub ttha-oriya dotabovecomb by ttha-oriya;
+    sub dda-oriya dotabovecomb by dda-oriya;
+    sub ddha-oriya dotabovecomb by ddha-oriya;
+    sub nna-oriya dotabovecomb by nna-oriya;
+    sub ta-oriya dotabovecomb by ta-oriya;
+    sub tha-oriya dotabovecomb by tha-oriya;
+    sub da-oriya dotabovecomb by da-oriya;
+    sub dha-oriya dotabovecomb by dha-oriya;
+    sub na-oriya dotabovecomb by na-oriya;
+    sub pa-oriya dotabovecomb by pa-oriya;
+    sub pha-oriya dotabovecomb by pha-oriya;
+    sub ba-oriya dotabovecomb by ba-oriya;
+    sub bha-oriya dotabovecomb by bha-oriya;
+    sub ma-oriya dotabovecomb by ma-oriya;
+    sub ya-oriya dotabovecomb by ya-oriya;
+    sub ra-oriya dotabovecomb by ra-oriya;
+    sub la-oriya dotabovecomb by la-oriya;
+    sub lla-oriya dotabovecomb by lla-oriya;
+    sub va-oriya dotabovecomb by va-oriya;
+    sub sha-oriya dotabovecomb by sha-oriya;
+    sub ssa-oriya dotabovecomb by ssa-oriya;
+    sub sa-oriya dotabovecomb by sa-oriya;
+    sub ha-oriya dotabovecomb by ha-oriya;
+    sub rra-oriya dotabovecomb by rra-oriya;
+    sub rha-oriya dotabovecomb by rha-oriya;
+    sub yya-oriya dotabovecomb by yya-oriya;
+    sub wa-oriya dotabovecomb by wa-oriya;
+} DotAbove2ConsSub;
+
+lookup DotAboveSwap {
+    sub eMatra-oriya @Cons' lookup Cons2DotAboveSub dotabovecomb' lookup DotAbove2ConsSub;
+} DotAboveSwap;
+
+feature rlig {
+    lookup OverlineSwap;
+    lookup DotAboveSwap;
 } rlig;
 
 feature calt {
@@ -1085,9 +1179,32 @@ feature calt {
         sub @iMatraWideLetters iMatracandraBindu-oriya' by iMatracandraBindu-oriya.wide;
         sub @iMatraWideLetters iMatrareph-oriya' by iMatrareph-oriya.wide;
         sub @iMatraWideLetters iMatrarephcandraBindu-oriya' by iMatrarephcandraBindu-oriya.wide;
+        sub aaMatra-oriya overline-oriya' by overline-oriya.narrow;
     } calt2;
 
 } calt;
+
+feature cv10 {
+    script ory2;
+        cvParameters {
+                FeatUILabelNameID {
+            name "Va for Kui";
+        };
+
+                ParamUILabelNameID {
+            name "Default";
+        };
+
+                ParamUILabelNameID {
+            name "Kui";
+        };
+
+    };
+
+    sub va-oriya from [va-oriya.kui];
+    sub va-oriya.base from [va-oriya.base.kui];
+    sub vara-oriya from [vara-oriya.kui];
+} cv10;
 
 feature ss01 {
     # notes:

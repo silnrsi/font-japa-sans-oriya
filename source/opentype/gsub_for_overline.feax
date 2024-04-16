@@ -16,6 +16,25 @@ lookup Overline2ConsSub {
 	sub @Cons overline-oriya by @Cons;
 } Overline2ConsSub;
 
-feature rlig {
+lookup OverlineSwap {
 	sub eMatra-oriya @Cons' lookup Cons2OverlineSub overline-oriya' lookup Overline2ConsSub;
+} OverlineSwap;
+
+# The ORIYA SIGN DOT ABOVE (currently /dotabovecomb at U+0307)
+# needs the same swap as the overline glyph.
+lookup Cons2DotAboveSub {
+	sub @Cons by dotabovecomb @Cons;
+} Cons2DotAboveSub;
+
+lookup DotAbove2ConsSub {
+	sub @Cons dotabovecomb by @Cons;
+} DotAbove2ConsSub;
+
+lookup DotAboveSwap {
+	sub eMatra-oriya @Cons' lookup Cons2DotAboveSub dotabovecomb' lookup DotAbove2ConsSub;
+} DotAboveSwap;
+
+feature rlig {
+	lookup OverlineSwap;
+	lookup DotAboveSwap;
 } rlig;

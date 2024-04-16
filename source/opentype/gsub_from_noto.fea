@@ -27,6 +27,7 @@ feature psts;
 feature abvs;
 feature haln;
 feature calt;
+feature cv10;
 feature ss01;
 feature ss02;
 feature ss03;
@@ -366,8 +367,21 @@ lookup calt2 {
 	sub @iMatraWideLetters iMatracandraBindu-oriya' by iMatracandraBindu-oriya.wide;
 	sub @iMatraWideLetters iMatrareph-oriya' by iMatrareph-oriya.wide;
 	sub @iMatraWideLetters iMatrarephcandraBindu-oriya' by iMatrarephcandraBindu-oriya.wide;
+	sub aaMatra-oriya overline-oriya' by overline-oriya.narrow;
 } calt2;
 } calt;
+
+feature cv10 {
+script ory2;
+  cvParameters {
+	FeatUILabelNameID  { name 3 1 0x0409 "Va for Kui" ; };
+	ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+	ParamUILabelNameID { name 3 1 0x0409 "Kui" ; };
+  };
+	sub va-oriya from [va-oriya.kui];
+	sub va-oriya.base from [va-oriya.base.kui];
+	sub vara-oriya from [vara-oriya.kui];
+} cv10;
 
 feature ss01 {
 # notes:

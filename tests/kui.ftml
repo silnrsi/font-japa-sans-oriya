@@ -5,6 +5,10 @@
     <fontscale>300</fontscale>
     <fontsrc>url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
     <fontsrc>url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv10' 0" name="cv10_0"/>
+      <style feats="'cv10' 1" name="cv10_1"/>
+    </styles>
     <title>Kui language support</title>
   </head>
   <testgroup label="overline">
@@ -81,11 +85,11 @@
     </test>
   </testgroup>
   <testgroup label="va 0B35">
-    <test label="default">
-      <string>\u0b35 \u0b35\u0b4d\u0b30</string>
+    <test label="default" stylename="cv10_0">
+      <string>\u0b35 \u0b35\u0b4d\u0b28 \u0b35\u0b4d\u0b30</string>
     </test>
-    <test label="cvxx">
-      <string>\u0b35 \u0b35\u0b4d\u0b30</string>
+    <test label="kui" stylename="cv10_1">
+      <string>\u0b35 \u0b35\u0b4d\u0b28 \u0b35\u0b4d\u0b30</string>
     </test>
   </testgroup>
 
