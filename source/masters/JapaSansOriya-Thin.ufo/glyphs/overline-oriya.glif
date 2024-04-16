@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline-oriya" format="2">
   <unicode hex="0B55"/>
-  <anchor x="-2" y="658" name="_top"/>
+  <anchor x="-10" y="658" name="_top"/>
   <outline>
     <contour>
-      <point x="126" y="768" type="line"/>
-      <point x="-129" y="768" type="line"/>
-      <point x="-129" y="744" type="line"/>
-      <point x="126" y="744" type="line"/>
+      <point x="91" y="770" type="line"/>
+      <point x="-111" y="770" type="line"/>
+      <point x="-111" y="746" type="line"/>
+      <point x="91" y="746" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -1,10 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
-  <anchor x="800" y="658" name="_top"/>
+  <anchor x="0" y="658" name="_top"/>
   <outline>
-    <component base="candraBindu-oriya"/>
-    <component base="candraBindu-oriya" xOffset="400"/>
+    <contour>
+      <point x="-36" y="746" type="curve"/>
+      <point x="-36" y="746" type="line"/>
+      <point x="-25" y="746"/>
+      <point x="-18" y="755"/>
+      <point x="-18" y="769" type="curve"/>
+      <point x="-18" y="783"/>
+      <point x="-25" y="793"/>
+      <point x="-36" y="793" type="curve"/>
+      <point x="-47" y="793"/>
+      <point x="-54" y="783"/>
+      <point x="-54" y="769" type="curve"/>
+      <point x="-54" y="755"/>
+      <point x="-47" y="746"/>
+    </contour>
+    <contour>
+      <point x="36" y="746" type="curve"/>
+      <point x="36" y="746" type="line"/>
+      <point x="47" y="746"/>
+      <point x="54" y="755"/>
+      <point x="54" y="769" type="curve"/>
+      <point x="54" y="783"/>
+      <point x="47" y="793"/>
+      <point x="36" y="793" type="curve"/>
+      <point x="25" y="793"/>
+      <point x="18" y="783"/>
+      <point x="18" y="769" type="curve"/>
+      <point x="18" y="755"/>
+      <point x="25" y="746"/>
+    </contour>
   </outline>
   <lib>
     <dict>

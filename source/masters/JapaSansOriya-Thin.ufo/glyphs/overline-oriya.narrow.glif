@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="overline-oriya.narrow" format="2">
-  <anchor x="-2" y="658" name="_top"/>
+  <anchor x="1" y="658" name="_top"/>
   <outline>
-    <component base="overline-oriya"/>
+    <contour>
+      <point x="71" y="770" type="line"/>
+      <point x="-71" y="770" type="line"/>
+      <point x="-71" y="746" type="line"/>
+      <point x="71" y="746" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

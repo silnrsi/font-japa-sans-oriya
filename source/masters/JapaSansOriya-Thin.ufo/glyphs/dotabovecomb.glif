@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotabovecomb" format="2">
   <unicode hex="0307"/>
-  <anchor x="400" y="658" name="_top"/>
+  <anchor x="0" y="658" name="_top"/>
   <outline>
-    <component base="candraBindu-oriya"/>
+    <contour>
+      <point x="0" y="746" type="curve"/>
+      <point x="0" y="746" type="line"/>
+      <point x="11" y="746"/>
+      <point x="18" y="755"/>
+      <point x="18" y="769" type="curve"/>
+      <point x="18" y="783"/>
+      <point x="11" y="793"/>
+      <point x="0" y="793" type="curve"/>
+      <point x="-11" y="793"/>
+      <point x="-18" y="783"/>
+      <point x="-18" y="769" type="curve"/>
+      <point x="-18" y="755"/>
+      <point x="-11" y="746"/>
+    </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.832,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>

@@ -569,13 +569,14 @@ markClass ya-oriya.below <anchor 239 112> @_bottom;
 # baseClass ddha-oriya.base <anchor 318 8> @nukta;
 
 # AP: _top
-markClass dieresiscomb <anchor 800 658> @_top;
-markClass [dotabovecomb iMatrareph-oriya iMatrareph-oriya.wide] <anchor 400 658> @_top;
+markClass [dieresiscomb dotabovecomb overline-oriya.wide] <anchor 0 658> @_top;
 markClass [iMatra-oriya iMatra-oriya.wide] <anchor 300 658> @_top;
 markClass iMatracandraBindu-oriya <anchor 299 658> @_top;
 markClass iMatracandraBindu-oriya.wide <anchor 281 658> @_top;
+markClass [iMatrareph-oriya iMatrareph-oriya.wide] <anchor 400 658> @_top;
 markClass [iMatrarephcandraBindu-oriya iMatrarephcandraBindu-oriya.wide] <anchor 282 658> @_top;
-markClass [overline-oriya overline-oriya.narrow overline-oriya.wide] <anchor -2 658> @_top;
+markClass overline-oriya <anchor -10 658> @_top;
+markClass overline-oriya.narrow <anchor 1 658> @_top;
 
 # AP: bottom_1
 @bottom_1 = [fi fl];
