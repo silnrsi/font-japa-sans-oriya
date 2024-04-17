@@ -607,6 +607,9 @@ markClass iMatrarephcandraBindu-oriya <anchor 331 658> @_top;
 markClass iMatrarephcandraBindu-oriya.wide <anchor 219 658> @_top;
 markClass overline-oriya <anchor -1 658> @_top;
 
+# AP: _topAA
+markClass dieresiscomb <anchor 156 658> @_topAA;
+
 # AP: bottom_1
 @bottom_1 = [fi fl];
 # baseClass [fi fl] <anchor 148 0> @bottom_1;

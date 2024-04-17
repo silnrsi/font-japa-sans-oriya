@@ -2,6 +2,7 @@
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
   <anchor x="0" y="658" name="_top"/>
+  <anchor x="186" y="658" name="_topAA"/>
   <outline>
     <contour>
       <point x="-124" y="726" type="curve"/>
