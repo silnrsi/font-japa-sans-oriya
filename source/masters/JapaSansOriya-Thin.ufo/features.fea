@@ -579,7 +579,7 @@ markClass overline-oriya <anchor -10 658> @_top;
 markClass overline-oriya.narrow <anchor 1 658> @_top;
 
 # AP: _topAA
-markClass dieresiscomb <anchor 75 658> @_topAA;
+markClass dieresiscomb <anchor 116 658> @_topAA;
 
 # AP: bottom_1
 @bottom_1 = [fi fl];

@@ -2,43 +2,41 @@
 <glyph name="dieresiscomb" format="2">
   <unicode hex="0308"/>
   <anchor x="0" y="658" name="_top"/>
-  <anchor x="54" y="658" name="_topAA"/>
+  <anchor x="95" y="658" name="_topAA"/>
   <outline>
     <contour>
-      <point x="-36" y="746" type="curve"/>
-      <point x="-36" y="746" type="line"/>
-      <point x="-25" y="746"/>
-      <point x="-18" y="755"/>
-      <point x="-18" y="769" type="curve"/>
-      <point x="-18" y="783"/>
-      <point x="-25" y="793"/>
-      <point x="-36" y="793" type="curve"/>
-      <point x="-47" y="793"/>
-      <point x="-54" y="783"/>
-      <point x="-54" y="769" type="curve"/>
-      <point x="-54" y="755"/>
-      <point x="-47" y="746"/>
+      <point x="-96" y="778" type="curve" smooth="yes"/>
+      <point x="-96" y="761"/>
+      <point x="-87" y="746"/>
+      <point x="-71" y="746" type="curve" smooth="yes"/>
+      <point x="-57" y="746"/>
+      <point x="-47" y="759"/>
+      <point x="-47" y="778" type="curve" smooth="yes"/>
+      <point x="-47" y="797"/>
+      <point x="-57" y="811"/>
+      <point x="-71" y="811" type="curve" smooth="yes"/>
+      <point x="-87" y="811"/>
+      <point x="-96" y="795"/>
     </contour>
     <contour>
-      <point x="36" y="746" type="curve"/>
-      <point x="36" y="746" type="line"/>
-      <point x="47" y="746"/>
-      <point x="54" y="755"/>
-      <point x="54" y="769" type="curve"/>
-      <point x="54" y="783"/>
-      <point x="47" y="793"/>
-      <point x="36" y="793" type="curve"/>
-      <point x="25" y="793"/>
-      <point x="18" y="783"/>
-      <point x="18" y="769" type="curve"/>
-      <point x="18" y="755"/>
-      <point x="25" y="746"/>
+      <point x="45" y="779" type="curve" smooth="yes"/>
+      <point x="45" y="761"/>
+      <point x="55" y="746"/>
+      <point x="70" y="746" type="curve" smooth="yes"/>
+      <point x="85" y="746"/>
+      <point x="95" y="760"/>
+      <point x="95" y="779" type="curve" smooth="yes"/>
+      <point x="95" y="798"/>
+      <point x="84" y="811"/>
+      <point x="70" y="811" type="curve" smooth="yes"/>
+      <point x="55" y="811"/>
+      <point x="45" y="796"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>public.markColor</key>
-      <string>0.5,0.09,0.79,1</string>
+      <string>0.832,0.6,1,1</string>
     </dict>
   </lib>
 </glyph>
