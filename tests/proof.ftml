@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 13.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
+    <title>Proof auto</title>
+  </head>
+  <testgroup label="Proof">
+    <test label="U+0B05
+U+0B06
+U+0B07
+U+0B08
+U+0B09
+U+0B0A
+U+0B0B
+U+0B0C
+U+0B0F
+U+0B10
+U+0B13
+U+0B14
+U+0B60
+U+0B61">
+      <comment>a-oriya aa-oriya i-oriya ii-oriya u-oriya uu-oriya rVocalic-oriya lVocalic-oriya e-oriya ai-oriya o-oriya au-oriya rrVocalic-oriya llVocalic-oriya</comment>
+      <string>\u000B05\u000B06\u000B07\u000B08\u000B09\u000B0A\u000B0B\u000B0C\u000B0F\u000B10\u000B13\u000B14\u000B60\u000B61</string>
+    </test>
+    <test label="U+0B15
+U+0B16
+U+0B17
+U+0B18
+U+0B19
+U+0B1A
+U+0B1B
+U+0B1C
+U+0B1D
+U+0B1E
+U+0B1F
+U+0B20
+U+0B21
+U+0B22
+U+0B23
+U+0B24
+U+0B25
+U+0B26
+U+0B27
+U+0B28
+U+0B2A
+U+0B2B
+U+0B2C
+U+0B2D
+U+0B2E
+U+0B2F
+U+0B30
+U+0B32
+U+0B33
+U+0B35
+U+0B36
+U+0B37
+U+0B38
+U+0B39
+U+0B5C
+U+0B5D
+U+0B5F
+U+0B71">
+      <comment>ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya yya-oriya wa-oriya</comment>
+      <string>\u000B15\u000B16\u000B17\u000B18\u000B19\u000B1A\u000B1B\u000B1C\u000B1D\u000B1E\u000B1F\u000B20\u000B21\u000B22\u000B23\u000B24\u000B25\u000B26\u000B27\u000B28\u000B2A\u000B2B\u000B2C\u000B2D\u000B2E\u000B2F\u000B30\u000B32\u000B33\u000B35\u000B36\u000B37\u000B38\u000B39\u000B5C\u000B5D\u000B5F\u000B71</string>
+    </test>
+    <test label="U+0B3E
+U+0B3F
+U+0B40
+U+0B41
+U+0B42
+U+0B43
+U+0B44
+U+0B47
+U+0B48
+U+0B4B
+U+0B4C
+U+0B55
+U+0B56
+U+0B57
+U+0B62
+U+0B63
+U+0B4D">
+      <comment>aaMatra-oriya iMatra-oriya iiMatra-oriya uMatra-oriya uuMatra-oriya rVocalicMatra-oriya rrVocalicMatra-oriya eMatra-oriya aiMatra-oriya oMatra-oriya auMatra-oriya overline-oriya aiLength-oriya auLength-oriya lVocalicMatra-oriya llVocalicMatra-oriya halant-oriya</comment>
+      <string>\u000B3E\u000B3F\u000B40\u000B41\u000B42\u000B43\u000B44\u000B47\u000B48\u000B4B\u000B4C\u000B55\u000B56\u000B57\u000B62\u000B63\u000B4D</string>
+    </test>
+    <test label="U+0B66
+U+0B67
+U+0B68
+U+0B69
+U+0B6A
+U+0B6B
+U+0B6C
+U+0B6D
+U+0B6E
+U+0B6F">
+      <comment>zero-oriya one-oriya two-oriya three-oriya four-oriya five-oriya six-oriya seven-oriya eight-oriya nine-oriya</comment>
+      <string>\u000B66\u000B67\u000B68\u000B69\u000B6A\u000B6B\u000B6C\u000B6D\u000B6E\u000B6F</string>
+    </test>
+    <test label="U+0021
+U+0022
+U+0023
+U+0025
+U+0026
+U+0027
+U+0028
+U+0029
+U+002A
+U+002C
+U+002D
+U+002E
+U+002F
+U+003A
+U+003B
+U+003F
+U+0040
+U+005B
+U+005C
+U+005D
+U+005F
+U+007B
+U+007D
+U+00A1
+U+00A7
+U+00AB
+U+00B6
+U+00B7
+U+00BB
+U+00BF
+U+0964
+U+0965
+U+2010
+U+2011
+U+2012
+U+2013
+U+2014
+U+2015
+U+2018
+U+2019
+U+201A
+U+201C
+U+201D
+U+201E
+U+2020
+U+2021
+U+2022
+U+2026
+U+2027
+U+2030
+U+2039
+U+203A
+U+207D
+U+207E
+U+2E22
+U+2E23
+U+2E24
+U+2E25">
+      <comment>exclam quotedbl numbersign percent ampersand quotesingle parenleft parenright asterisk comma hyphen period slash colon semicolon question at bracketleft backslash bracketright underscore braceleft braceright exclamdown section guillemotleft paragraph periodcentered guillemotright questiondown danda dbldanda hyphentwo nbhyphen figuredash endash emdash horizontalbar quoteleft quoteright quotesinglbase quotedblleft quotedblright quotedblbase dagger daggerdbl bullet ellipsis hyphenationpoint perthousand guilsinglleft guilsinglright parenleftsuperior parenrightsuperior halfbracketlefttop halfbracketrighttop halfbracketleftbottom halfbracketrightbottom</comment>
+      <string>!"#%&amp;'()*,-./:;?@[\]_{}\u0000A1\u0000A7\u0000AB\u0000B6\u0000B7\u0000BB\u0000BF\u000964\u000965\u002010\u002011\u002012\u002013\u002014\u002015\u002018\u002019\u00201A\u00201C\u00201D\u00201E\u002020\u002021\u002022\u002026\u002027\u002030\u002039\u00203A\u00207D\u00207E\u002E22\u002E23\u002E24\u002E25</string>
+    </test>
+  </testgroup>
+</ftml>

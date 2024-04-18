@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 13.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
+    <title>Diac auto</title>
+  </head>
+  <testgroup label="Representative diacritics on all bases that take diacritics">
+    <test label="U+0B05
+U+0B01">
+      <comment>a-oriya candraBindu-oriya</comment>
+      <string>\u000B05\u000B01 \u000B05\u000B02 \u000B05\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B05
+U+0B55">
+      <comment>a-oriya overline-oriya</comment>
+      <string>\u000B05\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B05
+U+0307">
+      <comment>a-oriya dotabovecomb</comment>
+      <string>\u000B05\u000307 \u000B05\u000308 \u000B05\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B06
+U+0B01">
+      <comment>aa-oriya candraBindu-oriya</comment>
+      <string>\u000B06\u000B01 \u000B06\u000B02 \u000B06\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B06
+U+0B55">
+      <comment>aa-oriya overline-oriya</comment>
+      <string>\u000B06\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B06
+U+0307">
+      <comment>aa-oriya dotabovecomb</comment>
+      <string>\u000B06\u000307 \u000B06\u000308 \u000B06\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B07
+U+0B01">
+      <comment>i-oriya candraBindu-oriya</comment>
+      <string>\u000B07\u000B01 \u000B07\u000B02 \u000B07\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B07
+U+0B55">
+      <comment>i-oriya overline-oriya</comment>
+      <string>\u000B07\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B07
+U+0307">
+      <comment>i-oriya dotabovecomb</comment>
+      <string>\u000B07\u000307 \u000B07\u000308 \u000B07\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B08
+U+0B01">
+      <comment>ii-oriya candraBindu-oriya</comment>
+      <string>\u000B08\u000B01 \u000B08\u000B02 \u000B08\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B08
+U+0B55">
+      <comment>ii-oriya overline-oriya</comment>
+      <string>\u000B08\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B08
+U+0307">
+      <comment>ii-oriya dotabovecomb</comment>
+      <string>\u000B08\u000307 \u000B08\u000308 \u000B08\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B09
+U+0B01">
+      <comment>u-oriya candraBindu-oriya</comment>
+      <string>\u000B09\u000B01 \u000B09\u000B02 \u000B09\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B09
+U+0B55">
+      <comment>u-oriya overline-oriya</comment>
+      <string>\u000B09\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B09
+U+0307">
+      <comment>u-oriya dotabovecomb</comment>
+      <string>\u000B09\u000307 \u000B09\u000308 \u000B09\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0A
+U+0B01">
+      <comment>uu-oriya candraBindu-oriya</comment>
+      <string>\u000B0A\u000B01 \u000B0A\u000B02 \u000B0A\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B0A
+U+0B55">
+      <comment>uu-oriya overline-oriya</comment>
+      <string>\u000B0A\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0A
+U+0307">
+      <comment>uu-oriya dotabovecomb</comment>
+      <string>\u000B0A\u000307 \u000B0A\u000308 \u000B0A\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0B
+U+0B01">
+      <comment>rVocalic-oriya candraBindu-oriya</comment>
+      <string>\u000B0B\u000B01 \u000B0B\u000B02 \u000B0B\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B0B
+U+0B55">
+      <comment>rVocalic-oriya overline-oriya</comment>
+      <string>\u000B0B\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0B
+U+0307">
+      <comment>rVocalic-oriya dotabovecomb</comment>
+      <string>\u000B0B\u000307 \u000B0B\u000308 \u000B0B\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0C
+U+0B01">
+      <comment>lVocalic-oriya candraBindu-oriya</comment>
+      <string>\u000B0C\u000B01 \u000B0C\u000B02 \u000B0C\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B0C
+U+0B55">
+      <comment>lVocalic-oriya overline-oriya</comment>
+      <string>\u000B0C\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0C
+U+0307">
+      <comment>lVocalic-oriya dotabovecomb</comment>
+      <string>\u000B0C\u000307 \u000B0C\u000308 \u000B0C\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0F
+U+0B01">
+      <comment>e-oriya candraBindu-oriya</comment>
+      <string>\u000B0F\u000B01 \u000B0F\u000B02 \u000B0F\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B0F
+U+0B55">
+      <comment>e-oriya overline-oriya</comment>
+      <string>\u000B0F\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B0F
+U+0307">
+      <comment>e-oriya dotabovecomb</comment>
+      <string>\u000B0F\u000307 \u000B0F\u000308 \u000B0F\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B10
+U+0B01">
+      <comment>ai-oriya candraBindu-oriya</comment>
+      <string>\u000B10\u000B01 \u000B10\u000B02 \u000B10\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B10
+U+0B55">
+      <comment>ai-oriya overline-oriya</comment>
+      <string>\u000B10\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B10
+U+0307">
+      <comment>ai-oriya dotabovecomb</comment>
+      <string>\u000B10\u000307 \u000B10\u000308 \u000B10\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B13
+U+0B01">
+      <comment>o-oriya candraBindu-oriya</comment>
+      <string>\u000B13\u000B01 \u000B13\u000B02 \u000B13\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B13
+U+0B55">
+      <comment>o-oriya overline-oriya</comment>
+      <string>\u000B13\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B13
+U+0307">
+      <comment>o-oriya dotabovecomb</comment>
+      <string>\u000B13\u000307 \u000B13\u000308 \u000B13\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B14
+U+0B01">
+      <comment>au-oriya candraBindu-oriya</comment>
+      <string>\u000B14\u000B01 \u000B14\u000B02 \u000B14\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B14
+U+0B55">
+      <comment>au-oriya overline-oriya</comment>
+      <string>\u000B14\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B14
+U+0307">
+      <comment>au-oriya dotabovecomb</comment>
+      <string>\u000B14\u000307 \u000B14\u000308 \u000B14\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B15
+U+0B01">
+      <comment>ka-oriya candraBindu-oriya</comment>
+      <string>\u000B15\u000B01 \u000B15\u000B02 \u000B15\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B15
+U+0B55">
+      <comment>ka-oriya overline-oriya</comment>
+      <string>\u000B15\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B15
+U+0307">
+      <comment>ka-oriya dotabovecomb</comment>
+      <string>\u000B15\u000307 \u000B15\u000308 \u000B15\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B16
+U+0B01">
+      <comment>kha-oriya candraBindu-oriya</comment>
+      <string>\u000B16\u000B01 \u000B16\u000B02 \u000B16\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B16
+U+0B55">
+      <comment>kha-oriya overline-oriya</comment>
+      <string>\u000B16\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B16
+U+0307">
+      <comment>kha-oriya dotabovecomb</comment>
+      <string>\u000B16\u000307 \u000B16\u000308 \u000B16\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B17
+U+0B01">
+      <comment>ga-oriya candraBindu-oriya</comment>
+      <string>\u000B17\u000B01 \u000B17\u000B02 \u000B17\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B17
+U+0B55">
+      <comment>ga-oriya overline-oriya</comment>
+      <string>\u000B17\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B17
+U+0307">
+      <comment>ga-oriya dotabovecomb</comment>
+      <string>\u000B17\u000307 \u000B17\u000308 \u000B17\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B18
+U+0B01">
+      <comment>gha-oriya candraBindu-oriya</comment>
+      <string>\u000B18\u000B01 \u000B18\u000B02 \u000B18\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B18
+U+0B55">
+      <comment>gha-oriya overline-oriya</comment>
+      <string>\u000B18\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B18
+U+0307">
+      <comment>gha-oriya dotabovecomb</comment>
+      <string>\u000B18\u000307 \u000B18\u000308 \u000B18\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B19
+U+0B01">
+      <comment>nga-oriya candraBindu-oriya</comment>
+      <string>\u000B19\u000B01 \u000B19\u000B02 \u000B19\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B19
+U+0B55">
+      <comment>nga-oriya overline-oriya</comment>
+      <string>\u000B19\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B19
+U+0307">
+      <comment>nga-oriya dotabovecomb</comment>
+      <string>\u000B19\u000307 \u000B19\u000308 \u000B19\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1A
+U+0B01">
+      <comment>ca-oriya candraBindu-oriya</comment>
+      <string>\u000B1A\u000B01 \u000B1A\u000B02 \u000B1A\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1A
+U+0B55">
+      <comment>ca-oriya overline-oriya</comment>
+      <string>\u000B1A\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1A
+U+0307">
+      <comment>ca-oriya dotabovecomb</comment>
+      <string>\u000B1A\u000307 \u000B1A\u000308 \u000B1A\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1B
+U+0B01">
+      <comment>cha-oriya candraBindu-oriya</comment>
+      <string>\u000B1B\u000B01 \u000B1B\u000B02 \u000B1B\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1B
+U+0B55">
+      <comment>cha-oriya overline-oriya</comment>
+      <string>\u000B1B\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1B
+U+0307">
+      <comment>cha-oriya dotabovecomb</comment>
+      <string>\u000B1B\u000307 \u000B1B\u000308 \u000B1B\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1C
+U+0B01">
+      <comment>ja-oriya candraBindu-oriya</comment>
+      <string>\u000B1C\u000B01 \u000B1C\u000B02 \u000B1C\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1C
+U+0B55">
+      <comment>ja-oriya overline-oriya</comment>
+      <string>\u000B1C\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1C
+U+0307">
+      <comment>ja-oriya dotabovecomb</comment>
+      <string>\u000B1C\u000307 \u000B1C\u000308 \u000B1C\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1D
+U+0B01">
+      <comment>jha-oriya candraBindu-oriya</comment>
+      <string>\u000B1D\u000B01 \u000B1D\u000B02 \u000B1D\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1D
+U+0B55">
+      <comment>jha-oriya overline-oriya</comment>
+      <string>\u000B1D\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1D
+U+0307">
+      <comment>jha-oriya dotabovecomb</comment>
+      <string>\u000B1D\u000307 \u000B1D\u000308 \u000B1D\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1E
+U+0B01">
+      <comment>nya-oriya candraBindu-oriya</comment>
+      <string>\u000B1E\u000B01 \u000B1E\u000B02 \u000B1E\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1E
+U+0B55">
+      <comment>nya-oriya overline-oriya</comment>
+      <string>\u000B1E\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1E
+U+0307">
+      <comment>nya-oriya dotabovecomb</comment>
+      <string>\u000B1E\u000307 \u000B1E\u000308 \u000B1E\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1F
+U+0B01">
+      <comment>tta-oriya candraBindu-oriya</comment>
+      <string>\u000B1F\u000B01 \u000B1F\u000B02 \u000B1F\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B1F
+U+0B55">
+      <comment>tta-oriya overline-oriya</comment>
+      <string>\u000B1F\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B1F
+U+0307">
+      <comment>tta-oriya dotabovecomb</comment>
+      <string>\u000B1F\u000307 \u000B1F\u000308 \u000B1F\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B20
+U+0B01">
+      <comment>ttha-oriya candraBindu-oriya</comment>
+      <string>\u000B20\u000B01 \u000B20\u000B02 \u000B20\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B20
+U+0B55">
+      <comment>ttha-oriya overline-oriya</comment>
+      <string>\u000B20\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B20
+U+0307">
+      <comment>ttha-oriya dotabovecomb</comment>
+      <string>\u000B20\u000307 \u000B20\u000308 \u000B20\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B21
+U+0B01">
+      <comment>dda-oriya candraBindu-oriya</comment>
+      <string>\u000B21\u000B01 \u000B21\u000B02 \u000B21\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B21
+U+0B55">
+      <comment>dda-oriya overline-oriya</comment>
+      <string>\u000B21\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B21
+U+0307">
+      <comment>dda-oriya dotabovecomb</comment>
+      <string>\u000B21\u000307 \u000B21\u000308 \u000B21\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B22
+U+0B01">
+      <comment>ddha-oriya candraBindu-oriya</comment>
+      <string>\u000B22\u000B01 \u000B22\u000B02 \u000B22\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B22
+U+0B55">
+      <comment>ddha-oriya overline-oriya</comment>
+      <string>\u000B22\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B22
+U+0307">
+      <comment>ddha-oriya dotabovecomb</comment>
+      <string>\u000B22\u000307 \u000B22\u000308 \u000B22\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B23
+U+0B01">
+      <comment>nna-oriya candraBindu-oriya</comment>
+      <string>\u000B23\u000B01 \u000B23\u000B02 \u000B23\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B23
+U+0B55">
+      <comment>nna-oriya overline-oriya</comment>
+      <string>\u000B23\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B23
+U+0307">
+      <comment>nna-oriya dotabovecomb</comment>
+      <string>\u000B23\u000307 \u000B23\u000308 \u000B23\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B24
+U+0B01">
+      <comment>ta-oriya candraBindu-oriya</comment>
+      <string>\u000B24\u000B01 \u000B24\u000B02 \u000B24\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B24
+U+0B55">
+      <comment>ta-oriya overline-oriya</comment>
+      <string>\u000B24\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B24
+U+0307">
+      <comment>ta-oriya dotabovecomb</comment>
+      <string>\u000B24\u000307 \u000B24\u000308 \u000B24\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B25
+U+0B01">
+      <comment>tha-oriya candraBindu-oriya</comment>
+      <string>\u000B25\u000B01 \u000B25\u000B02 \u000B25\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B25
+U+0B55">
+      <comment>tha-oriya overline-oriya</comment>
+      <string>\u000B25\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B25
+U+0307">
+      <comment>tha-oriya dotabovecomb</comment>
+      <string>\u000B25\u000307 \u000B25\u000308 \u000B25\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B26
+U+0B01">
+      <comment>da-oriya candraBindu-oriya</comment>
+      <string>\u000B26\u000B01 \u000B26\u000B02 \u000B26\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B26
+U+0B55">
+      <comment>da-oriya overline-oriya</comment>
+      <string>\u000B26\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B26
+U+0307">
+      <comment>da-oriya dotabovecomb</comment>
+      <string>\u000B26\u000307 \u000B26\u000308 \u000B26\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B27
+U+0B01">
+      <comment>dha-oriya candraBindu-oriya</comment>
+      <string>\u000B27\u000B01 \u000B27\u000B02 \u000B27\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B27
+U+0B55">
+      <comment>dha-oriya overline-oriya</comment>
+      <string>\u000B27\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B27
+U+0307">
+      <comment>dha-oriya dotabovecomb</comment>
+      <string>\u000B27\u000307 \u000B27\u000308 \u000B27\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B28
+U+0B01">
+      <comment>na-oriya candraBindu-oriya</comment>
+      <string>\u000B28\u000B01 \u000B28\u000B02 \u000B28\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B28
+U+0B55">
+      <comment>na-oriya overline-oriya</comment>
+      <string>\u000B28\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B28
+U+0307">
+      <comment>na-oriya dotabovecomb</comment>
+      <string>\u000B28\u000307 \u000B28\u000308 \u000B28\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2A
+U+0B01">
+      <comment>pa-oriya candraBindu-oriya</comment>
+      <string>\u000B2A\u000B01 \u000B2A\u000B02 \u000B2A\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2A
+U+0B55">
+      <comment>pa-oriya overline-oriya</comment>
+      <string>\u000B2A\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2A
+U+0307">
+      <comment>pa-oriya dotabovecomb</comment>
+      <string>\u000B2A\u000307 \u000B2A\u000308 \u000B2A\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2B
+U+0B01">
+      <comment>pha-oriya candraBindu-oriya</comment>
+      <string>\u000B2B\u000B01 \u000B2B\u000B02 \u000B2B\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2B
+U+0B55">
+      <comment>pha-oriya overline-oriya</comment>
+      <string>\u000B2B\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2B
+U+0307">
+      <comment>pha-oriya dotabovecomb</comment>
+      <string>\u000B2B\u000307 \u000B2B\u000308 \u000B2B\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2C
+U+0B01">
+      <comment>ba-oriya candraBindu-oriya</comment>
+      <string>\u000B2C\u000B01 \u000B2C\u000B02 \u000B2C\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2C
+U+0B55">
+      <comment>ba-oriya overline-oriya</comment>
+      <string>\u000B2C\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2C
+U+0307">
+      <comment>ba-oriya dotabovecomb</comment>
+      <string>\u000B2C\u000307 \u000B2C\u000308 \u000B2C\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2D
+U+0B01">
+      <comment>bha-oriya candraBindu-oriya</comment>
+      <string>\u000B2D\u000B01 \u000B2D\u000B02 \u000B2D\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2D
+U+0B55">
+      <comment>bha-oriya overline-oriya</comment>
+      <string>\u000B2D\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2D
+U+0307">
+      <comment>bha-oriya dotabovecomb</comment>
+      <string>\u000B2D\u000307 \u000B2D\u000308 \u000B2D\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2E
+U+0B01">
+      <comment>ma-oriya candraBindu-oriya</comment>
+      <string>\u000B2E\u000B01 \u000B2E\u000B02 \u000B2E\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2E
+U+0B55">
+      <comment>ma-oriya overline-oriya</comment>
+      <string>\u000B2E\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2E
+U+0307">
+      <comment>ma-oriya dotabovecomb</comment>
+      <string>\u000B2E\u000307 \u000B2E\u000308 \u000B2E\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2F
+U+0B01">
+      <comment>ya-oriya candraBindu-oriya</comment>
+      <string>\u000B2F\u000B01 \u000B2F\u000B02 \u000B2F\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B2F
+U+0B55">
+      <comment>ya-oriya overline-oriya</comment>
+      <string>\u000B2F\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B2F
+U+0307">
+      <comment>ya-oriya dotabovecomb</comment>
+      <string>\u000B2F\u000307 \u000B2F\u000308 \u000B2F\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B30
+U+0B01">
+      <comment>ra-oriya candraBindu-oriya</comment>
+      <string>\u000B30\u000B01 \u000B30\u000B02 \u000B30\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B30
+U+0B55">
+      <comment>ra-oriya overline-oriya</comment>
+      <string>\u000B30\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B30
+U+0307">
+      <comment>ra-oriya dotabovecomb</comment>
+      <string>\u000B30\u000307 \u000B30\u000308 \u000B30\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B32
+U+0B01">
+      <comment>la-oriya candraBindu-oriya</comment>
+      <string>\u000B32\u000B01 \u000B32\u000B02 \u000B32\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B32
+U+0B55">
+      <comment>la-oriya overline-oriya</comment>
+      <string>\u000B32\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B32
+U+0307">
+      <comment>la-oriya dotabovecomb</comment>
+      <string>\u000B32\u000307 \u000B32\u000308 \u000B32\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B33
+U+0B01">
+      <comment>lla-oriya candraBindu-oriya</comment>
+      <string>\u000B33\u000B01 \u000B33\u000B02 \u000B33\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B33
+U+0B55">
+      <comment>lla-oriya overline-oriya</comment>
+      <string>\u000B33\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B33
+U+0307">
+      <comment>lla-oriya dotabovecomb</comment>
+      <string>\u000B33\u000307 \u000B33\u000308 \u000B33\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B01">
+      <comment>va-oriya candraBindu-oriya</comment>
+      <string>\u000B35\u000B01 \u000B35\u000B02 \u000B35\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B35
+U+0B55">
+      <comment>va-oriya overline-oriya</comment>
+      <string>\u000B35\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0307">
+      <comment>va-oriya dotabovecomb</comment>
+      <string>\u000B35\u000307 \u000B35\u000308 \u000B35\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B36
+U+0B01">
+      <comment>sha-oriya candraBindu-oriya</comment>
+      <string>\u000B36\u000B01 \u000B36\u000B02 \u000B36\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B36
+U+0B55">
+      <comment>sha-oriya overline-oriya</comment>
+      <string>\u000B36\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B36
+U+0307">
+      <comment>sha-oriya dotabovecomb</comment>
+      <string>\u000B36\u000307 \u000B36\u000308 \u000B36\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B37
+U+0B01">
+      <comment>ssa-oriya candraBindu-oriya</comment>
+      <string>\u000B37\u000B01 \u000B37\u000B02 \u000B37\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B37
+U+0B55">
+      <comment>ssa-oriya overline-oriya</comment>
+      <string>\u000B37\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B37
+U+0307">
+      <comment>ssa-oriya dotabovecomb</comment>
+      <string>\u000B37\u000307 \u000B37\u000308 \u000B37\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B38
+U+0B01">
+      <comment>sa-oriya candraBindu-oriya</comment>
+      <string>\u000B38\u000B01 \u000B38\u000B02 \u000B38\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B38
+U+0B55">
+      <comment>sa-oriya overline-oriya</comment>
+      <string>\u000B38\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B38
+U+0307">
+      <comment>sa-oriya dotabovecomb</comment>
+      <string>\u000B38\u000307 \u000B38\u000308 \u000B38\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B39
+U+0B01">
+      <comment>ha-oriya candraBindu-oriya</comment>
+      <string>\u000B39\u000B01 \u000B39\u000B02 \u000B39\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B39
+U+0B55">
+      <comment>ha-oriya overline-oriya</comment>
+      <string>\u000B39\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B39
+U+0307">
+      <comment>ha-oriya dotabovecomb</comment>
+      <string>\u000B39\u000307 \u000B39\u000308 \u000B39\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B3D
+U+0B01">
+      <comment>avagraha-oriya candraBindu-oriya</comment>
+      <string>\u000B3D\u000B01 \u000B3D\u000B02 \u000B3D\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B3D
+U+0B55">
+      <comment>avagraha-oriya overline-oriya</comment>
+      <string>\u000B3D\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B3D
+U+0307">
+      <comment>avagraha-oriya dotabovecomb</comment>
+      <string>\u000B3D\u000307 \u000B3D\u000308 \u000B3D\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B3E
+U+0B01">
+      <comment>aaMatra-oriya candraBindu-oriya</comment>
+      <string>\u000B3E\u000B01 \u000B3E\u000B02 \u000B3E\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B3E
+U+0B55">
+      <comment>aaMatra-oriya overline-oriya</comment>
+      <string>\u000B3E\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B3E
+U+0307">
+      <comment>aaMatra-oriya dotabovecomb</comment>
+      <string>\u000B3E\u000307 \u000B3E\u000308 \u000B3E\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B40
+U+0B01">
+      <comment>iiMatra-oriya candraBindu-oriya</comment>
+      <string>\u000B40\u000B01 \u000B40\u000B02 \u000B40\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B40
+U+0B55">
+      <comment>iiMatra-oriya overline-oriya</comment>
+      <string>\u000B40\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B40
+U+0307">
+      <comment>iiMatra-oriya dotabovecomb</comment>
+      <string>\u000B40\u000307 \u000B40\u000308 \u000B40\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B47
+U+0B01">
+      <comment>eMatra-oriya candraBindu-oriya</comment>
+      <string>\u000B47\u000B01 \u000B47\u000B02 \u000B47\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B47
+U+0B55">
+      <comment>eMatra-oriya overline-oriya</comment>
+      <string>\u000B47\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B47
+U+0307">
+      <comment>eMatra-oriya dotabovecomb</comment>
+      <string>\u000B47\u000307 \u000B47\u000308 \u000B47\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5C
+U+0B01">
+      <comment>rra-oriya candraBindu-oriya</comment>
+      <string>\u000B5C\u000B01 \u000B5C\u000B02 \u000B5C\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B5C
+U+0B55">
+      <comment>rra-oriya overline-oriya</comment>
+      <string>\u000B5C\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5C
+U+0307">
+      <comment>rra-oriya dotabovecomb</comment>
+      <string>\u000B5C\u000307 \u000B5C\u000308 \u000B5C\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5D
+U+0B01">
+      <comment>rha-oriya candraBindu-oriya</comment>
+      <string>\u000B5D\u000B01 \u000B5D\u000B02 \u000B5D\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B5D
+U+0B55">
+      <comment>rha-oriya overline-oriya</comment>
+      <string>\u000B5D\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5D
+U+0307">
+      <comment>rha-oriya dotabovecomb</comment>
+      <string>\u000B5D\u000307 \u000B5D\u000308 \u000B5D\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5F
+U+0B01">
+      <comment>yya-oriya candraBindu-oriya</comment>
+      <string>\u000B5F\u000B01 \u000B5F\u000B02 \u000B5F\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B5F
+U+0B55">
+      <comment>yya-oriya overline-oriya</comment>
+      <string>\u000B5F\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B5F
+U+0307">
+      <comment>yya-oriya dotabovecomb</comment>
+      <string>\u000B5F\u000307 \u000B5F\u000308 \u000B5F\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B60
+U+0B01">
+      <comment>rrVocalic-oriya candraBindu-oriya</comment>
+      <string>\u000B60\u000B01 \u000B60\u000B02 \u000B60\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B60
+U+0B55">
+      <comment>rrVocalic-oriya overline-oriya</comment>
+      <string>\u000B60\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B60
+U+0307">
+      <comment>rrVocalic-oriya dotabovecomb</comment>
+      <string>\u000B60\u000307 \u000B60\u000308 \u000B60\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B61
+U+0B01">
+      <comment>llVocalic-oriya candraBindu-oriya</comment>
+      <string>\u000B61\u000B01 \u000B61\u000B02 \u000B61\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B61
+U+0B55">
+      <comment>llVocalic-oriya overline-oriya</comment>
+      <string>\u000B61\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B61
+U+0307">
+      <comment>llVocalic-oriya dotabovecomb</comment>
+      <string>\u000B61\u000307 \u000B61\u000308 \u000B61\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B71
+U+0B01">
+      <comment>wa-oriya candraBindu-oriya</comment>
+      <string>\u000B71\u000B01 \u000B71\u000B02 \u000B71\u000B03</string>
+    </test>
+    <test background="#ffc8a0" label="U+0B71
+U+0B55">
+      <comment>wa-oriya overline-oriya</comment>
+      <string>\u000B71\u000B55</string>
+    </test>
+    <test background="#f0fff0" label="U+0B71
+U+0307">
+      <comment>wa-oriya dotabovecomb</comment>
+      <string>\u000B71\u000307 \u000B71\u000308 \u000B71\u000B3C</string>
+    </test>
+  </testgroup>
+  <testgroup label="All diacritics on representative bases">
+    <test label="U+0B15
+U+0B01">
+      <comment>ka-oriya candraBindu-oriya</comment>
+      <string>\u000B15\u000B01 \u000B2A\u000B01 \u0025CC\u000B01</string>
+    </test>
+    <test label="U+0B15
+U+0B3C">
+      <comment>ka-oriya nukta-oriya</comment>
+      <string>\u000B15\u000B3C \u000B2A\u000B3C \u0025CC\u000B3C</string>
+    </test>
+    <test label="U+0B15
+U+0B3F">
+      <comment>ka-oriya iMatra-oriya</comment>
+      <string>\u000B15\u000B3F \u000B2A\u000B3F \u0025CC\u000B3F</string>
+    </test>
+    <test label="U+0B15
+U+0B41">
+      <comment>ka-oriya uMatra-oriya</comment>
+      <string>\u000B15\u000B41 \u000B2A\u000B41 \u0025CC\u000B41</string>
+    </test>
+    <test label="U+0B15
+U+0B42">
+      <comment>ka-oriya uuMatra-oriya</comment>
+      <string>\u000B15\u000B42 \u000B2A\u000B42 \u0025CC\u000B42</string>
+    </test>
+    <test label="U+0B15
+U+0B43">
+      <comment>ka-oriya rVocalicMatra-oriya</comment>
+      <string>\u000B15\u000B43 \u000B2A\u000B43 \u0025CC\u000B43</string>
+    </test>
+    <test label="U+0B15
+U+0B44">
+      <comment>ka-oriya rrVocalicMatra-oriya</comment>
+      <string>\u000B15\u000B44 \u000B2A\u000B44 \u0025CC\u000B44</string>
+    </test>
+    <test label="U+0B15
+U+0B4D">
+      <comment>ka-oriya halant-oriya</comment>
+      <string>\u000B15\u000B4D \u000B2A\u000B4D \u0025CC\u000B4D</string>
+    </test>
+    <test label="U+0B15
+U+0B55">
+      <comment>ka-oriya overline-oriya</comment>
+      <string>\u000B15\u000B55 \u000B2A\u000B55 \u0025CC\u000B55</string>
+    </test>
+    <test label="U+0B15
+U+0B56">
+      <comment>ka-oriya aiLength-oriya</comment>
+      <string>\u000B15\u000B56 \u000B2A\u000B56 \u0025CC\u000B56</string>
+    </test>
+    <test label="U+0B15
+U+0B62">
+      <comment>ka-oriya lVocalicMatra-oriya</comment>
+      <string>\u000B15\u000B62 \u000B2A\u000B62 \u0025CC\u000B62</string>
+    </test>
+    <test label="U+0B15
+U+0B63">
+      <comment>ka-oriya llVocalicMatra-oriya</comment>
+      <string>\u000B15\u000B63 \u000B2A\u000B63 \u0025CC\u000B63</string>
+    </test>
+  </testgroup>
+</ftml>
