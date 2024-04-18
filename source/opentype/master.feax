@@ -10,6 +10,16 @@ lookup AboveMarks {
     pos base @topright mark @_topright;
 } AboveMarks;
 
+lookup AboveMarksAlign {
+  lookupflag 0;
+    pos base @topright mark @_topAA;
+} AboveMarksAlign;
+
+lookup AboveAaMark {
+  lookupflag 0;
+    pos aa-oriya' @_topAA' lookup AboveMarksAlign;
+} AboveAaMark;
+
 lookup StackAboveMarks {
   lookupflag 0;
     pos mark @top_MarkBase mark @_top;
@@ -41,11 +51,13 @@ feature abvm {
     script DFLT;
         language dflt;
             lookup AboveMarks;
+            lookup AboveAaMark;
             lookup StackAboveMarks;
 
     script ory2;
         language dflt;
             lookup AboveMarks;
+            lookup AboveAaMark;
             lookup StackAboveMarks;
 } abvm;
 
