@@ -3,6 +3,7 @@
 
 # override the default folders
 DOCDIR = ["documentation", "web"]
+TESTDIR = ['tests', '../font-japa-sans-oriya-private/tests']
 
 # set the font name and description
 APPNAME = 'JapaSansOriya'
