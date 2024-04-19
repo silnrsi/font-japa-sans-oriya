@@ -1,4 +1,4 @@
-@Cons = [ ka-oriya kha-oriya ga-oriya gha-oriya nga-oriya ca-oriya cha-oriya ja-oriya jha-oriya nya-oriya tta-oriya ttha-oriya dda-oriya ddha-oriya nna-oriya ta-oriya tha-oriya da-oriya dha-oriya na-oriya pa-oriya pha-oriya ba-oriya bha-oriya ma-oriya ya-oriya ra-oriya la-oriya lla-oriya va-oriya sha-oriya ssa-oriya sa-oriya ha-oriya rra-oriya rha-oriya yya-oriya wa-oriya ];
+@Cons = [@cno_base yya-oriya @c_base];
 
 # The rlig feature (and the two lookups it calls) are to support positioning
 # the new overline character over the eMatra (which includes other matras that
@@ -27,10 +27,13 @@ lookup Cons2DotAboveSub {
 } Cons2DotAboveSub;
 
 lookup DotAbove2ConsSub {
+  lookupflag UseMarkFilteringSet [dotabovecomb];
 	sub @Cons dotabovecomb by @Cons;
 } DotAbove2ConsSub;
 
 lookup DotAboveSwap {
+  lookupflag UseMarkFilteringSet [overline-oriya dotabovecomb];
+	sub eMatra-oriya @Cons' lookup Cons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2ConsSub;
 	sub eMatra-oriya @Cons' lookup Cons2DotAboveSub dotabovecomb' lookup DotAbove2ConsSub;
 } DotAboveSwap;
 

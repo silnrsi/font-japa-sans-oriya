@@ -35,32 +35,6 @@
       <string>\u0B2E\u0B47\u0B55\u0B23\u0B4D\u0B24 - \u0B2E\u0B47\u0B23\u0B4D\u0B24</string>
     </test>
   </testgroup>
-  <testgroup label="tone on a left vowel after consonant cluster">
-    <test label="overline (nukta)">
-      <comment>decomp comp</comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b3c\u0b47\u0b55 \u0b2e\u0b4d\u0b5d\u0b47\u0b55</string>
-    </test>
-    <test label="overline">
-      <comment></comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b47\u0b55</string>
-    </test>
-    <test label="dot above (nukta)">
-      <comment>decomp comp</comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b3c\u0b47\u0307 \u0b2e\u0b4d\u0b5d\u0b47\u0307</string>
-    </test>
-    <test label="dot above">
-      <comment></comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b47\u0307</string>
-    </test>
-    <test label="double dot above (nukta)">
-      <comment>decomp comp</comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b3c\u0b47\u0308 \u0b2e\u0b4d\u0b5d\u0b47\u0308</string>
-    </test>
-    <test label="double dot above">
-      <comment></comment>
-      <string>\u0b2e\u0b4d\u0b22\u0b47\u0308</string>
-    </test>
-  </testgroup>
   <testgroup label="sub ra">
     <test label="ta">
       <string>\u0B24\u0B4D\u0B30\u0B3E\u0B55</string>
