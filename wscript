@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 # this is a smith configuration file
 
+# command line options
+opts = preprocess_args(
+    {'opt' : '-r'} # only build the regular weight
+)
+
 # override the default folders
 DOCDIR = ["documentation", "web"]
 TESTDIR = ['tests', '../font-japa-sans-oriya-private/tests']
@@ -28,6 +33,7 @@ designspace('source/' + FAMILY + dspace + '.designspace',
         cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
     ),
     instanceparams = '-W',
+    instances = ['Japa Sans Oriya Regular'] if '-r' in opts else None,
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
         mapfile = generated + '${DS:FILENAME_BASE}.map',
         master = 'source/opentype/master.feax',

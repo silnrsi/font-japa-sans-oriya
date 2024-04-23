@@ -164,8 +164,8 @@ def doit(args):
 
         ftml.startTestGroup('Representative diacritics on all bases that take diacritics')
         for uid in uids:
-            # ignore bases outside of the primary script or VSs:
-            if uid not in block or uid in range(0xFE00, 0xFE10): continue
+            # ignore bases outside of the primary script:
+            if uid not in block: continue
             c = builder.char(uid)
             # Always process Lo, but others only if they take marks:
             if c.general == 'Lo' or c.isBase:
