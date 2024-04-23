@@ -33,6 +33,28 @@ lookup BelowMarks {
     pos base @nukta mark @_nukta;
 } BelowMarks;
 
+# The pre-composed nukta consonants (rra-oriya rha-oriya)
+# have a lower bottom_ra anchor than the corresponding
+# decomposed consonant part (dda-oriya and ddha-oriya).
+# Since the nukt feature is not being used, we need to adjust
+# where ra-oriya.below is as if the nukt feature was enabled.
+lookup NuktaConsRa {
+  lookupflag 0;
+  do let l = APy("rra-oriya", "bottom_ra");
+  {
+    pos dda-oriya nukta-oriya ra-oriya.below' <0 $l 0 0>;
+  }
+  do let l = APy("rha-oriya", "bottom_ra");
+  {
+    pos ddha-oriya nukta-oriya ra-oriya.below' <0 $l 0 0>;
+  }
+} NuktaConsRa;
+
+lookup StackBelowMarks {
+  lookupflag 0;
+    pos mark @nukta_MarkBase mark @_nukta;
+} StackBelowMarks;
+
 # lookup KernPairs {
 #     kernpairs;
 # } KernPairs;
@@ -65,10 +87,14 @@ feature blwm {
     script DFLT;
         language dflt;
             lookup BelowMarks;
+            lookup NuktaConsRa;
+            lookup StackBelowMarks;
 
     script ory2;
         language dflt;
             lookup BelowMarks;
+            lookup NuktaConsRa;
+            lookup StackBelowMarks;
 } blwm;
 
 # feature mkmk {

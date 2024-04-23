@@ -16,7 +16,7 @@ languagesystem ory2 dflt;
 feature aalt {
 # automatic
 feature akhn;
-feature nukt;
+# feature nukt;
 feature rphf;
 feature blwf;
 feature pstf;
@@ -40,11 +40,11 @@ sub ka-oriya halant-oriya ssa-oriya by kassa-oriya;
 sub ja-oriya halant-oriya nya-oriya by janya-oriya;
 } akhn;
 
-feature nukt {
-script ory2;
-	sub dda-oriya nukta-oriya by rra-oriya;
-	sub ddha-oriya nukta-oriya by rha-oriya;
-} nukt;
+# feature nukt {
+# script ory2;
+# 	sub dda-oriya nukta-oriya by rra-oriya;
+# 	sub ddha-oriya nukta-oriya by rha-oriya;
+# } nukt;
 
 feature rphf {
 # automatic

@@ -883,7 +883,7 @@ languagesystem ory2 dflt;
 feature aalt {
     # automatic
     feature akhn;
-    feature nukt;
+    # feature nukt;
     feature rphf;
     feature blwf;
     feature pstf;
@@ -906,12 +906,11 @@ feature akhn {
     sub ja-oriya halant-oriya nya-oriya by janya-oriya;
 } akhn;
 
-feature nukt {
-    script ory2;
-    sub dda-oriya nukta-oriya by rra-oriya;
-    sub ddha-oriya nukta-oriya by rha-oriya;
-} nukt;
-
+# feature nukt {
+# script ory2;
+# 	sub dda-oriya nukta-oriya by rra-oriya;
+# 	sub ddha-oriya nukta-oriya by rha-oriya;
+# } nukt;
 feature rphf {
     # automatic
     script ory2;
@@ -2403,6 +2402,59 @@ lookup BelowMarks {
     pos base yyara-oriya <anchor 304 -290> mark @_nukta;
 } BelowMarks;
 
+# The pre-composed nukta consonants (rra-oriya rha-oriya)
+# have a lower bottom_ra anchor than the corresponding
+# decomposed consonant part (dda-oriya and ddha-oriya).
+# Since the nukt feature is not being used, we need to adjust
+# where ra-oriya.below is as if the nukt feature was enabled.
+lookup NuktaConsRa {
+    lookupflag 0;
+            pos dda-oriya nukta-oriya ra-oriya.below' <0 -80 0 0>;
+
+            pos ddha-oriya nukta-oriya ra-oriya.below' <0 -80 0 0>;
+
+} NuktaConsRa;
+
+lookup StackBelowMarks {
+    lookupflag 0;
+    pos mark ba-oriya.below <anchor 148 -304> mark @_nukta;
+    pos mark bha-oriya.below <anchor 167 -322> mark @_nukta;
+    pos mark ca-oriya.below <anchor 144 -318> mark @_nukta;
+    pos mark cha-oriya.below <anchor 147 -296> mark @_nukta;
+    pos mark da-oriya.below <anchor 169 -324> mark @_nukta;
+    pos mark dda-oriya.below <anchor 153 -308> mark @_nukta;
+    pos mark ddha-oriya.below <anchor 114 -289> mark @_nukta;
+    pos mark dha-oriya.below <anchor 157 -328> mark @_nukta;
+    pos mark ga-oriya.below <anchor 150 -348> mark @_nukta;
+    pos mark gha-oriya.below <anchor 155 -338> mark @_nukta;
+    pos mark ha-oriya.below <anchor 149 -288> mark @_nukta;
+    pos mark iMatra-oriya.below <anchor 229 -212> mark @_nukta;
+    pos mark ja-oriya.below <anchor 158 -258> mark @_nukta;
+    pos mark jha-oriya.below <anchor 154 -328> mark @_nukta;
+    pos mark ka-oriya.below <anchor 166 -269> mark @_nukta;
+    pos mark kassa-oriya.below <anchor 146 -308> mark @_nukta;
+    pos mark kha-oriya.below <anchor 150 -328> mark @_nukta;
+    pos mark la-oriya.below <anchor 160 -236> mark @_nukta;
+    pos mark lla-oriya.below <anchor 161 -234> mark @_nukta;
+    pos mark ma-oriya.below <anchor 145 -248> mark @_nukta;
+    pos mark na-oriya.below <anchor 157 -238> mark @_nukta;
+    pos mark nga-oriya.below <anchor 145 -328> mark @_nukta;
+    pos mark nna-oriya.below <anchor 200 -328> mark @_nukta;
+    pos mark pa-oriya.below <anchor 175 -318> mark @_nukta;
+    pos mark pha-oriya.below <anchor 176 -318> mark @_nukta;
+    pos mark ra-oriya.below <anchor 190 -230> mark @_nukta;
+    pos mark [sa-oriya.below ttha-oriya.below] <anchor 146 -278> mark @_nukta;
+    pos mark sha-oriya.below <anchor 200 -318> mark @_nukta;
+    pos mark ssa-oriya.below <anchor 205 -313> mark @_nukta;
+    pos mark ssapha-oriya <anchor 378 -248> mark @_nukta;
+    pos mark ta-oriya.below <anchor 222 -193> mark @_nukta;
+    pos mark taalt-oriya.below <anchor 51 -214> mark @_nukta;
+    pos mark tha-oriya.below <anchor 212 -228> mark @_nukta;
+    pos mark tta-oriya.below <anchor 140 -318> mark @_nukta;
+    pos mark va-oriya.below <anchor 114 -234> mark @_nukta;
+    pos mark ya-oriya.below <anchor 136 -328> mark @_nukta;
+} StackBelowMarks;
+
 # lookup KernPairs {
 #     kernpairs;
 # } KernPairs;
@@ -2431,9 +2483,13 @@ feature blwm {
     script DFLT;
     language dflt;
     lookup BelowMarks;
+    lookup NuktaConsRa;
+    lookup StackBelowMarks;
     script ory2;
     language dflt;
     lookup BelowMarks;
+    lookup NuktaConsRa;
+    lookup StackBelowMarks;
 } blwm;
 
 # feature mkmk {

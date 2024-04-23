@@ -62,6 +62,7 @@ def doit(args):
 
     matra_like = matras + [virama]
     akhands = [(0x0B15, virama, 0x0B37), (0x0B1C, virama, 0x0B1E)]
+    tone = (0x0B55, 0x0307, 0x0308)
 
     # Initialize FTML document:
     # Default name for test: AllChars or something based on the csvdata file:
@@ -213,6 +214,34 @@ def doit(args):
             c = a[0]
             for m in matra_like:
                 builder.render((a+(nukta,)+(m,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Consonants with matras and tone')
+        for c in consonants + [dotted_circle]:
+            for m in matra_like:
+                for t in tone:
+                    builder.render((c,m,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+        ftml.startTestGroup('Consonants (nukta) with matras and tone')
+        for c in consonants + [dotted_circle]:
+            for m in matra_like:
+                for t in tone:
+                    builder.render((c,nukta,m,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
+        ftml.startTestGroup('Akhands with matras and tone')
+        for a in akhands:
+            c = a[0]
+            for m in matra_like:
+                for t in tone:
+                    builder.render((a+(m,)+(t,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+        ftml.startTestGroup('Akhands (nukta) with matras and tone')
+        for a in akhands:
+            c = a[0]
+            for m in matra_like:
+                for t in tone:
+                    builder.render((a+(nukta,)+(m,)+(t,)), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
     if test.lower().startswith("conjuncts"):

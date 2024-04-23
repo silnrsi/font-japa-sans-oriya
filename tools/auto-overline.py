@@ -21,14 +21,6 @@ with open(sys.argv[1], 'w') as output:
     # line = ' '.join(chars) + '\n'
     # output.write(line)
 
-    output.write('consonants + matras\n')
-    for c in consonants:
-        chars = list()
-        for v in matras:
-            chars.append(c + v + o)
-        line = ' '.join(chars) + '\n'
-        output.write(line)
-
     output.write('consonant + virama + ra + matras\n')
     for c in consonants:
         chars = list()
