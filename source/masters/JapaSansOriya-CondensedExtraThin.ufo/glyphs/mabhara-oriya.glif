@@ -2,6 +2,7 @@
 <glyph name="mabhara-oriya" format="2">
   <advance width="555"/>
   <guideline x="449" y="210" angle="90"/>
+  <anchor x="261" y="-344" name="nukta"/>
   <anchor x="239" y="658" name="top"/>
   <anchor x="436" y="658" name="topright"/>
   <outline>

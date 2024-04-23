@@ -2,6 +2,7 @@
 <glyph name="jajha-oriya" format="2">
   <advance width="838"/>
   <guideline x="605" y="-3" angle="90"/>
+  <anchor x="611" y="-369" name="nukta"/>
   <outline>
     <component base="jha-oriya.below" xOffset="417"/>
     <component base="ja-oriya.base"/>

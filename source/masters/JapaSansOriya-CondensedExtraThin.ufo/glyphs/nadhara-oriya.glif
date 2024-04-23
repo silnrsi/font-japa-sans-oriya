@@ -2,6 +2,7 @@
 <glyph name="nadhara-oriya" format="2">
   <advance width="559"/>
   <guideline x="491" y="-140" angle="0"/>
+  <anchor x="302" y="-230" name="nukta"/>
   <anchor x="296" y="658" name="top"/>
   <anchor x="476" y="658" name="topright"/>
   <outline>

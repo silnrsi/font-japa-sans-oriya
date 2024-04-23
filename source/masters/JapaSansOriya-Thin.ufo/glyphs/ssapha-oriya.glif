@@ -5,6 +5,7 @@
 ssaphaorya
 </note>
   <anchor x="451" y="190" name="_bottom"/>
+  <anchor x="500" y="-248" name="nukta"/>
   <anchor x="313" y="658" name="top"/>
   <anchor x="574" y="658" name="topright"/>
   <outline>

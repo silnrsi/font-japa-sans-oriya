@@ -6,6 +6,7 @@ hasquishorya
 </note>
   <guideline x="437" y="112" angle="90"/>
   <anchor x="407" y="61" name="bottom"/>
+  <anchor x="367" y="-149" name="nukta"/>
   <anchor x="360" y="658" name="top"/>
   <anchor x="562" y="658" name="topright"/>
   <outline>

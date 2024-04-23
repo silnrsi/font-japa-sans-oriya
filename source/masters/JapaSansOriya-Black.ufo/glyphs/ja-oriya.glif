@@ -8,6 +8,7 @@ jaorya
   <guideline x="446" y="352" angle="0"/>
   <anchor x="459" y="0" name="bottom"/>
   <anchor x="629" y="0" name="bottom_ra"/>
+  <anchor x="407" y="-158" name="nukta"/>
   <anchor x="398" y="658" name="top"/>
   <anchor x="643" y="658" name="topright"/>
   <outline>

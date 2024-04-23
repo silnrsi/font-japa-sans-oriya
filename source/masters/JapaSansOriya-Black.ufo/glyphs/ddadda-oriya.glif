@@ -4,6 +4,7 @@
   <note>
 ddaddaorya
 </note>
+  <anchor x="435" y="-370" name="nukta"/>
   <outline>
     <component base="dda-oriya.below" xOffset="214"/>
     <component base="dda-oriya.base"/>

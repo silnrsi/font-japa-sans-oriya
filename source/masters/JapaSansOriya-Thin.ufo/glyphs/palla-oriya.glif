@@ -8,6 +8,7 @@ pallaorya
   <guideline x="663" y="177" angle="90"/>
   <guideline x="587" y="575" angle="90"/>
   <guideline x="677" y="575" angle="90"/>
+  <anchor x="490" y="-259" name="nukta"/>
   <anchor x="313" y="658" name="top"/>
   <anchor x="574" y="658" name="topright"/>
   <outline>

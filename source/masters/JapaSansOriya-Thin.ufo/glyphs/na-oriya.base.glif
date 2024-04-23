@@ -3,6 +3,7 @@
   <advance width="620"/>
   <anchor x="417" y="110" name="bottom"/>
   <anchor x="430" y="106" name="bottom_ta"/>
+  <anchor x="310" y="-60" name="nukta"/>
   <anchor x="305" y="658" name="top"/>
   <anchor x="522" y="658" name="topright"/>
   <outline>

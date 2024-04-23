@@ -8,6 +8,7 @@ laorya
   <guideline x="307" y="217" angle="0"/>
   <anchor x="388" y="0" name="bottom"/>
   <anchor x="414" y="0" name="bottom_ra"/>
+  <anchor x="292" y="-158" name="nukta"/>
   <anchor x="295" y="658" name="top"/>
   <anchor x="487" y="658" name="topright"/>
   <outline>

@@ -6,6 +6,7 @@ ngakassaorya
 </note>
   <guideline x="462" y="575" angle="90"/>
   <guideline x="574" y="575" angle="90"/>
+  <anchor x="435" y="-308" name="nukta"/>
   <outline>
     <component base="kassa-oriya.below" xOffset="189"/>
     <component base="nga-oriya.base"/>

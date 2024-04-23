@@ -7,6 +7,7 @@ raorya
 </note>
   <anchor x="234" y="0" name="bottom"/>
   <anchor x="419" y="0" name="bottom_ra"/>
+  <anchor x="270" y="-158" name="nukta"/>
   <anchor x="263" y="658" name="top"/>
   <anchor x="464" y="658" name="topright"/>
   <outline>

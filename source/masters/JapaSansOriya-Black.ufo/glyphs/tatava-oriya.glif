@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tatava-oriya" format="2">
   <advance width="916"/>
+  <anchor x="545" y="-364" name="nukta"/>
   <anchor x="416" y="658" name="top"/>
   <anchor x="724" y="658" name="topright"/>
   <outline>

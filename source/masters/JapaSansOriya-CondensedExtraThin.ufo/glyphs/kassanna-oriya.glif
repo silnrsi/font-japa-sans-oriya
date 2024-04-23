@@ -6,6 +6,7 @@ kassannaorya
 </note>
   <guideline x="470" y="400" angle="90"/>
   <guideline x="557" y="400" angle="90"/>
+  <anchor x="393" y="-318" name="nukta"/>
   <outline>
     <component base="nna-oriya.below" xOffset="270"/>
     <component base="kassa-oriya.base"/>

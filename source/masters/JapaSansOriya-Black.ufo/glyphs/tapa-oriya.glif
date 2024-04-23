@@ -6,6 +6,7 @@ tapaorya
 </note>
   <guideline x="752" y="-34" angle="90"/>
   <guideline x="977" y="-117" angle="0"/>
+  <anchor x="562" y="-301" name="nukta"/>
   <outline>
     <component base="pa-oriya"/>
     <component base="taalt-oriya.below" xOffset="476"/>

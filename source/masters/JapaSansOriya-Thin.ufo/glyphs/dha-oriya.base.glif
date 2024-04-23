@@ -2,6 +2,7 @@
 <glyph name="dha-oriya.base" format="2">
   <advance width="599"/>
   <anchor x="516" y="110" name="bottom"/>
+  <anchor x="283" y="-60" name="nukta"/>
   <anchor x="284" y="658" name="top"/>
   <anchor x="516" y="658" name="topright"/>
   <outline>

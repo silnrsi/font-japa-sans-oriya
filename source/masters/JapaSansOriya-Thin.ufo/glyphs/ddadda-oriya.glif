@@ -6,6 +6,7 @@ ddaddaorya
 </note>
   <guideline x="479" y="502" angle="90"/>
   <guideline x="591" y="502" angle="90"/>
+  <anchor x="406" y="-302" name="nukta"/>
   <outline>
     <component base="dda-oriya.below" xOffset="199"/>
     <component base="dda-oriya.base"/>

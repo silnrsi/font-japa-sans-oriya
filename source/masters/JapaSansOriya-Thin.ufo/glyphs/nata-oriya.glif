@@ -7,6 +7,7 @@ nataorya
   <guideline x="539" y="422" angle="90"/>
   <guideline x="118" y="306" angle="90"/>
   <guideline x="428" y="455" angle="0"/>
+  <anchor x="310" y="-171" name="nukta"/>
   <anchor x="305" y="657" name="top"/>
   <anchor x="522" y="657" name="topright"/>
   <outline>

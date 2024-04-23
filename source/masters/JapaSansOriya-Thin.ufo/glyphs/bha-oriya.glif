@@ -7,6 +7,7 @@ bhaorya
 </note>
   <anchor x="344" y="0" name="bottom"/>
   <anchor x="611" y="0" name="bottom_ra"/>
+  <anchor x="387" y="-158" name="nukta"/>
   <anchor x="367" y="658" name="top"/>
   <anchor x="641" y="658" name="topright"/>
   <outline>

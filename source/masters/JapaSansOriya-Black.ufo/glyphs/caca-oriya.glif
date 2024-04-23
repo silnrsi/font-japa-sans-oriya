@@ -8,6 +8,7 @@ cacaorya
   <guideline x="358" y="368" angle="180"/>
   <anchor x="408" y="0" name="bottom"/>
   <anchor x="776" y="0" name="bottom_ra"/>
+  <anchor x="367" y="-137" name="nukta"/>
   <anchor x="394" y="658" name="top"/>
   <anchor x="633" y="658" name="topright"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dara-oriya" format="2">
   <advance width="688"/>
+  <anchor x="344" y="-350" name="nukta"/>
   <anchor x="334" y="658" name="top"/>
   <anchor x="542" y="658" name="topright"/>
   <outline>

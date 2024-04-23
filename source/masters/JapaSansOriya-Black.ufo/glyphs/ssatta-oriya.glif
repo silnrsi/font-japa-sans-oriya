@@ -6,6 +6,7 @@ ssattaorya
 </note>
   <guideline x="752" y="502" angle="90"/>
   <guideline x="904" y="502" angle="90"/>
+  <anchor x="663" y="-298" name="nukta"/>
   <anchor x="346" y="658" name="top"/>
   <anchor x="667" y="658" name="topright"/>
   <outline>

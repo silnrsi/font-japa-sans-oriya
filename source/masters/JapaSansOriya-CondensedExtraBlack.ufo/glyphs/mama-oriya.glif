@@ -7,6 +7,7 @@ mamaorya
   <guideline x="671" y="371" angle="90"/>
   <guideline x="731" y="367" angle="90"/>
   <guideline x="619" y="196" angle="0"/>
+  <anchor x="422" y="-278" name="nukta"/>
   <anchor x="278" y="658" name="top"/>
   <anchor x="556" y="658" name="topright"/>
   <outline>

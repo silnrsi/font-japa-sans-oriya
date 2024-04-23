@@ -7,6 +7,7 @@ jasubscriptorya
   <guideline x="209" y="199" angle="90"/>
   <guideline x="89" y="113" angle="0"/>
   <anchor x="269" y="110" name="_bottom"/>
+  <anchor x="210" y="-258" name="nukta"/>
   <outline>
     <contour>
       <point x="158" y="-168" type="curve"/>

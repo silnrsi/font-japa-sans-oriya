@@ -6,6 +6,7 @@ gadaorya
 </note>
   <guideline x="724" y="220" angle="90"/>
   <guideline x="850" y="220" angle="90"/>
+  <anchor x="666" y="-374" name="nukta"/>
   <outline>
     <component base="da-oriya.below" xOffset="391"/>
     <component base="ga-oriya.base"/>

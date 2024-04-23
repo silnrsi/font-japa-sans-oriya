@@ -6,6 +6,7 @@ nnattaorya
 </note>
   <guideline x="449" y="400" angle="90"/>
   <guideline x="536" y="400" angle="90"/>
+  <anchor x="412" y="-318" name="nukta"/>
   <outline>
     <component base="tta-oriya.below" xOffset="273"/>
     <component base="nna-oriya.base"/>

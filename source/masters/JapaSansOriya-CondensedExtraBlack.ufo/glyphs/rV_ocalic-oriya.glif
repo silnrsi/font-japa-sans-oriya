@@ -6,6 +6,7 @@
 rvocalicorya
 </note>
   <guideline x="391" y="225" angle="0"/>
+  <anchor x="356" y="-158" name="nukta"/>
   <anchor x="356" y="658" name="top"/>
   <anchor x="501" y="658" name="topright"/>
   <outline>

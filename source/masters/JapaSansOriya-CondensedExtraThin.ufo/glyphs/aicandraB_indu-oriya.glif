@@ -4,6 +4,7 @@
   <note>
 aicandrabinduorya
 </note>
+  <anchor x="405" y="-150" name="nukta"/>
   <outline>
     <component base="ai-oriya"/>
     <component base="candraBindu-oriya" xOffset="397" yOffset="50"/>

@@ -7,6 +7,7 @@ yaorya
 </note>
   <anchor x="520" y="0" name="bottom"/>
   <anchor x="667" y="0" name="bottom_ra"/>
+  <anchor x="335" y="-158" name="nukta"/>
   <anchor x="347" y="658" name="top"/>
   <anchor x="594" y="658" name="topright"/>
   <outline>

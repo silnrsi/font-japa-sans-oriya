@@ -3,6 +3,7 @@
   <advance width="190"/>
   <anchor x="138" y="10" name="_bottom_ta"/>
   <anchor x="138" y="-153" name="bottom_ra"/>
+  <anchor x="51" y="-214" name="nukta"/>
   <outline>
     <contour>
       <point x="35" y="-109" type="line"/>

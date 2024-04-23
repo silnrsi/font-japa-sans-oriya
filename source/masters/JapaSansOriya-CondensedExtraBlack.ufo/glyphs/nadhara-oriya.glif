@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nadhara-oriya" format="2">
   <advance width="755"/>
+  <anchor x="432" y="-330" name="nukta"/>
   <anchor x="401" y="658" name="top"/>
   <anchor x="609" y="658" name="topright"/>
   <outline>

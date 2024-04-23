@@ -8,6 +8,7 @@ nadaorya
   <guideline x="266" y="185" angle="90"/>
   <anchor x="491" y="0" name="bottom"/>
   <anchor x="597" y="0" name="bottom_ra"/>
+  <anchor x="400" y="-30" name="nukta"/>
   <anchor x="382" y="658" name="top"/>
   <anchor x="646" y="658" name="topright"/>
   <outline>

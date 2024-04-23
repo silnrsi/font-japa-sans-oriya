@@ -6,6 +6,7 @@ dhayapostorya
 </note>
   <anchor x="415" y="0" name="bottom"/>
   <anchor x="441" y="0" name="bottom_ra"/>
+  <anchor x="344" y="-90" name="nukta"/>
   <anchor x="235" y="658" name="top"/>
   <anchor x="428" y="658" name="topright"/>
   <outline>

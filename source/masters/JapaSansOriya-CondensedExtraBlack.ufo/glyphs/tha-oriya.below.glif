@@ -5,6 +5,7 @@ thasubscriptorya
 </note>
   <guideline x="321" y="158" angle="90"/>
   <anchor x="321" y="110" name="_bottom"/>
+  <anchor x="227" y="-278" name="nukta"/>
   <outline>
     <contour>
       <point x="345" y="-168" type="curve"/>

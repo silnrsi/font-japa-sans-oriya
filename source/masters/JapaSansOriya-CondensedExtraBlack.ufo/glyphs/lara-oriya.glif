@@ -2,6 +2,7 @@
 <glyph name="lara-oriya" format="2">
   <advance width="841"/>
   <guideline x="83" y="170" angle="90"/>
+  <anchor x="429" y="-350" name="nukta"/>
   <anchor x="404" y="658" name="top"/>
   <anchor x="675" y="658" name="topright"/>
   <outline>

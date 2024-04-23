@@ -7,6 +7,7 @@ shacaorya
   <guideline x="553" y="502" angle="90"/>
   <guideline x="724" y="215" angle="90"/>
   <guideline x="794" y="215" angle="90"/>
+  <anchor x="588" y="-368" name="nukta"/>
   <outline>
     <component base="ca-oriya.below" xOffset="389"/>
     <component base="sha-oriya.base"/>

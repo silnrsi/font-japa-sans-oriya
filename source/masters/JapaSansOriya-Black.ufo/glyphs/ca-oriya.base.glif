@@ -2,6 +2,7 @@
 <glyph name="ca-oriya.base" format="2">
   <advance width="709"/>
   <anchor x="445" y="110" name="bottom"/>
+  <anchor x="354" y="-81" name="nukta"/>
   <anchor x="344" y="658" name="top"/>
   <anchor x="537" y="658" name="topright"/>
   <outline>

@@ -9,6 +9,7 @@ gallaorya
   <guideline x="793" y="177" angle="90"/>
   <guideline x="723" y="177" angle="90"/>
   <guideline x="793" y="177" angle="90"/>
+  <anchor x="607" y="-306" name="nukta"/>
   <anchor x="329" y="658" name="top"/>
   <anchor x="639" y="658" name="topright"/>
   <outline>

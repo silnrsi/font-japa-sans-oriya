@@ -3,6 +3,7 @@
   <advance width="721"/>
   <guideline x="595" y="397" angle="90"/>
   <guideline x="707" y="400" angle="90"/>
+  <anchor x="521" y="-398" name="nukta"/>
   <outline>
     <component base="pa-oriya.base"/>
     <component base="tta-oriya.below" xOffset="369"/>

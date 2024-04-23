@@ -7,6 +7,7 @@ ngaorya
 </note>
   <anchor x="270" y="0" name="bottom"/>
   <anchor x="622" y="0" name="bottom_ra"/>
+  <anchor x="300" y="-158" name="nukta"/>
   <anchor x="318" y="658" name="top"/>
   <anchor x="545" y="658" name="topright"/>
   <outline>

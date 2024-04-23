@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ssattara-oriya" format="2">
   <advance width="800"/>
+  <anchor x="504" y="-314" name="nukta"/>
   <anchor x="313" y="658" name="top"/>
   <anchor x="574" y="658" name="topright"/>
   <outline>

@@ -6,6 +6,7 @@ kallaorya
 </note>
   <guideline x="609" y="177" angle="90"/>
   <guideline x="679" y="177" angle="90"/>
+  <anchor x="495" y="-295" name="nukta"/>
   <outline>
     <component base="lla-oriya.below" xOffset="277"/>
     <component base="ka-oriya.base"/>

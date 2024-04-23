@@ -7,6 +7,7 @@ kattaorya
   <guideline x="231" y="376" angle="0"/>
   <guideline x="502" y="502" angle="90"/>
   <guideline x="614" y="502" angle="90"/>
+  <anchor x="437" y="-314" name="nukta"/>
   <outline>
     <component base="tta-oriya.below" xOffset="257"/>
     <component base="ka-oriya.base"/>

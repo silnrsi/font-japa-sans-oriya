@@ -6,6 +6,7 @@ lasubscriptorya
   <guideline x="234" y="-396" angle="0"/>
   <guideline x="214" y="196" angle="90"/>
   <anchor x="244" y="110" name="_bottom"/>
+  <anchor x="215" y="-285" name="nukta"/>
   <outline>
     <contour>
       <point x="381" y="-64" type="line"/>

@@ -7,6 +7,7 @@ kakaorya
   <guideline x="513" y="177" angle="90"/>
   <guideline x="573" y="173" angle="90"/>
   <guideline x="371" y="173" angle="90"/>
+  <anchor x="411" y="-294" name="nukta"/>
   <outline>
     <component base="ka-oriya.below" xOffset="222"/>
     <component base="ka-oriya.base"/>

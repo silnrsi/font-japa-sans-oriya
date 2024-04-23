@@ -7,6 +7,7 @@ aiorya
 </note>
   <guideline x="293" y="858" angle="32.7352"/>
   <guideline x="350" y="699" angle="32.7352"/>
+  <anchor x="424" y="-150" name="nukta"/>
   <outline>
     <contour>
       <point x="493" y="328" type="curve"/>

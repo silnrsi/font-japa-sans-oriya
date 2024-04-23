@@ -6,6 +6,7 @@ nadaorya
 </note>
   <anchor x="413" y="0" name="bottom"/>
   <anchor x="720" y="0" name="bottom_ra"/>
+  <anchor x="371" y="-110" name="nukta"/>
   <anchor x="401" y="658" name="top"/>
   <anchor x="609" y="658" name="topright"/>
   <outline>

@@ -8,6 +8,7 @@ phaorya
   <guideline x="803" y="612" angle="90"/>
   <anchor x="464" y="0" name="bottom"/>
   <anchor x="611" y="0" name="bottom_ra"/>
+  <anchor x="409" y="-158" name="nukta"/>
   <anchor x="291" y="658" name="top"/>
   <anchor x="653" y="658" name="topright"/>
   <outline>

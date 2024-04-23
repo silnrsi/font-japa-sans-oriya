@@ -5,6 +5,7 @@
 takaorya
 </note>
   <guideline x="414" y="-28" angle="90"/>
+  <anchor x="322" y="-207" name="nukta"/>
   <outline>
     <component base="taalt-oriya.below" xOffset="276"/>
     <component base="ka-oriya"/>

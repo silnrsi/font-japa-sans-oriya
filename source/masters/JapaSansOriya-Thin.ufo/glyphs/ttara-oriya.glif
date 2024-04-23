@@ -2,6 +2,7 @@
 <glyph name="ttara-oriya" format="2">
   <advance width="668"/>
   <guideline x="115" y="180" angle="90"/>
+  <anchor x="318" y="-290" name="nukta"/>
   <anchor x="307" y="658" name="top"/>
   <anchor x="585" y="658" name="topright"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aurephcandraBindu-oriya" format="2">
   <advance width="828"/>
+  <anchor x="577" y="-158" name="nukta"/>
   <outline>
     <component base="aureph-oriya"/>
     <component base="candraBindu-oriya" xOffset="768"/>

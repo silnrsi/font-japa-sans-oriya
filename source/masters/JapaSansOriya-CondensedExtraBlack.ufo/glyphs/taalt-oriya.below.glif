@@ -5,6 +5,7 @@
   <guideline x="-17" y="181" angle="107"/>
   <anchor x="237" y="10" name="_bottom_ta"/>
   <anchor x="238" y="-159" name="bottom_ra"/>
+  <anchor x="89" y="-301" name="nukta"/>
   <outline>
     <contour>
       <point x="49" y="-161" type="line"/>

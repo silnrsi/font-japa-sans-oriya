@@ -8,6 +8,7 @@ paorya
   <anchor x="582" y="0" name="bottom"/>
   <anchor x="752" y="0" name="bottom_ra"/>
   <anchor x="752" y="10" name="bottom_ta"/>
+  <anchor x="387" y="-158" name="nukta"/>
   <anchor x="347" y="658" name="top"/>
   <anchor x="667" y="658" name="topright"/>
   <outline>

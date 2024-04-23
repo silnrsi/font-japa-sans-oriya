@@ -4,6 +4,7 @@
   <note>
 yapostorya
 </note>
+  <anchor x="200" y="-150" name="nukta"/>
   <outline>
     <contour>
       <point x="238" y="346" type="line"/>

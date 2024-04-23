@@ -6,6 +6,7 @@ hajaorya
 </note>
   <guideline x="436" y="206" angle="90"/>
   <guideline x="496" y="206" angle="90"/>
+  <anchor x="365" y="-278" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="484" y="658" name="topright"/>
   <outline>

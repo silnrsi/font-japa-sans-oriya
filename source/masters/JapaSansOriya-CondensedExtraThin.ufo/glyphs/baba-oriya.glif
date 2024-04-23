@@ -6,6 +6,7 @@ babaorya
 </note>
   <anchor x="393" y="0" name="bottom"/>
   <anchor x="489" y="0" name="bottom_ra"/>
+  <anchor x="272" y="-70" name="nukta"/>
   <anchor x="274" y="658" name="top"/>
   <anchor x="471" y="658" name="topright"/>
   <outline>

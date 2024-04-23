@@ -2,6 +2,7 @@
 <glyph name="nna-oriya.base" format="2">
   <advance width="632"/>
   <anchor x="525" y="110" name="bottom"/>
+  <anchor x="307" y="-78" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="525" y="658" name="topright"/>
   <outline>

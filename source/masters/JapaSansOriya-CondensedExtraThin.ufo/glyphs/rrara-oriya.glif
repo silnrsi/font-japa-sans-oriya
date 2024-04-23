@@ -7,6 +7,7 @@
   <guideline x="53" y="90" angle="90"/>
   <guideline x="-601" y="105" angle="90"/>
   <guideline x="352" y="79" angle="90"/>
+  <anchor x="242" y="-290" name="nukta"/>
   <anchor x="239" y="658" name="top"/>
   <anchor x="411" y="658" name="topright"/>
   <outline>

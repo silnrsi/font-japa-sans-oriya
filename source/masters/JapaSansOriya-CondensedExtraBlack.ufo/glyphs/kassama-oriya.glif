@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="kassama-oriya" format="2">
   <advance width="682"/>
+  <anchor x="476" y="-377" name="nukta"/>
   <anchor x="329" y="658" name="top"/>
   <anchor x="575" y="658" name="topright"/>
   <outline>

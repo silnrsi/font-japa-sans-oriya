@@ -6,6 +6,7 @@ pataorya
 </note>
   <guideline x="611" y="269" angle="90"/>
   <guideline x="670" y="270" angle="90"/>
+  <anchor x="413" y="-354" name="nukta"/>
   <anchor x="291" y="658" name="top"/>
   <anchor x="538" y="658" name="topright"/>
   <outline>

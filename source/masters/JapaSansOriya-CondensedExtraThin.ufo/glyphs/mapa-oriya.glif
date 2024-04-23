@@ -6,6 +6,7 @@ mapaorya
 </note>
   <anchor x="456" y="0" name="bottom"/>
   <anchor x="482" y="0" name="bottom_ra"/>
+  <anchor x="309" y="-98" name="nukta"/>
   <anchor x="272" y="738" name="top"/>
   <anchor x="469" y="658" name="topright"/>
   <outline>

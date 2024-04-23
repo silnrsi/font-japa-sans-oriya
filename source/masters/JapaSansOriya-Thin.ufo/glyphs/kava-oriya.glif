@@ -2,6 +2,7 @@
 <glyph name="kava-oriya" format="2">
   <advance width="733"/>
   <guideline x="557" y="96" angle="0"/>
+  <anchor x="570" y="-214" name="nukta"/>
   <anchor x="334" y="658" name="top"/>
   <anchor x="564" y="658" name="topright"/>
   <outline>

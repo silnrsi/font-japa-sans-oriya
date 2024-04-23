@@ -7,6 +7,7 @@ nyajaorya
   <guideline x="716" y="283" angle="0"/>
   <anchor x="630" y="0" name="bottom"/>
   <anchor x="656" y="0" name="bottom_ra"/>
+  <anchor x="348" y="-112" name="nukta"/>
   <anchor x="302" y="658" name="top"/>
   <anchor x="518" y="658" name="topright"/>
   <outline>

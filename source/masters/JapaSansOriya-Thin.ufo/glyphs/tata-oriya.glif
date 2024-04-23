@@ -6,6 +6,7 @@ tataorya
 </note>
   <anchor x="370" y="0" name="bottom"/>
   <anchor x="604" y="0" name="bottom_ra"/>
+  <anchor x="385" y="-118" name="nukta"/>
   <anchor x="362" y="658" name="top"/>
   <anchor x="642" y="658" name="topright"/>
   <outline>

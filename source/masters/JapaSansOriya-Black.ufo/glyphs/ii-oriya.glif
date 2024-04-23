@@ -6,6 +6,7 @@
 iiorya
 </note>
   <guideline x="1043" y="342" angle="0"/>
+  <anchor x="445" y="-159" name="nukta"/>
   <anchor x="445" y="658" name="top"/>
   <anchor x="705" y="658" name="topright"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="lapa-oriya" format="2">
   <advance width="875"/>
+  <anchor x="444" y="-378" name="nukta"/>
   <anchor x="411" y="658" name="top"/>
   <anchor x="709" y="658" name="topright"/>
   <outline>

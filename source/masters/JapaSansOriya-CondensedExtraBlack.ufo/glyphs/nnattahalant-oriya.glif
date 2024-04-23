@@ -3,6 +3,7 @@
   <advance width="724"/>
   <guideline x="598" y="357" angle="90"/>
   <guideline x="710" y="360" angle="90"/>
+  <anchor x="453" y="-262" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="525" y="658" name="topright"/>
   <outline>

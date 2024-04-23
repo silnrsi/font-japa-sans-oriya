@@ -2,6 +2,7 @@
 <glyph name="ya-oriya.below" format="2">
   <guideline x="242" y="144" angle="90"/>
   <anchor x="230" y="110" name="_bottom"/>
+  <anchor x="234" y="-378" name="nukta"/>
   <outline>
     <contour>
       <point x="45" y="-242" type="curve"/>

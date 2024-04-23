@@ -8,6 +8,7 @@ chaorya
   <guideline x="401" y="241" angle="0"/>
   <anchor x="502" y="0" name="bottom"/>
   <anchor x="663" y="0" name="bottom_ra"/>
+  <anchor x="394" y="-158" name="nukta"/>
   <anchor x="385" y="658" name="top"/>
   <anchor x="617" y="658" name="topright"/>
   <outline>

@@ -4,6 +4,7 @@
   <guideline x="156" y="-33" angle="90"/>
   <anchor x="156" y="10" name="_bottom_ta"/>
   <anchor x="156" y="-153" name="bottom_ra"/>
+  <anchor x="82" y="-227" name="nukta"/>
   <outline>
     <contour>
       <point x="20" y="-109" type="line"/>

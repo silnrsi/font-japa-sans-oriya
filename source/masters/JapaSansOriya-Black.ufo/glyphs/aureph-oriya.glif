@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="aureph-oriya" format="2">
   <advance width="1044"/>
+  <anchor x="651" y="-158" name="nukta"/>
   <outline>
     <contour>
       <point x="751" y="172" type="curve"/>

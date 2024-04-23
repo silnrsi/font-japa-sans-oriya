@@ -5,6 +5,7 @@
   <note>
 uni25CC
 </note>
+  <anchor x="310" y="-230" name="nukta"/>
   <outline>
     <contour>
       <point x="329" y="509" type="curve"/>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="yara-oriya" format="2">
   <advance width="550"/>
+  <anchor x="256" y="-290" name="nukta"/>
   <anchor x="266" y="658" name="top"/>
   <anchor x="485" y="658" name="topright"/>
   <outline>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tarauMatra-oriya" format="2">
   <advance width="635"/>
+  <anchor x="117" y="-282" name="nukta"/>
   <outline>
     <component base="ta-oriya.base"/>
     <component base="rauMatra-oriya.below" xOffset="32" yOffset="60"/>

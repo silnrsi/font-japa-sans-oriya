@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="natauMatra-oriya" format="2">
   <advance width="619"/>
+  <anchor x="79" y="-372" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="471" y="658" name="topright"/>
   <outline>

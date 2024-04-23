@@ -7,6 +7,7 @@ maphaorya
   <guideline x="752" y="627" angle="90"/>
   <anchor x="582" y="0" name="bottom"/>
   <anchor x="752" y="0" name="bottom_ra"/>
+  <anchor x="435" y="-128" name="nukta"/>
   <anchor x="351" y="738" name="top"/>
   <anchor x="667" y="658" name="topright"/>
   <outline>

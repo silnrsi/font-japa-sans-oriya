@@ -8,6 +8,7 @@ naorya
   <anchor x="339" y="0" name="bottom"/>
   <anchor x="365" y="0" name="bottom_ra"/>
   <anchor x="365" y="10" name="bottom_ta"/>
+  <anchor x="261" y="-158" name="nukta"/>
   <anchor x="259" y="658" name="top"/>
   <anchor x="449" y="658" name="topright"/>
   <outline>

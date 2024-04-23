@@ -8,6 +8,7 @@ ngakaorya
   <guideline x="210" y="84" angle="0"/>
   <anchor x="557" y="0" name="bottom"/>
   <anchor x="583" y="0" name="bottom_ra"/>
+  <anchor x="349" y="-110" name="nukta"/>
   <anchor x="320" y="658" name="top"/>
   <anchor x="534" y="658" name="topright"/>
   <outline>

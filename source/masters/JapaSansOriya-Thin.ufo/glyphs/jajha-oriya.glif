@@ -6,6 +6,7 @@
   <guideline x="386" y="87" angle="0"/>
   <guideline x="426" y="376" angle="0"/>
   <guideline x="426" y="394" angle="0"/>
+  <anchor x="488" y="-307" name="nukta"/>
   <outline>
     <component base="jha-oriya.below" xOffset="298"/>
     <component base="ja-oriya.base"/>

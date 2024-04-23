@@ -4,6 +4,7 @@
   <anchor x="436" y="0" name="bottom"/>
   <anchor x="743" y="0" name="bottom_ra"/>
   <anchor x="265" y="22" name="curve"/>
+  <anchor x="395" y="-363" name="nukta"/>
   <anchor x="379" y="658" name="top"/>
   <anchor x="625" y="658" name="topright"/>
   <anchor x="436" y="0" name="vertical"/>

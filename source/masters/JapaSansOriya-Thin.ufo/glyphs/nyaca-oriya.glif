@@ -6,6 +6,7 @@ nyacaorya
 </note>
   <anchor x="485" y="0" name="bottom"/>
   <anchor x="511" y="0" name="bottom_ra"/>
+  <anchor x="341" y="-128" name="nukta"/>
   <anchor x="302" y="658" name="top"/>
   <anchor x="518" y="658" name="topright"/>
   <outline>
