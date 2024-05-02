@@ -6,7 +6,6 @@
   <anchor x="530" y="658" name="topright"/>
   <outline>
     <component base="ba-oriya.base"/>
-    <component base="ba-oriya.base"/>
     <contour>
       <point x="315" y="477" type="curve"/>
       <point x="315" y="477" type="line"/>
