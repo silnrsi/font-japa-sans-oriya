@@ -7,6 +7,11 @@
     <fontsrc label="refB">url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
     <fontsrc label="R">url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
     <fontsrc label="B">url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
     <title>Issues</title>
   </head>
   <testgroup label="with overline - without">
@@ -46,6 +51,58 @@
   <testgroup label="Microsoft">
     <test label="GH 650">
       <string>କ୍ବ କ୍ୱ କ୍ଯ କ୍ୟ</string>
+    </test>
+  </testgroup>
+  <testgroup label="Consonant conjunct with iMatra and tone">
+    <test label="conjunct as ligature">
+      <comment>nga-halant-ga-iMatra-dotabove nga-halant-ga-iMatra-overline</comment>
+      <string>\u0B19\u0B4D\u0B17\u0B3F\u0307 \u0B19\u0B4D\u0B17\u0B3F\u0B55</string>
+    </test>
+    <test label="conjunct as sub form">
+      <comment>tta-halant-kha-iMatra-dotabove tta-halant-kha-iMatra-overline</comment>
+      <string>\u0B1F\u0B4D\u0B16\u0B3F\u0307 \u0B1F\u0B4D\u0B16\u0B3F\u0B55</string>
+    </test>
+  </testgroup>
+  <testgroup label="Upstream import">
+    <test label="below as ligature">
+      <comment>da-halant-ba da-halant-va</comment>
+      <string>\u0B26\u0B4D\u0B2C \u0B26\u0B4D\u0B35</string>
+    </test>
+    <test label="below as sub form">
+      <comment>ma-halant-ba ma-halant-va</comment>
+      <string>\u0B2E\u0B4D\u0B2C \u0B2E\u0B4D\u0B35</string>
+    </test>
+    <test label="ahkand below">
+      <comment>nga-halant-ka-halant-ssa</comment>
+      <string>\u0B19\u0B4D\u0B15\u0B4D\u0B37</string>
+    </test>
+    <test label="ba then ba or va below">
+      <comment>ba-halant-ba ba-halant-va</comment>
+      <string>\u0B2C\u0B4D\u0B2C \u0B2C\u0B4D\u0B35</string>
+    </test>
+    <test label="va then ba or va below">
+      <comment>va-halant-ba va-halant-va</comment>
+      <string>\u0B35\u0B4D\u0B2C \u0B35\u0B4D\u0B35</string>
+    </test>
+    <test label="base2post">
+      <comment>dha-halant-yya</comment>
+      <string>\u0B27\u0B4D\u0B5F</string>
+    </test>
+    <test label="ha ligatures in diff lookup">
+      <comment>ha-uMatra ha-uuMatra ha-rVocalicMatra</comment>
+      <string>\u0B39\u0B41 \u0B39\u0B42 \u0B39\u0B43</string>
+    </test>
+    <test label="ra below ligatures in diff lookup">
+      <comment>ka-halant-ra-uMatra ka-halant-ra-uuMatra ka-halant-ra-rVocalicMatra ka-halant-ra-rrVocalicMatra</comment>
+      <string>\u0B15\u0B4D\u0B30\u0B41 \u0B15\u0B4D\u0B30\u0B42 \u0B15\u0B4D\u0B30\u0B43 \u0B15\u0B4D\u0B30\u0B44</string>
+    </test>
+    <test label="different flow with ra">
+      <comment>da-halant-ra-uMatra ta-halant-ra-uMatra</comment>
+      <string>\u0B26\u0B4D\u0B30\u0B41 \u0B24\u0B4D\u0B30\u0B41</string>
+    </test>
+    <test label="reph with length">
+      <comment>ra-halant-aiLengthra-candraBindu ra-halant-auLengthra-candraBindu</comment>
+      <string>\u0B30\u0B4D\u0B15\u0B56\u0B41\u0B01 \u0B30\u0B4D\u0B15\u0B57\u0B41\u0B01</string>
     </test>
   </testgroup>
 </ftml>

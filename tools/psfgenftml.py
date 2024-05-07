@@ -229,6 +229,19 @@ def doit(args):
                     builder.render((c,nukta,m,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
             ftml.closeTest()
 
+        ftml.startTestGroup('Consonant conjuncts with matras and tone')
+        for c in consonants + [dotted_circle]:
+            for m in matra_like:
+                for t in tone:
+                    builder.render((c,virama,c,m,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+        ftml.startTestGroup('Consonant conjuncts (nukta) with matras and tone')
+        for c in consonants + [dotted_circle]:
+            for m in matra_like:
+                for t in tone:
+                    builder.render((c,nukta,virama,c,nukta,m,t), ftml, label=f'{c:04X}', comment=builder.char(c).basename)
+            ftml.closeTest()
+
         ftml.startTestGroup('Akhands with matras and tone')
         for a in akhands:
             c = a[0]
