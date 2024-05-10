@@ -4,6 +4,8 @@
   <note>
 nataorya
 </note>
+  <anchor x="240" y="-71" name="bottom"/>
+  <anchor x="267" y="-71" name="bottom_ra"/>
   <anchor x="245" y="-161" name="nukta"/>
   <anchor x="240" y="658" name="top"/>
   <anchor x="412" y="658" name="topright"/>

@@ -6,6 +6,8 @@ habaorya
 </note>
   <guideline x="512" y="372" angle="90"/>
   <guideline x="587" y="372" angle="90"/>
+  <anchor x="437" y="-244" name="bottom"/>
+  <anchor x="587" y="-244" name="bottom_ra"/>
   <anchor x="387" y="-344" name="nukta"/>
   <anchor x="360" y="658" name="top"/>
   <anchor x="562" y="658" name="topright"/>

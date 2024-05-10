@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="nadhava-oriya" format="2">
   <advance width="889"/>
+  <anchor x="481" y="-244" name="bottom"/>
+  <anchor x="651" y="-244" name="bottom_ra"/>
   <anchor x="440" y="-394" name="nukta"/>
   <anchor x="472" y="658" name="top"/>
   <anchor x="717" y="658" name="topright"/>

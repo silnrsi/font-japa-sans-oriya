@@ -2,6 +2,8 @@
 <glyph name="ya-oriya.below" format="2">
   <guideline x="242" y="144" angle="90"/>
   <anchor x="230" y="110" name="_bottom"/>
+  <anchor x="350" y="-244" name="bottom"/>
+  <anchor x="458" y="-244" name="bottom_ra"/>
   <anchor x="234" y="-378" name="nukta"/>
   <outline>
     <contour>

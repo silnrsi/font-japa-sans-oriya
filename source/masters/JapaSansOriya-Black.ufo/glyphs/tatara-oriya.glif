@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="tatara-oriya" format="2">
   <advance width="916"/>
+  <anchor x="572" y="-200" name="bottom"/>
+  <anchor x="742" y="-200" name="bottom_ra"/>
   <anchor x="465" y="-350" name="nukta"/>
   <anchor x="416" y="658" name="top"/>
   <anchor x="724" y="658" name="topright"/>

@@ -2,6 +2,8 @@
 <glyph name="lama-oriya" format="2">
   <advance width="709"/>
   <guideline x="502" y="75" angle="90"/>
+  <anchor x="476" y="-244" name="bottom"/>
+  <anchor x="502" y="-244" name="bottom_ra"/>
   <anchor x="401" y="-318" name="nukta"/>
   <anchor x="333" y="658" name="top"/>
   <anchor x="606" y="658" name="topright"/>

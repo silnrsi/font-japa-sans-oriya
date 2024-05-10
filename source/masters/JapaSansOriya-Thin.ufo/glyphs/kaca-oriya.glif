@@ -4,6 +4,8 @@
   <guideline x="502" y="177" angle="90"/>
   <guideline x="285" y="177" angle="90"/>
   <guideline x="614" y="502" angle="90"/>
+  <anchor x="431" y="-248" name="bottom"/>
+  <anchor x="456" y="-248" name="bottom_ra"/>
   <anchor x="443" y="-310" name="nukta"/>
   <outline>
     <component base="ca-oriya.below" xOffset="257"/>

@@ -4,6 +4,8 @@
 ivowelsignloworya
 </note>
   <anchor x="296" y="0" name="_bottom"/>
+  <anchor x="314" y="-183" name="bottom"/>
+  <anchor x="428" y="-188" name="bottom_ra"/>
   <anchor x="281" y="-306" name="nukta"/>
   <outline>
     <contour>

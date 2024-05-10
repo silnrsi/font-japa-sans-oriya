@@ -6,6 +6,8 @@ ssannaorya
 </note>
   <guideline x="724" y="284" angle="90"/>
   <guideline x="794" y="284" angle="90"/>
+  <anchor x="528" y="-159" name="bottom"/>
+  <anchor x="698" y="-161" name="bottom_ra"/>
   <anchor x="628" y="-298" name="nukta"/>
   <anchor x="373" y="658" name="top"/>
   <anchor x="639" y="658" name="topright"/>

@@ -7,6 +7,8 @@ masubscriptorya
   <guideline x="328" y="93" angle="0"/>
   <guideline x="135" y="206" angle="90"/>
   <anchor x="180" y="110" name="_bottom"/>
+  <anchor x="226" y="-164" name="bottom"/>
+  <anchor x="252" y="-164" name="bottom_ra"/>
   <anchor x="145" y="-248" name="nukta"/>
   <outline>
     <contour>

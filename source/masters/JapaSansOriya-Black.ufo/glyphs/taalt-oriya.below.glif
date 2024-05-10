@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taalt-oriya.below" format="2">
   <advance width="342"/>
+  <anchor x="106" y="1" name="_bottom"/>
   <anchor x="276" y="10" name="_bottom_ta"/>
+  <anchor x="164" y="-194" name="bottom"/>
   <anchor x="276" y="-159" name="bottom_ra"/>
   <anchor x="93" y="-306" name="nukta"/>
   <outline>

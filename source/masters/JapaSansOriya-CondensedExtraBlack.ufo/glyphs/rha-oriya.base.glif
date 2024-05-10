@@ -2,6 +2,8 @@
 <glyph name="rha-oriya.base" format="2">
   <advance width="635"/>
   <anchor x="317" y="-137" name="nukta"/>
+  <anchor x="310" y="658" name="top"/>
+  <anchor x="489" y="658" name="topright"/>
   <outline>
     <component base="ddha-oriya.base"/>
     <component base="nukta-oriya" xOffset="-5" yOffset="79"/>

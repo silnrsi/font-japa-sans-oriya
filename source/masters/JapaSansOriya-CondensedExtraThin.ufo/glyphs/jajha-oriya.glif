@@ -4,7 +4,11 @@
   <guideline x="383" y="10" angle="90"/>
   <guideline x="367" y="73" angle="0"/>
   <guideline x="369" y="87" angle="0"/>
+  <anchor x="365" y="-247" name="bottom"/>
+  <anchor x="389" y="-248" name="bottom_ra"/>
   <anchor x="377" y="-308" name="nukta"/>
+  <anchor x="251" y="658" name="top"/>
+  <anchor x="432" y="658" name="topright"/>
   <outline>
     <component base="jha-oriya.below" xOffset="236"/>
     <component base="ja-oriya.base"/>

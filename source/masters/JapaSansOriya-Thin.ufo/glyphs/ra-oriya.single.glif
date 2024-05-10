@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ra-oriya.single" format="2">
   <advance width="461"/>
+  <anchor x="411" y="0" name="_bottom_ra"/>
+  <anchor x="230" y="-140" name="bottom"/>
+  <anchor x="251" y="-140" name="bottom_ra"/>
   <outline>
     <component base="ra-oriya.below"/>
   </outline>

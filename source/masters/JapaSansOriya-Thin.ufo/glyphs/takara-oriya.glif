@@ -2,6 +2,8 @@
 <glyph name="takara-oriya" format="2">
   <advance width="667"/>
   <guideline x="502" y="-28" angle="90"/>
+  <anchor x="476" y="-188" name="bottom"/>
+  <anchor x="502" y="-188" name="bottom_ra"/>
   <anchor x="333" y="-258" name="nukta"/>
   <anchor x="334" y="658" name="top"/>
   <anchor x="564" y="658" name="topright"/>

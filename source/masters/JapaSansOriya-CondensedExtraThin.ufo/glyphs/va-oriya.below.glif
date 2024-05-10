@@ -2,6 +2,8 @@
 <glyph name="va-oriya.below" format="2">
   <guideline x="114" y="206" angle="90"/>
   <anchor x="129" y="110" name="_bottom"/>
+  <anchor x="184" y="-164" name="bottom"/>
+  <anchor x="210" y="-164" name="bottom_ra"/>
   <anchor x="114" y="-234" name="nukta"/>
   <outline>
     <contour>

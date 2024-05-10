@@ -4,6 +4,8 @@
 ssasubscriptorya
 </note>
   <anchor x="196" y="110" name="_bottom"/>
+  <anchor x="266" y="-244" name="bottom"/>
+  <anchor x="292" y="-244" name="bottom_ra"/>
   <anchor x="205" y="-313" name="nukta"/>
   <outline>
     <contour>

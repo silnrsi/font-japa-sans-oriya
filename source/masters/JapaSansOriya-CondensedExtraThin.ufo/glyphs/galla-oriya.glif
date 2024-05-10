@@ -7,6 +7,8 @@ gallaorya
   <guideline x="436" y="-6" angle="90"/>
   <guideline x="449" y="177" angle="90"/>
   <guideline x="509" y="173" angle="90"/>
+  <anchor x="483" y="-164" name="bottom"/>
+  <anchor x="509" y="-164" name="bottom_ra"/>
   <anchor x="375" y="-256" name="nukta"/>
   <anchor x="233" y="658" name="top"/>
   <anchor x="436" y="658" name="topright"/>

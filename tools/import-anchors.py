@@ -37,10 +37,10 @@ for dst in dst_font:
     src = src_font[dst.name]
     dst_anchors = get_anchors(dst)
     for anchor in src.anchors:
-        if anchor.name != 'nukta':
-            continue
+        # if anchor.name != 'nukta':
+        #     continue
         if anchor.name not in dst_anchors:
-            # print(f'import {src.name}: {anchor.name}')
+            print(f'import {src.name}: {anchor.name}')
             dst.appendAnchor(anchor.name, (anchor.x, anchor.y))
 
 # Save UFO

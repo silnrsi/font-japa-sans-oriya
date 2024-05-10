@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sana-oriya" format="2">
   <advance width="471"/>
+  <anchor x="393" y="-164" name="bottom"/>
+  <anchor x="419" y="-164" name="bottom_ra"/>
   <anchor x="313" y="-248" name="nukta"/>
   <anchor x="236" y="658" name="top"/>
   <anchor x="406" y="658" name="topright"/>

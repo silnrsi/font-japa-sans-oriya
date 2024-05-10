@@ -2,6 +2,8 @@
 <glyph name="maba-oriya" format="2">
   <advance width="629"/>
   <guideline x="453" y="31" angle="0"/>
+  <anchor x="448" y="-164" name="bottom"/>
+  <anchor x="595" y="-164" name="bottom_ra"/>
   <anchor x="395" y="-284" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="522" y="658" name="topright"/>

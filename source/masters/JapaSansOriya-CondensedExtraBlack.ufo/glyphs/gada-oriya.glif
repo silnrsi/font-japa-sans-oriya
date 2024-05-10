@@ -5,7 +5,11 @@
 gadaorya
 </note>
   <guideline x="595" y="226" angle="90"/>
+  <anchor x="501" y="-244" name="bottom"/>
+  <anchor x="595" y="-244" name="bottom_ra"/>
   <anchor x="551" y="-374" name="nukta"/>
+  <anchor x="272" y="658" name="top"/>
+  <anchor x="522" y="658" name="topright"/>
   <outline>
     <component base="da-oriya.below" xOffset="311"/>
     <component base="ga-oriya.base"/>

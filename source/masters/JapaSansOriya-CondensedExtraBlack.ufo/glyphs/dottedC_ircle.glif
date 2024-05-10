@@ -5,7 +5,12 @@
   <note>
 uni25CC
 </note>
+  <anchor x="427" y="50" name="bottom"/>
+  <anchor x="646" y="-4" name="bottom_ra"/>
+  <anchor x="593" y="47" name="bottom_ta"/>
   <anchor x="310" y="-230" name="nukta"/>
+  <anchor x="298" y="659" name="top"/>
+  <anchor x="571" y="658" name="topright"/>
   <outline>
     <contour>
       <point x="329" y="509" type="curve"/>

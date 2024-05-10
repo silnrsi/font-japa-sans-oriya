@@ -7,7 +7,11 @@ lalaorya
   <guideline x="308" y="298" angle="90"/>
   <guideline x="383" y="177" angle="90"/>
   <guideline x="443" y="173" angle="90"/>
+  <anchor x="477" y="-164" name="bottom"/>
+  <anchor x="503" y="-164" name="bottom_ra"/>
   <anchor x="313" y="-239" name="nukta"/>
+  <anchor x="256" y="658" name="top"/>
+  <anchor x="461" y="658" name="topright"/>
   <outline>
     <component base="la-oriya.base"/>
     <component base="la-oriya.below" xOffset="147"/>

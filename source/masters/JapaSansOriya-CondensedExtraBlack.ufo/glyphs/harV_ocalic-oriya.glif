@@ -4,7 +4,11 @@
   <note>
 hrvocalicorya
 </note>
+  <anchor x="302" y="-237" name="bottom"/>
+  <anchor x="415" y="-234" name="bottom_ra"/>
   <anchor x="355" y="-368" name="nukta"/>
+  <anchor x="306" y="658" name="top"/>
+  <anchor x="484" y="658" name="topright"/>
   <outline>
     <component base="ha-oriya.base"/>
     <component base="rVocalicMatra-oriya" xOffset="57" yOffset="44"/>

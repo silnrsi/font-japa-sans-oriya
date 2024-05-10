@@ -5,6 +5,8 @@ pasubscriptorya
 </note>
   <guideline x="228" y="155" angle="90"/>
   <anchor x="216" y="110" name="_bottom"/>
+  <anchor x="336" y="-244" name="bottom"/>
+  <anchor x="444" y="-244" name="bottom_ra"/>
   <anchor x="238" y="-378" name="nukta"/>
   <outline>
     <contour>

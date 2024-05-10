@@ -6,6 +6,8 @@ nathaorya
 </note>
   <guideline x="432" y="575" angle="90"/>
   <guideline x="512" y="575" angle="90"/>
+  <anchor x="359" y="-156" name="bottom"/>
+  <anchor x="456" y="-132" name="bottom_ra"/>
   <anchor x="289" y="-258" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="471" y="658" name="topright"/>

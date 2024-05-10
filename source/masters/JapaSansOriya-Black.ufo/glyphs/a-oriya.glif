@@ -5,6 +5,7 @@
   <note>
 aorya
 </note>
+  <anchor x="508" y="-19" name="bottom"/>
   <anchor x="385" y="-158" name="nukta"/>
   <anchor x="385" y="658" name="top"/>
   <anchor x="667" y="658" name="topright"/>

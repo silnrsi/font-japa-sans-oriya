@@ -4,6 +4,8 @@
   <note>
 lagaorya
 </note>
+  <anchor x="501" y="-244" name="bottom"/>
+  <anchor x="609" y="-245" name="bottom_ra"/>
   <anchor x="444" y="-368" name="nukta"/>
   <anchor x="411" y="658" name="top"/>
   <anchor x="709" y="658" name="topright"/>

@@ -6,7 +6,11 @@ lakaorya
 </note>
   <guideline x="512" y="177" angle="90"/>
   <guideline x="572" y="173" angle="90"/>
+  <anchor x="478" y="-164" name="bottom"/>
+  <anchor x="572" y="-164" name="bottom_ra"/>
   <anchor x="411" y="-284" name="nukta"/>
+  <anchor x="358" y="658" name="top"/>
+  <anchor x="593" y="658" name="topright"/>
   <outline>
     <component base="ka-oriya.below" xOffset="221"/>
     <component base="la-oriya.base"/>

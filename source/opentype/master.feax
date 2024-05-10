@@ -25,13 +25,25 @@ lookup StackAboveMarks {
     pos mark @top_MarkBase mark @_top;
 } StackAboveMarks;
 
-lookup BelowMarks {
+lookup Bottom {
   lookupflag 0;
     pos base @bottom mark @_bottom;
+} Bottom;
+
+lookup BottomRa {
+  lookupflag 0;
     pos base @bottom_ra mark @_bottom_ra;
+} BottomRa;
+
+lookup BottomTa {
+  lookupflag 0;
     pos base @bottom_ta mark @_bottom_ta;
+} BottomTa;
+
+lookup Nukta {
+  lookupflag 0;
     pos base @nukta mark @_nukta;
-} BelowMarks;
+} Nukta;
 
 # The pre-composed nukta consonants (rra-oriya rha-oriya)
 # have a lower bottom_ra anchor than the corresponding
@@ -86,13 +98,19 @@ feature abvm {
 feature blwm {
     script DFLT;
         language dflt;
-            lookup BelowMarks;
+            lookup Bottom;
+            lookup BottomRa;
+            lookup BottomTa;
+            lookup Nukta;
             lookup NuktaConsRa;
             lookup StackBelowMarks;
 
     script ory2;
         language dflt;
-            lookup BelowMarks;
+            lookup Bottom;
+            lookup BottomRa;
+            lookup BottomTa;
+            lookup Nukta;
             lookup NuktaConsRa;
             lookup StackBelowMarks;
 } blwm;

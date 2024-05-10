@@ -6,7 +6,11 @@ llallaorya
 </note>
   <guideline x="609" y="177" angle="90"/>
   <guideline x="679" y="177" angle="90"/>
+  <anchor x="570" y="-164" name="bottom"/>
+  <anchor x="679" y="-164" name="bottom_ra"/>
   <anchor x="485" y="-291" name="nukta"/>
+  <anchor x="386" y="658" name="top"/>
+  <anchor x="619" y="658" name="topright"/>
   <outline>
     <component base="lla-oriya.below" xOffset="277"/>
     <component base="lla-oriya.base"/>

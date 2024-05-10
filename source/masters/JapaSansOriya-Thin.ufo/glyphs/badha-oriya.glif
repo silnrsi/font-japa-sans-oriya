@@ -8,7 +8,11 @@ badhaorya
   <guideline x="198" y="436" angle="0"/>
   <guideline x="434" y="502" angle="90"/>
   <guideline x="546" y="502" angle="90"/>
+  <anchor x="520" y="-244" name="bottom"/>
+  <anchor x="546" y="-244" name="bottom_ra"/>
   <anchor x="426" y="-328" name="nukta"/>
+  <anchor x="315" y="658" name="top"/>
+  <anchor x="530" y="658" name="topright"/>
   <outline>
     <component base="ba-oriya.base"/>
     <component base="dha-oriya.below" xOffset="198"/>

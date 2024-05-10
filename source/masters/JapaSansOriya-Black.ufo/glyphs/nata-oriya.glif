@@ -5,6 +5,8 @@
 nataorya
 </note>
   <guideline x="701" y="382" angle="0"/>
+  <anchor x="287" y="-109" name="bottom"/>
+  <anchor x="457" y="-107" name="bottom_ra"/>
   <anchor x="380" y="-244" name="nukta"/>
   <anchor x="380" y="658" name="top"/>
   <anchor x="588" y="658" name="topright"/>

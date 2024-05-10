@@ -4,7 +4,11 @@
   <note>
 ngakassaorya
 </note>
+  <anchor x="572" y="-244" name="bottom"/>
+  <anchor x="680" y="-244" name="bottom_ra"/>
   <anchor x="476" y="-377" name="nukta"/>
+  <anchor x="349" y="658" name="top"/>
+  <anchor x="621" y="658" name="topright"/>
   <outline>
     <component base="kassa-oriya.below" xOffset="222"/>
     <component base="nga-oriya.base"/>

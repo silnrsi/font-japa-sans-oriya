@@ -5,7 +5,12 @@
 tanaorya
 </note>
   <guideline x="464" y="-28" angle="90"/>
+  <anchor x="438" y="-144" name="bottom"/>
+  <anchor x="456" y="-150" name="bottom_ra"/>
+  <anchor x="464" y="10" name="bottom_ta"/>
   <anchor x="364" y="-207" name="nukta"/>
+  <anchor x="328" y="658" name="top"/>
+  <anchor x="565" y="658" name="topright"/>
   <outline>
     <component base="taalt-oriya.below" xOffset="308"/>
     <component base="na-oriya"/>

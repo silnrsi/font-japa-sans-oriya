@@ -6,6 +6,8 @@ hakaorya
 </note>
   <guideline x="436" y="206" angle="90"/>
   <guideline x="496" y="206" angle="90"/>
+  <anchor x="402" y="-164" name="bottom"/>
+  <anchor x="496" y="-164" name="bottom_ra"/>
   <anchor x="336" y="-274" name="nukta"/>
   <anchor x="306" y="658" name="top"/>
   <anchor x="484" y="658" name="topright"/>

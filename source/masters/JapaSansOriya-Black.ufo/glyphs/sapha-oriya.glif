@@ -4,6 +4,8 @@
   <note>
 saphaorya
 </note>
+  <anchor x="575" y="-164" name="bottom"/>
+  <anchor x="683" y="-164" name="bottom_ra"/>
   <anchor x="551" y="-278" name="nukta"/>
   <anchor x="335" y="658" name="top"/>
   <anchor x="598" y="658" name="topright"/>

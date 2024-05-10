@@ -8,6 +8,8 @@ kataorya
   <guideline x="412" y="-60" angle="0"/>
   <guideline x="64" y="472" angle="90"/>
   <guideline x="38" y="472" angle="90"/>
+  <anchor x="397" y="-60" name="bottom"/>
+  <anchor x="422" y="-60" name="bottom_ra"/>
   <anchor x="383" y="-180" name="nukta"/>
   <anchor x="335" y="658" name="top"/>
   <anchor x="598" y="658" name="topright"/>

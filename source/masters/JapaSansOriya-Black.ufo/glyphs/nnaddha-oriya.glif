@@ -7,6 +7,8 @@ nnaddhaorya
   <guideline x="517" y="195" angle="0"/>
   <guideline x="724" y="177" angle="90"/>
   <guideline x="794" y="177" angle="90"/>
+  <anchor x="579" y="-96" name="bottom"/>
+  <anchor x="670" y="-85" name="bottom_ra"/>
   <anchor x="501" y="-248" name="nukta"/>
   <anchor x="356" y="658" name="top"/>
   <anchor x="639" y="658" name="topright"/>

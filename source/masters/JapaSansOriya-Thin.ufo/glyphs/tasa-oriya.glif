@@ -6,6 +6,8 @@ tasaorya
 </note>
   <guideline x="588" y="-38" angle="90"/>
   <guideline x="88" y="181" angle="109"/>
+  <anchor x="355" y="-111" name="bottom"/>
+  <anchor x="379" y="-114" name="bottom_ra"/>
   <anchor x="313" y="-203" name="nukta"/>
   <anchor x="287" y="658" name="top"/>
   <anchor x="575" y="658" name="topright"/>

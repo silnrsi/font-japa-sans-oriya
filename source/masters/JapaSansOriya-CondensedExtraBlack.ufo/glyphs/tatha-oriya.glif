@@ -5,6 +5,8 @@
 tathaorya
 </note>
   <guideline x="93" y="186" angle="90"/>
+  <anchor x="415" y="-244" name="bottom"/>
+  <anchor x="535" y="-244" name="bottom_ra"/>
   <anchor x="317" y="-399" name="nukta"/>
   <anchor x="313" y="658" name="top"/>
   <anchor x="489" y="658" name="topright"/>

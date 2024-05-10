@@ -5,7 +5,12 @@
   <guideline x="876" y="502" angle="90"/>
   <guideline x="724" y="502" angle="90"/>
   <guideline x="876" y="502" angle="90"/>
+  <anchor x="578" y="-232" name="bottom"/>
+  <anchor x="698" y="-232" name="bottom_ra"/>
+  <anchor x="724" y="86" name="bottom_ta"/>
   <anchor x="639" y="-378" name="nukta"/>
+  <anchor x="373" y="658" name="top"/>
+  <anchor x="639" y="658" name="topright"/>
   <outline>
     <component base="pa-oriya.base"/>
     <component base="tta-oriya.below" xOffset="447"/>

@@ -6,6 +6,8 @@ lagaorya
 </note>
   <guideline x="121" y="205" angle="90"/>
   <guideline x="95" y="205" angle="90"/>
+  <anchor x="476" y="-244" name="bottom"/>
+  <anchor x="502" y="-244" name="bottom_ra"/>
   <anchor x="381" y="-328" name="nukta"/>
   <anchor x="333" y="658" name="top"/>
   <anchor x="606" y="658" name="topright"/>

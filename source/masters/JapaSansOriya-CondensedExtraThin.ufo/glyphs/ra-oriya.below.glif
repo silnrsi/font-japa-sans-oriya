@@ -4,6 +4,8 @@
 rasubscriptorya
 </note>
   <anchor x="330" y="0" name="_bottom_ra"/>
+  <anchor x="181" y="-140" name="bottom"/>
+  <anchor x="203" y="-140" name="bottom_ra"/>
   <anchor x="190" y="-230" name="nukta"/>
   <outline>
     <component base="_part.ra.below" xOffset="-81"/>

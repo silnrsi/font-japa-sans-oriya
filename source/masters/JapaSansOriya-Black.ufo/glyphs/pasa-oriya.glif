@@ -4,6 +4,8 @@
   <note>
 pasaorya
 </note>
+  <anchor x="616" y="-152" name="bottom"/>
+  <anchor x="724" y="-152" name="bottom_ra"/>
   <anchor x="473" y="-264" name="nukta"/>
   <anchor x="373" y="658" name="top"/>
   <anchor x="639" y="658" name="topright"/>

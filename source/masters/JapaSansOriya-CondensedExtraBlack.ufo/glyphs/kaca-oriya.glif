@@ -2,6 +2,8 @@
 <glyph name="kaca-oriya" format="2">
   <advance width="662"/>
   <guideline x="286" y="177" angle="90"/>
+  <anchor x="389" y="-235" name="bottom"/>
+  <anchor x="475" y="-221" name="bottom_ra"/>
   <anchor x="439" y="-376" name="nukta"/>
   <outline>
     <component base="ca-oriya.below" xOffset="280"/>

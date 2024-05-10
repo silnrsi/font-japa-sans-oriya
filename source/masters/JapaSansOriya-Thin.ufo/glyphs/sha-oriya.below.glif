@@ -5,6 +5,8 @@ shasubscriptorya
 </note>
   <guideline x="191" y="150" angle="90"/>
   <anchor x="224" y="110" name="_bottom"/>
+  <anchor x="334" y="-244" name="bottom"/>
+  <anchor x="360" y="-244" name="bottom_ra"/>
   <anchor x="233" y="-317" name="nukta"/>
   <outline>
     <contour>

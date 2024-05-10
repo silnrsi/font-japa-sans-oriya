@@ -6,6 +6,8 @@ huorya
 </note>
   <guideline x="386" y="191" angle="90"/>
   <guideline x="412" y="191" angle="90"/>
+  <anchor x="242" y="-112" name="bottom"/>
+  <anchor x="268" y="-112" name="bottom_ra"/>
   <anchor x="110" y="-133" name="nukta"/>
   <anchor x="299" y="658" name="top"/>
   <anchor x="518" y="658" name="topright"/>

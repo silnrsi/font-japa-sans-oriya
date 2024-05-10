@@ -9,6 +9,8 @@ cachaorya
   <guideline x="282" y="393" angle="0"/>
   <guideline x="93" y="210" angle="90"/>
   <guideline x="419" y="210" angle="90"/>
+  <anchor x="350" y="-168" name="bottom"/>
+  <anchor x="376" y="-168" name="bottom_ra"/>
   <anchor x="252" y="-238" name="nukta"/>
   <anchor x="274" y="658" name="top"/>
   <anchor x="471" y="658" name="topright"/>
