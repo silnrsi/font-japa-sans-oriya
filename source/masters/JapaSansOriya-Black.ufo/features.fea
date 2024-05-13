@@ -1663,7 +1663,7 @@ lookup OverlineSwap {
 
 # The ORIYA SIGN DOT ABOVE (currently /dotabovecomb at U+0307)
 # needs the same swap as the overline glyph.
-lookup Cons2DotAboveSub {
+lookup BaseCons2DotAboveSub {
     sub ba-oriya by dotabovecomb ba-oriya;
     sub bha-oriya by dotabovecomb bha-oriya;
     sub ca-oriya by dotabovecomb ca-oriya;
@@ -1741,9 +1741,9 @@ lookup Cons2DotAboveSub {
     sub va-oriya.base by dotabovecomb va-oriya.base;
     sub wa-oriya.base by dotabovecomb wa-oriya.base;
     sub ya-oriya.base by dotabovecomb ya-oriya.base;
-} Cons2DotAboveSub;
+} BaseCons2DotAboveSub;
 
-lookup DotAbove2ConsSub {
+lookup DotAbove2BaseConsSub {
     lookupflag UseMarkFilteringSet [dotabovecomb];
     sub ba-oriya dotabovecomb by ba-oriya;
     sub bha-oriya dotabovecomb by bha-oriya;
@@ -1822,17 +1822,104 @@ lookup DotAbove2ConsSub {
     sub va-oriya.base dotabovecomb by va-oriya.base;
     sub wa-oriya.base dotabovecomb by wa-oriya.base;
     sub ya-oriya.base dotabovecomb by ya-oriya.base;
-} DotAbove2ConsSub;
+} DotAbove2BaseConsSub;
 
-lookup DotAboveSwap {
+lookup eDotAboveSwap {
     lookupflag UseMarkFilteringSet [overline-oriya dotabovecomb];
-    sub eMatra-oriya @Cons' lookup Cons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2ConsSub;
-    sub eMatra-oriya @Cons' lookup Cons2DotAboveSub dotabovecomb' lookup DotAbove2ConsSub;
-} DotAboveSwap;
+    sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2BaseConsSub;
+    sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub dotabovecomb' lookup DotAbove2BaseConsSub;
+} eDotAboveSwap;
+
+# The ORIYA SIGN DOT ABOVE also needs a swap if an iMatra is above a consonant
+# with a below form that does not form a ligature with the base consonant.
+lookup BelowCons2DotAboveSub {
+    sub ba-oriya.below by dotabovecomb ba-oriya.below;
+    sub bha-oriya.below by dotabovecomb bha-oriya.below;
+    sub ca-oriya.below by dotabovecomb ca-oriya.below;
+    sub cha-oriya.below by dotabovecomb cha-oriya.below;
+    sub da-oriya.below by dotabovecomb da-oriya.below;
+    sub dda-oriya.below by dotabovecomb dda-oriya.below;
+    sub ddha-oriya.below by dotabovecomb ddha-oriya.below;
+    sub dha-oriya.below by dotabovecomb dha-oriya.below;
+    sub ga-oriya.below by dotabovecomb ga-oriya.below;
+    sub gha-oriya.below by dotabovecomb gha-oriya.below;
+    sub ha-oriya.below by dotabovecomb ha-oriya.below;
+    sub iMatra-oriya.below by dotabovecomb iMatra-oriya.below;
+    sub ja-oriya.below by dotabovecomb ja-oriya.below;
+    sub jha-oriya.below by dotabovecomb jha-oriya.below;
+    sub ka-oriya.below by dotabovecomb ka-oriya.below;
+    sub kassa-oriya.below by dotabovecomb kassa-oriya.below;
+    sub kha-oriya.below by dotabovecomb kha-oriya.below;
+    sub la-oriya.below by dotabovecomb la-oriya.below;
+    sub lla-oriya.below by dotabovecomb lla-oriya.below;
+    sub ma-oriya.below by dotabovecomb ma-oriya.below;
+    sub na-oriya.below by dotabovecomb na-oriya.below;
+    sub nga-oriya.below by dotabovecomb nga-oriya.below;
+    sub nna-oriya.below by dotabovecomb nna-oriya.below;
+    sub pa-oriya.below by dotabovecomb pa-oriya.below;
+    sub pha-oriya.below by dotabovecomb pha-oriya.below;
+    sub ra-oriya.below by dotabovecomb ra-oriya.below;
+    sub sa-oriya.below by dotabovecomb sa-oriya.below;
+    sub sha-oriya.below by dotabovecomb sha-oriya.below;
+    sub ssa-oriya.below by dotabovecomb ssa-oriya.below;
+    sub ta-oriya.below by dotabovecomb ta-oriya.below;
+    sub tara-oriya.below by dotabovecomb tara-oriya.below;
+    sub tha-oriya.below by dotabovecomb tha-oriya.below;
+    sub tta-oriya.below by dotabovecomb tta-oriya.below;
+    sub ttha-oriya.below by dotabovecomb ttha-oriya.below;
+    sub va-oriya.below by dotabovecomb va-oriya.below;
+    sub ya-oriya.below by dotabovecomb ya-oriya.below;
+} BelowCons2DotAboveSub;
+
+lookup DotAbove2BelowConsSub {
+    lookupflag UseMarkFilteringSet [dotabovecomb @c_below];
+    sub ba-oriya.below dotabovecomb by ba-oriya.below;
+    sub bha-oriya.below dotabovecomb by bha-oriya.below;
+    sub ca-oriya.below dotabovecomb by ca-oriya.below;
+    sub cha-oriya.below dotabovecomb by cha-oriya.below;
+    sub da-oriya.below dotabovecomb by da-oriya.below;
+    sub dda-oriya.below dotabovecomb by dda-oriya.below;
+    sub ddha-oriya.below dotabovecomb by ddha-oriya.below;
+    sub dha-oriya.below dotabovecomb by dha-oriya.below;
+    sub ga-oriya.below dotabovecomb by ga-oriya.below;
+    sub gha-oriya.below dotabovecomb by gha-oriya.below;
+    sub ha-oriya.below dotabovecomb by ha-oriya.below;
+    sub iMatra-oriya.below dotabovecomb by iMatra-oriya.below;
+    sub ja-oriya.below dotabovecomb by ja-oriya.below;
+    sub jha-oriya.below dotabovecomb by jha-oriya.below;
+    sub ka-oriya.below dotabovecomb by ka-oriya.below;
+    sub kassa-oriya.below dotabovecomb by kassa-oriya.below;
+    sub kha-oriya.below dotabovecomb by kha-oriya.below;
+    sub la-oriya.below dotabovecomb by la-oriya.below;
+    sub lla-oriya.below dotabovecomb by lla-oriya.below;
+    sub ma-oriya.below dotabovecomb by ma-oriya.below;
+    sub na-oriya.below dotabovecomb by na-oriya.below;
+    sub nga-oriya.below dotabovecomb by nga-oriya.below;
+    sub nna-oriya.below dotabovecomb by nna-oriya.below;
+    sub pa-oriya.below dotabovecomb by pa-oriya.below;
+    sub pha-oriya.below dotabovecomb by pha-oriya.below;
+    sub ra-oriya.below dotabovecomb by ra-oriya.below;
+    sub sa-oriya.below dotabovecomb by sa-oriya.below;
+    sub sha-oriya.below dotabovecomb by sha-oriya.below;
+    sub ssa-oriya.below dotabovecomb by ssa-oriya.below;
+    sub ta-oriya.below dotabovecomb by ta-oriya.below;
+    sub tara-oriya.below dotabovecomb by tara-oriya.below;
+    sub tha-oriya.below dotabovecomb by tha-oriya.below;
+    sub tta-oriya.below dotabovecomb by tta-oriya.below;
+    sub ttha-oriya.below dotabovecomb by ttha-oriya.below;
+    sub va-oriya.below dotabovecomb by va-oriya.below;
+    sub ya-oriya.below dotabovecomb by ya-oriya.below;
+} DotAbove2BelowConsSub;
+
+lookup iDotAboveSwap {
+    lookupflag UseMarkFilteringSet [dotabovecomb iMatra-oriya @c_below];
+    sub iMatra-oriya @c_below' lookup BelowCons2DotAboveSub dotabovecomb' lookup DotAbove2BelowConsSub;
+} iDotAboveSwap;
 
 feature rlig {
     lookup OverlineSwap;
-    lookup DotAboveSwap;
+    lookup eDotAboveSwap;
+    lookup iDotAboveSwap;
 } rlig;
 
 feature calt {

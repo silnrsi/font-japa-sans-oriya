@@ -22,22 +22,39 @@ lookup OverlineSwap {
 
 # The ORIYA SIGN DOT ABOVE (currently /dotabovecomb at U+0307)
 # needs the same swap as the overline glyph.
-lookup Cons2DotAboveSub {
+lookup BaseCons2DotAboveSub {
 	sub @Cons by dotabovecomb @Cons;
-} Cons2DotAboveSub;
+} BaseCons2DotAboveSub;
 
-lookup DotAbove2ConsSub {
+lookup DotAbove2BaseConsSub {
   lookupflag UseMarkFilteringSet [dotabovecomb];
 	sub @Cons dotabovecomb by @Cons;
-} DotAbove2ConsSub;
+} DotAbove2BaseConsSub;
 
-lookup DotAboveSwap {
+lookup eDotAboveSwap {
   lookupflag UseMarkFilteringSet [overline-oriya dotabovecomb];
-	sub eMatra-oriya @Cons' lookup Cons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2ConsSub;
-	sub eMatra-oriya @Cons' lookup Cons2DotAboveSub dotabovecomb' lookup DotAbove2ConsSub;
-} DotAboveSwap;
+	sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2BaseConsSub;
+	sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub dotabovecomb' lookup DotAbove2BaseConsSub;
+} eDotAboveSwap;
+
+# The ORIYA SIGN DOT ABOVE also needs a swap if an iMatra is above a consonant
+# with a below form that does not form a ligature with the base consonant.
+lookup BelowCons2DotAboveSub {
+	sub @c_below by dotabovecomb @c_below;
+} BelowCons2DotAboveSub;
+
+lookup DotAbove2BelowConsSub {
+  lookupflag UseMarkFilteringSet [dotabovecomb @c_below];
+	sub @c_below dotabovecomb by @c_below;
+} DotAbove2BelowConsSub;
+
+lookup iDotAboveSwap {
+  lookupflag UseMarkFilteringSet [dotabovecomb iMatra-oriya @c_below];
+	sub iMatra-oriya @c_below' lookup BelowCons2DotAboveSub dotabovecomb' lookup DotAbove2BelowConsSub;
+} iDotAboveSwap;
 
 feature rlig {
 	lookup OverlineSwap;
-	lookup DotAboveSwap;
+	lookup eDotAboveSwap;
+	lookup iDotAboveSwap;
 } rlig;
