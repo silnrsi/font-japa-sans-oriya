@@ -19,6 +19,36 @@
     <title>Kui language support</title>
   </head>
 
+  <testgroup label="Digits">
+    <test label="">
+      <string>\u0b66 \u0b67 \u0b68 \u0b69 \u0b6a \u0b6b \u0b6c \u0b6d \u0b6e \u0b6f</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Vowels">
+    <test label="">
+      <string>\u0b05 \u0b06 \u0b07 \u0b08 \u0b09 \u0b0A \u0b0B \u0b60 \u0b0F \u0b10 \u0b13 \u0b14 </string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Consonants">
+    <test label="0B15..0B28, 0B2A..0B30 0B32..0B33 0B35..0B39, 0B5C..0B5D 0B5F">
+      <string>\u0b15 \u0b16 \u0b17 \u0b18 \u0b19 \u0b1a \u0b1b \u0b1c \u0b1d \u0b1e \u0B1F \u0b20 \u0b21 \u0b5c \u0b22 \u0b5d \u0b23 \u0b24 \u0b25 \u0b26 \u0b27 \u0b28 \u0b2a \u0b2b \u0b2c \u0b2d \u0b2e \u0b2f \u0b5f \u0b30 \u0b33 \u0b32 \u0b35 \u0b36 \u0b38 \u0b37 \u0b39 \u0b15\u0b4d\u0b37 </string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Vowel signs">
+    <test label="0B3E..0B44, 0B47..0B48, 0B4B..0B4C">
+      <string>\u0b3e \u0b3f \u0b40 \u0b41 \u0b42 \u0b43 \u0b44 \u0b47 \u0b48 \u0b4b \u0b4c</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="Various signs">
+    <test label="0B01..0B03, 0B3C, 0B4D, 0B55 0307..0308">
+      <string>\u0b4d \u0B3C \u0b03 \u0b01 \u0b02 \u0B55 \u0307 \u0308</string>
+    </test>
+  </testgroup>
+
   <testgroup label="overline">
     <test label="vowels 0B05..0B06 0B0F">
       <string>\u0b05\u0b55 \u0b06\u0b55 \u0b0F\u0b55</string>
