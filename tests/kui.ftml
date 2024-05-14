@@ -33,7 +33,7 @@
 
   <testgroup label="Consonants">
     <test label="0B15..0B28, 0B2A..0B30 0B32..0B33 0B35..0B39, 0B5C..0B5D 0B5F">
-      <string>\u0b15 \u0b16 \u0b17 \u0b18 \u0b19 \u0b1a \u0b1b \u0b1c \u0b1d \u0b1e \u0B1F \u0b20 \u0b21 \u0b5c \u0b22 \u0b5d \u0b23 \u0b24 \u0b25 \u0b26 \u0b27 \u0b28 \u0b2a \u0b2b \u0b2c \u0b2d \u0b2e \u0b2f \u0b5f \u0b30 \u0b33 \u0b32 \u0b35 \u0b36 \u0b38 \u0b37 \u0b39 \u0b15\u0b4d\u0b37 </string>
+      <string>\u0b15 \u0b16 \u0b17 \u0b18 \u0b19 \u0b1a \u0b1b \u0b1c \u0b1d \u0b1e \u0B1F \u0b20 \u0b21 \u0b5c \u0b22 \u0b5d \u0b23 \u0b24 \u0b25 \u0b26 \u0b27 \u0b28 \u0b2a \u0b2b \u0b2c \u0b35 \u0b2d \u0b2e \u0b2f \u0b5f \u0b30 \u0b33 \u0b32 \u0b36 \u0b38 \u0b37 \u0b39 \u0b15\u0b4d\u0b37 </string>
     </test>
   </testgroup>
 
@@ -62,6 +62,9 @@
     <test label="consonants 0B30..0B39">
       <string>\u0b30\u0b55 \u0b32\u0b55 \u0b33\u0b55 \u0b35\u0b55 \u0b36\u0b55 \u0b37\u0b55 \u0b38\u0b55 \u0b39\u0b55</string>
     </test>
+    <test label="consonants 0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0b55 \u0b5D\u0b55 \u0b5F\u0b55</string>
+    </test>
     <test label="matras 0B3E 0B47">
       <string>\u0b15\u0B3E\u0b55 \u0b15\u0B47\u0b55</string>
     </test>
@@ -69,6 +72,67 @@
       <string>\u0b15\u0B3C\u0b55 \u0b16\u0B3C\u0b55 \u0b1D\u0B3C\u0b55 \u0b37\u0B3C\u0b55</string>
     </test>
   </testgroup>
+
+  <testgroup label="consonants with dot above">
+    <test label="consonants 0B15..0B1F">
+      <string>\u0b15\u0307 \u0b16\u0307 \u0b17\u0307 \u0b18\u0307 \u0b19\u0307 \u0b1A\u0307 \u0b1B\u0307 \u0b1C\u0307 \u0b1D\u0307 \u0b1E\u0307 \u0b1F\u0307 </string>
+    </test>
+    <test label="consonants 0B20..0B2F">
+      <string>\u0b20\u0307 \u0b21\u0307 \u0b22\u0307 \u0b23\u0307 \u0b24\u0307 \u0b25\u0307 \u0b26\u0307 \u0b27\u0307 \u0b28\u0307 \u0b2A\u0307 \u0b2B\u0307 \u0b2C\u0307 \u0b2D\u0307 \u0b2E\u0307 \u0b2F\u0307 </string>
+    </test>
+    <test label="consonants 0B30..0B39">
+      <string>\u0b30\u0307 \u0b32\u0307 \u0b33\u0307 \u0b35\u0307 \u0b36\u0307 \u0b37\u0307 \u0b38\u0307 \u0b39\u0307</string>
+    </test>
+    <test label="consonants 0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0307 \u0b5D\u0307 \u0b5F\u0307</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="consonants with candrabundu">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0B01 \u0b16\u0B01 \u0b17\u0B01 \u0b18\u0B01 \u0b19\u0B01 \u0b1A\u0B01 \u0b1B\u0B01 \u0b1C\u0B01 \u0b1D\u0B01 \u0b1E\u0B01 \u0b1F\u0B01 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0B01 \u0b21\u0B01 \u0b22\u0B01 \u0b23\u0B01 \u0b24\u0B01 \u0b25\u0B01 \u0b26\u0B01 \u0b27\u0B01 \u0b28\u0B01 \u0b2A\u0B01 \u0b2B\u0B01 \u0b2C\u0B01 \u0b2D\u0B01 \u0b2E\u0B01 \u0b2F\u0B01 </string>
+    </test>
+    <test label="0B30..0B39">
+      <string>\u0b30\u0B01 \u0b32\u0B01 \u0b33\u0B01 \u0b35\u0B01 \u0b36\u0B01 \u0b37\u0B01 \u0b38\u0B01 \u0b39\u0B01</string>
+    </test>
+    <test label="0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0B01 \u0b5D\u0B01 \u0b5F\u0B01</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="consonants with anusvara">
+    <test label="consonants 0B15..0B1F">
+      <string>\u0b15\u0B02 \u0b16\u0B02 \u0b17\u0B02 \u0b18\u0B02 \u0b19\u0B02 \u0b1A\u0B02 \u0b1B\u0B02 \u0b1C\u0B02 \u0b1D\u0B02 \u0b1E\u0B02 \u0b1F\u0B02 </string>
+    </test>
+    <test label="consonants 0B20..0B2F">
+      <string>\u0b20\u0B02 \u0b21\u0B02 \u0b22\u0B02 \u0b23\u0B02 \u0b24\u0B02 \u0b25\u0B02 \u0b26\u0B02 \u0b27\u0B02 \u0b28\u0B02 \u0b2A\u0B02 \u0b2B\u0B02 \u0b2C\u0B02 \u0b2D\u0B02 \u0b2E\u0B02 \u0b2F\u0B02 </string>
+    </test>
+    <test label="consonants 0B30..0B39">
+      <string>\u0b30\u0B02 \u0b32\u0B02 \u0b33\u0B02 \u0b35\u0B02 \u0b36\u0B02 \u0b37\u0B02 \u0b38\u0B02 \u0b39\u0B02</string>
+    </test>
+    <test label="consonants 0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0B02 \u0b5D\u0B02 \u0b5F\u0B02</string>
+    </test>
+  </testgroup>
+
+  <testgroup label="consonants with visarga">
+    <test label="consonants 0B15..0B1F">
+      <string>\u0b15\u0B03 \u0b16\u0B03 \u0b17\u0B03 \u0b18\u0B03 \u0b19\u0B03 \u0b1A\u0B03 \u0b1B\u0B03 \u0b1C\u0B03 \u0b1D\u0B03 \u0b1E\u0B03 \u0b1F\u0B03 </string>
+    </test>
+    <test label="consonants 0B20..0B2F">
+      <string>\u0b20\u0B03 \u0b21\u0B03 \u0b22\u0B03 \u0b23\u0B03 \u0b24\u0B03 \u0b25\u0B03 \u0b26\u0B03 \u0b27\u0B03 \u0b28\u0B03 \u0b2A\u0B03 \u0b2B\u0B03 \u0b2C\u0B03 \u0b2D\u0B03 \u0b2E\u0B03 \u0b2F\u0B03 </string>
+    </test>
+    <test label="consonants 0B30..0B39">
+      <string>\u0b30\u0B03 \u0b32\u0B03 \u0b33\u0B03 \u0b35\u0B03 \u0b36\u0B03 \u0b37\u0B03 \u0b38\u0B03 \u0b39\u0B03</string>
+    </test>
+    <test label="consonants 0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0B03 \u0b5D\u0B03 \u0b5F\u0B03</string>
+    </test>
+  </testgroup>
+
   <testgroup label="conjuncts+overline">
     <test label="0B15..0B1F">
       <string>\u0b15\u0b4d\u0b30\u0b55 \u0b16\u0b4d\u0b30\u0b55 \u0b17\u0b4d\u0b30\u0b55 \u0b18\u0b4d\u0b30\u0b55 \u0b19\u0b4d\u0b30\u0b55 \u0b1A\u0b4d\u0b30\u0b55 \u0b1B\u0b4d\u0b30\u0b55 \u0b1C\u0b4d\u0b30\u0b55 \u0b1D\u0b4d\u0b30\u0b55 \u0b1E\u0b4d\u0b30\u0b55 \u0b1F\u0b4d\u0b30\u0b55 </string>
@@ -115,6 +179,9 @@
     </test>
     <test label="consonants 0B30..0B39">
       <string>\u0b30\u0307 \u0b32\u0b41\u0307 \u0b32\u0307 \u0b33\u0307 \u0b35\u0307 \u0b36\u0307 \u0b37\u0307 \u0b38\u0307 \u0b39\u0307</string>
+    </test>
+    <test label="consonants 0B5C..0B5D, 0B5F">
+      <string>\u0b5C\u0307 \u0b5D\u0307 \u0b5F\u0307</string>
     </test>
     <test label="matras 0B3E 0B3F 0B47">
       <string>\u0b15\u0B3E\u0307 \u0b15\u0B3F\u0307 \u0b15\u0B47\u0307</string>
@@ -165,6 +232,9 @@
     <test label="0B1F ṭ">
       <string>\u0b1F\u0B4D\u0b1F</string>
     </test>
+    <test label="0B21 ">
+      <string>\u0b21\u0b4d\u0b5c \u0b21\u0b4d\u0b5c\u0b3e\u0b03</string>
+    </test>
     <test label="0B23 ṇ">
       <string>\u0b23\u0B4D\u0b1F \u0b23\u0B4D\u0b20 \u0b23\u0B4D\u0b24 \u0b23\u0B4D\u0b22 \u0b23\u0B4D\u0b23 / \u0b23\u0B4D\u0b15 \u0b23\u0B4D\u0b16 \u0b23\u0B4D\u0b17 \u0b23\u0B4D\u0b18 \u0b23\u0B4D\u0b19  </string>
     </test>
@@ -187,7 +257,7 @@
       <string>\u0b2E\u0B4D\u0b2A \u0b2E\u0B4D\u0b2B \u0b2E\u0B4D\u0b2C \u0b2E\u0B4D\u0b2D \u0b2E\u0B4D\u0b2E \u0b2E\u0B4D\u0b30</string>
     </test>
     <test label="0B30 r">
-      <string>\u0b30\u0B4D\u0b15 \u0b30\u0B4D\u0b37 \u0b30\u0B4D\u0b15\u0B4D\u0b37 \u0b30\u0B4D\u0b26\u0B4D\u0b35\u0B4D\u0b5F</string>
+      <string>\u0b30\u0B4D\u0b15 \u0b30\u0b4d\u0b23 \u0b30\u0b4d\u0b23\u0b4d\u0b23 \u0b30\u0B4D\u0b37 \u0b30\u0B4D\u0b15\u0B4D\u0b37 \u0b30\u0B4D\u0b26\u0B4D\u0b35\u0B4D\u0b5F</string>
     </test>
     <test label="0B32 l">
       <string>\u0b32\u0B4D\u0b2A \u0b32\u0B4D\u0b2B \u0b32\u0B4D\u0b2D \u0b32\u0B4D\u0b32</string>
@@ -204,6 +274,10 @@
     <test label="0B39 h">
       <string>\u0b39\u0B4D\u0b19 \u0b39\u0B4D\u0b28 \u0b39\u0B4D\u0b2C \u0b39\u0B4D\u0b2E \u0b39\u0B4D\u0b32</string>
     </test>
+    <test label="0B5C">
+      <string>\u0b5c\u0b4d</string>
+    </test>
+
   </testgroup>
 
 </ftml>
