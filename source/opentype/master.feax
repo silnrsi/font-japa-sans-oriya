@@ -65,6 +65,7 @@ lookup NuktaConsRa {
 lookup StackBelowMarks {
   lookupflag 0;
     pos mark @nukta_MarkBase mark @_nukta;
+    pos mark @bottom_MarkBase mark @_bottom;
 } StackBelowMarks;
 
 # lookup KernPairs {

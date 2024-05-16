@@ -2949,6 +2949,35 @@ lookup StackBelowMarks {
     pos mark tta-oriya.below <anchor 140 -318> mark @_nukta;
     pos mark va-oriya.below <anchor 114 -234> mark @_nukta;
     pos mark ya-oriya.below <anchor 136 -328> mark @_nukta;
+    pos mark ba-oriya.below <anchor 184 -244> mark @_bottom;
+    pos mark bha-oriya.below <anchor 114 -246> mark @_bottom;
+    pos mark ca-oriya.below <anchor 127 -248> mark @_bottom;
+    pos mark cha-oriya.below <anchor 204 -246> mark @_bottom;
+    pos mark da-oriya.below <anchor 193 -244> mark @_bottom;
+    pos mark dda-oriya.below <anchor 134 -246> mark @_bottom;
+    pos mark ddha-oriya.below <anchor 72 -160> mark @_bottom;
+    pos mark dha-oriya.below <anchor 250 -244> mark @_bottom;
+    pos mark [ga-oriya.below kassa-oriya.below ya-oriya.below] <anchor 257 -244> mark @_bottom;
+    pos mark [gha-oriya.below pa-oriya.below pha-oriya.below ssa-oriya.below] <anchor 266 -244> mark @_bottom;
+    pos mark ha-oriya.below <anchor 129 -212> mark @_bottom;
+    pos mark iMatra-oriya.below <anchor 284 -144> mark @_bottom;
+    pos mark ja-oriya.below <anchor 273 -164> mark @_bottom;
+    pos mark [jha-oriya.below tta-oriya.below] <anchor 126 -246> mark @_bottom;
+    pos mark ka-oriya.below <anchor 272 -164> mark @_bottom;
+    pos mark [kha-oriya.below nna-oriya.below sha-oriya.below] <anchor 256 -244> mark @_bottom;
+    pos mark la-oriya.below <anchor 330 -164> mark @_bottom;
+    pos mark lla-oriya.below <anchor 270 -164> mark @_bottom;
+    pos mark ma-oriya.below <anchor 226 -164> mark @_bottom;
+    pos mark na-oriya.below <anchor 229 -164> mark @_bottom;
+    pos mark nga-oriya.below <anchor 134 -248> mark @_bottom;
+    pos mark [ra-oriya.below ra-oriya.single] <anchor 181 -140> mark @_bottom;
+    pos mark sa-oriya.below <anchor 249 -244> mark @_bottom;
+    pos mark ssapha-oriya <anchor 423 -164> mark @_bottom;
+    pos mark ta-oriya.below <anchor 206 -113> mark @_bottom;
+    pos mark taalt-oriya.below <anchor 105 -142> mark @_bottom;
+    pos mark tha-oriya.below <anchor 304 -166> mark @_bottom;
+    pos mark ttha-oriya.below <anchor 133 -206> mark @_bottom;
+    pos mark va-oriya.below <anchor 184 -164> mark @_bottom;
 } StackBelowMarks;
 
 # lookup KernPairs {
