@@ -13,6 +13,9 @@
     <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
     <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
     <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv10' 1" name="cv10_1"/>
+    </styles>
     <title>Diac auto</title>
   </head>
   <testgroup label="Representative diacritics on all bases that take diacritics">
@@ -634,17 +637,72 @@ U+0307">
     <test background="#f0fff0" label="U+0B35
 U+0B01">
       <comment>va-oriya candraBindu-oriya</comment>
-      <string>\u000B35\u000B01 \u000B35\u000B02 \u000B35\u000B03</string>
+      <string>\u000B35\u000B01</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B01" stylename="cv10_1">
+      <comment>va-oriya candraBindu-oriya</comment>
+      <string>\u000B35\u000B01</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B02">
+      <comment>va-oriya anusvara-oriya</comment>
+      <string>\u000B35\u000B02</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B02" stylename="cv10_1">
+      <comment>va-oriya anusvara-oriya</comment>
+      <string>\u000B35\u000B02</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B03">
+      <comment>va-oriya visarga-oriya</comment>
+      <string>\u000B35\u000B03</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B03" stylename="cv10_1">
+      <comment>va-oriya visarga-oriya</comment>
+      <string>\u000B35\u000B03</string>
     </test>
     <test background="#ffc8a0" label="U+0B35
 U+0B55">
       <comment>va-oriya overline-oriya</comment>
       <string>\u000B35\u000B55</string>
     </test>
+    <test background="#ffc8a0" label="U+0B35
+U+0B55" stylename="cv10_1">
+      <comment>va-oriya overline-oriya</comment>
+      <string>\u000B35\u000B55</string>
+    </test>
     <test background="#f0fff0" label="U+0B35
 U+0307">
       <comment>va-oriya dotabovecomb</comment>
-      <string>\u000B35\u000307 \u000B35\u000308 \u000B35\u000B3C</string>
+      <string>\u000B35\u000307</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0307" stylename="cv10_1">
+      <comment>va-oriya dotabovecomb</comment>
+      <string>\u000B35\u000307</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0308">
+      <comment>va-oriya dieresiscomb</comment>
+      <string>\u000B35\u000308</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0308" stylename="cv10_1">
+      <comment>va-oriya dieresiscomb</comment>
+      <string>\u000B35\u000308</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B3C">
+      <comment>va-oriya nukta-oriya</comment>
+      <string>\u000B35\u000B3C</string>
+    </test>
+    <test background="#f0fff0" label="U+0B35
+U+0B3C" stylename="cv10_1">
+      <comment>va-oriya nukta-oriya</comment>
+      <string>\u000B35\u000B3C</string>
     </test>
     <test background="#f0fff0" label="U+0B36
 U+0B01">

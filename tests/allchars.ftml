@@ -13,6 +13,10 @@
     <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
     <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
     <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv10' 1" name="cv10_1"/>
+      <style lang="kui" name="kui"/>
+    </styles>
     <title>AllChars auto</title>
   </head>
   <testgroup label="Encoded characters">
@@ -130,7 +134,19 @@
     </test>
     <test label="U+0B35">
       <comment>va-oriya</comment>
-      <string>\u000B35 \u000B36 \u000B37 \u000B38 \u000B39</string>
+      <string>\u000B35</string>
+    </test>
+    <test label="U+0B35" stylename="cv10_1">
+      <comment>va-oriya</comment>
+      <string>\u000B35</string>
+    </test>
+    <test label="U+0B35" stylename="kui">
+      <comment>va-oriya</comment>
+      <string>\u000B35</string>
+    </test>
+    <test label="U+0B36">
+      <comment>sha-oriya</comment>
+      <string>\u000B36 \u000B37 \u000B38 \u000B39</string>
     </test>
     <test label="U+0B3C">
       <comment>nukta-oriya</comment>
