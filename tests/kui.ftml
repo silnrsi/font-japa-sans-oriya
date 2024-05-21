@@ -32,7 +32,7 @@
   </testgroup>
 
   <testgroup label="Consonants">
-    <test label="0B15..0B28, 0B2A..0B30 0B32..0B33 0B35..0B39, 0B5C..0B5D 0B5F 0B71">
+    <test label="0B15..0B28, 0B2A..0B30 0B32..0B33 0B35..0B39, 0B5C..0B5D 0B5F 0B71" stylename="cv10_1">
       <string>\u0b15 \u0b16 \u0b17 \u0b18 \u0b19 \u0b1a \u0b1b \u0b1c \u0b1d \u0b1e \u0B1F \u0b20 \u0b21 \u0b5c \u0b22 \u0b5d \u0b23 \u0b24 \u0b25 \u0b26 \u0b27 \u0b28 \u0b2a \u0b2b \u0b2c \u0b35 \u0b2d \u0b2e \u0b2f \u0b5f \u0b30 \u0b33 \u0b32 \u0b36 \u0b38 \u0b37 \u0b39 \u0b71 \u0b15\u0b4d\u0b37 </string>
     </test>
   </testgroup>
@@ -72,7 +72,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b4D \u0b21\u0b4D \u0b22\u0b4D \u0b23\u0b4D \u0b24\u0b4D \u0b25\u0b4D \u0b26\u0b4D \u0b27\u0b4D \u0b28\u0b4D \u0b2A\u0b4D \u0b2B\u0b4D \u0b2C\u0b4D \u0b2D\u0b4D \u0b2E\u0b4D \u0b2F\u0b4D </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b4D \u0b32\u0b4D \u0b33\u0b4D \u0b35\u0b4D \u0b36\u0b4D \u0b37\u0b4D \u0b38\u0b4D \u0b39\u0b4D</string>
     </test>
     <test label="0B5C..0B5D, 0B5F problem">
@@ -93,7 +93,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3E \u0b21\u0b3E \u0b22\u0b3E \u0b23\u0b3E \u0b24\u0b3E \u0b25\u0b3E \u0b26\u0b3E \u0b27\u0b3E \u0b28\u0b3E \u0b2A\u0b3E \u0b2B\u0b3E \u0b2C\u0b3E \u0b2D\u0b3E \u0b2E\u0b3E \u0b2F\u0b3E </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3E \u0b32\u0b3E \u0b33\u0b3E \u0b35\u0b3E \u0b36\u0b3E \u0b37\u0b3E \u0b38\u0b3E \u0b39\u0b3E</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -103,7 +103,7 @@
       <string>\u0b71\u0b3E</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0b3E \u0b15\u0b4d\u0b37\u0b3E</string>
+      <string>\u0b17\u0b4d\u0b5c\u0b3e \u0b1e\u0b4d\u0b1c\u0b3E \u0b15\u0b4d\u0b37\u0b3E</string>
     </test>
   </testgroup>
 
@@ -114,7 +114,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3E\u0b55 \u0b21\u0b3E\u0b55 \u0b22\u0b3E\u0b55 \u0b23\u0b3E\u0b55 \u0b24\u0b3E\u0b55 \u0b25\u0b3E\u0b55 \u0b26\u0b3E\u0b55 \u0b27\u0b3E\u0b55 \u0b28\u0b3E\u0b55 \u0b2A\u0b3E\u0b55 \u0b2B\u0b3E\u0b55 \u0b2C\u0b3E\u0b55 \u0b2D\u0b3E\u0b55 \u0b2E\u0b3E\u0b55 \u0b2F\u0b3E\u0b55 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3E\u0b55 \u0b32\u0b3E\u0b55 \u0b33\u0b3E\u0b55 \u0b35\u0b3E\u0b55 \u0b36\u0b3E\u0b55 \u0b37\u0b3E\u0b55 \u0b38\u0b3E\u0b55 \u0b39\u0b3E\u0b55</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -124,7 +124,7 @@
       <string>\u0b71\u0b3E\u0b55</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0b3E\u0b55 \u0b15\u0b4d\u0b37\u0b3E\u0b55</string>
+      <string>\u0b17\u0b4d\u0b30\u0b3e\u0b55 \u0b1e\u0b4d\u0b1c\u0b3E\u0b55 \u0b15\u0b4d\u0b37\u0b3E\u0b55</string>
     </test>
   </testgroup>
 
@@ -135,7 +135,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3E\u0307 \u0b21\u0b3E\u0307 \u0b22\u0b3E\u0307 \u0b23\u0b3E\u0307 \u0b24\u0b3E\u0307 \u0b25\u0b3E\u0307 \u0b26\u0b3E\u0307 \u0b27\u0b3E\u0307 \u0b28\u0b3E\u0307 \u0b2A\u0b3E\u0307 \u0b2B\u0b3E\u0307 \u0b2C\u0b3E\u0307 \u0b2D\u0b3E\u0307 \u0b2E\u0b3E\u0307 \u0b2F\u0b3E\u0307 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3E\u0307 \u0b32\u0b3E\u0307 \u0b33\u0b3E\u0307 \u0b35\u0b3E\u0307 \u0b36\u0b3E\u0307 \u0b37\u0b3E\u0307 \u0b38\u0b3E\u0307 \u0b39\u0b3E\u0307</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -145,7 +145,7 @@
       <string>\u0b71\u0b3E\u0307</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0b3E\u0307 \u0b15\u0b4d\u0b37\u0b3E\u0307</string>
+      <string>\u0b15\u0B4D\u0b15\u0b3e\u0307 \u0b1e\u0b4d\u0b1c\u0b3E\u0307 \u0b15\u0b4d\u0b37\u0b3E\u0307 </string>
     </test>
   </testgroup>
 
@@ -156,7 +156,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3F\u0307 \u0b21\u0b3F\u0307 \u0b22\u0b3F\u0307 \u0b23\u0b3F\u0307 \u0b24\u0b3F\u0307 - \u0b26\u0b3F\u0307 - \u0b28\u0b3F\u0307 \u0b2A\u0b3F\u0307 \u0b2B\u0b3F\u0307 \u0b2C\u0b3F\u0307 \u0b2D\u0b3F\u0307 \u0b2E\u0b3F\u0307 \u0b2F\u0b3F\u0307 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3F\u0307 \u0b32\u0b3F\u0307 \u0b33\u0b3F\u0307 \u0b35\u0b3F\u0307 \u0b36\u0b3F\u0307 \u0b37\u0b3F\u0307 \u0b38\u0b3F\u0307 \u0b39\u0b3F\u0307</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -177,7 +177,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3F \u0b21\u0b3F \u0b22\u0b3F \u0b23\u0b3F \u0b24\u0b3F \u0b25\u0b3F \u0b26\u0b3F \u0b27\u0b3F \u0b28\u0b3F \u0b2A\u0b3F \u0b2B\u0b3F \u0b2C\u0b3F \u0b2D\u0b3F \u0b2E\u0b3F \u0b2F\u0b3F </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3F \u0b32\u0b3F \u0b33\u0b3F \u0b35\u0b3F \u0b36\u0b3F \u0b37\u0b3F \u0b38\u0b3F \u0b39\u0b3F</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -187,7 +187,7 @@
       <string>\u0b71\u0b3F</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0b3F \u0b15\u0b4d\u0b37\u0b3F</string>
+      <string>\u0b17\u0b4d\u0b5c\u0b3f \u0b1e\u0b4d\u0b1c\u0b3F \u0b15\u0b4d\u0b37\u0b3F</string>
     </test>
   </testgroup>
 
@@ -198,7 +198,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B40 \u0b21\u0B40 \u0b22\u0B40 \u0b23\u0B40 \u0b24\u0B40 \u0b25\u0B40 \u0b26\u0B40 \u0b27\u0B40 \u0b28\u0B40 \u0b2A\u0B40 \u0b2B\u0B40 \u0b2C\u0B40 \u0b2D\u0B40 \u0b2E\u0B40 \u0b2F\u0B40 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B40 \u0b32\u0B40 \u0b33\u0B40 \u0b35\u0B40 \u0b36\u0B40 \u0b37\u0B40 \u0b38\u0B40 \u0b39\u0B40</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -219,7 +219,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B41 \u0b21\u0B41 \u0b22\u0B41 \u0b23\u0B41 \u0b24\u0B41 \u0b25\u0B41 \u0b26\u0B41 \u0b27\u0B41 \u0b28\u0B41 \u0b2A\u0B41 \u0b2B\u0B41 \u0b2C\u0B41 \u0b2D\u0B41 \u0b2E\u0B41 \u0b2F\u0B41 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B41 \u0b32\u0B41 \u0b33\u0B41 \u0b35\u0B41 \u0b36\u0B41 \u0b37\u0B41 \u0b38\u0B41 \u0b39\u0B41</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -240,7 +240,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B42 \u0b21\u0B42 \u0b22\u0B42 \u0b23\u0B42 \u0b24\u0B42 \u0b25\u0B42 \u0b26\u0B42 \u0b27\u0B42 \u0b28\u0B42 \u0b2A\u0B42 \u0b2B\u0B42 \u0b2C\u0B42 \u0b2D\u0B42 \u0b2E\u0B42 \u0b2F\u0B42 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B42 \u0b32\u0B42 \u0b33\u0B42 \u0b35\u0B42 \u0b36\u0B42 \u0b37\u0B42 \u0b38\u0B42 \u0b39\u0B42</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -261,7 +261,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B43 \u0b21\u0B43 \u0b22\u0B43 \u0b23\u0B43 \u0b24\u0B43 \u0b25\u0B43 \u0b26\u0B43 \u0b27\u0B43 \u0b28\u0B43 \u0b2A\u0B43 \u0b2B\u0B43 \u0b2C\u0B43 \u0b2D\u0B43 \u0b2E\u0B43 \u0b2F\u0B43 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B43 \u0b32\u0B43 \u0b33\u0B43 \u0b35\u0B43 \u0b36\u0B43 \u0b37\u0B43 \u0b38\u0B43 \u0b39\u0B43</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -282,7 +282,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B44 \u0b21\u0B44 \u0b22\u0B44 \u0b23\u0B44 \u0b24\u0B44 \u0b25\u0B44 \u0b26\u0B44 \u0b27\u0B44 \u0b28\u0B44 \u0b2A\u0B44 \u0b2B\u0B44 \u0b2C\u0B44 \u0b2D\u0B44 \u0b2E\u0B44 \u0b2F\u0B44 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B44 \u0b32\u0B44 \u0b33\u0B44 \u0b35\u0B44 \u0b36\u0B44 \u0b37\u0B44 \u0b38\u0B44 \u0b39\u0B44</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -303,7 +303,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B47 \u0b21\u0B47 \u0b22\u0B47 \u0b23\u0B47 \u0b24\u0B47 \u0b25\u0B47 \u0b26\u0B47 \u0b27\u0B47 \u0b28\u0B47 \u0b2A\u0B47 \u0b2B\u0B47 \u0b2C\u0B47 \u0b2D\u0B47 \u0b2E\u0B47 \u0b2F\u0B47 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B47 \u0b32\u0B47 \u0b33\u0B47 \u0b35\u0B47 \u0b36\u0B47 \u0b37\u0B47 \u0b38\u0B47 \u0b39\u0B47</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -313,7 +313,7 @@
       <string>\u0b71\u0b47</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0B47 \u0b15\u0b4d\u0b37\u0B47</string>
+      <string>\u0b15\u0b4d\u0b37\u0B47 \u0b1e\u0b4d\u0b1c\u0B47 \u0b23\u0b4d\u0b23\u0b47 </string>
     </test>
   </testgroup>
 
@@ -324,7 +324,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B47\u0307 \u0b21\u0B47\u0307 \u0b22\u0B47\u0307 \u0b23\u0B47\u0307 \u0b24\u0B47\u0307 \u0b25\u0B47\u0307 \u0b26\u0B47\u0307 \u0b27\u0B47\u0307 \u0b28\u0B47\u0307 \u0b2A\u0B47\u0307 \u0b2B\u0B47\u0307 \u0b2C\u0B47\u0307 \u0b2D\u0B47\u0307 \u0b2E\u0B47\u0307 \u0b2F\u0B47\u0307 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B47\u0307 \u0b32\u0B47\u0307 \u0b33\u0B47\u0307 \u0b35\u0B47\u0307 \u0b36\u0B47\u0307 \u0b37\u0B47\u0307 \u0b38\u0B47\u0307 \u0b39\u0B47\u0307</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -333,8 +333,8 @@
      <test label="0B71">
       <string>\u0b71\u0b47\u0307</string>
     </test>
-    <test label="conjuncts">
-      <string>- \u0b15\u0b4d\u0b37\u0B47\u0307</string>
+    <test label="conjuncts" stylename="cv10_1">
+      <string> \u0b15\u0b4d\u0b37\u0B47\u0307 \u0b35\u0b4d\u0b5c\u0b47\u0307</string>
     </test>
   </testgroup>
 
@@ -345,7 +345,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B48 \u0b21\u0B48 \u0b22\u0B48 \u0b23\u0B48 \u0b24\u0B48 \u0b25\u0B48 \u0b26\u0B48 \u0b27\u0B48 \u0b28\u0B48 \u0b2A\u0B48 \u0b2B\u0B48 \u0b2C\u0B48 \u0b2D\u0B48 \u0b2E\u0B48 \u0b2F\u0B48 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B48 \u0b32\u0B48 \u0b33\u0B48 \u0b35\u0B48 \u0b36\u0B48 \u0b37\u0B48 \u0b38\u0B48 \u0b39\u0B48</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -366,7 +366,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B4B \u0b21\u0B4B \u0b22\u0B4B \u0b23\u0B4B \u0b24\u0B4B \u0b25\u0B4B \u0b26\u0B4B \u0b27\u0B4B \u0b28\u0B4B \u0b2A\u0B4B \u0b2B\u0B4B \u0b2C\u0B4B \u0b2D\u0B4B \u0b2E\u0B4B \u0b2F\u0B4B </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B4B \u0b32\u0B4B \u0b33\u0B4B \u0b35\u0B4B \u0b36\u0B4B \u0b37\u0B4B \u0b38\u0B4B \u0b39\u0B4B</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -387,7 +387,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B4C \u0b21\u0B4C \u0b22\u0B4C \u0b23\u0B4C \u0b24\u0B4C \u0b25\u0B4C \u0b26\u0B4C \u0b27\u0B4C \u0b28\u0B4C \u0b2A\u0B4C \u0b2B\u0B4C \u0b2C\u0B4C \u0b2D\u0B4C \u0b2E\u0B4C \u0b2F\u0B4C </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B4C \u0b32\u0B4C \u0b33\u0B4C \u0b35\u0B4C \u0b36\u0B4C \u0b37\u0B4C \u0b38\u0B4C \u0b39\u0B4C</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -408,7 +408,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B02 \u0b21\u0B02 \u0b22\u0B02 \u0b23\u0B02 \u0b24\u0B02 \u0b25\u0B02 \u0b26\u0B02 \u0b27\u0B02 \u0b28\u0B02 \u0b2A\u0B02 \u0b2B\u0B02 \u0b2C\u0B02 \u0b2D\u0B02 \u0b2E\u0B02 \u0b2F\u0B02 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B02 \u0b32\u0B02 \u0b33\u0B02 \u0b35\u0B02 \u0b36\u0B02 \u0b37\u0B02 \u0b38\u0B02 \u0b39\u0B02</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -429,7 +429,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B01 \u0b21\u0B01 \u0b22\u0B01 \u0b23\u0B01 \u0b24\u0B01 \u0b25\u0B01 \u0b26\u0B01 \u0b27\u0B01 \u0b28\u0B01 \u0b2A\u0B01 \u0b2B\u0B01 \u0b2C\u0B01 \u0b2D\u0B01 \u0b2E\u0B01 \u0b2F\u0B01 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B01 \u0b32\u0B01 \u0b33\u0B01 \u0b35\u0B01 \u0b36\u0B01 \u0b37\u0B01 \u0b38\u0B01 \u0b39\u0B01</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -450,7 +450,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0B03 \u0b21\u0B03 \u0b22\u0B03 \u0b23\u0B03 \u0b24\u0B03 \u0b25\u0B03 \u0b26\u0B03 \u0b27\u0B03 \u0b28\u0B03 \u0b2A\u0B03 \u0b2B\u0B03 \u0b2C\u0B03 \u0b2D\u0B03 \u0b2E\u0B03 \u0b2F\u0B03 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0B03 \u0b32\u0B03 \u0b33\u0B03 \u0b35\u0B03 \u0b36\u0B03 \u0b37\u0B03 \u0b38\u0B03 \u0b39\u0B03</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -460,7 +460,7 @@
       <string>\u0b71\u0b03</string>
     </test>
     <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0B03 \u0b15\u0b4d\u0b37\u0B03</string>
+      <string>\u0b1e\u0b4d\u0b1c\u0B03 \u0b15\u0b4d\u0b37\u0B03 \u0b38\u0b4d\u0b5c\u0b03</string>
     </test>
   </testgroup>
 
@@ -471,7 +471,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0307 \u0b21\u0307 \u0b22\u0307 \u0b23\u0307 \u0b24\u0307 \u0b25\u0307 \u0b26\u0307 \u0b27\u0307 \u0b28\u0307 \u0b2A\u0307 \u0b2B\u0307 \u0b2C\u0307 \u0b2D\u0307 \u0b2E\u0307 \u0b2F\u0307 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0307 \u0b32\u0307 \u0b33\u0307 \u0b35\u0307 \u0b36\u0307 \u0b37\u0307 \u0b38\u0307 \u0b39\u0307</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -481,7 +481,7 @@
       <string>\u0b71\u0307</string>
     </test>
    <test label="conjuncts">
-      <string>\u0b1e\u0b4d\u0b1c\u0307 \u0b15\u0b4d\u0b37\u0307</string>
+      <string>\u0b15\u0b4d\u0b37\u0307 \u0b1e\u0b4d\u0b1c\u0307 \u0b24\u0b4d\u0b32\u0307</string>
     </test>
   </testgroup>
 
@@ -492,7 +492,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b55 \u0b21\u0b55 \u0b22\u0b55 \u0b23\u0b55 \u0b24\u0b55 \u0b25\u0b55 \u0b26\u0b55 \u0b27\u0b55 \u0b28\u0b55 \u0b2A\u0b55 \u0b2B\u0b55 \u0b2C\u0b55 \u0b2D\u0b55 \u0b2E\u0b55 \u0b2F\u0b55 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b55 \u0b32\u0b55 \u0b33\u0b55 \u0b35\u0b55 \u0b36\u0b55 \u0b37\u0b55 \u0b38\u0b55 \u0b39\u0b55</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -513,7 +513,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3C\u0b55 \u0b21\u0b3C\u0b55 \u0b22\u0b3C\u0b55 \u0b23\u0b3C\u0b55 \u0b24\u0b3C\u0b55 \u0b25\u0b3C\u0b55 \u0b26\u0b3C\u0b55 \u0b27\u0b3C\u0b55 \u0b28\u0b3C\u0b55 \u0b2A\u0b3C\u0b55 \u0b2B\u0b3C\u0b55 \u0b2C\u0b3C\u0b55 \u0b2D\u0b3C\u0b55 \u0b2E\u0b3C\u0b55 \u0b2F\u0b3C\u0b55 </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3C\u0b55 \u0b32\u0b3C\u0b55 \u0b33\u0b3C\u0b55 \u0b35\u0b3C\u0b55 \u0b36\u0b3C\u0b55 \u0b37\u0b3C\u0b55 \u0b38\u0b3C\u0b55 \u0b39\u0b3C\u0b55</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -534,7 +534,7 @@
     <test label="0B20..0B2F">
       <string>\u0b20\u0b3C \u0b21\u0b3C \u0b22\u0b3C \u0b23\u0b3C \u0b24\u0b3C \u0b25\u0b3C \u0b26\u0b3C \u0b27\u0b3C \u0b28\u0b3C \u0b2A\u0b3C \u0b2B\u0b3C \u0b2C\u0b3C \u0b2D\u0b3C \u0b2E\u0b3C \u0b2F\u0b3C </string>
     </test>
-    <test label="0B30..0B39">
+    <test label="0B30..0B39" stylename="cv10_1">
       <string>\u0b30\u0b3C \u0b32\u0b3C \u0b33\u0b3C \u0b35\u0b3C \u0b36\u0b3C \u0b37\u0b3C \u0b38\u0b3C \u0b39\u0b3C</string>
     </test>
     <test label="0B5C..0B5D, 0B5F">
@@ -551,47 +551,14 @@
     </test>
   </testgroup>
   
-  <testgroup label="conjuncts+overline">
-    <test label="0B15..0B1F">
-      <string>\u0b15\u0b4d\u0b30\u0b55 \u0b16\u0b4d\u0b30\u0b55 \u0b17\u0b4d\u0b30\u0b55 \u0b18\u0b4d\u0b30\u0b55 \u0b19\u0b4d\u0b30\u0b55 \u0b1A\u0b4d\u0b30\u0b55 \u0b1B\u0b4d\u0b30\u0b55 \u0b1C\u0b4d\u0b30\u0b55 \u0b1D\u0b4d\u0b30\u0b55 \u0b1E\u0b4d\u0b30\u0b55 \u0b1F\u0b4d\u0b30\u0b55 </string>
-    </test>
-    <test label="0B20..0B2F">
-      <string>\u0b20\u0b4d\u0b30\u0b55 \u0b21\u0b4d\u0b30\u0b55 \u0b22\u0b4d\u0b30\u0b55 \u0b23\u0b4d\u0b30\u0b55 \u0b24\u0b4d\u0b30\u0b55 \u0b25\u0b4d\u0b30\u0b55 \u0b26\u0b4d\u0b30\u0b55 \u0b27\u0b4d\u0b30\u0b55 \u0b28\u0b4d\u0b30\u0b55 \u0b2A\u0b4d\u0b30\u0b55 \u0b2B\u0b4d\u0b30\u0b55 \u0b2C\u0b4d\u0b30\u0b55 \u0b2D\u0b4d\u0b30\u0b55 \u0b2E\u0b4d\u0b30\u0b55 \u0b2F\u0b4d\u0b30\u0b55 </string>
-    </test>
-    <test label="0B32..0B39">
-      <string>\u0b32\u0b4d\u0b30\u0b55 \u0b33\u0b4d\u0b30\u0b55 \u0b35\u0b4d\u0b30\u0b55 \u0b36\u0b4d\u0b30\u0b55 \u0b37\u0b4d\u0b30\u0b55 \u0b38\u0b4d\u0b30\u0b55 \u0b39\u0b4d\u0b30\u0b55</string>
-    </test>
-  </testgroup>
-  <testgroup label="conjuncts+0B3E+overline">
-    <test label="0B15..0B1F">
-      <string>\u0b15\u0b4d\u0b30\u0b3e\u0b55 \u0b16\u0b4d\u0b30\u0b3e\u0b55 \u0b17\u0b4d\u0b30\u0b3e\u0b55 \u0b18\u0b4d\u0b30\u0b3e\u0b55 \u0b19\u0b4d\u0b30\u0b3e\u0b55 \u0b1A\u0b4d\u0b30\u0b3e\u0b55 \u0b1B\u0b4d\u0b30\u0b3e\u0b55 \u0b1C\u0b4d\u0b30\u0b3e\u0b55 \u0b1D\u0b4d\u0b30\u0b3e\u0b55 \u0b1E\u0b4d\u0b30\u0b3e\u0b55 \u0b1F\u0b4d\u0b30\u0b3e\u0b55 </string>
-    </test>
-    <test label="0B20..0B2F">
-      <string>\u0b20\u0b4d\u0b30\u0b3e\u0b55 \u0b21\u0b4d\u0b30\u0b3e\u0b55 \u0b22\u0b4d\u0b30\u0b3e\u0b55 \u0b23\u0b4d\u0b30\u0b3e\u0b55 \u0b24\u0b4d\u0b30\u0b3e\u0b55 \u0b25\u0b4d\u0b30\u0b3e\u0b55 \u0b26\u0b4d\u0b30\u0b3e\u0b55 \u0b27\u0b4d\u0b30\u0b3e\u0b55 \u0b28\u0b4d\u0b30\u0b3e\u0b55 \u0b2A\u0b4d\u0b30\u0b3e\u0b55 \u0b2B\u0b4d\u0b30\u0b3e\u0b55 \u0b2C\u0b4d\u0b30\u0b3e\u0b55 \u0b2D\u0b4d\u0b30\u0b3e\u0b55 \u0b2E\u0b4d\u0b30\u0b3e\u0b55 \u0b2F\u0b4d\u0b30\u0b3e\u0b55 </string>
-    </test>
-    <test label="0B32..0B39">
-      <string>\u0b32\u0b4d\u0b30\u0b3e\u0b55 \u0b33\u0b4d\u0b30\u0b3e\u0b55 \u0b35\u0b4d\u0b30\u0b3e\u0b55 \u0b36\u0b4d\u0b30\u0b3e\u0b55 \u0b37\u0b4d\u0b30\u0b3e\u0b55 \u0b38\u0b4d\u0b30\u0b3e\u0b55 \u0b39\u0b4d\u0b30\u0b3e\u0b55</string>
-    </test>
-  </testgroup>
-  <testgroup label="conjuncts+0B47+overline">
-    <test label="0B15..0B1F">
-      <string>\u0b15\u0b4d\u0b30\u0b47\u0b55 \u0b16\u0b4d\u0b30\u0b47\u0b55 \u0b17\u0b4d\u0b30\u0b47\u0b55 \u0b18\u0b4d\u0b30\u0b47\u0b55 \u0b19\u0b4d\u0b30\u0b47\u0b55 \u0b1A\u0b4d\u0b30\u0b47\u0b55 \u0b1B\u0b4d\u0b30\u0b47\u0b55 \u0b1C\u0b4d\u0b30\u0b47\u0b55 \u0b1D\u0b4d\u0b30\u0b47\u0b55 \u0b1E\u0b4d\u0b30\u0b47\u0b55 \u0b1F\u0b4d\u0b30\u0b47\u0b55 </string>
-    </test>
-    <test label="0B20..0B2F">
-      <string>\u0b20\u0b4d\u0b30\u0b47\u0b55 \u0b21\u0b4d\u0b30\u0b47\u0b55 \u0b22\u0b4d\u0b30\u0b47\u0b55 \u0b23\u0b4d\u0b30\u0b47\u0b55 \u0b24\u0b4d\u0b30\u0b47\u0b55 \u0b25\u0b4d\u0b30\u0b47\u0b55 \u0b26\u0b4d\u0b30\u0b47\u0b55 \u0b27\u0b4d\u0b30\u0b47\u0b55 \u0b28\u0b4d\u0b30\u0b47\u0b55 \u0b2A\u0b4d\u0b30\u0b47\u0b55 \u0b2B\u0b4d\u0b30\u0b47\u0b55 \u0b2C\u0b4d\u0b30\u0b47\u0b55 \u0b2D\u0b4d\u0b30\u0b47\u0b55 \u0b2E\u0b4d\u0b30\u0b47\u0b55 \u0b2F\u0b4d\u0b30\u0b47\u0b55 </string>
-    </test>
-    <test label="0B32..0B39">
-      <string>\u0b32\u0b4d\u0b30\u0b47\u0b55 \u0b33\u0b4d\u0b30\u0b47\u0b55 \u0b35\u0b4d\u0b30\u0b47\u0b55 \u0b36\u0b4d\u0b30\u0b47\u0b55 \u0b37\u0b4d\u0b30\u0b47\u0b55 \u0b38\u0b4d\u0b30\u0b47\u0b55 \u0b39\u0b4d\u0b30\u0b47\u0b55</string>
-    </test>
-  </testgroup>
 
 
   <testgroup label="Kui conjuncts">
     <test label="0B15 k">
-    <string>\u0b15\u0B4D\u0b15 \u0b15\u0B4D\u0b15\u0b3e\u0307 \u0b15\u0b4d\u0b24 \u0b15\u0b4d\u0b30 \u0b15\u0b4d\u0b33 \u0b15\u0b4d\u0b37\u0b4d\u0b19 \u0b15\u0b4d\u0b38 \u0b15\u0b4d\u0b21 \u0b15\u0b4d\u0b5c \u0b15\u0b4d\u0b28 \u0b15\u0b4d\u0b32</string>
+    <string>\u0b15\u0B4D\u0b15 \u0b15\u0b4d\u0b24 \u0b15\u0b4d\u0b30 \u0b15\u0b4d\u0b33 \u0b15\u0b4d\u0b37\u0b4d\u0b19 \u0b15\u0b4d\u0b38 \u0b15\u0b4d\u0b21 \u0b15\u0b4d\u0b5c \u0b15\u0b4d\u0b28 \u0b15\u0b4d\u0b32</string>
     </test>
     <test label="0B17 g last char is a problem">
-      <string>\u0b17\u0b4d\u0b30\u0b3e\u0b55 \u0b17\u0b4d\u0b5c\u0b3e \u0b17\u0b4d\u0b5c\u0b3f \u0b17\u0b4d\u0b5c\u0b3e \u0b17\u0b4d\u0b21 \u0b17\u0b4d\u0b21\u0b41</string>
+      <string>\u0b17\u0b4d\u0b21 \u0b17\u0b4d\u0b21\u0b41</string>
     </test>
     <test label="0B19 ṅ">
       <string>\u0b19\u0b4d\u0b15 \u0b19\u0b4d\u0b16 \u0b19\u0b4d\u0b17 \u0b19\u0b4d\u0b18 \u0b1c\u0b4d\u0b1e</string>
@@ -606,13 +573,13 @@
       <string>\u0b21\u0b4d\u0b5c \u0b21\u0b4d\u0b5c\u0b3e\u0b03</string>
     </test>
     <test label="0B23 ṇ">
-      <string>\u0b23\u0b4d\u0b23 \u0b23\u0b4d\u0b23\u0b47 \u0b23\u0b4d\u0b20 \u0b23\u0b4d\u0b1f \u0b23\u0b4d\u0b24</string>
+      <string>\u0b23\u0b4d\u0b23 \u0b23\u0b4d\u0b20 \u0b23\u0b4d\u0b1f \u0b23\u0b4d\u0b24</string>
     </test>
     <test label="0B24 t">
-      <string>\u0b24\u0b4d\u0b24 \u0b24\u0b4d\u0b2e \u0b24\u0b4d\u0b5f \u0b24\u0b4d\u0b32\u0307</string>
+      <string>\u0b24\u0b4d\u0b24 \u0b24\u0b4d\u0b2e \u0b24\u0b4d\u0b5f</string>
     </test>
     <test label="0B26 d">
-      <string>\u0b26\u0b4d\u0b26 \u0b26\u0b4d\u0b27 \u0b26\u0b4d\u0b71 \u0b26\u0b4d\u0b5f \u0b2c\u0b4d\u0b26 \u0b26\u0b4d\u0b30 \u0b28\u0b4d\u0b26 \u0b28\u0b4d\u0b26\u0b4d\u0b30 \u0b28\u0b4d\u0b27 \u0b26\u0b4d\u0b2d \u0b26\u0b03</string>
+      <string>\u0b26\u0b4d\u0b26 \u0b26\u0b4d\u0b27 \u0b26\u0b4d\u0b71 \u0b26\u0b4d\u0b5f \u0b2c\u0b4d\u0b26 \u0b26\u0b4d\u0b30 \u0b28\u0b4d\u0b26 \u0b28\u0b4d\u0b26\u0b4d\u0b30 \u0b28\u0b4d\u0b27 \u0b26\u0b4d\u0b2d</string>
     </test>
     <test label="0B28 n">
       <string>\u0b28\u0b4d\u0b24 \u0b28\u0b4d\u0b25 \u0b28\u0b4d\u0b28 \u0b28\u0b4d\u0b2e</string>
@@ -633,7 +600,7 @@
       <string>\u0b32\u0b4d\u0b32 \u0b32\u0b4d\u0b2b \u0b32\u0b4d\u0b2a</string>
     </test>
     <test label="0B35 v" stylename="cv10_1">
-      <string>\u0b35\u0b4d\u0b28 \u0b35\u0b4d\u0b30 \u0b35\u0b4d\u0b5c \u0b35\u0b4d\u0b5c\u0b47\u0307</string>
+      <string>\u0b35\u0b4d\u0b28 \u0b35\u0b4d\u0b30 \u0b35\u0b4d\u0b5c</string>
     </test>
     <test label="0B36 s\u0301">
       <string>\u0b36\u0b4d\u0b1a \u0b36\u0b4d\u0b25 \u0b36\u0b4d\u0b2b</string>
@@ -642,7 +609,7 @@
       <string>\u0b37\u0b4d\u0b15 \u0b37\u0b4d\u0b24 \u0b37\u0b4d\u0b20 \u0b37\u0b4d\u0b23 \u0b37\u0b4d\u0b2a</string>
     </test>
     <test label="0B38 s">
-      <string>\u0b38\u0b4d\u0b15 \u0B38\u0b4d\u0b21 \u0b38\u0b4d\u0b28 \u0b38\u0b4d\u0b16 \u0b38\u0b4d\u0b25 \u0b38\u0b4d\u0b24 \u0b38\u0b4d\u0b2b \u0b38\u0b4d\u0b2a \u0b38\u0b4d\u0b5c\u0b03 \u0b38\u0b4d\u0b71</string>
+      <string>\u0b38\u0b4d\u0b15 \u0B38\u0b4d\u0b21 \u0b38\u0b4d\u0b28 \u0b38\u0b4d\u0b16 \u0b38\u0b4d\u0b25 \u0b38\u0b4d\u0b24 \u0b38\u0b4d\u0b2b \u0b38\u0b4d\u0b2a \u0b38\u0b4d\u0b71</string>
     </test>
     <test label="0B39 h">
       <string>\u0b39\u0b4d\u0b19 \u0b39\u0b4d\u0b28 \u0b39\u0b4d\u0b32</string>
@@ -692,7 +659,7 @@
     <test label="0B2E m">
       <string>\u0b2E\u0B4D\u0b2A</string>
     </test>
-    <test label="0B30 r">
+    <test label="0B30 r" stylename="cv10_1">
       <string>\u0b30\u0B4D\u0b15\u0B4D\u0b37 \u0b30\u0B4D\u0b26\u0B4D\u0b35\u0B4D\u0b5F</string>
     </test>
     <test label="0B32 l">
@@ -706,6 +673,39 @@
     </test>
     <test label="0B39 h">
       <string>\u0b39\u0B4D\u0b2C \u0b39\u0B4D\u0b2E</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b55 \u0b16\u0b4d\u0b30\u0b55 \u0b17\u0b4d\u0b30\u0b55 \u0b18\u0b4d\u0b30\u0b55 \u0b19\u0b4d\u0b30\u0b55 \u0b1A\u0b4d\u0b30\u0b55 \u0b1B\u0b4d\u0b30\u0b55 \u0b1C\u0b4d\u0b30\u0b55 \u0b1D\u0b4d\u0b30\u0b55 \u0b1E\u0b4d\u0b30\u0b55 \u0b1F\u0b4d\u0b30\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b55 \u0b21\u0b4d\u0b30\u0b55 \u0b22\u0b4d\u0b30\u0b55 \u0b23\u0b4d\u0b30\u0b55 \u0b24\u0b4d\u0b30\u0b55 \u0b25\u0b4d\u0b30\u0b55 \u0b26\u0b4d\u0b30\u0b55 \u0b27\u0b4d\u0b30\u0b55 \u0b28\u0b4d\u0b30\u0b55 \u0b2A\u0b4d\u0b30\u0b55 \u0b2B\u0b4d\u0b30\u0b55 \u0b2C\u0b4d\u0b30\u0b55 \u0b2D\u0b4d\u0b30\u0b55 \u0b2E\u0b4d\u0b30\u0b55 \u0b2F\u0b4d\u0b30\u0b55 </string>
+    </test>
+    <test label="0B32..0B39"  stylename="cv10_1">
+      <string>\u0b32\u0b4d\u0b30\u0b55 \u0b33\u0b4d\u0b30\u0b55 \u0b35\u0b4d\u0b30\u0b55 \u0b36\u0b4d\u0b30\u0b55 \u0b37\u0b4d\u0b30\u0b55 \u0b38\u0b4d\u0b30\u0b55 \u0b39\u0b4d\u0b30\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+0B3E+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b3e\u0b55 \u0b16\u0b4d\u0b30\u0b3e\u0b55 \u0b17\u0b4d\u0b30\u0b3e\u0b55 \u0b18\u0b4d\u0b30\u0b3e\u0b55 \u0b19\u0b4d\u0b30\u0b3e\u0b55 \u0b1A\u0b4d\u0b30\u0b3e\u0b55 \u0b1B\u0b4d\u0b30\u0b3e\u0b55 \u0b1C\u0b4d\u0b30\u0b3e\u0b55 \u0b1D\u0b4d\u0b30\u0b3e\u0b55 \u0b1E\u0b4d\u0b30\u0b3e\u0b55 \u0b1F\u0b4d\u0b30\u0b3e\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b3e\u0b55 \u0b21\u0b4d\u0b30\u0b3e\u0b55 \u0b22\u0b4d\u0b30\u0b3e\u0b55 \u0b23\u0b4d\u0b30\u0b3e\u0b55 \u0b24\u0b4d\u0b30\u0b3e\u0b55 \u0b25\u0b4d\u0b30\u0b3e\u0b55 \u0b26\u0b4d\u0b30\u0b3e\u0b55 \u0b27\u0b4d\u0b30\u0b3e\u0b55 \u0b28\u0b4d\u0b30\u0b3e\u0b55 \u0b2A\u0b4d\u0b30\u0b3e\u0b55 \u0b2B\u0b4d\u0b30\u0b3e\u0b55 \u0b2C\u0b4d\u0b30\u0b3e\u0b55 \u0b2D\u0b4d\u0b30\u0b3e\u0b55 \u0b2E\u0b4d\u0b30\u0b3e\u0b55 \u0b2F\u0b4d\u0b30\u0b3e\u0b55 </string>
+    </test>
+    <test label="0B32..0B39" stylename="cv10_1">
+      <string>\u0b32\u0b4d\u0b30\u0b3e\u0b55 \u0b33\u0b4d\u0b30\u0b3e\u0b55 \u0b35\u0b4d\u0b30\u0b3e\u0b55 \u0b36\u0b4d\u0b30\u0b3e\u0b55 \u0b37\u0b4d\u0b30\u0b3e\u0b55 \u0b38\u0b4d\u0b30\u0b3e\u0b55 \u0b39\u0b4d\u0b30\u0b3e\u0b55</string>
+    </test>
+  </testgroup>
+  <testgroup label="conjuncts+0B47+overline">
+    <test label="0B15..0B1F">
+      <string>\u0b15\u0b4d\u0b30\u0b47\u0b55 \u0b16\u0b4d\u0b30\u0b47\u0b55 \u0b17\u0b4d\u0b30\u0b47\u0b55 \u0b18\u0b4d\u0b30\u0b47\u0b55 \u0b19\u0b4d\u0b30\u0b47\u0b55 \u0b1A\u0b4d\u0b30\u0b47\u0b55 \u0b1B\u0b4d\u0b30\u0b47\u0b55 \u0b1C\u0b4d\u0b30\u0b47\u0b55 \u0b1D\u0b4d\u0b30\u0b47\u0b55 \u0b1E\u0b4d\u0b30\u0b47\u0b55 \u0b1F\u0b4d\u0b30\u0b47\u0b55 </string>
+    </test>
+    <test label="0B20..0B2F">
+      <string>\u0b20\u0b4d\u0b30\u0b47\u0b55 \u0b21\u0b4d\u0b30\u0b47\u0b55 \u0b22\u0b4d\u0b30\u0b47\u0b55 \u0b23\u0b4d\u0b30\u0b47\u0b55 \u0b24\u0b4d\u0b30\u0b47\u0b55 \u0b25\u0b4d\u0b30\u0b47\u0b55 \u0b26\u0b4d\u0b30\u0b47\u0b55 \u0b27\u0b4d\u0b30\u0b47\u0b55 \u0b28\u0b4d\u0b30\u0b47\u0b55 \u0b2A\u0b4d\u0b30\u0b47\u0b55 \u0b2B\u0b4d\u0b30\u0b47\u0b55 \u0b2C\u0b4d\u0b30\u0b47\u0b55 \u0b2D\u0b4d\u0b30\u0b47\u0b55 \u0b2E\u0b4d\u0b30\u0b47\u0b55 \u0b2F\u0b4d\u0b30\u0b47\u0b55 </string>
+    </test>
+    <test label="0B32..0B39" stylename="cv10_1">
+      <string>\u0b32\u0b4d\u0b30\u0b47\u0b55 \u0b33\u0b4d\u0b30\u0b47\u0b55 \u0b35\u0b4d\u0b30\u0b47\u0b55 \u0b36\u0b4d\u0b30\u0b47\u0b55 \u0b37\u0b4d\u0b30\u0b47\u0b55 \u0b38\u0b4d\u0b30\u0b47\u0b55 \u0b39\u0b4d\u0b30\u0b47\u0b55</string>
     </test>
   </testgroup>
 
