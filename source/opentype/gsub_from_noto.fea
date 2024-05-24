@@ -386,7 +386,7 @@ feature cv10 {
 script ory2;
   cvParameters {
 	FeatUILabelNameID  { name 3 1 0x0409 "Va for Kui" ; };
-	ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
+### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
 	ParamUILabelNameID { name 3 1 0x0409 "Kui" ; };
   };
 	sub va-oriya from [va-oriya.kui];
