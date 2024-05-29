@@ -345,7 +345,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeOS2WinAscent</key>
   <integer>1069</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>595</integer>
+  <integer>584</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-293</integer>

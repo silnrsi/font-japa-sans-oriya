@@ -11,28 +11,9 @@
 languagesystem DFLT dflt;
 
 languagesystem ory2 dflt;
+languagesystem latn dflt;
 
 
-feature aalt {
-# automatic
-feature akhn;
-# feature nukt;
-feature rphf;
-feature blwf;
-feature pstf;
-feature cjct;
-feature pres;
-feature blws;
-feature psts;
-feature abvs;
-feature haln;
-feature calt;
-feature cv10;
-feature ss01;
-feature ss02;
-feature ss03;
-
-} aalt;
 
 feature akhn {
 script ory2;
@@ -382,29 +363,36 @@ lookup calt2 {
 } calt2;
 } calt;
 
+#********************
+# cv and ss (pass 10)
+
+lookup VaAlternate {
+  lookupflag IgnoreMarks ;
+	sub va-oriya by va-oriya.kui;
+	sub va-oriya.base by va-oriya.base.kui;
+	sub vara-oriya by vara-oriya.kui;
+} VaAlternate;
+
 feature cv10 {
-script ory2;
   cvParameters {
 	FeatUILabelNameID  { name 3 1 0x0409 "Va for Kui" ; };
 ### ParamUILabelNameID { name 3 1 0x0409 "Default" ; };
 	ParamUILabelNameID { name 3 1 0x0409 "Kui" ; };
   };
-	sub va-oriya from [va-oriya.kui];
-	sub va-oriya.base from [va-oriya.base.kui];
-	sub vara-oriya from [vara-oriya.kui];
+        lookup VaAlternate;
 } cv10;
 
 feature ss01 {
-# notes:
-# Name: KaTaRa Alternate
-script ory2;
+	featureNames {
+		name 3 1 0x409 "KaTaRa Alternate";
+	};
 	sub katara-oriya by kataraalt-oriya;
 } ss01;
 
 feature ss02 {
-# notes:
-# Name: Oriya to Latin Figures
-script ory2;
+	featureNames {
+		name 3 1 0x409 "Oriya to Latin Figures";
+	};
 	sub zero-oriya by zero;
 	sub one-oriya by one;
 	sub two-oriya by two;
@@ -418,9 +406,9 @@ script ory2;
 } ss02;
 
 feature ss03 {
-# notes:
-# Name: Latin to Oriya Figures
-script ory2;
+	featureNames {
+		name 3 1 0x409 "Latin to Oriya Figures";
+	};
 	sub zero by zero-oriya;
 	sub one by one-oriya;
 	sub two by two-oriya;
@@ -432,3 +420,26 @@ script ory2;
 	sub eight by eight-oriya;
 	sub nine by nine-oriya;
 } ss03;
+
+#---  aalt feature (pass 10) ---
+
+feature aalt {
+# automatic
+feature akhn;
+# feature nukt;
+feature rphf;
+feature blwf;
+feature pstf;
+feature cjct;
+feature pres;
+feature blws;
+feature psts;
+feature abvs;
+feature haln;
+feature calt;
+feature cv10;
+feature ss01;
+feature ss02;
+feature ss03;
+
+} aalt;

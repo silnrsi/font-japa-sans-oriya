@@ -1165,26 +1165,7 @@ markClass taalt-oriya.below <anchor 276 10> @_bottom_ta;
 # automatic
 languagesystem DFLT dflt;
 languagesystem ory2 dflt;
-feature aalt {
-    # automatic
-    feature akhn;
-    # feature nukt;
-    feature rphf;
-    feature blwf;
-    feature pstf;
-    feature cjct;
-    feature pres;
-    feature blws;
-    feature psts;
-    feature abvs;
-    feature haln;
-    feature calt;
-    feature cv10;
-    feature ss01;
-    feature ss02;
-    feature ss03;
-} aalt;
-
+languagesystem latn dflt;
 feature akhn {
     script ory2;
     sub ka-oriya halant-oriya ssa-oriya by kassa-oriya;
@@ -1954,8 +1935,16 @@ feature calt {
 
 } calt;
 
+#********************
+# cv and ss (pass 10)
+lookup VaAlternate {
+    lookupflag IgnoreMarks;
+    sub va-oriya by va-oriya.kui;
+    sub va-oriya.base by va-oriya.base.kui;
+    sub vara-oriya by vara-oriya.kui;
+} VaAlternate;
+
 feature cv10 {
-    script ory2;
         cvParameters {
                 FeatUILabelNameID {
             name "Va for Kui";
@@ -1968,22 +1957,22 @@ feature cv10 {
 
     };
 
-    sub va-oriya from [va-oriya.kui];
-    sub va-oriya.base from [va-oriya.base.kui];
-    sub vara-oriya from [vara-oriya.kui];
+    lookup VaAlternate;
 } cv10;
 
 feature ss01 {
-    # notes:
-    # Name: KaTaRa Alternate
-    script ory2;
+        featureNames {
+        name "KaTaRa Alternate";
+    };
+
     sub katara-oriya by kataraalt-oriya;
 } ss01;
 
 feature ss02 {
-    # notes:
-    # Name: Oriya to Latin Figures
-    script ory2;
+        featureNames {
+        name "Oriya to Latin Figures";
+    };
+
     sub zero-oriya by zero;
     sub one-oriya by one;
     sub two-oriya by two;
@@ -1997,9 +1986,10 @@ feature ss02 {
 } ss02;
 
 feature ss03 {
-    # notes:
-    # Name: Latin to Oriya Figures
-    script ory2;
+        featureNames {
+        name "Latin to Oriya Figures";
+    };
+
     sub zero by zero-oriya;
     sub one by one-oriya;
     sub two by two-oriya;
@@ -2011,6 +2001,27 @@ feature ss03 {
     sub eight by eight-oriya;
     sub nine by nine-oriya;
 } ss03;
+
+#---  aalt feature (pass 10) ---
+feature aalt {
+    # automatic
+    feature akhn;
+    # feature nukt;
+    feature rphf;
+    feature blwf;
+    feature pstf;
+    feature cjct;
+    feature pres;
+    feature blws;
+    feature psts;
+    feature abvs;
+    feature haln;
+    feature calt;
+    feature cv10;
+    feature ss01;
+    feature ss02;
+    feature ss03;
+} aalt;
 
 # GPOS
 lookup AboveMarks {
