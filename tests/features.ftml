@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../tools/ftml.xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc>url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc>url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc>url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc>url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <styles>
+      <style feats="'cv10' 0" name="cv10_0"/>
+      <style feats="'cv10' 1" name="cv10_1"/>
+      <style feats="'ss01' 1" name="ss01_1"/>
+      <style feats="'ss02' 1" name="ss02_1"/>
+      <style feats="'ss03' 1" name="ss03_1"/>
+    </styles>
+    <title>Character Variants and Stylistic Sets</title>
+  </head>
+  <testgroup label="Character Variants">
+    <test label="Va" stylename="cv10_0">
+      <string>\u0b35 \u0b35\u0b4d\u0b30 \u0b35\u0b4d\u0b5c</string>
+    </test>
+    <test label="Va" stylename="cv10_1">
+      <string>\u0b35 \u0b35\u0b4d\u0b30 \u0b35\u0b4d\u0b5c</string>
+    </test>
+  </testgroup>
+  <testgroup label="Stylistic Sets">
+    <test label="KaTaRa" stylename="ss01_0">
+      <string>\u0b15\u0b4d\u0b24\u0b4d\u0b30</string>
+    </test>
+    <test label="KaTaRa" stylename="ss01_1">
+      <string>\u0b15\u0b4d\u0b24\u0b4d\u0b30</string>
+    </test>
+    <test label="Orya 2 Latn" stylename="ss02_0">
+      <string>\u0B66 \u0B67 \u0B68 \u0B69 \u0B6A \u0B6B \u0B6C \u0B6D \u0B6E \u0B6F</string>
+    </test>
+    <test label="Orya 2 Latn" stylename="ss02_1">
+      <string>\u0B66 \u0B67 \u0B68 \u0B69 \u0B6A \u0B6B \u0B6C \u0B6D \u0B6E \u0B6F</string>
+    </test>
+    <test label="Latn 2 Orya" stylename="ss03_0">
+      <string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string>
+    </test>
+    <test label="Latn 2 Orya" stylename="ss03_1">
+      <string>\u0030 \u0031 \u0032 \u0033 \u0034 \u0035 \u0036 \u0037 \u0038 \u0039</string>
+    </test>
+  </testgroup>
+</ftml>
