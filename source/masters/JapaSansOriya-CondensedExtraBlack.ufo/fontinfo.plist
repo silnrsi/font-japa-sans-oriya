@@ -195,7 +195,7 @@ with Reserved Font Names "Japa" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/05/16 14:39:21</string>
+  <string>2024/05/29 10:36:01</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -381,7 +381,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeOS2WinAscent</key>
   <integer>1069</integer>
   <key>openTypeOS2WinDescent</key>
-  <integer>293</integer>
+  <integer>595</integer>
   <key>postscriptBlueValues</key>
   <array>
     <integer>-293</integer>
