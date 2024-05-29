@@ -31,8 +31,16 @@
       ---------
       (This should list both major and minor changes, most recent first.)
       
+      29 May 2023 (SIL WSTech team) Japa Sans Oriya version 2.104
+      - Add support for dot above and double dot above (at U+0307 and U+0308 positions)
+      - Add cv10 to support Kui Va alternate
+      - Add Feature names to Stylistic Sets
+      - Improve conjunct support
+      - Improve positioning of below marks
+      
       31 May 2021 (SIL WSTech team) Japa Sans Oriya version 2.100
       - Support the new overline character (U+0B55)
+      
       14 Dec 2020
       - Initial sources added from Noto Sans and Noto Sans Oriya
     </text>
