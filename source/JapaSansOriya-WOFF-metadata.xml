@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.JapaSansOriya.2.200" />
+  <uniqueid id="org.sil.fonts.JapaSansOriya.2.201" />
   <vendor name="SIL International" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
@@ -29,6 +29,9 @@
       ChangeLog
       ---------
       (This should list both major and minor changes, most recent first.)
+      
+      x Xxx 2024 (SIL WSTech team) Japa Sans Oriya version 2.201
+      - Subsequent development
       
       3 Jun 2024 (SIL WSTech team) Japa Sans Oriya version 2.200
       - Add support for dot above and double dot above (at U+0307 COMBINING DOT ABOVE and U+0308 COMBINING DIAERESIS positions)

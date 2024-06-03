@@ -18,6 +18,9 @@ ChangeLog
 ---------
 (This should list both major and minor changes, most recent first.)
 
+x Xxx 2024 (SIL WSTech team) Japa Sans Oriya version 2.201
+- Subsequent development
+
 3 Jun 2024 (SIL WSTech team) Japa Sans Oriya version 2.200
 - Add support for dot above and double dot above (at U+0307 COMBINING DOT ABOVE and U+0308 COMBINING DIAERESIS positions)
 - Add cv10 to support alternate form of U+0B35 ORIYA LETTER VA for the Kui language
