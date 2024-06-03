@@ -6,7 +6,6 @@ This file provides detailed information on the Japa Sans Oriya family of fonts.
 This information should be distributed along with the Japa Sans Oriya fonts and
 any derivative works.
 
-
 Basic Font Information
 ----------------------
 
@@ -14,7 +13,6 @@ The Japa Sans Oriya family of fonts supports the broad variety of writing system
 that use the Oriya script.
 
 The Latin glyphs are based on Noto Sans. The Oriya glyphs are based on Noto Sans Oriya.
-
 
 ChangeLog
 ---------
