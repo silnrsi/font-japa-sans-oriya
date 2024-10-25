@@ -18,8 +18,8 @@ psfmakewoffmetadata -n JapaSansOriya -i org.sil.fonts -o source/JapaSansOriya-WO
 psfsyncmasters source/JapaSansOriyaDesign.designspace
 
 # Update FEA in UFO
-psfmakefea -o source/masters/JapaSansOriya-Thin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Thin.ufo &
-psfmakefea -o source/masters/JapaSansOriya-Black.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Black.ufo &
-psfmakefea -o source/masters/JapaSansOriya-CondensedExtraThin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraThin.ufo &
-psfmakefea -o source/masters/JapaSansOriya-CondensedExtraBlack.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraBlack.ufo &
+makefea -o source/masters/JapaSansOriya-Thin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Thin.ufo &
+makefea -o source/masters/JapaSansOriya-Black.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-Black.ufo &
+makefea -o source/masters/JapaSansOriya-CondensedExtraThin.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraThin.ufo &
+makefea -o source/masters/JapaSansOriya-CondensedExtraBlack.ufo/features.fea -i source/opentype/master.feax source/masters/JapaSansOriya-CondensedExtraBlack.ufo &
 wait

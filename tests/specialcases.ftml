@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <comment>Background colors: light orange: includes a character from Unicode version 13.0 or later; light red: a character is missing from UFO; light green: a character is new in this version of the font</comment>
+    <fontscale>200</fontscale>
+    <fontsrc label="refR">url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="refB">url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="notoSerif">url(../references/NotoSerifOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="baloo">url(../references/BalooBhaina2-Regular.ttf)</fontsrc>
+    <fontsrc label="ek">url(../references/AnekOdia-Regular.ttf)</fontsrc>
+    <fontsrc label="lohit">url(../references/Lohit-Odia.ttf)</fontsrc>
+    <title>Conjuncts auto</title>
+  </head>
+  <testgroup label="Spacing marks (but should not be)">
+    <test label="0B4D 0B3F">
+      <comment>iMatrareph</comment>
+      <string>\u0b30\u0b4d\u0b24\u0b3f\u0b30</string>
+    </test>
+    <test label="0B4D 0B3F 0B01">
+      <comment>iMatrarephcandraBindu</comment>
+      <string>\u0b30\u0b4d\u0b24\u0b3f\u0b01\u0b30</string>
+    </test>
+    <test label="0B3F 0B01">
+      <comment>iMatracandraBindu</comment>
+      <string>\u0b30\u0b3f\u0b01\u0b30</string>
+    </test>
+    <test label="0B3F 0B01">
+      <comment>iMatracandraBindu-oriya.wide</comment>
+      <string>\u0b1E\u0b3f\u0b01\u0b30</string>
+    </test>
+    <test label="0B56 0B01">
+      <comment>aiLengthcandraBindu-oriya</comment>
+      <string>\u0b30\u0b56\u0b01\u0b30</string>
+    </test>
+    <test label="0B56 0B01">
+      <comment>aiLengthcandraBindu-oriya</comment>
+      <string>\u0b15\u0b56\u0b01\u0b30</string>
+    </test>
+    <test label="0B56 0B01">
+      <comment>aiLengthcandraBindu-oriya</comment>
+      <string>\u0b16\u0b56\u0b01\u0b30</string>
+    </test>
+    <test label="0B56 0B01">
+      <comment>aiLengthcandraBindu-oriya</comment>
+      <string>\u0b1E\u0b56\u0b01\u0b30</string>
+    </test>
+    <test label="0B4D 0B56">
+      <comment>rephaiLength-oriya</comment>
+      <string>\u0b30\u0b4d\u0b24\u0b56\u0b30</string>
+    </test>
+    <test label="0B4D 0B56">
+      <comment>rephaiLength-oriya.stem</comment>
+      <string>\u0b18\u0b4d\u0b24\u0b56\u0b30</string>
+    </test>
+    <test label="0B4D 0B56">
+      <comment>rephaiLength-oriya.umbrella</comment>
+      <string>\u0b19\u0b4d\u0b24\u0b56\u0b30</string>
+    </test>
+    <test label="0B4D 0B56 0B01">
+      <comment>rephaiLengthcandraBindu-oriya</comment>
+      <string>\u0b19\u0b4d\u0b24\u0b56\u0B01\u0b30</string>
+    </test>
+    <test label="0B4D 0B56 0B01">
+      <comment>rephaiLengthcandraBindu-oriya.stem</comment>
+      <string>\u0b17\u0b4d\u0b24\u0b56\u0B01\u0b30</string>
+    </test>
+    <test label="0B4D 0B56 0B01">
+      <comment>rephaiLengthcandraBindu-oriya.umbrella</comment>
+      <string>\u0b15\u0b4d\u0b24\u0b56\u0B01\u0b30</string>
+    </test>
+
+
+    <test label="0B56 0B01">
+      <comment>rephcandraBindu-oriya</comment>
+      <string>\u0b30\u0b4d\u0b24\u0B01\u0b30</string>
+    </test>
+
+
+
+
+
+
+
+
+  </testgroup>
+</ftml>
