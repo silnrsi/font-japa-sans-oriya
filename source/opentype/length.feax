@@ -1,4 +1,7 @@
-@Cons = [@cno_base yya-oriya @c_base];
+@Conj = [baba-oriya bada-oriya badha-oriya baja-oriya bara-oriya llara-oriya jajava-oriya bhara-oriya caca-oriya cacha-oriya cara-oriya chara-oriya dabha-oriya dada-oriya dadha-oriya dadhava-oriya daga-oriya dagha-oriya dara-oriya darauMatra-oriya dava-oriya ddadda-oriya ddaga-oriya ddara-oriya ddhara-oriya dhara-oriya dhava-oriya dhaya-oriya dhayya-oriya gada-oriya gadha-oriya galla-oriya gana-oriya gara-oriya ghana-oriya ghara-oriya haja-oriya haka-oriya hala-oriya halla-oriya hama-oriya hana-oriya harVocalic-oriya hara-oriya hau-oriya hauu-oriya hava-oriya jaja-oriya jajava-oriya jajha-oriya janya-oriya jara-oriya java-oriya jhara-oriya kaca-oriya kaka-oriya kalla-oriya kara-oriya kasa-oriya kassa-oriya kassa-oriya.base kassama-oriya kassanna-oriya kassara-oriya kata-oriya katara-oriya kataraalt-oriya katta-oriya kava-oriya khara-oriya laga-oriya laka-oriya lala-oriya lalla-oriya lama-oriya lapa-oriya lapha-oriya lara-oriya llaka-oriya llalla-oriya llapa-oriya llapha-oriya llara-oriya maba-oriya mabha-oriya mabhara-oriya mama-oriya mapa-oriya mapara-oriya mapha-oriya mara-oriya nada-oriya nadara-oriya nadava-oriya nadha-oriya nadhara-oriya nadhava-oriya nana-oriya nara-oriya nata-oriya natara-oriya natauMatra-oriya natava-oriya natha-oriya ngaga-oriya ngagha-oriya ngaka-oriya ngakassa-oriya ngakata-oriya ngakha-oriya ngara-oriya nnadda-oriya nnaddahalant-oriya nnaddara-oriya nnaddha-oriya nnanna-oriya nnara-oriya nnatta-oriya nnattahalant-oriya nnattha-oriya nyaca-oriya nyacha-oriya nyaja-oriya nyajha-oriya nyara-oriya om-oriya paka-oriya palla-oriya papa-oriya para-oriya pasa-oriya pata-oriya patta-oriya phara-oriya rhara-oriya rrara-oriya saka-oriya sakha-oriya sama-oriya sana-oriya sapa-oriya saparVocalicMatra-oriya sapha-oriya sara-oriya sata-oriya satara-oriya satha-oriya sava-oriya shaca-oriya shacha-oriya shalla-oriya shara-oriya shava-oriya ssaka-oriya ssakara-oriya ssanna-oriya ssapa-oriya ssapha-oriya ssara-oriya ssatta-oriya ssattahalant-oriya ssattara-oriya ssattha-oriya taka-oriya takara-oriya tama-oriya tana-oriya tapa-oriya tapara-oriya tara-oriya tarauMatra-oriya tasa-oriya tasana-oriya tata-oriya tatara-oriya tatava-oriya tatha-oriya tava-oriya thara-oriya ttara-oriya ttatta-oriya tthara-oriya vara-oriya vara-oriya.kui wara-oriya yara-oriya yyara-oriya];
+@Cons = [@cno_base yya-oriya @Conj @c_base];
+
+
 
 # The rlig feature (and the two lookups it calls) are to support positioning
 # the new overline character over the eMatra (which includes other matras that
@@ -35,6 +38,7 @@ lookup eDotAboveSwap {
   lookupflag UseMarkFilteringSet [overline-oriya dotabovecomb];
 	sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub @Cons' dotabovecomb' lookup DotAbove2BaseConsSub;
 	sub eMatra-oriya @Cons' lookup BaseCons2DotAboveSub dotabovecomb' lookup DotAbove2BaseConsSub;
+
 } eDotAboveSwap;
 
 # The ORIYA SIGN DOT ABOVE also needs a swap if an iMatra is above a consonant
