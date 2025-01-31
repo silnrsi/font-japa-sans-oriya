@@ -114,6 +114,13 @@
       <comment>ga-halant-dda-uMatra</comment>
       <string>\u0b17\u0b4d\u0b21\u0b41</string>
     </test>
+    <test label="na-virama-da na-virama-da-virama-na-aa">
+      <comment>2025-1-31</comment>
+      <string>\u0b28\u0b4d\u0b26 \u0b28\u0b4d\u0b26\u0b4d\u0b28\u0b3e</string>
+    </test>
+    <test label="na-virama-da U+0307 na-virama-da-virama-na-aa U+0307">
+      <comment>2025-1-31</comment>
+      <string>\u0b28\u0b4d\u0b26\u0307 \u0b28\u0b4d\u0b26\u0b4d\u0b28\u0b3e\u0307</string>
+    </test>
   </testgroup>
 </ftml>
-

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata version="1.0">
-  <uniqueid id="org.sil.fonts.JapaSansOriya.2.201" />
+  <uniqueid id="org.sil.fonts.JapaSansOriya.2.202" />
   <vendor name="SIL International" url="https://software.sil.org/wstech/" />
   <credits>
     <credit
@@ -32,6 +32,7 @@
       
       x Xxx 2024 (SIL WSTech team) Japa Sans Oriya version 2.201
       - Subsequent development
+      - Add nadana conjunct
       
       3 Jun 2024 (SIL WSTech team) Japa Sans Oriya version 2.200
       - Add support for dot above and double dot above (at U+0307 COMBINING DOT ABOVE and U+0308 COMBINING DIAERESIS positions)
@@ -50,7 +51,7 @@
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">
     <text lang="en">
       Latin and original Oriya copyright (c) 2015-2019 Google LLC
-      Additions and enhancements copyright (c) 2020-2024 SIL International (https://www.sil.org/)
+      Additions and enhancements copyright (c) 2020-2025 SIL International (https://www.sil.org/)
       with Reserved Font Names "Japa" and "SIL".
       
       This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -149,7 +150,7 @@
   <copyright>
     <text lang="en">
       Latin and original Oriya copyright (c) 2015-2019 Google LLC
-      Additions and enhancements copyright (c) 2020-2024 SIL International (https://www.sil.org/)
+      Additions and enhancements copyright (c) 2020-2025 SIL International (https://www.sil.org/)
       with Reserved Font Names "Japa" and "SIL".
     </text>
   </copyright>

@@ -8,7 +8,7 @@
   <integer>714</integer>
   <key>copyright</key>
   <string>Latin and original Oriya copyright (c) 2015-2019 Google LLC
-Additions and enhancements copyright (c) 2020-2024 SIL International (https://www.sil.org/)
+Additions and enhancements copyright (c) 2020-2025 SIL International (https://www.sil.org/)
 with Reserved Font Names "Japa" and "SIL".
 </string>
   <key>descender</key>
@@ -211,7 +211,7 @@ with Reserved Font Names "Japa" and "SIL".
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2024/10/24 15:57:41</string>
+  <string>2025/01/31 16:20:34</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -226,7 +226,7 @@ with Reserved Font Names "Japa" and "SIL".
   <string>https://software.sil.org/wstech/</string>
   <key>openTypeNameLicense</key>
   <string>Latin and original Oriya copyright (c) 2015-2019 Google LLC
-Additions and enhancements copyright (c) 2020-2024 SIL International (https://www.sil.org/)
+Additions and enhancements copyright (c) 2020-2025 SIL International (https://www.sil.org/)
 with Reserved Font Names "Japa" and "SIL".
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
@@ -332,9 +332,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>openTypeNamePreferredSubfamilyName</key>
   <string>Thin</string>
   <key>openTypeNameUniqueID</key>
-  <string>SIL International: Japa Sans Oriya Thin: 2024</string>
+  <string>SIL International: Japa Sans Oriya Thin: 2025</string>
   <key>openTypeNameVersion</key>
-  <string>Version 2.201</string>
+  <string>Version 2.202</string>
   <key>openTypeOS2CodePageRanges</key>
   <array>
     <integer>0</integer>
@@ -438,7 +438,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
   <key>versionMajor</key>
   <integer>2</integer>
   <key>versionMinor</key>
-  <integer>201</integer>
+  <integer>202</integer>
   <key>xHeight</key>
   <integer>658</integer>
 </dict>

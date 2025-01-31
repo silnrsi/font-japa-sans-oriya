@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="nadana-oriya" format="2">
+  <advance width="889"/>
+  <anchor x="636" y="-228" name="bottom"/>
+  <anchor x="743" y="-228" name="bottom_ra"/>
+  <anchor x="604" y="-293" name="nukta"/>
+  <anchor x="472" y="658" name="top"/>
+  <anchor x="717" y="658" name="topright"/>
+  <outline>
+    <component base="nada-oriya"/>
+    <component base="na-oriya.below" xOffset="383" yOffset="-64"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.832,0.6,1,1</string>
+    </dict>
+  </lib>
+</glyph>

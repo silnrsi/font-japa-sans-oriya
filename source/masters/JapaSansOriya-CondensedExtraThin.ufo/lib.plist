@@ -802,6 +802,7 @@
     <string>mapha-oriya</string>
     <string>mara-oriya</string>
     <string>nada-oriya</string>
+    <string>nadana-oriya</string>
     <string>nadara-oriya</string>
     <string>nadava-oriya</string>
     <string>nadha-oriya</string>
@@ -1463,6 +1464,8 @@
     <string>uni0B28.single</string>
     <key>nada-oriya</key>
     <string>nadaO</string>
+    <key>nadana-oriya</key>
+    <string>nadanaO</string>
     <key>nadara-oriya</key>
     <string>nadaraO</string>
     <key>nadava-oriya</key>
