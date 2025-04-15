@@ -1,6 +1,6 @@
 ---
 title: Japa Sans Oriya - Developer information
-fontversion: 2.200
+fontversion: 2.300
 ---
 
 Japa Sans Oriya was designed specifically for the Kuvi and Kui languages. The Kui language requires support for the dot above and double dot above character which are not yet in Unicode. The dot above is currently supported through the U+0307 COMBINING DOT ABOVE codepoint, and the double dot above is supported by the U+0308 COMBINING DIAERESIS codepoint. Once those characters are officially in Unicode, this font will be modified to support the official Oriya-specific codepoints. We will be releasing maintenance updates support these characters or to fix bugs. 

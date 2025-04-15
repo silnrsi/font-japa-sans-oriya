@@ -1,6 +1,6 @@
 ---
 title: Japa Sans Oriya - Font Features
-fontversion: 2.200
+fontversion: 2.300
 ---
 
 Japa Sans Oriya is an OpenType-enabled font family that supports the Oriya/Odia script. It includes a number of optional features that may be useful or required for particular uses or languages. This document lists all the available features.

@@ -1,6 +1,6 @@
 ---
 title: Japa Sans Oriya - Versions and Changes
-fontversion: 2.200
+fontversion: 2.300
 ---
 
 ## Announcement list

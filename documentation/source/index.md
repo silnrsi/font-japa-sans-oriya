@@ -1,6 +1,6 @@
 ---
 title: Japa Sans Oriya - Documentation
-fontversion: 2.200
+fontversion: 2.300
 ---
 
 Thank you for your interest in the Japa Sans Oriya fonts. This font family supports the broad variety of writing systems that use the Odia/Oriya script. 

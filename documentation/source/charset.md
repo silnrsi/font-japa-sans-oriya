@@ -1,6 +1,6 @@
 ---
 title: Japa Sans Oriya - Character Set Support
-fontversion: 2.200
+fontversion: 2.300
 ---
 
 This font supports almost 400 characters from [The Unicode Standard](https://unicode.org/). The font supports Oriya conjuncts as well as character variants and stylistic sets providing alternates for a number of characters. These variants are documented in [Font features](features.md).
