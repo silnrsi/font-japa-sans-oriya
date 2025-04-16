@@ -19,39 +19,12 @@
       role="Additions and enhancements"
     />
   </credits>
-  <description>
+  <description url="https://github.com/silnrsi/font-japa-sans-oriya">
     <text lang="en">
       The Japa Sans Oriya family of fonts supports the broad variety of writing systems
       that use the Oriya script.
       
       The Latin glyphs are based on Noto Sans. The Oriya glyphs are based on Noto Sans Oriya.
-      
-      ChangeLog
-      ---------
-      (This should list both major and minor changes, most recent first.)
-      
-      ### 18 Apr 2025 (SIL WSTech team) Japa Sans Oriya version 2.300
-      
-      - Add nadana conjunct
-      - Position dot over eMatra on conjuncts as well as consonants
-      - Improve combining mark ligatures
-      
-      ### 3 June 2024 (SIL WSTech team) Japa Sans Oriya version 2.200
-      
-      - Add support for dot above and double dot above (at U+0307 COMBINING DOT ABOVE and U+0308 COMBINING DIAERESIS positions)
-      - Add cv10 to support alternate form of U+0B35 ORIYA LETTER VA for the Kui language
-      - Add Feature names to Stylistic Sets
-      - Improve conjunct support
-      - Improve positioning of below marks
-      - Improve width of U+0B55 on narrow characters
-      
-      ### 31 May 2021 (SIL WSTech team) Japa Sans Oriya version 2.100
-      
-      - Support the new overline character (U+0B55)
-      
-      ### 14 Dec 2020
-      
-      - Initial sources added from Noto Sans and Noto Sans Oriya
     </text>
   </description>
   <license url="https://openfontlicense.org" id="org.openfontlicense.1.1">

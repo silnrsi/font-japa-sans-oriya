@@ -337,6 +337,51 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>2</integer>
   <key>versionMinor</key>
   <integer>300</integer>
+  <key>woffMetadataCredits</key>
+  <dict>
+    <key>credits</key>
+    <array>
+      <dict>
+        <key>name</key>
+        <string>Amélie Bonet and Sol Matas</string>
+        <key>role</key>
+        <string>Original Oriya</string>
+        <key>url</key>
+        <string>https://github.com/notofonts/NotoSansOriya</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>Monotype design team</string>
+        <key>role</key>
+        <string>Original Latin</string>
+        <key>url</key>
+        <string>https://github.com/notofonts/NotoSans</string>
+      </dict>
+      <dict>
+        <key>name</key>
+        <string>SIL font designers and engineers</string>
+        <key>role</key>
+        <string>Additions and enhancements</string>
+        <key>url</key>
+        <string>https://software.sil.org/wstech/</string>
+      </dict>
+    </array>
+  </dict>
+  <key>woffMetadataDescription</key>
+  <dict>
+    <key>text</key>
+    <array>
+      <dict>
+        <key>text</key>
+        <string>The Japa Sans Oriya family of fonts supports the broad variety of writing systems
+that use the Oriya script.
+
+The Latin glyphs are based on Noto Sans. The Oriya glyphs are based on Noto Sans Oriya.</string>
+      </dict>
+    </array>
+    <key>url</key>
+    <string>https://github.com/silnrsi/font-japa-sans-oriya</string>
+  </dict>
   <key>xHeight</key>
   <integer>658</integer>
 </dict>
