@@ -568,8 +568,6 @@
   <string>glottalstop.glif</string>
   <key>glottalstopmod</key>
   <string>glottalstopmod.glif</string>
-  <key>glottalstopsmall</key>
-  <string>glottalstopsmall.glif</string>
   <key>grave</key>
   <string>grave.glif</string>
   <key>greater</key>
@@ -1194,8 +1192,6 @@
   <string>saka-oriya.glif</string>
   <key>sakha-oriya</key>
   <string>sakha-oriya.glif</string>
-  <key>saltillo</key>
-  <string>saltillo.glif</string>
   <key>sama-oriya</key>
   <string>sama-oriya.glif</string>
   <key>sana-oriya</key>

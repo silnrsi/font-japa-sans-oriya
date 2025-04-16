@@ -406,7 +406,6 @@
     <string>scaron</string>
     <string>Zcaron</string>
     <string>zcaron</string>
-    <string>glottalstopsmall</string>
     <string>glottalstop</string>
     <string>apostrophemod</string>
     <string>glottalstopmod</string>
@@ -551,7 +550,6 @@
     <string>halfbracketrighttop</string>
     <string>halfbracketleftbottom</string>
     <string>halfbracketrightbottom</string>
-    <string>saltillo</string>
     <string>VS1</string>
     <string>VS2</string>
     <string>VS3</string>
@@ -1219,8 +1217,6 @@
     <string>uni0294</string>
     <key>glottalstopmod</key>
     <string>uni02C0</string>
-    <key>glottalstopsmall</key>
-    <string>uni0242</string>
     <key>ha-oriya</key>
     <string>uni0B39</string>
     <key>ha-oriya.base</key>
@@ -1699,8 +1695,6 @@
     <string>sakaO</string>
     <key>sakha-oriya</key>
     <string>sakhaO</string>
-    <key>saltillo</key>
-    <string>uniA78C</string>
     <key>sama-oriya</key>
     <string>samaO</string>
     <key>sana-oriya</key>

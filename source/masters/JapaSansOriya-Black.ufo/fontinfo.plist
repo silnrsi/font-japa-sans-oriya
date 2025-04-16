@@ -156,7 +156,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2025/04/16 09:09:07</string>
+  <string>2025/04/16 12:56:56</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -271,7 +271,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
     <integer>7</integer>
     <integer>15</integer>
     <integer>19</integer>
-    <integer>29</integer>
     <integer>31</integer>
     <integer>32</integer>
     <integer>33</integer>
