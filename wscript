@@ -28,10 +28,13 @@ generated = 'generated/'
 dspace = 'Design'
 dspace = ''
 
+cmds = [
+    cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo']),
+    cmd('gftools fix-nonhinting -q --no-backup ${DEP} ${TGT}'),
+    ]
+
 designspace('source/' + FAMILY + dspace + '.designspace',
-    target = process('${DS:FILENAME_BASE}.ttf',
-        cmd('psfchangettfglyphnames ${SRC} ${DEP} ${TGT}', ['source/instances/${DS:FILENAME_BASE}.ufo'])
-    ),
+    target = process('${DS:FILENAME_BASE}.ttf', *cmds),
     instanceparams = '-W',
     instances = ['Japa Sans Oriya Regular'] if '-r' in opts else None,
     opentype = fea(generated + '${DS:FILENAME_BASE}.fea',
