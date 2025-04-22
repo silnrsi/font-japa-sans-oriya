@@ -192,7 +192,7 @@
     </dict>
   </array>
   <key>openTypeHeadCreated</key>
-  <string>2025/04/22 08:12:34</string>
+  <string>2025/04/22 18:34:02</string>
   <key>openTypeHheaAscender</key>
   <integer>1069</integer>
   <key>openTypeHheaDescender</key>
@@ -330,8 +330,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   <integer>584</integer>
   <key>postscriptBlueValues</key>
   <array>
-    <integer>-293</integer>
-    <integer>-293</integer>
     <integer>-8</integer>
     <integer>0</integer>
     <integer>658</integer>
@@ -343,16 +341,6 @@ THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
   </array>
   <key>postscriptFontName</key>
   <string>JapaSansOriya-CondensedExtraBlack</string>
-  <key>postscriptStemSnapH</key>
-  <array>
-    <integer>146</integer>
-    <integer>120</integer>
-  </array>
-  <key>postscriptStemSnapV</key>
-  <array>
-    <integer>147</integer>
-    <integer>152</integer>
-  </array>
   <key>postscriptUnderlinePosition</key>
   <integer>-100</integer>
   <key>postscriptUnderlineThickness</key>

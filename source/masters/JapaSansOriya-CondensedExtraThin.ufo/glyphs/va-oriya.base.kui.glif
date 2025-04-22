@@ -24,8 +24,10 @@
   </outline>
   <lib>
     <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
       <key>public.markColor</key>
-      <string>0.832,0.6,1,1</string>
+      <string>0.831,0.600,1,1</string>
     </dict>
   </lib>
 </glyph>
