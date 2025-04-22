@@ -52,10 +52,6 @@
       <comment>florin</comment>
       <string>\u000192</string>
     </test>
-    <test label="U+0242">
-      <comment>glottalstopsmall</comment>
-      <string>\u000242</string>
-    </test>
     <test label="U+0294">
       <comment>glottalstop</comment>
       <string>\u000294</string>
@@ -84,13 +80,9 @@
       <comment>breve</comment>
       <string>\u0002D8 \u0002D9 \u0002DA \u0002DB \u0002DC \u0002DD</string>
     </test>
-    <test background="#f0fff0" label="U+0307">
+    <test label="U+0307">
       <comment>dotabovecomb</comment>
-      <string>\u000B15\u000307</string>
-    </test>
-    <test background="#f0fff0" label="U+0308">
-      <comment>dieresiscomb</comment>
-      <string>\u000B15\u000308</string>
+      <string>\u000B15\u000307 \u000B15\u000308</string>
     </test>
     <test label="U+034F">
       <comment>cgj</comment>
@@ -271,10 +263,6 @@
     <test label="U+2E22">
       <comment>halfbracketlefttop</comment>
       <string>\u002E22 \u002E23 \u002E24 \u002E25</string>
-    </test>
-    <test label="U+A78C">
-      <comment>saltillo</comment>
-      <string>\u00A78C</string>
     </test>
     <test label="U+FB01">
       <comment>fi</comment>
