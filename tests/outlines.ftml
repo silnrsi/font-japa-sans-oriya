@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="../tools/ftml.xsl" type="text/xsl"?>
+<ftml version="1.0">
+  <head>
+    <fontscale>300</fontscale>
+    <fontsrc label="Rref">url(../references/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="Bref">url(../references/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="R">url(../results/JapaSansOriya-Regular.ttf)</fontsrc>
+    <fontsrc label="B">url(../results/JapaSansOriya-Bold.ttf)</fontsrc>
+    <fontsrc label="notoSans">url(../references/NotoSansOriya-Regular.ttf)</fontsrc>
+    <title>Outlines</title>
+  </head>
+  <testgroup label="Interpolation">
+    <test label="la-pha">
+      <string>\u0b32\u0b4d\u0b2b</string>
+    </test>
+    <test label="nga-ba">
+      <string>\u0b19\u0b4d\u0b2c</string>
+    </test>
+    <test label="nga-ka-ssa">
+      <string>\u0b19\u0b4d\u0b15\u0b4d\u0b37</string>
+    </test>
+  </testgroup>
+</ftml>
