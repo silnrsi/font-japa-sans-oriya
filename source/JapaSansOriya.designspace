@@ -8,7 +8,7 @@
             <map input="900" output="170.0" />
             <labelname xml:lang="en">Weight</labelname>
         </axis>
-        <axis default="100.0" maximum="100.0" minimum="68.0" name="width" tag="wdth">
+        <axis default="100.0" maximum="100.0" minimum="62.5" name="width" tag="wdth">
             <map input="100.0" output="100.0" />
             <map input="75.0" output="82.0" />
             <map input="62.5" output="68.0" />
@@ -53,18 +53,6 @@
         </source>
     </sources>
     <instances>
-        <!--
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Thin.ufo" name="Japa Sans Oriya Thin" stylename="Thin" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="thin" postscriptfontname="JapaSansOriya-Thin">
-        <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Regular.ufo" name="Japa Sans Oriya Ends Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="regular" postscriptfontname="JapaSansOriyaEnds-Regular">
-            <location>
-                <dimension name="weight" xvalue="26.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        -->
         <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Regular.ufo" name="Japa Sans Oriya Regular" stylename="Regular" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="regular" postscriptfontname="JapaSansOriya-Regular">
             <location>
                 <dimension name="weight" xvalue="78.0" />
@@ -83,17 +71,5 @@
             <info />
             <kerning />
         </instance>
-        <!--
-        <instance familyname="Japa Sans Oriya" filename="instances/JapaSansOriya-Black.ufo" name="Japa Sans Oriya Black" stylename="Black" stylemapfamilyname="Japa Sans Oriya" stylemapstylename="black" postscriptfontname="JapaSansOriya-Black">
-        <instance familyname="Japa Sans Oriya Ends" filename="instances/JapaSansOriyaEnds-Bold.ufo" name="Japa Sans Oriya Ends Bold" stylename="Bold" stylemapfamilyname="Japa Sans Oriya Ends" stylemapstylename="bold" postscriptfontname="JapaSansOriyaEnds-Bold">
-            <location>
-                <dimension name="weight" xvalue="170.0" />
-                <dimension name="width" xvalue="100.0" />
-                <dimension name="custom" xvalue="0.0" />
-            </location>
-            <info />
-            <kerning />
-        </instance>
-        -->
     </instances>
 </designspace>
