@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="taalt-oriya.below" format="2">
-  <advance width="291"/>
   <guideline x="869" y="-117" angle="0"/>
   <guideline x="-17" y="181" angle="107"/>
   <anchor x="91" y="1" name="_bottom"/>
