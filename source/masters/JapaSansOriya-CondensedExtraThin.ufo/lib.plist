@@ -1920,5 +1920,22 @@
     <key>zwnbsp</key>
     <string>uniFEFF</string>
   </dict>
+  <key>public.skipExportGlyphs</key>
+  <array>
+    <string>_cap.overlap</string>
+    <string>_part.da.below</string>
+    <string>_part.pha</string>
+    <string>aicandraBindu-oriya</string>
+    <string>aireph-oriya</string>
+    <string>airephcandraBindu-oriya</string>
+    <string>aucandraBindu-oriya</string>
+    <string>aureph-oriya</string>
+    <string>aurephcandraBindu-oriya</string>
+    <string>bhaalt-oriya.below</string>
+    <string>overline-oriya.wide</string>
+    <string>partta-oriya.below</string>
+    <string>plus.latn</string>
+    <string>question.latn</string>
+  </array>
 </dict>
 </plist>
