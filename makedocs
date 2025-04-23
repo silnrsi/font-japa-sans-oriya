@@ -30,6 +30,8 @@ echo "     > support.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/support.md -o documentation/support.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 echo "     > versions.html"
 pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/versions.md -o documentation/versions.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
+echo "     > announcement.html"
+pandoc -s -f markdown-smart --template documentation/source/template.html documentation/source/announcement.md -o documentation/announcement.html --lua-filter=documentation/source/pandocfilters/filter-html.lua
 
 echo "     >>> PDF (documentation/pdf/)"
 mkdir -p documentation/source/pdftemp
@@ -67,5 +69,8 @@ weasyprint documentation/source/pdftemp/support.html documentation/pdf/support.p
 echo "     > versions.html > versions.pdf"
 pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/versions.md -o documentation/source/pdftemp/versions.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
 weasyprint documentation/source/pdftemp/versions.html documentation/pdf/versions.pdf
+echo "     > announcement.html > announcement.pdf"
+pandoc -s -f markdown-smart --template documentation/source/templatepdf.html documentation/source/announcement.md -o documentation/source/pdftemp/announcement.html --lua-filter=documentation/source/pandocfilters/filter-pdf.lua
+weasyprint documentation/source/pdftemp/announcement.html documentation/pdf/announcement.pdf
 
 echo "-----Completed!"
