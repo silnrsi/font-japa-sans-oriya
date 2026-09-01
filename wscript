@@ -3,8 +3,8 @@
 
 # command line options
 opts = preprocess_args(
-    {'opt' : '-r'} # only build the regular weight
-)
+    {'opt' : '-r'}, # only build the regular font
+    )
 
 # override the default folders
 DOCDIR = ["documentation", "web"]
