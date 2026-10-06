@@ -10,10 +10,12 @@ results/**
 buildlinux2/**
 bin/**
 source/temp/*
+source/masters/temp/*
 source/backups/*
 
 # temporary fontdocs files
 documentation/source/pdftemp/
+documentation/source/productsite/
 web/*.woff*
 
 # general backup files
@@ -21,7 +23,6 @@ web/*.woff*
 *.swp
 *.autosave
 *(Autosaved)*
-
 
 # OS X
 *.DS_STORE
@@ -48,7 +49,6 @@ Thumbs.db
 ehthumbs.db
 *.lnk
 
-
 # AFDKO
 current.fpr
 
@@ -56,8 +56,8 @@ current.fpr
 *.bak
 *.vfbak
 *.~tt
-+.idea/*
-
+.idea/*
+.vscode/*
 
 # Shares
 .AppleDB
@@ -106,3 +106,6 @@ $RECYCLE.BIN/
 *.py[co]
 *$py.class
 __pycache__/
+
+# Glyphs.App
+*.glyphs
